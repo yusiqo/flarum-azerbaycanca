@@ -1,5 +1,5 @@
 {
-    "name": "flarum-lang/azerbaycanca",
+    "name": "yusiqo/azerbaycanca",
     "type": "flarum-extension",
     "description": "Azerbaycanca language pack.",
     "keywords": [
@@ -10,7 +10,7 @@
         "issues": "https://github.com/yusiqo/flarum-azerbaycanca/issues",
         "source": "https://github.com/yusiqo/flarum-azerbaycanca/"
     },
-    "homepage": "https://github.com/flarum-lang/",
+    "homepage": "https://github.com/yusiqo/",
     "funding": [
         {
             "type": "website",
