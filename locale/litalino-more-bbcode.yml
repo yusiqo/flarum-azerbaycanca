@@ -1,0 +1,35 @@
+imeepo-more-bbcode:
+  admin:
+    permissions:
+      bypass_like_label: Göstərilən bəyənmələrə məhəl qoymayın
+      bypass_reply_label: Göstərilən cavablara məhəl qoymayın
+  forum:
+    button_tooltip_center: mərkəzləşdirilmiş mətn
+    button_tooltip_cloud: Yükləmə linki
+    button_tooltip_justify: əsaslandırılmış mətn
+    button_tooltip_left: Sol əsaslandırılmış mətn
+    button_tooltip_like: Görmək kimi
+    button_tooltip_login: Baxmaq üçün daxil olun
+    button_tooltip_reply: Görmək üçün cavab verin
+    button_tooltip_right: Düzgün əsaslandırılmış mətn
+    hidden_content: GİZLİ MƏZMUN
+    hidden_content_like: Gizli məzmuna baxmaq istəyirəm
+    hidden_content_login: Gizli məzmuna baxmaq üçün daxil olun
+    hidden_content_reply: Gizli məzmuna baxmaq üçün cavab verin
+    lib:
+      bold_tooltip: Qalın mətn əlavə edin
+      code_tooltip: kod əlavə edin
+      header_tooltip: Başlıq mətni əlavə edin
+      image_tooltip: Şəkil əlavə edin
+      italic_tooltip: Kursiv mətn əlavə edin
+      link_tooltip: Link əlavə edin
+      ordered_list_tooltip: Nömrələnmiş siyahı əlavə edin
+      quote_tooltip: Sitat əlavə edin
+      spoiler_tooltip: Taser əlavə edin
+      strikethrough_tooltip: Üzəri çəkilmiş mətn əlavə edin
+      unordered_list_tooltip: Element siyahısı əlavə edin
+    like_to_see: Bu məzmun {like} tələb edir, tələb olunan nömrəyə çatın və səhifəni
+      yeniləyin
+    login_to_see: Bu məzmun {login} tələb edir, daxil olduqdan sonra səhifəni yeniləyin
+    reply_to_see: Bu məzmun {cavab} tələb edir, tələb olunan nömrəyə çatın və səhifəni
+      yeniləyin

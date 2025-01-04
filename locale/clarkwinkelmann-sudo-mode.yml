@@ -1,0 +1,14 @@
+clarkwinkelmann-sudo-mode:
+  admin:
+    settings:
+      duration: sudo rejimi nə qədər aktiv qalır (saniyələr)
+  api:
+    errors:
+      cookieOnly: Yalnız kukilərlə mövcuddur
+      incorrectPassword: Parol etibarsızdır
+  lib:
+    sudo:
+      message: 'Sudo rejiminə daxil olmaq üçün parolunuzu təsdiqləyin. '
+      password: parol
+      submit: Göndər
+      title: Girişi təsdiqləyin

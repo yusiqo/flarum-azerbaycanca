@@ -1,0 +1,211 @@
+kilowhat-wordpress:
+  admin:
+    appearance:
+      edit_css_button: Yalnız Wordpress Embed üçün Xüsusi CSS-i redaktə edin
+    edit_css:
+      customize_text: Wordpress iframe daxilində Flarum-un <a>defolt üslubları</a>
+        üzərində tətbiq etmək üçün sadəcə öz LESS/CSS.
+      title: Xüsusi Yerləşdirmə CSS-ni redaktə edin
+    health:
+      check: İndi yoxlayın
+      errors: Bəzi suallar tapdıq.
+      healthy: Hər şey əla görünür!
+      not-run: WordPress və Flarum-u birləşdirdiyiniz zaman sağlamlıq yoxlaması mümkün
+        olacaq.
+      request-error: Sağlamlıq yoxlamasını apara bilmədik.
+      title: Yoxlama
+    permissions:
+      gambits: Wordpress Üçüncü tərəf fəndləri (sənədlərə baxın)
+    save-controls:
+      no-unsaved-changes: Hər şey qeyd olunur
+      save: Saxla
+      saved-at: '{əvvəl} yadda saxlanıldı'
+      unsaved-changes: Saxlanmayan dəyişikliklər var
+      validation-errors: Yazınızda bəzi səhvlər aşkar etdik
+    settings:
+      api_key: Flarum API Açarı
+      comment_tag: Yeni şərh mövzuları üçün tag edin
+      comment_tag_custom: xüsusi dəyərlər
+      comment_tag_custom_help: Teq ID-lərinin vergüllə ayrılmış siyahısı
+      comment_tag_none: Teqlər təyin edin
+      cookie_domain: Kuki Domen Adı
+      cookie_domain_help: Yalnız Flarum domendən fərqli olduqda tələb olunur
+      enable_comments: Şərh inteqrasiyasını aktivləşdirin
+      enable_sso: SSO inteqrasiyasını aktivləşdirin
+      excerpt_html_nodes: Məzmun çıxarışının uzunluğu (HTML teqlərinin sayı ilə)
+      excerpt_html_whitelist: Çıxarışda istifadə ediləcək HTML teqlərinin ağ siyahısı
+        (vergüllə ayrılmış)
+      excerpt_length: Məzmun parçasının uzunluğu (simvollarla)
+      force_username_choice: İstifadəçilərə ilk səfərlərində istifadəçi adlarını seçməsinə
+        icazə verin
+      force_username_choice_help: Defolt dəyər yuxarıda seçilmiş qayda ilə təmin ediləcək.
+      post_delete: Wordpress yazısı həmişəlik silindikdə hərəkət
+      post_delete_options:
+        delete: Flarum-da müzakirəni həmişəlik silin
+        hide: Flarum-da müzakirəni gizlədin
+        ignore: İqnor (Flarum müzakirəsini indiki vəziyyətdə saxlayın)
+        lock: Flarum müzakirəsini saxlayın və kilidləyin
+      post_hide: Wordpress yazısı gizlədildikdə hərəkət (zibil qutusuna atılır və
+        ya qaralamaya köçürülür)
+      post_hide_options:
+        delete: Flarum-da müzakirəni həmişəlik silin
+        hide: Flarum-da müzakirəni gizlədin
+        ignore: İqnor (Şərhlərə icazə ver ilə müzakirəni kilidləyin)
+        lock: Flarum-da müzakirəni kilidləyin
+      section_comments_intro: 'Bu xüsusiyyət WordPress şərhlərini Flarum iframe ilə
+        əvəz edir. '
+      section_general_intro: Artırmanın işləməsi üçün tələb olunan əsas parametrlər.
+      section_sso_intro: 'Bu xüsusiyyət WordPress istifadəçilərini Flarum ilə problemsiz
+        birləşdirəcək. '
+      summary_as_last_post: Xülasə yazısını yeni müzakirələrin sonuncu postu kimi
+        təyin edin
+      summary_as_last_post_help: 'Bu, Wordpress yazısı dərc olunan kimi yeni şərh
+        müzakirələrinin Flarum-da müzakirələr siyahısında birinci yerə çıxmasını təmin
+        edir. '
+      use_post_date: Müzakirələrin yaranma tarixi kimi Wordpress poçt tarixini istifadə
+        edin
+      use_post_date_help: 'Varsayılan olaraq, Flarum müzakirələri yaradılma tarixi
+        kimi cari vaxtdan istifadə edir. '
+      user_delete: WordPress-də istifadəçi silindikdə hərəkət
+      user_delete_desc: Əgər "Sil"i seçsəniz, Flarum-dakı məzmun yox, yalnız istifadəçi
+        silinəcək.
+      user_delete_options:
+        delete: Flarum istifadəçisini silin
+        ignore: İqnor (Flarum istifadəçisini qoru)
+        suspend: Flarum istifadəçisini qeyri-müəyyən müddətə dayandırın (Dayandırılan
+          genişləndirmə aktiv olmalıdır)
+      username_strategy: Yeni İstifadəçilər üçün istifadəçi adı
+      username_strategy_help: Əgər Flarum-da artıq varsa, istifadəçi adına nömrə əlavə
+        olunacaq
+      username_strategy_options:
+        first_name: WordPress-dən Ad
+        random: Təsadüfi İstifadəçi adı
+        user_login: WordPress-dən gələnlər üçün istifadəçi adı
+      welcome_message: tanıtım mesajı
+      welcome_message_help: Bu mesaj istifadəçi foruma ilk dəfə daxil olduqda, aktiv
+        olduqda istifadəçi adı seçimi ilə birlikdə göstəriləcək.
+      wordpress_login_only: Yalnız WordPress ilə daxil olmağa icazə verin
+      wordpress_login_only_help: 'O, Flarum girişini söndürür və giriş tələb olunduqda
+        birbaşa WordPress giriş pəncərəsini açır. '
+      wordpress_login_path: WordPress Giriş Yolu
+      wordpress_login_path_help: Yalnız giriş linkini plaginlə yenidən təyin etmisinizsə
+        tələb olunur
+      wordpress_url: WordPress Linki
+      wordpress_username: WordPress Admin İstifadəçi Adı
+    tabs:
+      comments: Şərhlərin inteqrasiyası
+      disabled: zərərsizləşdirilib
+      enabled: Aktivləşdirilib
+      general: Ümumi Parametrlər
+      sso: SSO İnteqrasiyası
+      wizard: Quraşdırma sehrbazı
+    wizard:
+      install: Harada
+      intro: 'Premium Wordpress genişləndirməmi satın aldığınız üçün təşəkkür edirəm! '
+      wordpress_password: Wordpress admin parol
+      wordpress_password_help: Parol yalnız ilkin konfiqurasiya üçün istifadə olunur
+        və saxlanmır.
+      wordpress_url: Wordpress linki
+      wordpress_url_help: WordPress ana səhifəsinə keçid
+      wordpress_username: Wordpress admin istifadəçi adı
+  api:
+    blocked_actions:
+      email_change: 'Bu hesab WordPress ilə əlaqələndirilir. '
+      login: 'Bu hesab WordPress ilə əlaqələndirilir. '
+      password_reset: 'Bu hesab WordPress ilə əlaqələndirilir. '
+    health:
+      api-error-401: 'Wordpress API-ə daxil olmaq cəhdi 401 xətası ilə nəticələndi. '
+      api-error-json: 'Wordpress API-yə daxil olmağa cəhd xəta ilə nəticələndi: {message}
+        - Bədən: {body}'
+      api-error-other: 'Wordpress API-yə daxil olmağa cəhd xəta ilə nəticələndi: {message}'
+      api-key-mismatch: 'Wordpress-dəki "Flarum API Açarı" ayarı Flarum-da "Flarum
+        API Açarı" ayarına uyğun gəlmir (gözlənilən: "{gözlənilən}", faktiki: "{aktual}")'
+      api-key-missing: '"Flarum API Açarı" çatışmır. '
+      comments-mismatch-flarum: Şərhlərin inteqrasiyası Flarum-da aktivləşdirilib,
+        lakin Wordpress-də deyil
+      comments-mismatch-wordpress: Şərhlərin inteqrasiyası Wordpress-də aktivləşdirilib,
+        lakin Flarum-da deyil
+      config-url-https: 'config.php-də müəyyən edilmiş Flarum URL HTTPS olmalıdır
+        (etibarlı dəyər: "{url}")'
+      config-url-trailing-slash: 'config.php-də müəyyən edilmiş Flarum URL-də arxa
+        xətt olmamalıdır (etibarlı dəyər: "{url}")'
+      cookie-domain-format: 'Kuki domeni etibarlı domen kimi görünmür. '
+      cookie-domain-mismatch: Wordpress-də "Kuki sahəsi" parametri Flarum-da "Kuki
+        sahəsi" parametrinə uyğun gəlmir (Wordpress dəyəri "{wordpress}", Flarum dəyəri
+        "{flarum}")
+      debug-mode: 'Flarum debug rejimi aktivdir. '
+      flarum-url-mismatch: 'Wordpress-də "Flarum URL" parametri Flarum config.php-də
+        konfiqurasiya edilmiş URL ilə uyğun gəlmir (gözlənilən: "{gözlənilən}", faktiki:
+        "{faktiki}")'
+      lock-extension-required: Şərhlər inteqrasiyasından istifadə etmək üçün kilid
+        artırması aktiv edilməlidir
+      login-only-signup-open: '"Yalnız Wordpress ilə girişə icazə ver" parametrinin
+        tam qüvvəyə minməsi üçün siz Flarum icazələri altında Qeydiyyatı deaktiv etməlisiniz.'
+      sso-mismatch-flarum: SSO inteqrasiyası Flarum-da aktivləşdirilib, lakin Wordpress-də
+        deyil
+      sso-mismatch-wordpress: SSO inteqrasiyası Wordpress-də aktivləşdirilib, lakin
+        Flarum-da deyil
+      suspend-extension-required: '"İstifadəçinin silinməsi" üzrə əməliyyatın "Dayandırmaq"
+        seçimindən istifadə etmək üçün uzadılması dayandırılmalıdır.'
+      tag-not-exist: '"Yeni şərh başlıqları üçün etiket ID-ləri" seçimi üçün seçilmiş
+        {id} teq ID-si mövcud deyil'
+      tags-extension-required: '"Yeni şərh başlıqları üçün tag" seçimini istifadə
+        etmək üçün Teqlər genişləndirilməsi aktivləşdirilməlidir'
+      user-id-not-admin: 'Wordpress-də "Flarum İstifadəçi İdentifikatoru" parametri
+        Flarum admininə uyğun gəlmir (cari dəyər: "{aktual}"). '
+      user-id-not-found: 'Wordpress-də "Flarum İstifadəçi İdentifikatoru" parametri
+        heç bir məlum Flarum istifadəçisinə uyğun gəlmir (cari dəyər: "{aktual}"). '
+      wordpress-url-https: '"Wordpress URL" ayarı HTTPS olmalıdır (etibarlı dəyər:
+        "{url}")'
+      wordpress-url-index-php: '"Wordpress URL" ayarında "/index.php" olmamalıdır
+        (etibarlı dəyər: "{url}")'
+      wordpress-url-invalid: '"Wordpress URL" ayarı etibarlı URL kimi görünmür (etibarlı
+        dəyər: "{url}")'
+      wordpress-url-mismatch: 'Flarum-da "Wordpress URL" ayarı Wordpress-dəki "WordPress
+        Ünvanı (URL)" ayarına uyğun gəlmir (gözlənilən: "{gözlənilən}", faktiki: "{faktiki}")'
+      wordpress-url-missing: '"Wordpress URL" parametri doldurulmalıdır'
+      wordpress-url-trailing-slash: '"Wordpress URL" ayarında arxada kəsik işarəsi
+        olmamalıdır (etibarlı dəyər: "{url}")'
+      wordpress-username-missing: '"Wordpress admin istifadəçi adı" parametri doldurulmalıdır'
+    wizard:
+      already_installed: 'Flarum artıq WordPress-ə qoşulub. '
+      api_error_get: Wordpress parametrlərinə GET sorğusunu yerinə yetirərkən xəta
+        baş verdi ({istisna}).
+      api_error_post: Wordpress parametrlərinə POST sorğusu verilərkən xəta baş verdi
+        ({istisna}).
+      api_unauthorized: 'Təqdim olunan etimadnamələrlə autentifikasiya edə bilmədik. '
+      invalid_wordpress_url: Wordpress-də "WordPress Ünvanı (URL)" ayarı etibarlı
+        URL ({faktiki}) kimi görünmür.
+      plugin_not_installed: 'Wordpress plagini həmin Wordpress saytında quraşdırılmış
+        və ya aktiv görünmür. '
+  forum:
+    edit-user-modal:
+      edit_in_wordpress: WordPress-də redaktə edin
+      should_not_edit_email: 'Wordpress-də e-poçtu redaktə etməlisiniz. '
+      unlink: Bu istifadəçini wordpress istifadəçisindən ayırın
+      unlink_help: E-poçt Wordpress istifadəçisi ilə uyğun gəlirsə, növbəti dəfə istifadəçi
+        Wordpress-ə qoşulduqda yenidən qoşulacaq.
+      warning: 'Bu istifadəçi Wordpress ilə sinxronlaşdırılır. '
+    embed:
+      title: Şərhlər
+    embed-link-modal:
+      message: Səhifə sizi {href} ünvanına yönləndirməyə çalışır
+      open: Linki açın
+      title: Şərh mövzusunu buraxın
+    log_in:
+      with_wordpress_button: WordPress ilə daxil olun
+    settings:
+      edit_on_wordpress: Əsas veb saytında e-poçt və şifrəni dəyişdirin
+    summary-post:
+      blog_link: Bloqda oxuyun
+      head_label: WordPress Yazısı
+      read_more: Daha ətraflı oxuyun
+    welcome-modal:
+      default_message: 'Foruma xoş gəlmisiniz. '
+      not_now: Ziyarət etdiyiniz zaman keçin və oxumağa davam edin
+      submit: Forum hesabını aktivləşdirin
+      title: Xoş gəldiniz!
+      username: İstifadəçi adını seçin
+  views:
+    error:
+      missing_wordpress_embed: 'Bu postun hələ şərh mövzusu yoxdur. '

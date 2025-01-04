@@ -1,0 +1,125 @@
+fof-byobu:
+  admin:
+    permission:
+      add_more_than_two_user_recipients: Şəxsi müzakirəyə 2-dən çox istifadəçi alıcı
+        əlavə edin
+      create_private_discussions_with_blocking_users: Şəxsi müzakirələri bloklayan
+        istifadəçilərlə şəxsi müzakirə yaradın
+      create_private_discussions_with_groups: Qruplarla şəxsi müzakirələr yaradın
+      create_private_discussions_with_users: İstifadəçilərlə şəxsi müzakirə yaradın
+      edit_group_recipients: Şəxsi müzakirələrdə qruplar təşkil edin
+      edit_user_recipients: Şəxsi müzakirələrdə istifadəçiləri redaktə edin
+      make_private_into_public: Şəxsi müzakirəni ictimai müzakirəyə çevirin
+      view_private_discussions-when-flagged: İstifadəçilər tərəfindən bildirilən şəxsi
+        müzakirələrə baxın
+    settings:
+      badge-icon: Byobu Müzakirə Nişanı
+      delete_on_last_recipient_left: Son istifadəçi ayrıldıqda PD-ləri silin
+      delete_on_last_recipient_left_help: 'Aktivləşdirilərsə, sonuncu istifadəçi ayrıldıqda
+        PD-lər verilənlər bazasından həmişəlik silinir. '
+      enable-make-public-option: '"İctimai et" funksiyasını aktivləşdirin'
+      enable-make-public-option-help: Bütün alıcıları silmək, yeni teq təyin etmək
+        və müzakirəni ictimai etmək (seçilmiş teqin görünmə parametrlərinə əsasən)
+        icazəsi olanlar üçün imkan əlavə edir.
+      general:
+        heading: Ümumi Parametrlər
+        help: Bu parametrlər Byobu-nun əsas xüsusiyyətlərini idarə edir.
+      hide_from_all_discussions_page: '"Bütün müzakirələr" səhifəsindən PM-ləri gizlədin'
+      hide_from_all_discussions_page_help: Şəxsi müzakirələrə yalnız "Şəxsi Müzakirələr"
+        səhifəsindən və ya istifadəçi profilindən daxil olmaq olar
+      icon:
+        heading: Simge Parametrləri
+        help: Bu parametrlər Byobu'nun forumda istifadə etdiyi nişanlara nəzarət edir.
+      post-event-icon: Byobu Post Hadisələri
+  email:
+    body:
+      private_discussion_added: 'Salam {recipient_display_name},
+
+
+        '
+      private_discussion_created: 'Salam {recipient_display_name},
+
+
+        '
+      private_discussion_replied: 'Salam {recipient_display_name},
+
+
+        '
+      recipient_removed: 'Salam {recipient_display_name},
+
+
+        '
+    subject:
+      private_discussion_added: '[Şəxsi Müzakirə]{display_name} sizi şəxsi müzakirəyə
+        əlavə etdi'
+      private_discussion_created: '[Şəxsi Müzakirə] {display_name}sizinlə yeni şəxsi
+        müzakirəyə başladı'
+      private_discussion_replied: '[Şəxsi Müzakirə] {display_name} yeni posta daxil
+        oldu'
+      recipient_removed: '[Şəxsi Müzakirə] {display_name} müzakirəni tərk etdi'
+  forum:
+    badges:
+      is_private:
+        tooltip: şəxsi müzakirə
+    buttons:
+      add_recipients: Alıcılar
+      cancel: Ləğv et
+      edit_recipients: Qəbul edənləri redaktə edin
+      make_public: Bu müzakirəni ictimailəşdirin
+      remove_from_discussion: Bu şəxsi müzakirəni tərk edin
+      send_pd: '{username} adlı istifadəçiyə mesaj göndərin'
+      submit: Tamam
+    composer_private_discussion:
+      submit_button: Şəxsi Müzakirəyə başlayın
+      title_placeholder: Şəxsi Müzakirə Mövzusu
+    confirm:
+      make_public: Qəbul edənləri silmək və bu müzakirəni təyin edilmiş etiketə baxa
+        bilən hər kəs üçün görünən etmək istədiyinizə əminsiniz?
+    input:
+      search_recipients: İlk üç simvolu yazaraq alıcı axtarın...
+    labels:
+      recipients: '{count, cəm, bir {{count} Alıcı} digər {{count} Alıcı}}'
+      user_deleted: -silinmiş-
+    modal:
+      help:
+        add_recipients: 'Bu müzakirəyə yalnız burada seçdiyiniz istifadəçilər baxa
+          bilər. '
+        click_user_to_remove_tooltip: Silmək üçün klikləyin
+        selected_users: İstifadəçini silmək üçün onun adına klikləyin.
+        update_recipients: Bu müzakirəyə yalnız burada seçdiyiniz istifadəçilər baxa
+          bilər.
+      labels:
+        search_field: İstifadəçilərdə axtarın
+        selected_users: Seçilmiş istifadəçilər
+      titles:
+        add_recipients: Müzakirənizə bir alıcı əlavə edin
+        update_recipients: '{title} alıcılarını yeniləyin'
+    nav:
+      nav_item: Şəxsi Müzakirələr
+      start_button: Şəxsi Müzakirəyə başlayın
+    notifications:
+      pd_added_label: Kimsə məni mövcud şəxsi müzakirəyə əlavə etdikdə
+      pd_added_text: '{username} sizi şəxsi müzakirəyə əlavə etdi'
+      pd_label: Kimsə məni şəxsi müzakirəyə daxil edəndə
+      pd_reply_label: Alıcısı olduğum şəxsi müzakirədə kimsə yeni yazı yazanda
+      pd_reply_text: '{username} qəbul etdiyiniz şəxsi müzakirədə yeni yazı yazdı'
+      pd_text: '{username} sizinlə yeni şəxsi müzakirəyə başladı'
+      pd_user_left_label: İstifadəçi şəxsi müzakirəni tərk etdikdə siz onun bir hissəsi
+        olursunuz
+      pd_user_left_text: '{username} şəxsi müzakirəni tərk etdi'
+    post:
+      recipients_modified:
+        added: '{username} {əlavə edildi} alıcıya əlavə edildi.'
+        added_and_removed: '{username} {əlavə edildi} alıcıya əlavə edildi və {silindi}
+          alıcıdan silindi.'
+        made_public: '{username} bütün alıcıları sildi və müzakirəni ictimai etdi'
+        removed: '{username}, {silindi} alıcılardan silindi.'
+        removed_self: '{username} şəxsi müzakirəni tərk etdi.'
+    search:
+      headings:
+        groups: Hakimiyyət Qrupları
+    user:
+      byobu_link: Şəxsi Müzakirələr
+      dropdown_label: Şəxsi Müzakirələr
+      settings:
+        block_pd: Şəxsi müzakirələri bloklayın

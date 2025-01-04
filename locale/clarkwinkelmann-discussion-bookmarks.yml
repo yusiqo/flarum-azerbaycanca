@@ -1,0 +1,16 @@
+clarkwinkelmann-discussion-bookmarks:
+  admin:
+    settings:
+      independentButton: Açılan menyu əvəzinə müzakirənin yan panelində əlfəcin nəzarətini
+        göstərin
+  forum:
+    badge: Əlfəcinlərdə
+    dropdownButton:
+      add: Əlfəcinlərə qeyd edin
+      remove: Əlfəcinlərdən silin
+    independentButton:
+      add: Yer İmi
+      remove: Əlfəcinlərdə
+    page:
+      link: Əlfəcinlərdə müzakirələr
+      title: Əlfəcinlərdə müzakirələr

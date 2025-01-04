@@ -1,0 +1,19 @@
+perspective:
+  admin:
+    settings:
+      donotstore: Saxlama
+      field:
+        api_key: API Açarı
+        flirtation: Flört etmək
+        profanity: and iç
+        sexually_explicit: Cinsi təcavüz
+        threat: Təhdid edən
+        threshold: Hesabat Limiti
+        toxicity: Pis Söz
+      title: Perspektiv Parametrləri
+      useexperimental: Təcrübə Modelindən istifadə edin
+      usemax: Maksimum Plandan istifadə edin
+  forum:
+    post:
+      not_toxic_button: Bu postu pis dil kimi qeyd edin
+      perspective_flagged_text: Perspective tərəfindən avtomatik məlumat verilir

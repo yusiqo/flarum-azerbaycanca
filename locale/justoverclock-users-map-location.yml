@@ -1,0 +1,10 @@
+justoverclock-users-map-location:
+  admin:
+    adminLocationField: Qadınlar
+    mapBox-api-key: MapBox Ümumi(İctimai) Token
+    mapBox-api-key-help: <a>https://account.mapbox.com/</a> saytında pulsuz ictimai
+      token əldə edin
+  forum:
+    location: Qadınlar
+    locationDescription: 'Burada yerinizi təyin edə bilərsiniz. '
+    locationSaved: Məkan uğurla yadda saxlanıldı!

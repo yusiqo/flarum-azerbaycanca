@@ -1,0 +1,23 @@
+clarkwinkelmann-author-change:
+  admin:
+    permissions:
+      edit-date: Müzakirə və dərc tarixini yeniləyin
+      edit-user: Müzakirə və yazı müəllifini yeniləyin
+  forum:
+    controls:
+      edit: Redaktə Müəllifi
+    modal:
+      cancel: Ləğv et
+      created_at: Render vaxtı
+      edited_at: Redaktə vaxtı
+      submit: Saxla
+      sync-impossible: 'İlk postu tapa bilmirəm. '
+      sync-with-discussion: Müzakirə ilə sinxronlaşdırın
+      sync-with-post: İlk yazı ilə sinxronizasiya edin
+      title-discussion: Müzakirə Müəllifini Redaktə edin
+      title-post: Yazı Müəllifini Redaktə et
+      user: yazıçı
+    search:
+      no-results: nəticə yoxdur
+      placeholder: İstifadəçilərdə axtarın
+      type-more: Verilənlər bazasında axtarış etmək üçün ən azı 3 simvol yazın

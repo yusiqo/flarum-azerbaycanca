@@ -1,0 +1,66 @@
+askvortsov-moderator-warnings:
+  admin:
+    permissions:
+      delete_warnings: Moderator xəbərdarlıqlarını həmişəlik silin
+      manage_warnings: Xəbərdarlıq yaradın və ya silin
+      view_warnings: Moderator xəbərdarlıqlarını göstərin
+  emails:
+    post_warned:
+      body: 'Salam {warnee_display_name}!
+
+
+        '
+      subject: '{warner_display_name} sizə {discussion_title} müzakirəsi üçün {təhqir,
+        cəm, biri {# xəbərdarlıq} digər {# xəbərdarlıq ilə}} xəbərdar etdi'
+    user_warned:
+      body: 'Salam {warnee_display_name}!
+
+
+        '
+      subject: '{warner_display_name} sizə xəbərdarlıq etdi {təhqir, cəm, biri {#
+        xəbərdarlıq} digər {# xəbərdarlıq}}'
+  forum:
+    notifications:
+      warning_no_strikes_text: '{mod_username} sizi xəbərdar etdi! '
+      warning_text: Sizə {mod_username} adlı moderator tərəfindən {təhlükə, cəm, bir
+        {# xəbərdarlıq} digər {# xəbərdarlıq}} xəbərdarlığı edilib.
+    post:
+      warning: Sizə {mod_username} adlı moderator tərəfindən {təhlükə, cəm, bir {#
+        xəbərdarlıq} digər {# xəbərdarlıq}} xəbərdarlığı edilib.
+      warning_no_strikes: Sizə {mod_username} tərəfindən xəbərdarlıq edilib
+    post_controls:
+      warning_button: İstifadəçini xəbərdar et
+    settings:
+      warning_notification_label: Moderator mənə xəbərdarlıq edəndə
+    user:
+      warnings: Moderator Xəbərdarlıqları
+    validation:
+      invalid_strike_count: Xəbərdarlıqların sayı 0 ilə 5 arasında tam ədəd olmalıdır.
+      public_comment_required: Siz əsasən ictimai şərh təklif edirsiniz.
+    warning_controls:
+      delete_button: Sil
+      delete_forever_button: Həmişə Sil
+      restore_button: Yeniləyin
+    warning_list:
+      add_button: Yeni Xəbərdarlıq
+      no_warnings: Görünür, burada heç bir xəbərdarlıq yoxdur.
+      warnings: '{Tədirlər, cəm, bir {Moderator Xəbərdarlığı: Siz # xəbərdarlıq aldınız}
+        digər {Moderator Xəbərdarlıqları: # xəbərdarlıq aldınız}}'
+      warnings_no_strikes: 'Moderator Xəbərdarlıqları: Xəbərdarlıq alınmadı'
+    warning_list_item:
+      linked_post: Əlaqəli Yazı
+      list_item_heading: '{strikes, plural, one {<strong>#</strong> ihtar, {time}}
+        other {<strong>#</strong> ihtar, {time}}}'
+      list_item_heading_hidden: '{strikes, cəm, bir {<strong>#</strong> ihtar, {time}
+        <strong>(silindi)</strong>} digər {<strong>#</strong> ihtar, {zaman} <strong>( '
+      private_comment: Şərhlər Moderatorlara Görünür
+      public_comment: Xəbərdarlıq
+    warning_modal:
+      confirmation_message: 'Xəbərdarlıq verildi. '
+      heading: 'İstifadəçi: <strong>{username}</strong>'
+      private_comment_heading: 'Niyə <strong>{username}</strong> bu xəbərdarlıqları
+        aldı? '
+      public_comment_heading: 'Niyə <strong>{username}</strong> bu xəbərdarlıqları
+        aldı? '
+      strikes_heading: Nə qədər xəbərdarlıq edilməlidir?
+      submit_button: Xəbərdarlığı yadda saxla

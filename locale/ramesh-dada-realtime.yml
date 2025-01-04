@@ -1,0 +1,6 @@
+ramesh-dada-realtime:
+  admin:
+    settings:
+      polling-interval: Yeniləmə intervalı
+      polling-interval-help: 'Müzakirələrin təzələnməsini istədiyiniz vaxtı millisaniyələrlə
+        göstərin. '

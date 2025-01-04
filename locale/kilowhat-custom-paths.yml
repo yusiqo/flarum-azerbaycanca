@@ -1,0 +1,84 @@
+kilowhat-custom-paths:
+  admin:
+    settings:
+      disabled: Artırma aktiv deyil
+      extensions:
+        askvortsov-categories: Askvortsov kateqoriyaları
+        clarkwinkelmann-composer-page: ClarkWinkelmannın redaktor səhifəsi
+        clarkwinkelmann-discussion-bookmarks: ClarkWinkelmannın Müzakirə Əlfəcinləri
+        clarkwinkelmann-discussion-lists: ClarkWinkelmannın Müzakirə Siyahısı
+        clarkwinkelmann-group-list: ClarkWinkelmann Qrup siyahısı
+        clarkwinkelmann-post-bookmarks: ClarkWinkelmannın Post Əlfəcinləri
+        flamarkt-balance: Flamarkt Balans
+        flamarkt-categories: Flamarkt Kateqoriyaları
+        flamarkt-core: Flamarkt Core
+        flamarkt-identity: Flamarkt Şəxsiyyəti
+        flamarkt-signup-page: Flamarkt Qeydiyyat Səhifəsi
+        flarum-flags: Flarum Bildirişləri
+        flarum-subscriptions: Flarum Abunəlikləri
+        flarum-tags: Flarum etiketləri
+        fof-byobu: DostlarOfFlarum Byobu
+        fof-gamification: FriendsOfFlarum Oyunlaşdırma
+        fof-masquerade: FriendsOfFlarum Maskarad
+        fof-moderator-notes: FriendsOfFlarum Moderator Qeydləri
+        fof-pages: FriendsOfFlarum Səhifələri
+        fof-user-directory: FriendsOfFlarum İstifadəçi kataloqu
+        kilowhat-formulaire: KILOWHAT Forması
+        v17development-blog: v17development Flarum Blog
+        v17development-user-badges: v17development İstifadəçi Nişanları
+      head:
+        name: ad
+        path: indeks
+      paths:
+        askvortsov-categories: Kateqoriyalar
+        clarkwinkelmann-composer-page: Redaktor Səhifəsi
+        clarkwinkelmann-composer-page-tag: Etiket Redaktoru Səhifəsi
+        clarkwinkelmann-discussion-bookmarks: Müzakirə Əlfəcinləri
+        clarkwinkelmann-discussion-list: Siyahı
+        clarkwinkelmann-discussion-lists-profile: İstifadəçi siyahısı
+        clarkwinkelmann-group-list: Qrup siyahısı
+        clarkwinkelmann-post-bookmarks: Əlfəcinləri yerləşdirin
+        discussion: Arqument
+        flags: Bildirildi (mobildə)
+        flamarkt-account: Bill
+        flamarkt-balance: Hesab balansı
+        flamarkt-cart: Səbət
+        flamarkt-categories: Kateqoriya siyahısı
+        flamarkt-category: Kateqoriya məhsulları
+        flamarkt-identity: Hesab ID
+        flamarkt-order: Sifariş verin
+        flamarkt-orders: Hesab Sifarişləri
+        flamarkt-product: Məhsul
+        flamarkt-products: Məhsullar kataloqu
+        flamarkt-signup: Qeydiyyatdan keçin
+        fof-byobu: şəxsi müzakirələr
+        fof-byobu-profile: İstifadəçi müzakirələri
+        fof-gamification: Reytinqlər
+        fof-gamification-user-votes: İstifadəçi Reytinqləri
+        fof-masquerade: Profil səhifəsi
+        fof-moderator-notes-user-notes: Profil qeydləri
+        fof-pages: Səhifələr
+        fof-user-directory: İstifadəçi kataloqu
+        following: izləyir
+        formulaire-form: forma
+        formulaire-profile: Profil sahələri
+        formulaire-submission: Ərizə
+        index: Müzakirə siyahısı (əsas səhifədə olmadıqda)
+        notifications: Bildirişlər (mobil telefonda)
+        settings: Parametrlər
+        tag: Etiketlər mübahisəsi
+        tags: Teqlər siyahısı
+        user: İstifadəçi profili
+        user-discussions: İstifadəçi müzakirələri
+        user-likes: İstifadəçi bəyənir
+        user-mentions: İstifadəçi qeyd edir
+        user-security: Təhlükəsizlik
+        v17development-blog-category: Kateqoriya
+        v17development-blog-compose: Yaradın
+        v17development-blog-overview: Ümumi baxış
+        v17development-blog-post: Post
+        v17development-user-badges-item: Nişan detalları
+        v17development-user-badges-overview: Nişan xülasələri
+        v17development-user-badges-user-badges: Profil nişanları
+      redirect: Defolt Flarum qovluqlarını yeni qovluqlara yönləndirin
+      reset: İndeksləri sıfırlayın

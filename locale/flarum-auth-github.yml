@@ -1,0 +1,9 @@
+flarum-auth-github:
+  admin:
+    github_settings:
+      client_id_label: Müştəri ID
+      client_secret_label: Müştəri sirri
+      title: GitHub Parametrləri
+  forum:
+    log_in:
+      with_github_button: GitHub ilə daxil olun

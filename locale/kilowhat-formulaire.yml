@@ -1,0 +1,394 @@
+kilowhat-formulaire:
+  admin:
+    permissions:
+      create: Forma yaradın (beta)
+      editAnyDiscussion: => kilohat-formulaire.ref.permissions.editAnyDiscussion
+      editAnyUser: => kilohat-formulaire.ref.permissions.editAnyUser
+      editOwnDiscussion: => kilohat-formulaire.ref.permissions.editOwnDiscussion
+      editOwnUser: => kilohat-formulaire.ref.permissions.editOwnUser
+      export: Göndərmə məlumatlarını ixrac edin
+      exportUserDetails: İxracda istifadəçi şəxsi məlumatlarına daxil olun
+      fill: => kilovat-formula.ref.permissions.doldurun
+      heading: Format
+      heading-advanced: Formula (üçüncü tərəf genişləndirmələri üçün üstünlüklər)
+      listForms: Silinməmiş formaların siyahısına baxın
+      listSubmissions: Təqdim olunanların siyahısına baxın
+      moderate: Bütün formaları idarə edin
+      seeAnyDiscussion: => kilohat-formulaire.ref.permissions.seeAnyDiscussion
+      seeAnyUser: => kilohat-formulaire.ref.permissions.seeAnyUser
+      seeOwnDiscussion: => kilohat-formulaire.ref.permissions.seeOwnDiscussion
+      seeOwnUser: => kilohat-formulaire.ref.permissions.seeOwnUser
+    settings:
+      checkbox-style: Onay qutusu üslubu
+      history-controls: Təqdimat səhifəsində geri/irəli çekləri göstərin
+      horizontal-layout: Üfüqi forma düzümündən istifadə edin
+      horizontal-layout-locations:
+        discussionComposer: Müzakirə Bəstəkarı
+        discussionEdit: Müzakirə Redaktə Modalı
+        discussionView: Müzakirə Baxışı Konteyneri
+        profileEdit: Profil Redaktə Səhifəsi
+        profileView: Profilə Baxış Səhifəsi
+        signUp: Daimi Qeydiyyat (yalnız formulyar domenləri)
+        standaloneEdit: Müstəqil Səhifəni Doldur / Redaktə et
+        standaloneView: Müstəqil Baxış Səhifəsi
+      max-file-size: Maksimum sənəd ölçüsü limiti (kB)
+      radio-style: Tək seçim üslubu
+      side-nav-on-submission: Təqdimat səhifəsində yan menyunu göstərin
+      style-options:
+        far-circle: FontAwesome Daimi Dairə İkonu
+        far-square: FontAwesome Normal Kare Simgesi
+        fas-circle: FontAwesome Bərk Dairə İkonu
+        fas-square: FontAwesome Solid Kare Simgesi
+        native: Yerli brauzer nəzarəti
+        switch: Flarum açarı
+      title: Formanın ümumi parametrləri
+      uniformComposerLayout: Vahid müzakirə qurucusu tərtibatı
+      uniformComposerLayoutHelp: 'Formulaya uyğun gəlmək üçün teqlərin, başlığın və
+        məzmun sahələrinin üslubunu dəyişir. '
+  api:
+    cannot-change-form-type: Siz mövcud təqdimatları olan formanın növünü dəyişə bilməzsiniz
+    duplicate-field-key: Açar unikal olmalıdır
+    export:
+      meta:
+        created_at: => kilohat-formulaire.ref.submission-meta.created_at
+        hidden_at: => kilovat-formula.ref.submission-meta.hidden_at
+        link_id: => kilohat-formulaire.ref.submission-meta.link_id
+        locked_at: => kilohat-formulaire.ref.submission-meta.locked_at
+        uid: => kilohat-formulaire.ref.submission-meta.uid
+        updated_at: => kilohat-formulaire.ref.submission-meta.updated_at
+        user_activated: => kilohat-formulaire.ref.submission-meta.user_activated
+        user_displayname: => kilohat-formulaire.ref.submission-meta.user_displayname
+        user_email: => kilohat-formulaire.ref.submission-meta.user_email
+        user_id: => kilohat-formulaire.ref.submission-meta.user_id
+        user_username: => kilohat-formulaire.ref.submission-meta.user_username
+    file-already-belongs-form: '{id} faylı başqa forma aiddir'
+    file-already-belongs-submission: '{id} faylı başqa posta məxsusdur'
+    formatter-parsing-error: 'Məzmunu təhlil etmək mümkün olmadı: {message}'
+    not-allowed-to-fill-field: Bu sahənin dəyərini dəyişməyə icazəniz yoxdur
+    unauthorized-form: '{id} formasını doldurmaq üçün lazımi icazələriniz yoxdur'
+    unauthorized-scoped-form: Siz {id} forma ID-sini mövcud teq kombinasiyası ilə
+      doldura bilməzsiniz
+    unknown-form: Tanınmamış forma id {id}
+  forum:
+    auto-discussion-options-modal:
+      field:
+        content: Mesaj məzmunu
+        tags: Müzakirə etiketləri
+        tags-help: 'Teq şlakların vergüllə ayrılmış siyahısı. '
+        title: Müzakirə mövzusu
+      introduction: 'Bu parametrlər teqlə əlaqələndirilmiş formanı təqdim etməklə
+        avtomatik yaradılan yeni müzakirələrə tətbiq ediləcək. '
+      submit: Dəyişiklikləri yoxlayın
+      title: Avtomatik müzakirə variantları
+    badge:
+      hidden: Gizli
+      locked: kilidli
+    choice:
+      other-label: 'Digər:'
+      other-placeholder: İpucu...
+    confirmation-email-options-modal:
+      field:
+        message: Bədən
+        title: Başlıq
+      submit: Dəyişiklikləri yoxlayın
+      title: E-poçt şablonu
+    discussion-composer:
+      field:
+        content: Mesaj
+        poll: Anket
+        tags: Teqlər
+        title: Başlıq
+    discussion-submission:
+      edit: Redaktə et
+      empty: Hələ məlumat yoxdur
+    error-page:
+      denied-description: 'Deyəsən bu məzmuna girişiniz yoxdur. '
+      denied-title: İcazə rədd edildi
+      notfound-description: Bu məzmun ya mövcud deyil, ya da sizin ona girişiniz olmaya
+        bilər.
+      notfound-title: Tapılmadı
+    export:
+      fields: Sahələr
+      format: Format
+      format-options:
+        csv: CSV
+        json: JSON
+        ods: ODS
+        xls: XLS
+        xlsx: XLSX
+      heading: Başlıq / açarlar
+      heading-options:
+        key: Sahə düymələri
+        none: Başlıq xətti yoxdur
+        title: Sahə başlıqları
+      meta: Metadata
+      meta-options:
+        created_at: => kilohat-formulaire.ref.submission-meta.created_at
+        hidden_at: => kilovat-formula.ref.submission-meta.hidden_at
+        link_id: => kilohat-formulaire.ref.submission-meta.link_id
+        locked_at: => kilohat-formulaire.ref.submission-meta.locked_at
+        uid: => kilohat-formulaire.ref.submission-meta.uid
+        updated_at: => kilohat-formulaire.ref.submission-meta.updated_at
+        user_activated: => kilohat-formulaire.ref.submission-meta.user_activated
+        user_displayname: => kilohat-formulaire.ref.submission-meta.user_displayname
+        user_email: => kilohat-formulaire.ref.submission-meta.user_email
+        user_id: => kilohat-formulaire.ref.submission-meta.user_id
+        user_username: => kilohat-formulaire.ref.submission-meta.user_username
+      more-meta: Daha çox meta seçimləri
+      option-keys: Onay qutuları, radio və seçim üçün başlıqlar əvəzinə seçim düymələrini
+        ixrac edin
+      preview: önizləmə
+      preview-primitives:
+        boolean-false: Səhv
+        boolean-true: DOĞRU
+        excel-date: (EXCEL TARİXİ)
+      submit: İndir
+      title: Təqdimatları ixrac edin
+    form-create:
+      button:
+        create: Forma yaradın
+      field:
+        title: Başlıq
+      title: yeni forma
+    form-edit:
+      auto-discussion-options: Yeni müzakirələr üçün seçimlər
+      email-confirmation-options: Təsdiq e-poçt şablonu
+      email-notification-options: Bildiriş e-poçt şablonu
+      exiting-with-unsaved-data: 'Yadda saxlanmamış dəyişiklikləriniz var. '
+      expert-mode-warning: 'Ekspert rejimi aktivləşdirilib. '
+      field:
+        accept-submissions: Yeni təqdimatları qəbul edin
+        allow-modification: İstifadəçilərə mövcud yazıları redaktə etməyə icazə verin
+        automatic-discussion: Formanın təqdim edilməsindən avtomatik müzakirələr yaradın
+        automatic-discussion-help: 'Aktivləşdirildikdən sonra forma müstəqil forma
+          kimi əlçatan qalır. '
+        enable: Aktivləşdirilib
+        link: Fərdi forma növləri
+        max-submissions: Maksimum göndərmə (məhdudiyyətsiz üçün boş buraxın)
+        notify-emails: Verilənlərin surətini vergüllə ayrılmış bu e-poçtlara göndərin
+        permission-edit-any: İstənilən postu redaktə edin
+        permission-edit-own: Öz yazınızı redaktə edin
+        permission-see-any: İstənilən yazıya baxın
+        permission-see-own: Öz yazınıza baxın
+        send-confirmation-to-participants: İştirakçılara təsdiq e-poçtu göndərin
+        show-on-creation:
+          discussion: Redaktorda göstərin
+          discussionHelp: 'Flarum müzakirə generatoru bir çox sahələri əhatə etmək
+            üçün uyğun deyil. '
+          user: Yazarkən göstərin
+        title: Ümumi başlıq
+        web-confirmation-message: Vebdə təsdiq mesajı (formatlaşdırma aktivdir)
+      link-options:
+        all-groups: İstənilən qrup üçün
+        all-tags: hər hansı bir etiket üçün
+        groups: İstifadəçi profili
+        standalone: Müstəqil
+        tags: Müzakirə sahələri
+      preview: Yeni tabda önizləmə
+      save-for-preview: Önizləmə üçün yadda saxlayın
+      section:
+        permissions: İcazələr
+        template: Şablon
+      warnings:
+        auto-link-permission-warning: '"Avtomatik olaraq müzakirə yarat" seçimi ilə
+          formalar müstəqil daxil olduqda qlobal doldurma icazəsindən istifadə edir.'
+        linked-form-is-draft: 'Bu forma hazırda qaralama rejimindədir. '
+        show-on-composer-invalid-permissions: '"Bəstəkarda göstər"dən istifadə etmək
+          üçün seçilmiş teq(lər)in müzakirəyə başlaya biləcək "özünü görmək" və "özünü
+          redaktə etmək" icazələrinə uyğun olduğundan əmin olun. '
+        show-on-signup-invalid-permissions: '"Qeydiyyatda göstər" funksiyasından istifadə
+          etmək üçün təsdiqlənməmiş üzvlərə "özünü görmək" və "özünü redaktə etmək"
+          icazəsini təyin etməlisiniz.'
+    form-edit-header:
+      access-status:
+        both: Yaradın və redaktə edin
+        closed: bağlıdır
+        create: Sadəcə yaradın
+        disabled: Qaralama
+        edit: Yalnız redaktə edin
+        enabled: Aktivləşdirilib
+      back: Geri
+      category:
+        discussion: => kilovat-formula.ref.type.müzakirə
+        standalone: => kilovat-formula.ref.type.standalone
+        user: => kilohat-formulaire.ref.type.user
+      controls: Yoxlayın
+      delete: Həmişə silin
+      delete-confirmation: '"{title}" başlıqlı forma həmişəlik silindi'
+      disable-expert-mode: Ekspert rejimini söndürün
+      enable-expert-mode: Ekspert rejimini aktivləşdirin
+      fields:
+        private-title: Gizli başlıq
+        slug: Fərdi URL (isteğe bağlı)
+      hide: Sil
+      restore: Geri al
+      tabs:
+        access: Giriş
+        notifications: Bildirişlər
+        placement: Yaşayış
+        submissions: Tətbiqlərim
+        template: Şablon
+      template-export: Şablon idxal/ixrac
+    form-index:
+      columns:
+        accept-submissions: Açıq
+        actions: Fəaliyyətlər
+        allow-modification: Dəyişmək
+        enabled: Aktivləşdirilib
+        submissions: Tətbiqlərim
+        title: Başlıq
+      edit: Redaktə et
+      empty: forma yoxdur
+      header:
+        discuss: Flarum Debatı
+        documentation: Tam onlayn sənədlər
+        title: => kilovat-formulaire.ref.manager
+      load-more: Daha çox
+      new: yeni forma
+      search: Formaları axtarın...
+      show: Göstər
+      submissions: Təqdimatlar
+      tabs:
+        discussion: => kilovat-formula.ref.type.müzakirə
+        standalone: => kilovat-formula.ref.type.standalone
+        user: => kilohat-formulaire.ref.type.user
+    form-sort:
+      latest: yeni formalar
+      oldest: ən qədim formaları
+    global-settings:
+      admin-only: Yalnız forum administratorları qlobal parametrləri redaktə edə bilər
+      permissions:
+        editAnyDiscussion: => kilohat-formulaire.ref.permissions.editAnyDiscussion
+        editAnyUser: => kilohat-formulaire.ref.permissions.editAnyUser
+        editOwnDiscussion: => kilohat-formulaire.ref.permissions.editOwnDiscussion
+        editOwnUser: => kilohat-formulaire.ref.permissions.editOwnUser
+        fill: => kilovat-formula.ref.permissions.doldurun
+        seeAnyDiscussion: => kilohat-formulaire.ref.permissions.seeAnyDiscussion
+        seeAnyUser: => kilohat-formulaire.ref.permissions.seeAnyUser
+        seeOwnDiscussion: => kilohat-formulaire.ref.permissions.seeOwnDiscussion
+        seeOwnUser: => kilohat-formulaire.ref.permissions.seeOwnUser
+      title: Ümumi icazələr
+    items-editor:
+      add: Sıra əlavə edin
+      remove: sıranı çıxarın
+    nav:
+      forms: => kilovat-formulaire.ref.manager
+    options-editor:
+      columns:
+        key: (Ekspert) Unikal Açar
+        title: Başlıq
+      new-placeholder: Yeni seçim...
+      remove: Seçimi silin
+    permission-controls:
+      disabled_members_button: Qeyri-aktiv və fəaliyyəti dayandırılmış üzvlər
+      everyone_button: => core.admin.permissions_controls.everyone_button
+      inherit: Defoltlardan istifadə edin
+      members_button: Aktiv üzvlər
+    rich-text:
+      preview-placeholder: Önizləmə üçün yazmağa başlayın
+    save-controls:
+      redo: təkrarlamaq
+      save: Saxla
+      saved-at: '{əvvəl} yadda saxlanıldı'
+      undo: Axtarış
+      unsaved-changes: Yadda saxlanmamış dəyişiklikləriniz var
+      validation-errors: Yazınızda bəzi səhvlər aşkar etdik
+    select:
+      choose: Seçim seçin
+    submission:
+      delete: Həmişə silin
+      delete-confirmation: '{date} tarixindəki postum həmişəlik silinəcək'
+      edit-forbidden: Siz artıq bu postu redaktə edə bilməzsiniz.
+      edit-submission: Postu redaktə edin
+      form-closed: Bu forma bağlıdır.
+      form-full: Bu forma maksimum təqdimat sayına çatıb.
+      hide: Sil
+      lock: Kilidləyin
+      restore: Bərpa Və
+      submit-other: başqa göndər
+      submitted-successfully: Göndərməniz uğurla göndərildi.
+      unlock: kilidini açın
+    submission-index:
+      columns:
+        actions: Fəaliyyətlər
+        date: Tarix
+        user: İstifadəçi
+      empty: Hələ post yoxdur
+      export: İxrac
+      form-edit: Formanı redaktə edin
+      form-show: yeni post
+      guest: Qonaq
+      load-more: Daha çox yükləyin
+      search: Postları axtarın...
+      show: Göstər
+    submission-sort:
+      latest: Ən son yazılar
+      oldest: ən köhnə yazılar
+    template-editor:
+      add-field: Sahə əlavə edin
+      delete: Sahəni silin
+      description: İzahat
+      duplicate: Təkrarlanan sahə
+      email: E-poçt
+      fill-permission: (Ekspert) İcazələri doldurun
+      integer: Tam ədəd
+      key: (Ekspert) təqdimetmə yükündə JSON açarı
+      max: Maksimum
+      mime: MIME növü (vergüllə ayrılmış, joker simvolu ikinci hissə kimi qəbul edir)
+      min: Minimum
+      missing-title: Başlıqsız sahə
+      no-answer: Cavabsız
+      other: '"digər" istifadəçi dəyərinə icazə verin'
+      regex: müntəzəm ifadə
+      required: Lazımdır
+      rich: Zəngin mətn (TextFormatter)
+      title: Başlıq
+      type:
+        checkbox: onay qutuları
+        content: İçindəkilər
+        date: Tarix
+        items: çoxlu giriş
+        long: uzun mətn
+        number: Nömrə
+        radio: Radio
+        select: Açılan Menyu
+        short: Qısa mətn
+        upload: quraşdırın
+    upload-editor:
+      remove: faylı silin
+      uploading: Yüklənir...
+  mail:
+    edit: Redaktə et
+    footer: 'Göndərən: {title}'
+    no-answer: Cavabsız
+    sub-entries: '{count} giriş'
+    title-new-submission: '{title} üçün yeni post'
+    title-your-submission: '{title} üçün təqdimatınız'
+  ref:
+    manager: Forma meneceri
+    permissions:
+      editAnyDiscussion: İstənilən müzakirə sahəsini redaktə edin
+      editAnyUser: İstənilən profil sahəsini redaktə edin
+      editOwnDiscussion: Öz müzakirə sahələrinizi təşkil edin
+      editOwnUser: Öz profil sahələrinizi redaktə edin
+      fill: Fərdi formaları doldurun
+      seeAnyDiscussion: İstənilən müzakirə mövzusuna baxın
+      seeAnyUser: İstənilən profil sahəsinə baxın
+      seeOwnDiscussion: Onların müzakirə sahələrinə baxın
+      seeOwnUser: Öz profil sahələrinə baxın
+    submission-meta:
+      created_at: Yaradılma tarixi
+      hidden_at: Müvəqqəti Silinmə Tarixi
+      link_id: Əlaqədar resurs identifikasiyası (ID)
+      locked_at: Kilid Tarixi
+      uid: Təqdimat Şəxsiyyəti (ID)
+      updated_at: Yeniləmə tarixi
+      user_activated: Aktiv hesab
+      user_displayname: İstifadəçinin Göstərilən Adı
+      user_email: İstifadəçi e-poçtu
+      user_id: İstifadəçi Şəxsiyyəti (ID)
+      user_username: İstifadəçi adı
+    type:
+      discussion: Müzakirə sahələri
+      standalone: müstəqil formalar
+      user: İstifadəçi profili

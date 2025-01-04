@@ -1,0 +1,9 @@
+flarum-auth-facebook:
+  admin:
+    facebook_settings:
+      app_id_label: Tətbiq ID
+      app_secret_label: Proqram sirri
+      title: Facebook Parametrləri
+  forum:
+    log_in:
+      with_facebook_button: Facebook ilə daxil olun

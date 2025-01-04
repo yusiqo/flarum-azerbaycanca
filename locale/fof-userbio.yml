@@ -1,0 +1,8 @@
+fof-user-bio:
+  admin:
+    permission:
+      editAny: İstənilən bio-nu redaktə edin
+      editOwn: Öz biomu redaktə edin
+      view: Bioya baxın
+  forum:
+    userbioPlaceholder: Özünüz haqqında bir şey yazın

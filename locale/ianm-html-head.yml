@@ -1,0 +1,18 @@
+ianm-html-head:
+  admin:
+    create_button: Yaradın
+    modal:
+      create_title: Yeni obyekt yaradın
+      description_label: İzahat
+      edit_title: Obyekti redaktə edin
+      header_label: Fərdi başlıq obyekti
+      save_button: Saxla
+      text: 'Sintaksisinizin düzgün olduğundan əmin olun, çünki əsas obyektdə yanlış
+        məlumatlar təqdim etməklə forumu pozmaq mümkündür. '
+    table:
+      active_label: Aktiv
+      delete_button: Sil
+      description_label: İzahat
+      edit_button: Redaktə et
+      empty_text: giriş yoxdur
+      header_label: Başlıq

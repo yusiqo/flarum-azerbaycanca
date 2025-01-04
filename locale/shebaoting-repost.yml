@@ -1,0 +1,7 @@
+shebaoting-repost:
+  admin:
+    permissions:
+      extract_url_label: Orijinal veb saytından sitatdır
+  forum:
+    notice_message: Aşağıda cavab yazmaqla bu təkrar nəşr haqqında fikirlərinizi müzakirə
+      edə bilərsiniz!

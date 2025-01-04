@@ -1,0 +1,54 @@
+fof-sitemap:
+  admin:
+    settings:
+      advanced_options_label: Qabaqcıl seçimlər
+      exclude_users: Bütün istifadəçi profillərini sayt xəritəsindən xaric edin
+      exclude_users_help: Varsayılan olaraq, qonaqlara görünən istənilən istifadəçi
+        indekslənəcək
+      frequency:
+        daily: Gündəlik
+        hourly: Saatlıq
+        twice_daily: gündə iki dəfə
+      frequency_label: Planlayıcı keşlənmiş sayt xəritəsini nə qədər tez-tez yenidən
+        qurmalıdır?
+      mode_help: Forumun həcminə əsaslanaraq düzgün rejimi seçmək çox vacibdir.
+      mode_help_cache_disk: Kiçik və ya orta ölçülü forumlar üçün ən yaxşısı, çox
+        güman ki, cronjoblara icazə verən və Flarum planlaşdırıcısını işə salan hostinq
+        mühitlərində (aşağıya baxın) və müzakirələr, istifadəçilər, teqlər və 50.000-dən
+        az element kimi ümumiləşdirilmiş səhifələr.
+      mode_help_cache_disk_label: Keş rejimi/Disk rejimi
+      mode_help_large: '50.000 sayt xəritəsi faylları üçün texniki hədddir. '
+      mode_help_multi: '10.000 elementdən başlayan daha böyük forumlar üçün ən yaxşısı. '
+      mode_help_multi_label: Çox fayl rejimi
+      mode_help_runtime: 'Əsasən paylaşılan serverlərdə yerləşdirilən kiçik forumlar
+        üçün müzakirələr, yazılar və üzvlər olan səhifələrin sayı 10.000-dən azdır. '
+      mode_help_runtime_label: Ani rejim
+      mode_help_schedule: Aşağıdakı mods Flarum təqviminə əməliyyatlar əlavə edir.
+      mode_help_schedule_setup: 'Flarum taymerini düzgün təyin etməsəniz, aşağıdakı
+        modlar işləməyəcək. '
+      mode_label: İş rejimi
+      modes:
+        cache: önbellek
+        cache_disk: Fayl
+        multi_file: çox fayl
+        runtime: İş üsulu
+      risky_performance_improvements: Riskli performans təkmilləşdirmələrini aktivləşdirin
+      risky_performance_improvements_help: Bu təkmilləşdirmələr CRON işinin milyon
+        cərgəlik verilənlər bazasında daha sürətli işləməsini təmin edir, lakin bəzi
+        genişləndirmələrlə uyğunluğu poza bilər.
+      soft_404:
+        heading: Soft 404 profilaktikası
+        help: 'Müzakirə səhifəsində müvafiq məzmun az və ya heç yoxdursa, Google və
+          digər taramaçılar onları "yumşaq 404" səhifələri kimi qeyd edə bilər. '
+        tags:
+          discussion:
+            minimum_item_threshold_help: Bir etiketin sayt xəritəsinə daxil edilməli
+              olan minimum müzakirə sayı.
+            minimum_item_threshold_label: 'Tag: Minimum müzakirələrin sayı'
+        user:
+          comments:
+            minimum_item_threshold_help: İstifadəçinin profilinin sayt xəritəsinə
+              daxil olması üçün minimum şərh/yazı sayı olmalıdır.
+            minimum_item_threshold_label: 'İstifadəçi: Şərhlərin/yazıların minimum
+              sayı'
+      title: FOF sayt xəritəsi

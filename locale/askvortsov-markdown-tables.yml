@@ -1,0 +1,16 @@
+askvortsov-markdown-tables:
+  lib:
+    composer:
+      table_menu:
+        column: Sütun
+        insert_column_after: Sonra sütun əlavə edin
+        insert_column_before: Əvvəl sütun əlavə edin
+        insert_row_after: Sonra xətt əlavə edin
+        insert_row_before: Əvvəl xətt əlavə edin
+        label_cells: '# Hüceyrələri etiketləyin?'
+        num_cols: '# Sütunlar'
+        num_rows: '# Sıra (başlıq daxil olmaqla)'
+        remove_column: Sütunu silin
+        remove_row: sıra silin
+        row: Sıra
+      table_tooltip: Cədvəl

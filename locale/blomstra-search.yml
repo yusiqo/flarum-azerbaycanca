@@ -1,0 +1,16 @@
+blomstra-search:
+  admin:
+    analyzer:
+      help: 'Ayrışdırıcı axtarışın dayanacaq sözləri və indeksləri başa düşməsini
+        təmin edir
+
+        '
+      label: Parser dili
+    elastic-endpoint: Elastik son nöqtə
+    elastic-index: indeks
+    elastic-password: => core.ref.password
+    elastic-username: => core.ref.username
+    match-sentences: Axtarış terminini dəqiq cümləyə uyğunlaşdırın
+    match-words: Axtarış terminini dəqiq sözlərlə uyğunlaşdırın
+    search-discussion-subjects: Müzakirə mövzularını axtarın
+    search-post-bodies: Şərhlərdə axtarın

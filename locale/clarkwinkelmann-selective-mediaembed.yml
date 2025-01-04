@@ -1,0 +1,6 @@
+clarkwinkelmann-selective-mediaembed:
+  admin:
+    clearCache: İndi keşi təmizləyin
+    mustClearCache: Dəyişiklikləri saxladıqdan sonra keşi təmizləməlisiniz!
+    selectAll: hamısını seçin
+    unselectAll: Hamısının seçimini ləğv edin

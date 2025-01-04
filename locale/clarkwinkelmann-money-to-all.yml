@@ -1,0 +1,20 @@
+clarkwinkelmann-money-to-all:
+  admin:
+    settings:
+      send: Bütün istifadəçilərə pul göndərin
+  forum:
+    notification:
+      moneyReceived: sizdə {miqdar} var
+  lib:
+    modal:
+      amount: Məbləğ
+      lastActivity: Aşağıdakı tarixdən sonra aktiv olan istifadəçilərlə məhdudlaşdırın
+      message: Mesaj
+      messageHelp: 'Könüllü. '
+      messagePlaceholder: Mesaj əlavə etmək üçün bildirişi aktiv edin
+      notify: İstifadəçilərə veb bildiriş göndərin
+      preview: Cari ayarlar {count} istifadəçiyə uyğun gəlir.
+      submit: Göndər
+      success: '{count} istifadəçiyə pul göndərildi!'
+      suspended: Dayandırılmış istifadəçiləri daxil edin
+      title: Bütün istifadəçilərə pul göndərin

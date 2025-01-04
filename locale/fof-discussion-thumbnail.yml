@@ -1,0 +1,5 @@
+fof-discussion-thumbnail:
+  admin:
+    settings:
+      link_to_discussion_label: Müzakirə miniatürlərini istifadəçi ilə deyil, müzakirə
+        ilə əlaqələndirin

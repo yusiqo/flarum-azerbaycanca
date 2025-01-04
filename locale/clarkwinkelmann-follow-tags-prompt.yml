@@ -1,0 +1,23 @@
+clarkwinkelmann-follow-tags-prompt:
+  admin:
+    homepage:
+      following: təqib etmə
+    settings:
+      allDiscussionsOnFollowingPageForGuests: Qonaqlar üçün izlənilən səhifədə bütün
+        müzakirələri göstərin
+      availableTagStrategy: Model olaraq təklif ediləcək etiketlər
+      buttonOnFollowingPage: İzlənilən səhifədə düyməni göstərin
+      tagStrategy:
+        all: Bütün etiketlər
+        list: Aşağıda seçilmiş etiketlər
+        primary: Birinci səviyyəli əsas teqlər
+        primaryAndChildren: İstənilən səviyyədə bütün əsas etiketlər
+        primaryAndSecondary: Birinci səviyyəli əsas teqlər və ikinci dərəcəli teqlər
+        secondary: Yalnız ikinci dərəcəli etiketlər
+  forum:
+    controls:
+      choose: İzləmək üçün etiketləri seçin
+    modal:
+      continue: Foruma davam edin
+      later: sonra xatırlat
+      title: İzləmək üçün etiketləri seçin

@@ -1,0 +1,80 @@
+blomstra-gdpr:
+  lib:
+    data:
+      bannedipdata:
+        anonymize_description: 'İstifadəçi ilə əlaqəli bütün IP ünvanları təhlil ediləcək,
+          lakin IP-nin özü səbəblə birlikdə qadağan edilmiş olaraq qalacaq. '
+        export_description: İP qadağası qeydi istifadəçi ilə əlaqələndirilirsə (yəni
+          istifadəçi IP tərəfindən qadağan edilibsə), qadağanın səbəbi və yaradıldığı
+          tarixlə birlikdə istifadəçinin IP ünvanı da ixraca daxil ediləcək.
+flarum-gdpr:
+  lib:
+    data:
+      bannedipdata:
+        anonymize_description: 'İstifadəçi ilə əlaqəli bütün IP ünvanları təhlil ediləcək,
+          lakin IP-nin özü səbəblə birlikdə qadağan edilmiş olaraq qalacaq. '
+        export_description: İP qadağası qeydi istifadəçi ilə əlaqələndirilirsə (yəni
+          istifadəçi IP tərəfindən qadağan edilibsə), qadağanın səbəbi və yaradıldığı
+          tarixlə birlikdə istifadəçinin IP ünvanı da ixraca daxil ediləcək.
+fof-ban-ips:
+  admin:
+    empty_text: Qadağan edilmiş IP tapılmadı.
+    modal:
+      ban_ip_no_users: Heç kimə qadağa qoyulmayıb
+      update_title: Qadağan edilmiş IP-ləri yeniləyin
+    page:
+      address_label: => fof-ban-ips.ref.address_label
+      create_button: => fof-ban-ips.ref.ban_ip_button
+      creator_label: İnşaatçı
+      date_label: Tarix
+      reason_label: => fof-ban-ips.ref.reason_label
+      user_label: İstifadəçi
+    permissions:
+      ban_ip_label: => fof-ban-ips.ref.ban_ip_addresses
+      view_banned_ip_list_label: Qadağan edilmiş IP ünvanlarının siyahısına baxın
+  error:
+    banned_ip_message: Avtorizasiya alınmadı.
+    no_ips_found_message: İstifadəçi üçün qadağan edilmiş İP(lər) tapılmadı.
+  forum:
+    ban_ip_button: => fof-ban-ips.ref.ban_ip_button
+    modal:
+      ban_ip_no_users: Qadağası olan yoxdur
+      ban_options_all_ip: <i>{username}</i>-ə aid bütün IP-ləri qadağan edin
+      ban_options_only_ip: Yalnız cari IP-ni qadağan edin (<code>{ip}</code>)
+    unban_ip_button: => fof-ban-ips.ref.unban_ip_button
+    user_badge:
+      banned_tooltip: Qadağan
+    user_controls:
+      ban_button: => fof-ban-ips.ref.ban_label
+      unban_button: => fof-ban-ips.ref.unban_label
+  lib:
+    modal:
+      address_label: => fof-ban-ips.ref.address_label
+      ban_button: => fof-ban-ips.ref.ban_label
+      ban_ip_confirmation: 'Bu IP ünvanının foruma daxil olmasını qadağan etmək istəyirsiniz? '
+      ban_ip_users: '{count, cəm, bir {Total {users} istifadəçi qadağan olunacaq}
+        digər {Total {users} istifadəçi qadağan olunacaq}}'
+      check_button: Nəzarət Bir
+      reason_label: => fof-ban-ips.ref.reason_label
+      save_button: Saxla
+      title: => fof-ban-ips.ref.ban_ip_addresses
+      unban_button: => fof-ban-ips.ref.unban_label
+      unban_ip_confirmation: 'Bu IP ünvanının foruma daxil olmasını qadağan etmək
+        istəyirsiniz? '
+      unban_ip_no_users: Qadağan edilməmiş istifadəçilər yoxdur
+      unban_ip_users: '{count, cəm, bir {Total {users} istifadəçinin qadağası ləğv
+        ediləcək} digər {Total {users} istifadəçinin qadağası ləğv ediləcək}}'
+      unban_options_all_ip: <i>{username}</i> tərəfindən istifadə edilən bütün IP-lərin
+        qadağanını ləğv edin
+      unban_options_only_ip: Yalnız cari IP-nin qadağanını aradan qaldırın (<code>{ip}</code>)
+      unban_title: => fof-ban-ips.ref.unban_ip_addresses
+      unbanned_ips: <code>{ips}</code>.
+  ref:
+    address_label: IP ünvanı
+    ban_ip_addresses: IP-ləri qadağan edin
+    ban_ip_button: IP qadağan
+    ban_label: qadağa
+    reason_label: Səbəb
+    unban_ip_addresses: IP qadağalarını aradan qaldırın
+    unban_ip_button: IP qadağasını silin
+    unban_label: Ban aradan qaldırılması

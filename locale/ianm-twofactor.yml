@@ -1,0 +1,106 @@
+flarum-gdpr:
+  lib:
+    data:
+      twofactordata:
+        delete_description: 2FA ilə əlaqəli bütün məlumatları silir.
+        export_description: 2FA statusu və şifrələnmiş ehtiyat kodları ixrac edir.
+ianm-twofactor:
+  admin:
+    edit_group:
+      2fa_help: Bu qrupun üzvlərindən hesabları üçün İki Faktorlu Doğrulamanı (2FA)
+        aktiv etmələrini tələb edin.
+      2fa_label: 2FA tələb olunur
+      admin_2fa_help: '{adminName} üzvləri hər zaman 2FA aktivləşdirilməlidir.'
+    permissions:
+      manage_others_label: Digər istifadəçilər üçün 2FA-nı idarə edin
+      see_two_factor_status_label: Digər istifadəçilərin 2FA statusuna baxın
+    settings:
+      forum_logo_qr: QR Kodda Forum loqosunu yerləşdirin
+      forum_logo_qr_help: '2FA-nı aktivləşdirərkən göstərilən QR koduna forum loqosunu
+        əlavə edin. '
+      forum_logo_qr_width: Forum loqosu QR kodun eni
+      forum_logo_qr_width_help: 'QR koduna daxil edilmiş forum loqosunun eni 2FA aktivləşdirildikdə
+        göstərilir. '
+      groups:
+        help: 'Bu qrupların üzvlərindən hesablarında iki faktorlu identifikasiyanı
+          (2FA) aktivləşdirmələrini tələb edin. '
+        title: 2FA Tələb olunan Qruplar
+      logo_qr: QR Code Logosu
+      logo_qr_help: 'Loqo yüklənərsə, bu loqo QR koda əlavə olunacaq. '
+      tokens:
+        also_kill_developer_tokens: Həmçinin Developer Tokenlərini məhv edin
+        also_kill_developer_tokens_help: Həmçinin müəyyən müddət ərzində qeyri-aktiv
+          olan developer giriş nişanlarını dayandırın.
+        heading: Giriş Açarı
+        help: Geniş təhlükəsizlik üçün burada giriş nişanları ilə bağlı əlavə davranışları
+          idarə edə bilərsiniz.
+        kill_inactive_tokens: Qeyri-aktiv Tokenləri məhv edin
+        kill_inactive_tokens_age_days: Qeyri-aktiv açarları məhv edin (Günlər)
+        kill_inactive_tokens_age_days_help: Giriş nişanlarının silinəcəyi fəaliyyətsizlik
+          günlərinin sayı.
+        kill_inactive_tokens_help: Müəyyən bir müddət ərzində qeyri-aktiv olan giriş
+          tokenlərini avtomatik olaraq dayandırın.
+  email:
+    body:
+      status_changed: 'Salam {recipient_display_name},
+
+
+        '
+    status_type:
+      disabled: əlil
+      enabled: aktivləşdirilib
+    subject:
+      status_changed: Hesabınız üçün İki Faktorlu Doğrulama {type}
+  forum:
+    log_in:
+      two_factor_placeholder: '2FA Açarı, məsələn: 001453'
+      two_factor_required_message: Davam etmək üçün etibarlı 2FA nişanı tələb olunur.
+    security:
+      backup_codes: Yedək kodlar
+      backup_codes_instruction: 'Zəhmət olmasa bu kodları təhlükəsiz yerdə saxlayın. '
+      backup_codes_remaining: 'Qalan Yedək Kodlar:'
+      cancel_button: Ləğv et
+      cannot_disable: Cari konfiqurasiya iki faktorlu autentifikasiyanı söndürə bilməyəcəyinizi
+        bildirir.
+      cannot_disable_tooltip: 2FA-nı söndürmək mümkün deyil
+      confirm_disable_2fa_text: İki faktorlu autentifikasiyanı deaktiv etmək istədiyinizə
+        əminsiniz?
+      confirm_disable_2fa_text_other_user: '{username} üçün İki Faktorlu Doğrulamanı
+        deaktiv etmək istədiyinizə əminsiniz? '
+      confirm_disable_2fa_title: İki faktorlu autentifikasiyanın söndürülməsini təsdiqləyin
+      disable_2fa_button: 2FA-nı söndürün
+      enable_2fa_button: 2FA-nı aktivləşdirin
+      enable_2fa_modal_text: Aşağıdakı QR kodunu autentifikasiya tətbiqinizlə skan
+        edin və sonra iki faktorlu identifikasiyanı aktivləşdirmək üçün təqdim edilmiş
+        nişanı daxil edin.
+      enter_token: Açarı daxil edin
+      loading_qr: QR kodunu yükləyirəm...
+      manual_entry_instruction: Təqdim olunan kodu autentifikasiya tətbiqinizə daxil
+        edin, sonra İki Faktorlu Doğrulamanı aktivləşdirmək üçün yaradılan açarı daxil
+        edin.
+      manual_tab: Əllə Quraşdırma
+      ok_button: Tamam
+      qr_code_alt: İki faktorlu autentifikasiya üçün QR kodu
+      qr_tab: QR Kodu Tara
+      saved_backup_codes_button: Bu kodları saxladım
+      scan_qr_instruction: Doğrulama tətbiqinizlə yuxarıdakı QR kodunu skan edin və
+        sonra iki faktorlu identifikasiyanı aktivləşdirmək üçün təqdim edilmiş açarı
+        daxil edin.
+      two_factor_apps: '{google}, {authy}, {microsoft} və sair kimi proqramlar pulsuzdur.'
+      two_factor_disabled: 2FA bu hesabda deaktiv edilib.
+      two_factor_enabled: Bu hesabda 2FA aktivləşdirilib.
+      two_factor_enabled_confirmation: İki Faktorlu Doğrulama hesabınız üçün uğurla
+        aktivləşdirildi.
+      two_factor_heading: 2FA
+      two_factor_help: 'İki faktorlu Authentication (2FA) hesabınıza əlavə təhlükəsizlik
+        qatını təmin edir. '
+      two_factor_title: 'Durum:'
+      verify_button: yoxlayın
+    user_2fa:
+      alert_message: Hesabınıza daxil olmağa davam etmək üçün 2FA-nı aktiv etməlisiniz.
+  views:
+    reset_password:
+      two_factor_token_label: 2FA açarı
+    two_factor_token:
+      submit_button: Açarı Göndər
+      title: İki faktorlu autentifikasiya

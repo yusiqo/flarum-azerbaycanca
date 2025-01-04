@@ -1,0 +1,26 @@
+justoverclock-frontend-blog:
+  admin:
+    charLim: Simvol limiti
+    charLim-help: Burada göstəriləcək simvolların maksimum sayını qoyun
+    defaultImage: Defolt Post Şəkli
+    defaultImage-help: Burada olmayan yazılar üçün standart şəkli təyin edə bilərsiniz
+    numberOfPost: Yazıların sayı
+    numberOfPost-help: Baxmaq istədiyiniz yazıların sayını bura yazın
+    setBlogIndexPage: Frontend Blog uzantısını ana səhifə olaraq təyin edin
+    showHeaderHero: Xoş gəlmisiniz Bannerini göstərin
+    showPinnedDiscussions: Son 3 bərkidilmiş müzakirəni göstərin
+    sorting: 'Ən son və ya populyar müzakirələr? '
+    sorting-help: Ən son müzakirələrə baxmaq istəyirsinizsə, "-createdAt", isti müzakirələr
+      üçün "-commentCount" yazın.
+  forum:
+    allDiscussions: Forum
+    linkToDiscussion: Müzakirə Linki
+    loginButton: Daxil ol
+    menuButton: menyu
+    post: '{say, cəm, bir {# POST} digər {# POSTS}}'
+    postedOn: 'Göndərilən:'
+    readMore: Daha ətraflı oxuyun
+    recentDiscussions: 'Ən son müzakirələr:'
+    signupButton: Qeydiyyatdan keçin
+    stickyTitle: Sabitlənmiş müzakirələr
+    titlePage: Forum müzakirələri

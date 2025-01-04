@@ -1,0 +1,11 @@
+finteger-ratings:
+  admin:
+    discussionTitle: Qiymətləndirmək istədiyiniz müzakirə mövzusunu bura daxil edin
+      (Lütfən, qeyd edin ki, o, hərflərə həssasdır və başlığa tam uyğun gəlmədikcə
+      işləməyəcək).
+    permissions:
+      moderate: Orta reytinqlər
+      submit: Xalları təqdim edin
+      view: Reytinqlərə baxın
+    seeBar: Ən populyar finteger reytinq müzakirələrini (5 ilə məhdudlaşır) yuxarı
+      panelə əlavə edin (naviqasiyanın bir az altında).

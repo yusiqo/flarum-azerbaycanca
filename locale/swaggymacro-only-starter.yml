@@ -1,0 +1,9 @@
+swaggymacro:
+  admin:
+    setting_only_starter: Yalnız TS
+    setting_show_topic_starter: TS bayrağını göstərin
+  forum:
+    blog_article_author: yazıçı
+    not_only_starter: Yalnız TS-ni göstərməyin
+    only_starter: Sadəcə TS göstərin
+    topic_starter: Mübahisəli Sahib

@@ -1,0 +1,36 @@
+clarkwinkelmann-group-invitation:
+  admin:
+    permissions:
+      use: Qrup dəvəti bağlantılarından istifadə edin
+    settings:
+      create: Yaradın
+      delete: Sil
+      empty: Hələ heç bir dəvət yaradılmayıb.
+      head:
+        code: Kod
+        group: Qrup
+        usage: istifadə edin
+      placeholder:
+        code: Avtomatik yaradıldı
+        group: Seçildi...
+        usage: Limitsiz üçün boş buraxın
+      unlimited: limitsiz
+  api:
+    error:
+      no-usages-left: Dəvət artıq əlçatan deyil
+      not-found: Dəvət kodu tapılmadı
+  forum:
+    apply: Qrupa qoşulun
+    generic-title: qrup dəvəti
+    invitation:
+      no-usages-left: Bu qrup dəvəti artıq mövcud deyil.
+      not-found: Üzr istəyirik, bu qrup dəvəti tapılmadı.
+    success-alert: Qrupa uğurla qoşuldunuz!
+    title: Siz {group} qrupuna qoşulmağa dəvət olundunuz!
+    user:
+      already-connected: 'Biz {username} istifadəçisini {qrup} qrupuna əlavə edəcəyik. '
+      already-member: 'Əla xəbərimiz var, istifadəçiniz {username} artıq {group}-un
+        üzvüdür! '
+      not-authorized: 'Hazırda {username} istifadəçinizin qruplara qoşulmaq icazəsi
+        yoxdur. '
+      not-connected: Dəvəti qəbul etmək üçün <a>daxil olun</a>.

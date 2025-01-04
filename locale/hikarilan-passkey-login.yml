@@ -1,0 +1,30 @@
+hikarilan-passkey-login:
+  admin:
+    settings:
+      relying_party:
+        id:
+          help: 'Affiliate ID saytınız üçün unikal identifikatordur. '
+          label: Əlaqədar Tərəf ID
+        name:
+          help: 'Affiliate Name saytınız üçün insan tərəfindən oxuna bilən addır. '
+          label: Əlaqədar Tərəfin Adı
+      timeout:
+        help: 'Keçid açarının yoxlanılması üçün vaxt aşımı (saniyələrlə). '
+        label: vaxt aşımı
+  forum:
+    login:
+      with-passkey: Keçid açarı ilə daxil olun
+    user:
+      settings:
+        alias-modal:
+          label: İndi parolunuza ləqəb verək.
+          title: Keçid açarı saxlanıldı!
+        item:
+          revoke: => core.forum.security.revoke_access_token
+          revoke_success: Keçid açarı uğurla ləğv edildi.
+        passkeys:
+          add-new-passkey: Keçid açarı əlavə edin
+          error: 'Daxili xəta baş verdi. '
+          label: 'Keçid açarı sifətin tanınması, cihazın parolu və ya PİN kodu ilə
+            şəxsiyyətinizi təsdiq edən parol formasıdır. '
+          title: keçid açarı

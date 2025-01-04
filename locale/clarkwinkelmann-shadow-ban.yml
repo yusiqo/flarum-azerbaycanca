@@ -1,0 +1,27 @@
+clarkwinkelmann-shadow-ban:
+  admin:
+    permission:
+      ban: Gizli şəkildə dayandırılmış istifadəçilər
+      hide: Müzakirələrinizi və yazılarınızı gizlədin
+    setting:
+      hideUsers: Dayandırılmış istifadəçilərin profillərini gizli şəkildə gizlədin
+  forum:
+    badge:
+      discussion: gizlicə gizlətmək
+      post: gizlicə gizlətmək
+      user: gizli şəkildə dayandırıldı
+    banUser:
+      quick: sürətli qərarlar
+      quickChoiceDays: '{count, cəm, bir {# gün} digər {# gün}}'
+      quickChoiceReset: Dayandırılmayıb
+      submit: Saxla
+      title: dayandırın {istifadəçi adı}
+      until: (UTC) qədər
+    discussionControl:
+      hide: gizli saxla
+      restore: gizli şəkildə geri gətirin
+    postControl:
+      hide: gizlicə gizlətmək
+      restore: gizli şəkildə geri gətirin
+    userControl:
+      ban: Gizli qadağa

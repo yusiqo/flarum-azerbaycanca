@@ -1,0 +1,33 @@
+amaurycarrade-syndication:
+  admin:
+    settings:
+      entries-count: Lentdə neçə yazı olmalıdır?
+      full-text:
+        help: Deaktiv edilərsə, postlarda yalnız abstraktlar olacaq və istifadəçilər
+          hər şeyi oxumaq üçün sayta baxmalıdırlar.
+        label: Tam mətn axını
+        recommendation: Forumunuzu RSS vasitəsilə izləyən istifadəçiləriniz varsa,
+          bu seçimi aktiv buraxmağınız tövsiyə olunur.
+      html:
+        help: 'HTML ilə yaradılmış yazıları da dərc etmək üçün bu seçimi aktiv edin. '
+        label: Təkmilləşdirilmiş axın
+      title: Yayım Parametrləri
+  forum:
+    autodiscovery:
+      discussion_last_posts: Bu müzakirə
+      forum_activity: Forum tədbiri
+      forum_new_discussions: Forumda yeni müzakirələr
+      tag_activity: '{tag} teqi üçün tədbirlər'
+      tag_new_discussions: '{tag} bölməsində müzakirələr'
+    feeds:
+      titles:
+        discussion_subtitle: Bu müzakirədəki son yazılar
+        discussion_title: '{discussion_name}'
+        main_d_subtitle: Forumda ən son müzakirələr
+        main_d_title: '{forum_name} üçün yeni müzakirələr'
+        main_subtitle: Forumda ən son yazılar
+        main_title: '{forum_name}'
+        tag_d_subtitle: '{tag}-da ən son müzakirə'
+        tag_d_title: '{tag} üzrə ən son müzakirələr'
+        tag_subtitle: '{tag}-da ən son yazılar'
+        tag_title: '{tag} teqindəki hadisələr'

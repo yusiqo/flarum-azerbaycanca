@@ -1,0 +1,58 @@
+{
+    "name": "flarum-lang/azerbaycanca",
+    "type": "flarum-extension",
+    "description": "Azerbaycanca language pack.",
+    "keywords": [
+        "locale"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/yusiqo/flarum-azerbaycanca/issues",
+        "source": "https://github.com/yusiqo/flarum-azerbaycanca/"
+    },
+    "homepage": "https://github.com/flarum-lang/",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://flarum.org/donate"
+        }
+    ],
+    "authors": [
+        {
+            "name": "yusiqo",
+            "homepage": "https://yusiqo.com/"
+        }
+    ],
+   "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "support": {
+        "issues": "https://github.com/yusiqo/flarum-azerbaycanca/issues",
+        "source": "https://github.com/yusiqo/flarum-azerbaycanca/"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.10.x-dev"
+        },
+        "authors": [
+            {
+                "name": "yusiqo",
+                "role": "Translator"
+            }
+        ],
+        "flarum-extension": {
+            "title": "Azerbaycanca",
+			"category": "language",
+            "icon": {
+                "image": "core.svg",
+                "backgroundColor": "#ffffff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "az",
+            "title": "Azerbaycanca"
+        }
+    }
+}

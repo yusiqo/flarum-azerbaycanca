@@ -1,0 +1,16 @@
+justoverclock-events-countdown:
+  admin:
+    endTime: Tədbiriniz üçün bitmə vaxtını təyin edin
+    endTime-help: Nümunədəki formata əməl edərək tarixi təyin edin - Atatürkü Anma
+      Günü üçün "10 Noyabr 2021 09:05"
+    evTitle: Tədbir Başlığı
+    evTitle-help: Tədbirinizin başlığını buraya yazın
+    fontaw: Xüsusi FontAwesome İkonu
+    fontaw-help: Fərdi FontAwesome ikonasından istifadə edin (məsələn, fas fa-head-side-mask)
+  forum:
+    days: Gün
+    endDateText: Tədbir başladı!
+    hours: An
+    minutes: Bir dəqiqə
+    seconds: İkinci
+    widget-title: Qarşıdan gələn tədbir başlayacaq...

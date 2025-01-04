@@ -1,0 +1,12 @@
+fof-github-sponsors:
+  admin:
+    account_types:
+      organization: Təşkilat
+      user: İstifadəçi
+    settings:
+      account_type_label: Hesab növü
+      api_token_label: Jetonu API
+      desc: 'API tokeninizi <a>https://github.com/settings/tokens/new</a> saytından
+        əldə edin. '
+      group_label: Təyin ediləcək qrup
+      login_label: Daxil ol

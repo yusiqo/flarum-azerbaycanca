@@ -1,0 +1,53 @@
+clarkwinkelmann-discussion-lists:
+  admin:
+    permissions:
+      createPrivate: Fərdi müzakirə siyahısı yaradın
+      createPublic: İctimai müzakirələr siyahısı yaradın
+      createSeriesFromAny: İstənilən istifadəçinin məzmunu ilə müzakirə siyahısı yaradın
+      createSeriesFromOwn: Öz müzakirələrinizlə müzakirə siyahıları yaradın
+      moderate: İstənilən müzakirə siyahısını dəyişdirin və silin
+      viewPrivate: Bütün şəxsi müzakirə siyahılarına baxın
+      viewPublic: İctimai müzakirə siyahılarına baxın
+    settings:
+      collapseSeries: Defolt olaraq kataloqu yığcamlaşdırın
+  api:
+    manualLimit: Əl ilə çeşidlənmiş siyahılarda 50-dən çox müzakirə ola bilməz
+    seriesAnyAddNotAllowed: Siz yalnız öz müzakirələrinizi mövzu siyahısına əlavə
+      edə bilərsiniz
+    seriesAnyConversionNotAllowed: Siyahı seriala çevrilə bilməz, çünki o, sizə aid
+      olmayan müzakirələri ehtiva edir
+  forum:
+    badge:
+      private: gizli siyahı
+      series: açıq siyahı
+    discussion:
+      add: siyahıya əlavə edin
+      new: yeni siyahı
+    edit:
+      delete: Sil
+      deleteConfirmation: Siz həqiqətən bu siyahını həmişəlik silmək istəyirsiniz?
+      name: ad
+      ordering: Aranjiman
+      orderingOptions:
+        addedAsc: Siyahıya əlavə et (ən azdan ən yeniyə)
+        addedDesc: Siyahıya əlavə et (ən sondan ən kiçiyə)
+        createdAsc: Müzakirələrin yaradılması (ən köhnədən ən yeniyə)
+        createdDesc: Müzakirə yaradın (ən sondan köhnəyə)
+        manual: Elle
+      save: Saxla
+      title: Siyahını redaktə edin
+      visibility: Görünüş
+      visibilityOptions:
+        private: xüsusi siyahı
+        public: ictimai siyahı
+        series: xüsusi kataloq
+    profile:
+      link: Siyahılar
+    series:
+      expand: Genişləndirin
+      kind: Televiziya serialı
+      visit: hər şeyi göstər
+core:
+  forum:
+    index_sort:
+      discussionListDefault_button: Siyahıda çeşidləyin

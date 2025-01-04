@@ -1,0 +1,73 @@
+blomstra-trello:
+  admin:
+    modals:
+      fields:
+        board: Trello lövhəsi seçin
+        forum_tags: Uyğunlaşmaq üçün Forum etiketini seçin
+        trello_label: Trello etiketi seçin
+      no_available_labels_label: Teqlər yoxdur
+      no_available_tags_label: Heç bir forum etiketi mövcud deyil
+    permissions:
+      add_to_trello: Müzakirəni Trello ilə əlaqələndirə bilər
+    settings:
+      api_key_help: Bu uzantıyı Trello ilə qoşmaq üçün {link} ünvanında API açarını
+        daxil edin.
+      api_key_label: API Açarı
+      api_token_help: 'Trello ilə əlaqə yaratmaq üçün bu genişləndirmə üçün API işarəsini
+        daxil edin. '
+      api_token_label: Jetonu API
+      available_boards_label: Cari lövhələr
+      button:
+        add: əlavə et
+        remove: Sil
+      default_board_help: Seçilmiş standart lövhə forumda Trelloya Göndər rejimində
+        əvvəlcədən seçiləcək lövhə olacaq.
+      default_board_label: Defolt idarə paneli
+      guest_workspace: Qonaq İş sahəsi
+      in_trello: Trello'da
+      include_secondary_tags_help: 'Deaktiv edildikdə Trello-ya yalnız əsas müzakirə
+        teqləri göndərilir. '
+      include_secondary_tags_label: İkinci dərəcəli etiketləri daxil edin
+      label:
+        boards: İdarə Paneli Parametrləri
+        general: General
+        labels: Etiket Parametrləri
+      mapping:
+        add_new: Uyğunluq əlavə edin
+        mapping_description: olacaq
+        modal_title: Yeni etiket xəritəsi
+        no_mappings_for_board: Bu lövhə üçün təyin edilmiş aktiv teq xəritəsi yoxdur
+      mappings_label: Forum teqləri Trello teq xəritələri
+      member_id_help: 'Trello ilə təşkilati şuraları açmaq üçün istifadə olunacaq
+        Trello Üzv ID-sini daxil edin. '
+      member_id_label: İstifadəçi ID
+      no_available_boards_label: Əlçatan panel yoxdur
+      no_label_name: Teq adı yoxdur
+      no_selected_boards_label: Heç bir lövhə seçilmədi
+      save: Dəyişiklikləri yadda saxlayın
+      selected_boards_label: Seçilmiş lövhələr
+      tag: Bilet
+      unmapped_warning_help: Forum teqləri Trello teqlərinə uyğunlaşdırılmayıbsa,
+        Trello-da müzakirə göndərərkən xəbərdarlıq göstərin
+      unmapped_warning_label: Uyğun olmayan etiketlər haqqında xəbərdarlıq edin
+  forum:
+    badges:
+      trello:
+        tooltip: Trello'da oldu
+    controls:
+      send_to_trello_button: Trello-ya göndərin
+      view_on_trello_button: Trello kartına baxın
+    modals:
+      fields:
+        board: Trello lövhəsi seçin
+        lane: Trello zolağı seçin
+        member: Trello üzvünü seçin
+        member_selected: '{count, cəm, bir {# istifadəçi} digər {# istifadəçi}} seçildi'
+      no_available_board_lanes: İdarə paneli zolağı mövcud deyil
+      no_available_board_members: Şura üzvü yoxdur
+      no_available_boards_label: Əlçatan panel yoxdur
+      no_mappings_for_board: Hazırda seçilmiş lövhədə forum teqləri üçün Trello teq
+        xəritələri qurulmayıb
+      title: Trello-ya göndərin
+  lib:
+    original_post: orijinal yazı

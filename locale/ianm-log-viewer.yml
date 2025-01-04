@@ -1,0 +1,13 @@
+ianm-log-viewer:
+  admin:
+    permissions:
+      access_logfile_api: API vasitəsilə log faylı məlumatlarına daxil olun
+    settings:
+      purge-days: Günlər sonra log fayllarını silin
+      purge-days-help: 'Flarum taymerin aktiv olmasından asılıdır. '
+    viewer:
+      available_logs_heading: Mövcud fayllar
+      file_contents_heading: Fayl məzmunu
+      file_size: 'Ölçü (bayt): {size}'
+      last_updated: 'Son yeniləmə: {yeniləndi}'
+      no_file_selected: Məzmununa baxmaq üçün jurnal faylı seçin.

@@ -1,0 +1,105 @@
+fof-username-request:
+  admin:
+    permissions:
+      moderate_requests: İstifadəçi adı/ləqəb dəyişikliyi sorğularını təsdiq edin
+      request_nickname: Ləqəbin dəyişdirilməsini tələb edin
+      request_username: İstifadəçi adının dəyişdirilməsini tələb edin
+  email:
+    body:
+      approved: 'Salam {recipient_display_name},
+
+
+        '
+      noReasonProvided: Heç bir səbəb göstərilməyib.
+      rejected: 'Salam {recipient_display_name},
+
+
+        '
+    subject:
+      approved: '{display_name} istifadəçi adınızın {requested_username} olaraq dəyişdirilməsini
+        təsdiqlədi'
+      rejected: '{display_name} istifadəçi adı dəyişikliyini {requested_username}
+        olaraq rədd etdi'
+  forum:
+    nickname_modals:
+      action:
+        approval_label: Təsdiq edin
+        decision_title: Qərar
+        help_text: Lütfən, xahiş olunan bu ləqəb dəyişikliyinin forum qaydalarına
+          uyğun olduğundan əmin olun.
+        name: '{name} ləqəbini "{requestedName}" olaraq dəyişmək istədi'
+        reason_title: Rədd etmə səbəbi
+        rejected_label: Saxlandı
+        submit_button: Göndər
+        success: Qərar göndərilib.
+        title: => fof-username-request.ref.nickname_change_request
+      request:
+        confirmation_message: Ləqəb dəyişikliyi sorğunuz təqdim edilib və təsdiqini
+          gözləyir.
+        current_request: 'Siz artıq ləqəbinizi "{name}" olaraq dəyişmək üçün sorğu
+          göndərmisiniz. '
+        delete_button: sorğunu silin
+        deleted: Ləqəb sorğusu silindi.
+        dismiss_button: => core.ref.okay
+        submit_button: Sorğu göndərin
+        title: Ləqəb Dəyişməsini tələb edin
+      results:
+        approved: Ləqəb dəyişikliyi sorğunuz təsdiqləndi.
+        dismiss_button: => core.ref.okay
+        new_name: 'Ləqəbiniz uğurla dəyişdirildi: {name}'
+        reason: 'Rədd edilmə səbəbi: <i>"{səbəb}"</i>.'
+        rejected: Ləqəb dəyişdirmə sorğunuz rədd edildi
+        resubmit: Bu zaman, istəsəniz, hesab parametrlərinizdən yeni ləqəb dəyişikliyi
+          sorğusunu yenidən göndərə bilərsiniz.
+        title: Ləqəb Dəyişikliyi Sorğusu
+    pending_requests:
+      empty_text: Ad dəyişikliyi sorğusu tapılmadı.
+      nickname_exerpt: 'Tələb olunan ləqəb: {requestedName}'
+      nickname_item_text: '{name} ləqəb dəyişikliyi sorğusu göndərdi'
+      title: => fof-username-request.ref.name_change_requests
+      tooltip: => fof-username-request.ref.name_change_requests
+      username_exerpt: 'Tələb olunan istifadəçi adı: {requestedName}'
+      username_item_text: '{name} istifadəçi adının dəyişdirilməsini tələb etdi'
+    settings:
+      nickname_request_button: Ləqəbi dəyişdirin
+      username_request_button: İstifadəçi adını dəyişin
+    user:
+      name_history_link: Ad Tarixi
+    username_modals:
+      action:
+        approval_label: Təsdiq edin
+        decision_title: Qərar
+        help_text: Lütfən, bu tələb olunan istifadəçi adı dəyişikliyinin forum qaydalarına
+          uyğun olduğundan əmin olun.
+        name: '{name} istifadəçi adını "{requestedName}" olaraq dəyişmək istədi'
+        reason_title: Rədd etmə səbəbi
+        rejected_label: Saxlandı
+        submit_button: Göndər
+        success: Qərar göndərilib.
+        title: => fof-username-request.ref.username_change_request
+      request:
+        confirmation_message: İstifadəçi adının dəyişdirilməsi sorğunuz göndərilib
+          və təsdiqini gözləyir.
+        current_request: 'Siz artıq istifadəçi adınızı "{name}" olaraq dəyişmək üçün
+          sorğu göndərmisiniz. '
+        delete_button: sorğunu silin
+        deleted: İstifadəçi adı sorğusu silindi.
+        dismiss_button: => core.ref.okay
+        submit_button: Sorğu göndərin
+        title: İstifadəçi adının dəyişdirilməsini tələb edin
+      results:
+        approved: İstifadəçi adının dəyişdirilməsi sorğunuz təsdiqləndi.
+        dismiss_button: => core.ref.okay
+        new_name: İstifadəçi adınız uğurla {name} olaraq dəyişdirildi
+        reason: 'Rədd edilmə səbəbi: <i>"{səbəb}"</i>.'
+        rejected: İstifadəçi adının dəyişdirilməsi sorğunuz rədd edildi
+        resubmit: Bu zaman, istəsəniz, hesab parametrlərinizdən yeni istifadəçi adı
+          dəyişikliyi sorğusunu yenidən göndərə bilərsiniz.
+        title: İstifadəçi adının dəyişdirilməsi sorğusu
+  ref:
+    name_change_request: Ad Dəyişikliyi Sorğusu
+    name_change_requests: Ad Dəyişikliyi İstəkləri
+    nickname_change_request: Ləqəb Dəyişikliyi Sorğusu
+    nickname_change_requests: Ləqəb Dəyişikliyi İstəkləri
+    username_change_request: İstifadəçi adının dəyişdirilməsi sorğusu
+    username_change_requests: İstifadəçi adının dəyişdirilməsi sorğuları

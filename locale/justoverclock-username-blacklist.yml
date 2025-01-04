@@ -1,0 +1,11 @@
+username-blacklist:
+  admin:
+    blackList: Qara siyahıya salınmış istifadəçi adları
+    blackList-help: Qeydiyyat zamanı bloklamaq istədiyiniz istifadəçi adını bura yazın
+      (vergüllə ayrılaraq)
+  forum:
+    modal-body-first-line: Xəbərdarlıq - Bu istifadəçi adı <strong>inzibatçı tərəfindən
+      bloklanıb</strong>
+    modal-body-second-line: İcma qaydalarına uyğun başqa istifadəçi adı seçin və yenidən
+      cəhd edin.
+    modal-title: Xəbərdarlıq!

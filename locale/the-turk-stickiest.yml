@@ -1,0 +1,46 @@
+the-turk-stickiest:
+  admin:
+    permissions:
+      super_sticky_discussions_label: Super yapışqan arqumentlər
+      tag_sticky_discussions_label: Saxlanmış müzakirələri etiketləyin
+    settings:
+      badge_icon_label: Super sabit nişan nişanı
+      badge_icon_text: => core.ref.icon_text
+      display_tag_sticky_label: '"Bütün müzakirələr" siyahısında hashtagları göstərin'
+      display_tag_sticky_text: Onlar adi arqumentlər sayılacaq və yapışmayacaqlar.
+  forum:
+    badge:
+      sticky_tooltip: => the-turk-stickiest.ref.sticky
+      super_sticky_tooltip: => the-turk-stickiest.ref.super_sticky
+      super_tag_sticky_tooltip: => the-turk-stickiest.ref.super_tag_sticky
+      tag_sticky_tooltip: => the-turk-stickiest.ref.tag_sticky
+    discussion_controls:
+      all_sticky_button: Hamısını Pin
+      common_sticky_button: Normal Pin
+      sticky_button: => flarum-sticky.forum.discussion_controls.sticky_button
+      super_sticky_button: => the-turk-stickiest.ref.super_sticky
+      tag_sticky_button: => the-turk-stickiest.ref.tag_sticky
+      unsticky_button: => flarum-sticky.forum.discussion_controls.unsticky_button
+    post_stream:
+      discussion_common_stickied_text: '{username} bu müzakirəni super sancmaqdan
+        sildi.'
+      discussion_stickied_text: => flarum-sticky.forum.post_stream.discussion_stickied_text
+      discussion_super_stickied_text: '{username} bu müzakirəni super bağladı.'
+      discussion_unstickied_text: => flarum-sticky.forum.post_stream.discussion_unstickied_text
+    stickiest_modal:
+      sticky_label: => flarum-yapışqan.ref.yapışqan
+      sticky_text: 'Vacib müzakirələr oxunmayıbsa, "Bütün müzakirələr" siyahısının
+        başında qalır. '
+      submit_button: => core.ref.save_changes
+      super_sticky_label: => the-turk-stickiest.ref.super_sticky
+      super_sticky_text: Super yapışqan arqumentlər nə olursa olsun zirvədə qalacaq.
+      tag_sticky_label: => the-turk-stickiest.ref.tag_sticky
+      tag_sticky_text: 'Tag yapışqanları standart olaraq "Bütün müzakirələr" siyahısında
+        gizlənir. '
+      tags_label: => flarum-tags.ref.tags
+      title: Yapışqan {title}
+  ref:
+    sticky: => flarum-yapışqan.ref.yapışqan
+    super_sticky: Super Sabit
+    super_tag_sticky: Super Yapışqan Stiker
+    tag_sticky: Etiketə bərkidin

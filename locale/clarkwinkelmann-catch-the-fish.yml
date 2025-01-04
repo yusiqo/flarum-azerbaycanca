@@ -1,0 +1,170 @@
+clarkwinkelmann-catch-the-fish:
+  admin:
+    permissions:
+      choose-name: Tutduqdan sonra balıq adını seçin
+      choose-place: Tutduqdan sonra balığın yerini seçin
+      list-rankings: Reytinq səhifəsinə daxil olun
+      moderate: Turları və balıqları idarə edin
+      participate: Turlara qoşulun və balıq tutun
+      visible: balığa bax
+    settings:
+      alert-round: Əsas səhifədə dəyirmi adı və müddəti olan bir xəbərdarlıq göstərin
+      animate-flip: Balıq şəkillərini istiqamətə görə çevirin
+      discussion: Müzakirələr
+      discussion-age: Üzərinə balıq qoymaq üçün arqument neçə yaşında olmalıdır (günlərlə)
+      discussion-tags: Ağ siyahını etiketləyin
+      discussion-tags-help: 'Heç bir teq seçməsəniz, yuxarıdakı vaxt parametrlərinə
+        uyğun gələn hər hansı müzakirə seçilə bilər. '
+      discussion-tags-unavailable: Teqlər genişləndirilməsi deaktiv edildiyi üçün
+        parametr əlçatan deyil.
+      general: General
+      post: Yazılar
+      post-age: Üzərinə balıq yerləşdirmək üçün daşınma neçə yaşında olmalıdır (günlərlə)?
+      post-probability: Müzakirədən çox postda yerləşmə şansı (%)
+      tags-control:
+        add: Ağ siyahıya əlavə edin
+        choose: Etiket seçin
+        delete: Ağ siyahıdan silin
+        down: aşağı enmək
+        up: Yuxarı keçin
+      tags-fallback:
+        last-line: geri dur
+        single-line: İmkan üçün ən azı 2 etiket tələb olunur
+      tags-header:
+        probability: İmkan
+        tag: Bilet
+      time-to-place: Balıqların təsadüfi yerləşdirmədən əvvəl yerləşdirilməsinə icazə
+        verilən vaxt (dəqiqə).
+      title: Balıq Parametrlərini Tut
+      user: İstifadəçilər
+      user-age: Üzərinə balıq qoyulmazdan əvvəl istifadəçi nə qədər aktiv olmalıdır
+        (günlər)
+      user-probability: İstifadəçi profilinə yerləşdirilmə ehtimalı (%)
+  api:
+    cannot-catch-hold-fish: Əvvəlki tutan balığı tutmazdan əvvəl buraxmalıdır
+    cannot-catch-own-fish: İçinə qoyduğunuz balığı özünüz tuta bilməzsiniz.
+    default-fish-name: 'Balıqlar #{number}'
+    fish-update-expired: 'Artıq gecdir, daha bu balığı redaktə edə bilməzsən. '
+    fish-update-wrong-user: 'Bu balığı daha redaktə edə bilməzsiniz. '
+    inactive-discussion: '{gün} gündən çox fəaliyyətsiz qalan balıqlar müzakirə edilə
+      bilməz.'
+    inactive-post: '{days} gündən çox əvvəl yaradılmış postda balıq yerləşdirilə bilməz'
+    inactive-user: Balıq {days} gündən artıq aktiv olmayan istifadəçiyə yerləşdirilə
+      bilməz
+    invalid-discussion-id: Deyəsən heç bir müzakirə yoxdur, bəlkə də bu yaxınlarda
+      silinib
+    invalid-post-id: Post görünmür, ola bilsin ki, bu yaxınlarda silinib
+    invalid-user-id: İstifadəçi görünmür, bu yaxınlarda silinmiş ola bilər
+    model-deleted: Balıqları silinmiş müzakirə və ya postda yerləşdirmək olmaz
+    model-private: Siz balıqları şəxsi müzakirəyə və ya yazıya qoya bilməzsiniz
+    non-comment-post: Yalnız şərh yazılarında balıq yerləşdirə bilər
+    random-error: Təsadüfi balıq məskunlaşması yaratmaq mümkün olmadı
+    round-finished: Bu tur bitdi
+    round-not-started: Bu tur başlamadı
+    tag-not-allowed: Bu etiketin altına balıq qoya bilməzsiniz
+    too-many-placement-models: Eyni zamanda yalnız bir hesablaşma mümkündür
+    user-suspended: Balıq dayandırılmış istifadəçiyə yerləşdirilə bilməz
+    wrong-catch-placement: 'Burada balıq yoxdur. '
+  forum:
+    basket:
+      drag-help: Balıqları müzakirələrə, yazılara və ya istifadəçi profillərinə sürükləyin
+        və buraxın
+      time: 'Nə qədər: {time}'
+      title: Creel
+    caught-fish-modal:
+      congratulation: 'Təbrik edirəm, balıq tutdunuz! '
+      name: balığın adı
+      name-help: 'İstəsəniz balığın adını dəyişə bilərsiniz. '
+      named-by: Adlandıran
+      placed-by: tərəfindən yerləşdirilmişdir
+      placement-help: 'Son müzakirələrdə və aktiv istifadəçi profillərində balıqları
+        gizlədə bilərsiniz. '
+      submit-continue: Davam et
+      submit-name: Adı yadda saxla
+      submit-name-place-later: Adı qeyd edin və saxlama yerini seçin
+      submit-name-place-random: Adı qeyd edin və balığın özünü gizlətməsinə icazə
+        verin
+      submit-place-later: Bəli, gizlənmək üçün yer seçəcəyəm
+      submit-place-random: Qoy balıq gizlənsin
+      title: Balıq tutdun!
+    drop-area:
+      message: Balıqları burada qoya bilərsiniz
+      missing-from-store: Verita mağazasında balıq tapa bilməzsiniz
+    edit-fish:
+      create: balıq yaratmaq
+      delete: balıqları silin
+      delete-confirmation: '"{name}" balıq silinsin?'
+      name: Adı
+      name-help: 'Bu, balığın indiki adıdır. '
+      save: balıqlara qənaət edin
+    edit-fish-modal:
+      title: '"{name}" balığını redaktə edin'
+    edit-round:
+      create: Tur yaradın
+      delete: Turu sil
+      delete-confirmation: Turu sil "{name}" ?
+      ends-at: Bitmə vaxtı
+      name: Adı
+      name-help: Bu raundun adı bannerdə və reytinqdə görünəcək
+      save: Turu yadda saxla
+      starting-pack: Başlanğıc Paketi
+      starting-pack-help: Başlamağınız üçün tezliklə balıq əlavə olunacaq
+      starts-at: Başlama vaxtı
+    edit-round-modal:
+      title: '"{name}" turunu redaktə edin'
+    fish-image:
+      alt: '"{name}" balığının şəkli'
+      missing: itirilmiş balıq şəkil
+    moderate:
+      add: Əlavə et
+      delete: Sil
+      edit: Redaktə et
+      fishes: Balıqlar
+      rounds: Növlər
+    moving-fish:
+      login: Balıq tutmaq üçün daxil olun
+    nav:
+      rankings: Balıq Reytinqini Tut
+      settings: Balıq Tutmaq Parametrləri
+    new-fish-modal:
+      title: Yeni Balıq
+    new-round-modal:
+      title: Yeni Tur
+    page-ranking:
+      nothing: Aktiv turlar yoxdur
+      permission: Siz rütbələrə baxmaq səlahiyyətinə malik deyilsiniz
+      title: Dərəcələr
+    round-alert:
+      message: '"{name}" turu üçün {time} ərzində mümkün qədər çox balıq tutun'
+      rankings: Reytinq baxın
+    table-fish:
+      actions: Fəaliyyətlər
+      edit: Redaktə et
+      image: Vizual
+      loading: Yüklənir...
+      name: Elan
+      new: təzə balıq
+      new-from-image: Toplu şəkil idxalı ilə yeni balıq yaradın
+      no-user-name: Adı dəyişdirilməyib
+      no-user-place: təsadüfi
+      placement: cari yer
+      title: Dəyirmi balıq {name}
+      upload: Yeni şəkil yükləyin
+      user-name: Son ad
+      user-place: Ən son tərəfindən yerləşdirilmişdir
+    table-ranking:
+      count: balıq tutdu
+      loading: Yüklənir...
+      rank: ad
+      title: Dövrə sıralaması {name}
+      user: İstifadəçi
+    table-round:
+      actions: Fəaliyyətlər
+      edit: Redaktə et
+      end: Bitir
+      fishes: Balıqlar
+      loading: Yüklənir...
+      name: Elan
+      new: yeni tur
+      start: Başlanğıc
+      title: Növlər

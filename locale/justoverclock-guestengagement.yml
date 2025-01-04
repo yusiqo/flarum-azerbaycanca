@@ -1,0 +1,27 @@
+flarum-ext-guestengagement:
+  admin:
+    afterxpost: X yazıdan sonra xəbərdarlıq qutusunu göstərin
+    afterxpostdesc: nömrə daxil edin, standart 0-dır (qutu müzakirələrin üstündə göstəriləcək)
+    autohide: X saniyədən sonra qutunu avtomatik gizlət
+    autohidedesc: millisaniyələrdən istifadə edin, məsələn, 5 saniyə üçün 5000 istifadə
+      edin
+    changetextbox: Qutudakı mətni dəyişdirin
+    changetextboxdesc: Buradan siz POSTS ARASINDA xəbərdarlıq qutusu üçün mətni tənzimləyə
+      bilərsiniz
+    enablealbox: Əsas səhifədəki xəbərdarlıq qutusunu aktivləşdirin/deaktiv edin
+    enablepostbox: '"Yazılar arasında" qutusunu aktivləşdirin/deaktiv edin'
+    maintitle: Qutudakı başlığı dəyişdirin
+    maintitledesc: Buradan siz POSTLAR ARASINDA xəbərdarlıq qutusunun başlığını təyin
+      edə bilərsiniz
+  forum:
+    hello: 'salam! '
+    hellops: 'salam! '
+    signupbtn: Qeydiyyatdan keçin
+    uwillreceive: 'Kimsə sizə cavab verəndə sayt və ya e-poçt vasitəsilə sizə bildiriş
+      göndəriləcək. '
+    uwillreceiveps: 'Kimsə sizə cavab verəndə sayt və ya e-poçt vasitəsilə sizə bildiriş
+      göndəriləcək. '
+    whenucreate: Hesab yaratdığınız zaman oxuduğunuz bütün məzmunu yadda saxlaya biləcəyik,
+      beləliklə, tam olaraq qaldığınız yerdən davam edə bilərsiniz.
+    whenucreateps: Hesab yaratdığınız zaman oxuduğunuz bütün məzmunu yadda saxlaya
+      biləcəyik və siz alacaqsınız

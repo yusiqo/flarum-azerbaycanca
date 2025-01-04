@@ -1,0 +1,50 @@
+datlechin-birthdays:
+  admin:
+    permissions:
+      edit_own_birthday_label: Öz ad gününüzü təşkil edin
+      view_birthday_label: Ad gününə baxın
+    settings:
+      date_format_help: '<a>dayjs</a> tarix formatından istifadə edin. '
+      date_format_label: Tarix formatı
+      date_none_year_label: İl olmadan tarix formatı
+      min_age_help: Qeydiyyat üçün minimum yaş
+      min_age_label: Minimum yaş
+      required_help: Bu seçimin işləməsi üçün siz Saxla seçimini aktiv etməlisiniz
+      required_label: Ad günlərinin daxil edilməsi tələb olunur
+      set_on_registration_label: Qeydiyyat zamanı doğum günlərinin təyin edilməsinə
+        icazə verin
+  api:
+    invalid_age_message: Yaşınız ən azı {minAge} olmalıdır.
+    invalid_dob_message: Yanlış doğum tarixi
+  forum:
+    change_dob:
+      date_of_birth_text: => datlechin-birthdays.ref.date_of_doğum
+      show_dob_date: Ad gününü və ayı göstərin
+      show_dob_year: Doğum ilini göstərin
+      show_dob_year_help: Bu, insanların yaşınızı görməsinə imkan verəcək.
+      submit_button: => core.ref.save_changes
+      title: Doğum tarixini redaktə edin
+    edit_user:
+      birthdays_heading: Doğum tarixi
+      dob_heading: => datlechin-birthdays.ref.date_of_doğum
+    header:
+      edit_dob_button: Doğum tarixini redaktə edin
+    nav:
+      nav_item: Bu gün Doğuldu
+    page:
+      discussion_count: '{hesab, cəm, bir {Müzakirə: #} digər {Müzakirələr: #}}'
+      post_count: '{say, cəm, bir {Mesaj: #} digər {Mesajlar: #}}'
+    settings:
+      birthday_heading: Doğum tarixi
+      change_dob_label: Doğum tarixini dəyişdirin
+      dob_heading: => datlechin-birthdays.ref.date_of_doğum
+      show_dob_date_label: Ad gününü və ayı göstərin
+      show_dob_year_help: Bu, insanların yaşınızı görməsinə imkan verəcək.
+      show_dob_year_label: Doğum ilini göstərin
+    sign_up:
+      dob_placeholder: => datlechin-birthdays.ref.date_of_doğum
+    user:
+      age_text: 'Yaş: {ibid}'
+      birthday_text: 'Ad günü: {date}'
+  ref:
+    date_of_birth: Ad günü

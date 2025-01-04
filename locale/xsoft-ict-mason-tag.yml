@@ -1,0 +1,96 @@
+xsoft-mason-tag:
+  admin:
+    buttons:
+      add-answer: Cavab əlavə edin
+      add-field: Sahə əlavə edin
+      delete-answer: cavabı silin
+      delete-field: Sahəni silin
+      edit-answer: Cavab Redaktə et
+      edit-answer-prompt: İstifadə olunduğu yerdə məzmunu təşkil edin
+      edit-field: Sahəni redaktə etmək üçün klikləyin
+      new-field: yeni sahə
+      save-answer: Cavab dəyişikliyini yadda saxlayın
+      save-field: Sahə dəyişikliklərini yadda saxlayın
+      show-user-answers: Köhnəlmiş cavabları göstərin ({count})
+    fields:
+      add: sahə əlavə edin {sahə}
+      description: Sahənin təsviri
+      description-help: Bu sahənin istifadəsini/ehtiyacını izah edən isteğe bağlı
+        təsvir.
+      edit: sahəsini redaktə edin {sahə}
+      enable-user-values-for-validation: Doğrulama qaydalarını konfiqurasiya etmək
+        üçün "istifadəçi dəyərləri"ni aktiv edin
+      icon: Simvol
+      icon-help: 'İstifadəçinin daxil etdiyi dəyərlərin qarşısında işarəni göstərir. '
+      icon-preview: 'önizləmə: {preview}'
+      is_suggested: İstifadəçilərə cavablar təklif edin
+      name: domen adı
+      name-help: İctimai (tərcümə edilə bilməyən) domen teqi.
+      new-answer: yeni cavab
+      new-answer-placeholder: bəzi mətn
+      required: Lazımdır
+      save-field-for-answers: Cavab əlavə etmək üçün yerə qənaət edin
+      show_when_empty: Boş olduqda göstərin
+      show_when_empty-help: Cavab olmayanda sahənin müzakirədə göstərilib-göstərilməməsi
+      user_values_allowed: İcazə verilən istifadəçi dəyərləri
+      user_values_allowed-help: 'Aktivləşdirilərsə, istifadəçilər administrator tərəfindən
+        təyin olunanların əvəzinə öz dəyərlərini əlavə edə bilərlər. '
+      validation: İstifadəçi dəyərləri üçün doğrulama
+      validation-help: 'Dəstəklənən <a>laravel doğrulama qaydalarını</a> yoxlayın. '
+    messages:
+      delete-answer-confirmation: '"{content}" cavabını silmək istədiyinizə əminsiniz? '
+      delete-field-confirmation: '"{name}" sahəsini silmək istədiyinizə əminsiniz? '
+    permissions:
+      fill-fields: Yeni müzakirələrdə sahələri doldurun
+      see-other-fields: Bütün mövcud müzakirələrdən sahələrə baxın
+      see-own-fields: Öz mövcud müzakirələrində sahələrə baxın
+      skip-required-fields: Tələb olunan sahələri atlamağa icazə verilir
+      update-other-fields: İstənilən müzakirə sahələrini yeniləyin
+      update-own-fields: Öz müzakirə sahələrinizi yeniləyin
+    settings:
+      by-tag: Metadatanı yalnız müəyyən teqlərə tətbiq edin
+      by-tag-name: Hansı teqlər metadata alır?
+      column-count: Sahələri göstərərkən sütunların sayı
+      composer-height: Bəstəkar Hündürlüyü
+      composer-height-help: default 200-dür, sahələri yerləşdirmək üçün bundan yüksək
+        olmalıdır.
+      composer-height-placeholder: '320'
+      fields-in-hero: İlk yazı əvəzinə müzakirə mövzusunda sahələri göstərin
+      fields-section-title: Fərdi sahələr bölməsinin başlığı
+      fields-section-title-help: İstifadəçilər bu mətni redaktorda və müzakirədə xüsusi
+        sahələrin üstündə görəcəklər.
+      fields-section-title-placeholder: Varsayılan olaraq heç bir başlıq göstərilmir
+      hide-empty-fields-section: Bütün sahələr boş və gizli olduqda başlığı və idarəetmələri
+        gizlədin
+      hide-empty-fields-section-help: 'Varsayılan olaraq, əgər istifadəçi sahələri
+        redaktə edə bilirsə və ya başlıq təyin edilibsə, bütün sahələr gizlədilmiş
+        olsa belə, bölmə həmişə göstəriləcək. '
+      labels-as-placeholders: Etiketləri formada yer tutan kimi göstərin
+      labels-as-placeholders-help: 'Sahələr daha az şaquli yerdən istifadə edəcək
+        və nişanlar artıq göstərilməyəcək. '
+      n-columns: '{count} sütun'
+      tags-as-field: Teq seçicisini sahə kimi göstərin
+      tags-as-field-help: 'Bu, defolt teq seçicisini gizlədəcək və əvəzinə fərdi açılan
+        sahəni göstərəcək. '
+      tags-field-name: Etiketlər sahəsinin etiketi
+      tags-field-name-placeholder: => xsoft-mason-tag.forum.tags.tags-label
+    titles:
+      field-answers: Sahə cavabları
+      field-settings: Sahə parametrləri
+      fields: Sahələr
+      settings: Parametrlər
+      tag-settings: Etiket parametrləri
+  forum:
+    answers:
+      choose-option: Seçim seçin
+      no-option-selected: Seçim seçilməyib
+    answers-modal:
+      edit-title: '{title} üçün sahələri redaktə edin'
+      save: Sahələri yadda saxlayın
+    discussion-controls:
+      edit-answers: Sahələri redaktə edin
+    post-answers:
+      no-answer: Cavabsız
+    tags:
+      inadequate-settings: 'Etiket parametrləri düzgün konfiqurasiya edilməyib. '
+      tags-label: Teqlər

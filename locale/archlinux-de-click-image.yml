@@ -1,0 +1,4 @@
+archlinux-de-flarum-click-image:
+  forum:
+    error_message: '{domain} ünvanından şəkillər yüklənir'
+    load_button: '{domain} ünvanından şəkil yükləyin'

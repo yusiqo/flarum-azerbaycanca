@@ -1,0 +1,25 @@
+ziven-checkin:
+  admin:
+    settings:
+      Alert: Xəbərdarlıq
+      Modal: Pəncərə
+      None: Heç biri
+      allow-check-in: Girişə icazə verin
+      auto-check-in: avtomatik giriş
+      auto-check-in-delay: Avtomatik giriş gecikməsi (milyon saniyə)
+      check-in-success-prompt-example-reward-text: 'Misal: [mükafat] qazandı'
+      check-in-success-prompt-example-text: 'Nümunə: Siz [gün] üçün daxil olmusunuz'
+      check-in-success-prompt-reward-text: Tez mükafat mətni
+      check-in-success-prompt-text: Tez mətn
+      check-in-success-prompt-type: Nailiyyət sorğu növünü yoxlayın
+      reward-money: Giriş mükafatı
+      reward-money-requirement: <code>antoinefr/flarum-ext-money</code> genişləndirilməsi
+        tələb olunur
+      timezone: vaxt zonası
+  forum:
+    check-in: Giriş
+    check-in-failed: Giriş uğursuz oldu
+    check-in-success: Giriş Uğurlu
+    checked-in-day: '{count} Gün Giriş'
+    checked-in-days: '{count} Gün ərzində Girişlər'
+    try-again-later: Lütfən, sonra yenidən cəhd edin

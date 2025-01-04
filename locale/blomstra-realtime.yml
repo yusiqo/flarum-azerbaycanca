@@ -1,0 +1,34 @@
+blomstra-realtime:
+  admin:
+    permission:
+      view-who-types: Kimin yazdığını göstər
+    settings:
+      release-discussion-updates: Müzakirə Siyahısı yeniləmələri
+      release-discussion-updates-help: Aktivləşdirildikdə, yeni müzakirələr aşağıda
+        müəyyən edilmiş intervalla <code>Müzakirə Siyahısı</code>-a yerləşdirilir.
+      release-discussion-updates-interval: Yeni müzakirə fəaliyyətini avtomatik məcbur
+        etmək üçün interval
+      release-discussion-updates-interval-help: 'Saniyələrdə. '
+      typing-indicator: Yazı göstəricisi
+      typing-indicator-help: 'Aktivləşdirildikdə, icazəyə əsasən, istifadəçilər hazırda
+        müzakirədə yazan digər istifadəçilərin sayına baxa bilərlər. '
+  forum:
+    push:
+      discussion-list-new-activity: '{hesab, cəm, bir {# yenilənmiş müzakirəni göstər}
+        digər {# yenilənmiş müzakirəni göstər}}'
+      discussion-list-new-activity-with-auto-release: '{count, plural, one {# müzakirə
+        mövcuddur} digər {# müzakirə mövcuddur}} yenilənmiş tədbir və {releaseTimeout}
+        saniyə ərzində dərc olunacaq. '
+    typing-indicator:
+      anonymous-user: '[Anonim]'
+      no-activity: Heç kim yazmır
+      people-are-typing: '{rəqəm, cəm, bir {# nəfər yazır} digər {# nəfər yazır}}'
+      users-are-typing: '{count, plural, one {{users} yazıyor} digər {{users}{digərləri,
+        plural, =1 { & # other} =0 {} other { & # others}} yazıyorlar}}'
+    user:
+      settings:
+        heading: Real vaxt
+        typing-indicator-type:
+          help: 'Aktivləşdirildikdə, yazma göstəricisi hazırda yazan istifadəçiləri
+            göstərir. '
+          label: Kimin yazdığını göstər

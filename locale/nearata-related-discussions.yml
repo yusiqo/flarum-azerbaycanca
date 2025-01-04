@@ -1,0 +1,20 @@
+nearata-related-discussions:
+  admin:
+    settings:
+      allow_guests: Ziyarətçilərə icazə verin
+      cache: önbellek
+      cache_help: Format <strong>0-31d0-23h0-59m</strong> olmalıdır
+      generator: İnşaatçı
+      generator_options:
+        random: təsadüfi
+        title: Başlığa görə
+      max_discussions: Ən çox müzakirələr
+      max_discussions_help: Defolt <strong>5</strong>-dir.
+      position: Qadınlar
+      position_options:
+        first_post: Birinci mübahisədən sonra
+        last_post: Son Mübahisədən Sonra
+        reply_block: Cavab blokundan sonra
+  forum:
+    discussion_list_title: Əlaqədar Müzakirələr
+    no_results: Heç bir əlaqəli müzakirə tapılmadı

@@ -1,0 +1,42 @@
+core:
+  lib:
+    error:
+      maintenance_message: Forum hazırda texniki xidmət rejimindədir.
+datitisev-maintenance:
+  admin:
+    dashboard:
+      disable_maintenance_mode_button: Baxım rejimini söndürün
+      enable_maintenance_mode_button: Baxım rejimini aktivləşdirin
+    permissions:
+      allow_bypass_maintenance_label: Bypass texniki xidmət rejimi (parametr aktiv
+        olmalıdır)
+    settings:
+      active_label: Baxım rejimi statusu
+      allow_bypass_hint: 'Əgər DB əlçatan deyilsə, bypass olmayacaq. '
+      allow_bypass_label: İcazədən istifadə edərək forum və API texniki xidmətinin
+        yan keçməsinə icazə verin
+      disable_admin_label: Admin girişini söndürün
+      disable_api_label: Bütün API girişini deaktiv edin
+      error_page_file_hint: Flarum kökündən gələn yol - burada <code>vendor</code>
+        və <code>storage</code> yerləşir.
+      error_page_file_label: Səhv Səhifəsi Fayl Yolu
+      error_page_hint: Blade ilə siz $app, $translator, $settings, $title və $message
+        istifadə edə bilərsiniz.
+      error_page_label: Səhv Səhifəsi HTML/Blade
+      message_label: Səhv Səhifəsi Mesajı
+      prefer_db_hint: 'Normalda <code>config.php</code> daxilindəki dəyərlər burada
+        görünənləri əvəz edir. '
+      prefer_db_label: <code>config.php</code> parametrlərindən daha çox verilənlər
+        bazası parametrlərinə üstünlük verin
+      settings_notice: 'Bu parametrlər cari parametrlər olmaya bilər. '
+      title: Baxım rejimi
+      title_label: Səhv Səhifə Başlığı
+  lib:
+    maintenance_active_disabled_api_message: API hazırda hər kəs üçün deaktivdir.
+    maintenance_active_message: Bu forum hazırda təmirdədir.
+    maintenance_active_not_db_message: Baxım rejimi <code>config.php</code> vasitəsilə
+      aktivləşdirilir.
+  views:
+    error:
+      message: 'Hazırda təmir işləri görürük. '
+      title: Qayğı

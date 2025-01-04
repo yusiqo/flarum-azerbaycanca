@@ -1,0 +1,56 @@
+fof-subscribed:
+  admin:
+    menu:
+      description: Defolt istifadəçi abunəliklərini konfiqurasiya edin
+    permission:
+      subscribe_to_discussion_created: Yeni müzakirə başlayanda bildirişə icazə verin
+      subscribe_to_post_created: Yeni yazı və ya cavabla bağlı bildirişlər almağa
+        icazə verilir
+      subscribe_to_post_flagged: Yeni bayraq haqqında bildirişlər almağa icazə verilir
+      subscribe_to_post_unapproved: Təsdiqlənməmiş müzakirə başlandıqda bildirişə
+        icazə verin
+      subscribe_to_user_created: Yeni istifadəçi qeydiyyatdan keçdikdə bildirişlərə
+        icazə verin
+  email:
+    body:
+      newDiscussion: 'Salam {recipient_display_name},
+
+
+        '
+      newUser: 'Salam {recipient_display_name},
+
+
+        '
+      postCreated: 'Salam {recipient_display_name},
+
+
+        '
+      postFlagged: 'Salam {recipient_display_name},
+
+
+        '
+      postUnapproved: 'Salam {recipient_display_name},
+
+
+        '
+    subject:
+      newDiscussion: '[Abunə oldu | '
+      newUser: '[Abunə oldu | '
+      postCreated: '[Abunə oldu | '
+      postFlagged: '[Abunə oldu | '
+      postUnapproved: '[Abunə oldu | '
+  forum:
+    notifications:
+      discussion_created_text: '{username} yeni müzakirə yaratdı'
+      post_created_text: '{username} yeni yazı yazdı'
+      post_flagged_text: '{username} post xəbər verdi'
+      post_unapproved_text: '{username} müzakirəyə başladı və təsdiqini gözləyir'
+      user_created_text: '{username} indi qeydiyyatdan keçib'
+    settings:
+      defaults_label: '{setting} defolt olaraq aktivləşdirin'
+      forced_label: '{setting} hər kəs üçün aktivləşdirin'
+      notify_discussion_created_label: Kimsə mübahisə yaradanda
+      notify_post_created_label: Kimsə yeni yazı və ya cavab yaradır
+      notify_post_flagged_label: Kimsə postda yeni bayraq yaradır
+      notify_post_unapproved_label: Müzakirə təsdiqini gözlədikdə
+      notify_user_created_label: Kimsə qeydiyyatdan keçəndə

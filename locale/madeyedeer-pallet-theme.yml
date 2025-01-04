@@ -1,0 +1,7 @@
+madeyedeer-pallet-theme:
+  admin:
+    info: 'Palet mövzusundan istifadə etdiyiniz üçün təşəkkür edirik! '
+    show_side_nav_to_guests_label: Ziyarətçilərə yan naviqasiya menyusunu göstərin
+  forum:
+    howdy: Salam qonaq!
+    involve: 'Deyəsən burada yenisən. '

@@ -1,0 +1,9 @@
+akr-chevereto:
+  admin:
+    setting:
+      insert_type: Redaktə edilə bilən məzmuna avtomatik olaraq kod əlavə edin
+      url: Hədəf Chevereto vebsaytının URL-i
+  forum:
+    composer:
+      upload_button: Şəkil yükləyin
+      upload_button_details: Şəkil yükləyin və yerləşdirin

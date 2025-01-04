@@ -1,0 +1,95 @@
+kilowhat-cimaise:
+  forum:
+    album-list:
+      empty: albom yoxdu
+      load-more: => kilohat-cimaise.ref.load-daha
+      loading: => kilohat-cimaise.ref.loading
+      new: Yeni albom yaradın
+      title: => kilohat-cimaise.ref.albomları
+    album-show:
+      community: icma albomu
+      discussion: Müzakirəyə gedin
+      empty: foto yoxdur
+      loading: => kilohat-cimaise.ref.loading
+      personal: <a>{username}</a>-nin şəxsi albomu
+      upload: Foto yükləyin
+    album-thumbnail:
+      by-user: => istifadəçi tərəfindən kilohat-cimaise.ref
+      controls: => kilohat-cimaise.ref.controls
+      delete: => kilohat-cimaise.ref.delete
+      delete-confirmation: '"{title}" albomu silinsin?'
+      edit: Redaktə et
+      hide: => kilohat-cimaise.ref.gizlə
+      restore: => kilohat-cimaise.ref.bərpa
+    attach-album-modal:
+      no-results: nəticə yoxdur
+      none-selected: Heç biri
+      search: alırıq
+      select: seçin
+      selected: 'Seçildi:'
+      submit: Göndər
+      title: '"{title}" albomuna əlavə edin'
+      unselect: Seçimi ləğv edin
+    badge:
+      awaiting-approval: Təsdiq Gözlənir
+      hidden: Gizli
+    edit-album:
+      create: Albom yaradın
+      description: İzahat
+      isCommunity: İcma albomu (hər kəs töhfə verə bilər)
+      save: Albomu yadda saxla
+      title: Başlıq
+    edit-album-modal:
+      title: '"{title}" albomunu redaktə edin'
+    edit-picture:
+      description: İzahat
+      title: Başlıq
+    editable-attribute:
+      author: Müəllif əlavə etmək üçün klikləyin
+      description: Təsvir əlavə etmək üçün klikləyin
+      title: Başlıq əlavə etmək üçün klikləyin
+    nav:
+      albums: => kilohat-cimaise.ref.albomları
+      pictures: => kilohat-cimaise.ref.şəkillər
+      user-pictures: => kilohat-cimaise.ref.şəkillər
+    new-album-modal:
+      title: Yeni Albom
+    picture-controls:
+      approve: Təsdiq edin
+      controls: => kilohat-cimaise.ref.controls
+      delete: => kilohat-cimaise.ref.delete
+      delete-confirmation: '"{title}" Şəkil silinsin?'
+      editor: Kəsmə və maskanı redaktə edin
+      hide: => kilohat-cimaise.ref.gizlə
+      remove-favorite: Sevimlilərdən silin
+      restore: => kilohat-cimaise.ref.bərpa
+      set-favorite: Sevimlilərə əlavə edin
+    picture-list:
+      empty: foto yoxdur
+      load-more: => kilohat-cimaise.ref.load-daha
+      loading: => kilohat-cimaise.ref.loading
+      title: Bütün şəkillər
+    picture-show:
+      back-album: Albom səhifəsinə qayıt
+      download: İndir
+      download-cropped: '{sizə} kəsildi'
+      download-original: Orijinal yükləyin
+      loading: => kilohat-cimaise.ref.loading
+      next: Növbəti şəkil
+      previous: əvvəlki şəkil
+      published-at: '{əvvəl} nəşr olundu'
+      show-exif: Bütün EXIF ​​məlumatları
+      taken-at: '{əvvəl} geri çəkildi'
+    picture-thumbnail:
+      by-user: => istifadəçi tərəfindən kilohat-cimaise.ref
+      in-album: içəridə
+    upload-modal:
+      drop-file: ya da tutub bura buraxın
+      processing: Emal edilir
+      publishSilently: Səssiz yazın
+      select-file: Sənəd seçin
+      submit: Göndər
+      submitInComposer: Davam et
+      title: Fotoları "{title}" albomuna yükləyin
+      titleInComposer: Fotoları redaktə edin
+      uploading: Yüklənir

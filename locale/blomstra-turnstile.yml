@@ -1,0 +1,13 @@
+blomstra-turnstile:
+  admin:
+    settings:
+      forgot: => core.forum.forgot_password.title
+      help_text: Turniket açarlarını <a>burada</a> Cloudflare hesabınızda yaradın.
+      secret_key: gizli açar
+      signin: => core.forum.log_in.title
+      signup: => core.forum.sign_up.title
+      site_key: sayt açarı
+  forum:
+    not_loaded_error: 'Cloudflare Turniketi yükləmək alınmadı. '
+validation:
+  turnstile: 'Sizin robot olduğunuzu yoxlaya bilmədik. '

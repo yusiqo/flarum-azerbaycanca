@@ -1,0 +1,5 @@
+justoverclock-custom-html-widget:
+  admin:
+    warningmessage: 'Naməlum HTML əlavə etmək veb saytınıza potensial təhlükəsizlik
+      riski yaradır. '
+    warningtext: Xüsusi HTML Kodu

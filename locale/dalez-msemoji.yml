@@ -1,0 +1,16 @@
+flarum-msemoji:
+  admin:
+    settings:
+      base: Əsas
+      basehelp: 'Məsləhətlər: $ yazın və o, avtomatik olaraq versiya nömrəsi ilə əvəz
+        olunacaq. '
+      baseph: 'Məsələn: https://flarumtr.com/'
+      disable_autocomplete: Avtomatik tamamlamağı deaktiv edin
+      ext: Uzatma
+      extph: 'Məsələn: .gif'
+      folder: Qovluq
+      folderph: 'Məsələn: svg'
+  forum:
+    composer:
+      emoji_tooltip: Emoji əlavə edin
+      type_to_search_text: Emoji axtarın

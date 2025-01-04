@@ -1,0 +1,21 @@
+ffans-clipboardjs:
+  admin:
+    settings:
+      codeLang_label: Kod dilini göstərin
+      copy_enable_label: Kodun kopyalanmasını aktivləşdirin
+      themes:
+        cnblog: cnBlogs
+        csdn: CSDN
+        default: Defolt Clipboardjs
+        github: GitHub
+        jianshu: Jian Shu
+        lingcoder: LingCoder
+        segmentfault: SegmentFault
+      themes_label: Düymə üslubunu kopyalayın
+  forum:
+    action_copy: surəti
+    action_cut: ÜST
+    error_btn: Hətta
+    msg: '{action} üçün {actionKey} düyməsini basın'
+    no_support: Dəstək yoxdur
+    ok_btn: kopyalandı

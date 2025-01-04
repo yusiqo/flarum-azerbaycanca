@@ -1,0 +1,17 @@
+clarkwinkelmann-status:
+  admin:
+    permissions:
+      mod: İstifadəçi statusunu redaktə edin
+      see: Vəziyyətə baxın
+      set: Status təyin edin
+    settings:
+      enable-text: Vəziyyətdə mətnə ​​icazə verin
+      only-countries: Yalnız ölkə bayraqları
+  forum:
+    menu:
+      set-status: Bir vəziyyət təyin edin
+    modal:
+      clear: aydın
+      submit: Göndər
+      text-placeholder: Nə baş verir?
+      title: Status təyin edin

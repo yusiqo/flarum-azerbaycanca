@@ -1,0 +1,146 @@
+xelson-chat:
+  admin:
+    permissions:
+      create:
+        channel: Kanal yaradın
+        chat: Söhbətə başlayın
+      delete: Söhbət mesajlarını silin
+      edit: Söhbət mesajlarını redaktə edin
+      enabled: Söhbəti aktiv edin
+      moderate:
+        delete: Söhbət mesajlarını silin
+        vision: Silinmiş mesajlara baxın
+      post: Söhbət mesajı göndərin
+    settings:
+      charlimit: Mesaj simvollarının maksimum həddi
+      display:
+        censor: İcazəsiz istifadəçilər üçün mesajları senzura edin
+        minimize: Başlanğıcda minimuma endirin
+        title: Göstər
+      floodgate:
+        number: Ardıcıl göndəriləcək mesajların sayı
+        time: bir müddət ərzində
+        title: anti-təkrar
+      title: Söhbət parametrləri
+  forum:
+    chat:
+      edit_modal:
+        form:
+          color:
+            label: Rəng
+            validator: Hex formatı
+          delete:
+            button: söhbəti silin
+            desc: Davam etmək üçün söhbətin adını kopyalayın və yapışdırın
+            placeholder: Söhbət adı
+            title: Bu söhbəti silmək istədiyinizə əminsiniz?
+          icon:
+            label: => core.ref.icon
+            validator: => core.ref.icon_text
+          leave: Söhbəti tərk edin
+          return: Söhbətə qoşulun
+          title:
+            label: Söhbət adı
+            validator: Bu 1 simvoldur
+          users:
+            edit: İstifadəçiləri seçin və redaktə edin
+        moderator:
+          got: Siz {chatname} söhbətində Moderator hüquqları əldə etdiniz!
+          lost: Siz {chatname} çatında Moderator hüquqlarınızı itirdiniz.
+        save_button: => core.ref.save_changes
+        search:
+          failed: Uyğun istifadəçilər tapılmadı
+          invited: dəvət olunub
+          placeholder: İstifadəçi axtarın
+        title: Söhbət parametrləri
+      kick: At
+      leave: buraxmaq
+      list:
+        add_modal:
+          alerts:
+            exists: Bu istifadəçi üçün başqa şəxsi mesaj yarada bilməzsiniz!
+          channel: Kanal
+          chat: Söhbət
+          create:
+            channel: Yeni kanal yaradın
+            chat: Yeni söhbət yaradın
+          form:
+            color:
+              label: => xelson-chat.forum.chat.edit_modal.form.color.label
+              validator: => xelson-chat.forum.chat.edit_modal.form.color.validator
+            icon:
+              label: => core.ref.icon
+              validator: => core.ref.icon_text
+            title:
+              channel: kanal adı
+              chat: Söhbət adı
+              validator: Bu 1 simvoldur
+            users: Seçilmiş istifadəçilər
+          search:
+            failed: Uyğun istifadəçilər tapılmadı
+            invited: dəvət olunub
+            more_results: Və daha {more_results}...
+            placeholder: İstifadəçi axtarın
+          title: İstifadəçi seçin
+        pin: Panelə bərkidin
+        placeholder: Söhbətləri süzün
+        preview:
+          empty: mesaj yoxdur
+        unpin: Paneldən çıxarın
+      message:
+        actions:
+          hide: gizlətmək
+          resend: Yenidən göndərin
+        censored: Mesajı görmək üçün daxil olun!
+        deleted: tərəfindən silindi
+        deleted_forever: tərəfindən həmişəlik silindi
+        events:
+          channel:
+            created: '{creatorname} {chatname} kanalını yaratdı'
+          chat:
+            created: '{creatorname} {chatname} yaratdı və {usernames} dəvət etdi'
+          color:
+            edited: '{editorname} {köhnə} rəng söhbətini {yeni} olaraq dəyişdi'
+          icon:
+            edited: '{editorname} {köhnə} ikonalı söhbəti {yeni} olaraq dəyişdi'
+          pm:
+            created: '{creatorname} {username} ilə söhbət yaratdı'
+          self:
+            entered: '{username} söhbətə qoşuldu'
+            leaved: '{username} söhbəti tərk etdi'
+          title:
+            edited: '{editorname} {köhnə} adlı söhbəti {yeni} olaraq dəyişdi'
+          users:
+            invited: '{editorname} {usernames} dəvət etdi'
+            invited_kicked: '{editorname} {invitednames}-i dəvət etdi və {kickednames}-i
+              təpiklədi'
+            kicked: '{editorname} {usernames} adlı istifadəçini qovdu'
+        type:
+          code: <Kod />
+          event: Fəaliyyət
+          url: Əlaqə
+        you: Sen
+      moder: moderator
+      placeholder: Mesajınızı yazın...
+      rejoin: Yenidən qoşulun
+      welcome:
+        header: Neon Chat-a xoş gəlmisiniz!
+        subheader: Zəhmət olmasa uyğunlaşmaq üçün solda söhbət seçin.
+    errors:
+      chatdenied: Qrupunuzun paylaşım etmək icazəsi yoxdur
+      removed: Siz söhbətdən çıxarıldınız
+      unauthenticated: Çatdan yalnız qeydiyyatdan keçmiş istifadəçilər istifadə edə
+        bilər
+    index:
+      chat_link: Söhbət
+    pusher_not_found: Söhbəti dərhal yeniləmək üçün Pusher və ya Websocket tələb olunur.
+    toolbar:
+      chat:
+        settings: Söhbət parametrləri
+      disable_notifications: Bildirişləri söndürün
+      disable_sounds: Səsləri söndürün
+      enable_notifications: Bildirişləri aktivləşdirin
+      enable_sounds: Səsləri aktivləşdirin
+      maximize: böyütmək
+      minimize: azaltmaq
+      title: Söhbət

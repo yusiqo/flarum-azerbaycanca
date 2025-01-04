@@ -1,0 +1,27 @@
+clarkwinkelmann-collapsible-posts:
+  admin:
+    permission:
+      collapse: Yazıları məhdudlaşdırın
+    settings:
+      add: yeni səbəb
+      explanationUrl: Təsvir linki
+      explanationUrlHelp: 'Könüllü. '
+      header:
+        explanation: Fərdi şərh mesajı
+        key: Unikal verilənlər bazası açarı
+        label: Bilet
+      reasons: Səbəblər
+  forum:
+    badge:
+      post: məhdudlaşdırılıb
+    modal:
+      title: Postu məhdudlaşdırın
+      uncollapse: Məhdudiyyət
+    postControl:
+      collapse: məhdudlaşdırmaq
+      uncollapse: Məhdudiyyət
+    stream:
+      explanation: Mən bunu niyə görürəm?
+      hidden: '{count, cəm, bir {# yazı {səbəb} səbəbiylə məhdudlaşdırılıb}} digər
+        {# yazı {səbəb}} səbəbiylə məhdudlaşdırılıb'
+      load: Daha çox

@@ -1,0 +1,31 @@
+clarkwinkelmann-popular-discussion-badge:
+  admin:
+    settings:
+      add: Yeni şərt əlavə edin
+      and: VE
+      comments: Cavablar
+      comments_placeholder: '0'
+      conditions: Məşhur nişan şərtləri
+      conditions_help: 'Şərhlər ilk yazı daxil olmaqla şərh yazılarının ümumi sayıdır. '
+      hours: s
+      mode: İş rejimi
+      mode_help: 'Frontend rejimi verilənlər bazasından istifadə etməyən səmərəli
+        həlldir. '
+      mode_options:
+        frontend: Frontend
+        scheduler: Taymer (CRON)
+      or: YA
+      scheduler_frequency: Taymer rejimi üçün interval
+      scheduler_frequency_help: 'Planlayıcı (CRON) rejimində nə qədər tez-tez yeniləmə. '
+      scheduler_frequency_options:
+        everyFifteenMinutes: Hər 15 dəqiqədən bir
+        everyFiveMinutes: Hər 5 dəqiqədən bir
+        everyTenMinutes: Hər 10 dəqiqədən bir
+        everyThirtyMinutes: Hər 30 dəqiqədən bir
+        hourly: saatda bir dəfə
+      views: Baxışlar
+      views_placeholder: '0'
+      within: içəridə
+      within_placeholder: hamısı
+  forum:
+    badge_label: Populyar

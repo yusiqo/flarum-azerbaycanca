@@ -1,0 +1,78 @@
+davwheat-virtual-authors:
+  admin:
+    permissions:
+      set_virtual_authors: Müzakirələrdə virtual müəllifləri təyin edin
+      view_virtual_authors_page: Bütün virtual yazıçıları ətraflı təsvir edən səhifəyə
+        baxın
+    settings:
+      authors_in_sidebar: İlk yazı əvəzinə müəllifləri yan paneldə göstərin
+      authors_in_sidebar_help: Bunun Bloq genişləndirilməsi üçün heç bir təsiri yoxdur.
+      auto_save_message: Yeni virtual müəlliflərin yaradılması və mövcud virtual müəlliflərin
+        redaktə edilməsi avtomatik olaraq saxlanılır.
+      create_new: Yeni virtual yazıçı yaradın
+      discussion_badge: Virtual Yazıçılarla müzakirələrdə nişanı göstərin
+      errored: Serverdən virtual yazıçıları yükləmək alınmadı.
+      link_to_va_from_discussion: '"Müəlliflər" xanasında virtual müəllifin bütün
+        müzakirələrinə keçidləri göstərin'
+      next: Növbəti Səhifə
+      prev: Əvvəlki səhifə
+      search_placeholder: Ada görə axtarın
+      virtual_authors_page_disabled: Bütün istifadəçilər üçün virtual müəlliflər siyahısını
+        söndürün.
+      virtual_authors_page_disabled_help: Bu, bu funksiya üçün təyin edilmiş bütün
+        icazələri ləğv edəcək.
+    virtual_author_item:
+      delete_a11y_tooltip: Sil
+      delete_confirmation: Virtual müəllif silinsin?
+      description: İzahat
+      edit: Virtual yazıçını redaktə edin
+      id: Eyniləşdirmə Nömrəsi (ID)
+      name: ekran adı
+      no_description: => davwheat-virtual-authors.ref.no_description
+  forum:
+    discussion_controls:
+      set_virtual_authors: Virtual yazıçılar qurun
+    set_modal:
+      add_button: əlavə et
+      add_new: Yeni virtual yazıçılar seçin
+      added_button: Əlavə edilib
+      credit_placeholder: Kredit (isteğe bağlı)
+      delete_button: Sil
+      delete_confirmation: Virtual müəllif müzakirədən çıxarılsın?
+      existing: Mövcud virtual yazıçılar
+      no_description: => davwheat-virtual-authors.ref.no_description
+      none_existing: Heç bir virtual yazıçı seçilməyib.
+      save: Dəyişiklikləri Saxla
+      search: Virtual yazıçıları axtarın
+      title: Virtual yazıçılar qurun
+      virtual_author_exists: Artıq seçilib!
+    virtual_author_page:
+      credited_discussions: Müzakirələr {displayName} ünvanına köçürüldü
+      discussion_count: => davwheat-virtual-authors.ref.discussion_count
+      meta_title: '{displayName} - Müəlliflər'
+    virtual_authors_list:
+      discussion_count: => davwheat-virtual-authors.ref.discussion_count
+      empty_text: Deyəsən burada yazıçı yoxdur.
+      filter_name_placeholder: Ada görə süzün
+      meta_title: Bütün müəlliflər
+      no_description: Bu müəllif onlar haqqında sirr havasını saxlayır.
+      sidebar_link: Müəlliflər
+      title: Bütün müəlliflər
+    virtual_authors_panel:
+      error: Müəllifləri yükləmək mümkün olmadı.
+      heading: Müəlliflər
+      item_link_tooltip: '{displayName} üzrə bütün müzakirələrə baxın'
+  lib:
+    discussion-badge: '{count, cəm, biri {Virtual müəllifi var} digər {Virtual müəllifləri
+      var}}'
+    edit_modal:
+      fields:
+        description: Təsvir (müəllif haqqında)
+        name: ekran adı
+      submit_edit: Dəyişiklikləri Saxla
+      submit_new: Virtual yazıçı yaradın
+      title_edit: Virtual yazıçını redaktə edin
+      title_new: Yeni virtual yazıçı
+  ref:
+    discussion_count: '{hesab, cəm, bir {# müzakirə} digər {# müzakirə}}'
+    no_description: (təsvir təyin olunmayıb)

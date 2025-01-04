@@ -1,0 +1,14 @@
+sycho-ace:
+  admin:
+    categories:
+      disabled: zərərsizləşdirilib
+      enabled: Effektiv
+      none: A-Z
+    category_selection:
+      label: Kateqoriyaya görə
+      options:
+        availability: mövcudluğu
+        default: Defolt
+        none: Heç biri
+        vendor: Satıcı
+    extensions: Genişləndiricilər

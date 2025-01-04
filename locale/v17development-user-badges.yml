@@ -1,0 +1,109 @@
+v17development-flarum-badges:
+  admin:
+    auto_moderator:
+      action_drivers:
+        badge_id: Rozet ID
+        give_badge: Rozet ver
+        remove_badge: nişanı çıxarın
+      badge_selector:
+        loading_badges: Nişanlar yüklənir
+        placeholder: Nişan seçin
+      metric_drivers:
+        badges_received: Nişanlar alındı
+      not_installed:
+        content: 'Bu artırma <a>Avtomatik Moderator</a> quraşdırıldıqda və aktiv olduqda
+          daha çox funksionallıq təklif edir. '
+        dismiss: bir daha göstərmə
+        install: Yükle
+        title: İstifadəçiləri nişanlarla avtomatik mükafatlandırın
+      requirement_drivers:
+        has_badge: nişanı var
+    badge:
+      background_color: fon rəngi
+      description: Nişan təsviri
+      icon: nişan nişanı
+      icon_color: ikon rəngi
+      image: Nişan şəkli linki
+      image_placeholder: Şəkil üçün keçid daxil edin
+      is_image: Nişanı şəkilə çevirin
+      is_image_description: Defolt nişan əvəzinə şəkil istifadə edin
+      label_color: mətn rəngi
+      name: Nişan adı
+      visible: Görünür
+      visible_description: 'Bu nişanı aktivləşdirin. '
+    badge_category:
+      blockview: blok görünüş
+      blockview_description: 'Blok görünüşündə kateqoriya nişanlarını göstərin. '
+      description: Kateqoriya təsviri
+      enabled: Aktivləşdirilib
+      enabled_description: 'Bu kateqoriyanı aktivləşdirin. '
+      name: Kateqoriya adı
+    confirm_dialog:
+      'no': yox
+      title: Təsdiq edin
+      'yes': Bəli
+    confirm_messages:
+      delete_badge: 'Nişanı silmək istədiyinizə əminsiniz? '
+      delete_category: 'Kateqoriyanı silmək istədiyinizə əminsiniz? '
+    create_category: Kateqoriya yaradın
+    edit_category: Kateqoriyaya düzəliş edin
+    new_badge: yeni nişan
+    nothing_here_yet: Siz hələ nişan və ya kateqoriya yaratmamısınız.
+    number_of_badges_on_user_card: Nişanların sayı
+    number_of_badges_on_user_card_help: İstifadəçi kartında göstəriləcək nişanların
+      sayı
+    permissions:
+      badge_detail_users: İstifadəçilər bunu nişan detalları səhifəsində görə bilərlər
+      edit_card_badges: İstifadəçi kartı nişanlarını redaktə edin
+      edit_own_card_badges: Öz istifadəçi kartı nişanlarınızı buraxın
+      give_badge: İstifadəçiyə nişan verin
+      take_badge: İstifadəçidən nişan alın
+    show_badges_on_user_card: İstifadəçi kartında nişanları göstərin
+    uncategorized: Kateqoriyasız
+    update_badge: Nişanı yeniləyin
+    update_category: Kateqoriyanı yeniləyin
+  forum:
+    all_badges: Bütün nişanlara baxın
+    all_users: Bütün istifadəçilərə baxın
+    badge:
+      badge: Nişan
+      badge_details: Nişan detalları
+      badges: döş nişanları
+      category: Nişan kateqoriyası
+      description: Nişan təsviri
+      earned_by_count: '{count, plural, one {<b># istifadəçi</b>} tərəfindən alındı,
+        digər {<b># istifadəçi</b>}}'
+      earned_count: '{count, plural, one {<b># istifadəçi</b> bu nişanı qazandı} digər
+        {<b># istifadəçi</b> bu nişanı qazandı}}'
+      earned_on: Nişan üçün qazanıldı
+      earning_reason: Nişanı qazanmağın səbəbi
+      name: Nişan adı
+      no_earning_reason: Qazanmaq üçün səbəb yoxdur
+      others_link: + {count} Daha
+      received_on: əldə edilən {tarix}
+      update_earning_reason: Qazanma səbəbini yeniləyin
+    badge_information: Nişan məlumatı
+    badges_in_card:
+      description: 'Siz istifadəçi kartınızda görünən nişanları digər nişanlarınızdan
+        biri ilə əvəz edə bilərsiniz. '
+      hit_limit: 'Kartınızda yalnız <b> {limit, cəm, bir {<b>bir nişan</b>} digər
+        {<b># nişan</b>}}</b> üçün yer var. '
+      manage_badges: Nişanları idarə edin
+      select_limit: İstifadəçi kartınızda görünmək üçün {limit, cəm, bir {<b>bir nişan</b>}
+        digər {<b># nişan</b>}} seçə bilərsiniz.
+      title: İstifadəçi kartında nişanlar
+    give_badge: Rozet ver
+    moderation:
+      give_badge: Rozet ver
+      remove_badge: Nişanı istifadəçidən silin
+      remove_badge_confirm: Nişanı bu istifadəçidən silmək istədiyinizə əminsiniz?
+    no_received: Heç bir istifadəçi bu nişanı qazanmayıb.
+    notification:
+      settings: Yeni nişan aldım
+      title: Yeni nişan aldınız
+    save_changes: Dəyişiklikləri yadda saxlayın
+    select_badge: Nişan seçin
+    uncategorized: => v17development-flarum-badges.admin.uncategorized
+    update_badge: Nişanı yeniləyin
+    user_has_badge: Bu istifadəçinin artıq nişanı var.
+    user_no_badges: Bu istifadəçinin heç bir nişanı yoxdur.

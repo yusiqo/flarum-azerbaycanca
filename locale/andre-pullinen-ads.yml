@@ -1,0 +1,24 @@
+flagrow-ads:
+  admin:
+    buttons:
+      save: Parametrləri yadda saxlayın
+    positions:
+      between-posts:
+        placeholder: => flagrow-ads.admin.positions.under-header.placeholder
+        title: Yazılar arasında reklam
+      under-header:
+        placeholder: Reklam kodunu bura daxil edin.
+        title: Naviqasiya başlığı altında reklam
+      under-nav-items:
+        placeholder: => flagrow-ads.admin.positions.under-header.placeholder
+        title: Əsas səhifədəki etiketlər altında reklam
+    settings:
+      adsense-client-id: Naşir ID-nizi daxil edin
+      adsense-enable: AdSense aktivdir
+      adsense-title: AdSense parametrləri
+      between-n-posts: Reklamın neçə post göstərəcəyini müəyyənləşdirin
+      position-title: Reklam yerləşdirmələri
+      start-from-post: Reklamın hansı postdan başlayacağını müəyyənləşdirin
+    tab:
+      description: Reklam seçimlərini və mövqelərini təyin edin.
+      title: Reklam

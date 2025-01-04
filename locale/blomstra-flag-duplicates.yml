@@ -1,0 +1,21 @@
+blomstra-flag-duplicates:
+  admin:
+    settings:
+      event_post_help: 'Müzakirədə "dublikat" yazının silindiyi hadisə yazısı yaradın. '
+      event_post_label: hadisə postu
+  forum:
+    flags:
+      deselect_discussion_a11y_label: Müzakirə seçimini ləğv edin
+      duplicate_discussion: Təkrarlanan mübahisə
+      reason_discussion_deleted: '[silinmiş müzakirə]'
+      reason_duplicate_label: təkrarlanan mübahisə
+      reason_duplicate_text: Bu müzakirə başqasının surətidir.
+    post_stream:
+      deleted_discussion: '[silinmiş müzakirə]'
+      flagged_duplicate_text: '{username} bu müzakirəni potensial {dublikat} kimi
+        qeyd etdi. '
+      not_found: Tapılmadı
+flarum-flags:
+  forum:
+    flag_post:
+      reason_duplicate_label: təkrarlayın

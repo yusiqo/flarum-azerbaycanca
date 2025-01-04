@@ -1,0 +1,10 @@
+justoverclock-check-duplicate-discussions:
+  admin:
+    similarNumber: Göstəriləcək Oxşar Müzakirələr
+    similarNumber-help: Bəstəkarda göstərmək üçün oxşar müzakirələrin sayını daxil
+      edin
+  forum:
+    foundDiscussion: 'Mövzunuza aid ola biləcək digər müzakirələri qeyd etmək istərdik. '
+    identicalWarning: 'Xəbərdarlıq: Müzakirənizin adı mövcud müzakirə ilə eynidir!'
+    solvedSimilar: '- Həll olundu'
+    title: Oxşar mövzular tapıldı!

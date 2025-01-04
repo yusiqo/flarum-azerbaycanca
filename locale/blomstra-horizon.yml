@@ -1,0 +1,25 @@
+blomstra-horizon:
+  admin:
+    settings:
+      trim_help: 'Horizon-un son və uğursuz işlərinin nə qədər davam etdiyi (dəqiqələrlə).
+
+        '
+      trim_recent: Son İşləri Kəsdirin
+      trim_title: Kəsmə Parametrləri
+    stats:
+      auto_refresh: Avtomatik Yeniləmə
+      data:
+        failed-last-seconds: Bir neçə saniyədən sonra uğursuz olan işlər
+        jobs-past-hour: Saatda İş
+        jobs-per-minute: Dəqiqədə İş
+        max-runtime: Maksimum iş vaxtı
+        max-throughput: Maksimum Səmərəlilik
+        max-wait-time: Maksimum Gözləmə Müddəti
+        status:
+          inactive: Qeyri-aktiv
+          label: Durum
+          running: İşçilər
+        total-processes: Ümumi Proses
+      full_dashboard: Horizon İdarəetmə Paneli
+      heading: Növbəyə Baxış
+      refresh: Yeniləyin

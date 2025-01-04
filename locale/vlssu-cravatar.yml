@@ -1,0 +1,13 @@
+vlssu-flarum-cravatar:
+  admin:
+    settings:
+      defaults:
+        helptext: 'E-poçt ünvanında uyğun Cravatar şəkli yoxdursa nə olacaq? '
+        title: Defoltlar
+      proxy:
+        helptext: 'Varsayılan olaraq, cravatar URL-ləri birbaşa cravatar.cn saytından
+          götürülür. '
+        title: Proksi kravatar
+      replace-flarum-custom:
+        helptext: Foruma artıq yüklənmiş fərdi avatarları Cravatar ilə əvəz edin
+        title: Foruma yüklənmiş fərdi avatarları dəyişdirin

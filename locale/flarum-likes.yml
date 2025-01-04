@@ -1,0 +1,27 @@
+flarum-likes:
+  admin:
+    permissions:
+      like_posts_label: postu bəyənin
+    settings:
+      like_own_posts_help: 'Aktivləşdirildikdən sonra icazə əsasında istifadəçilər
+        forumda öz yazılarını "bəyənə" bilər. '
+      like_own_posts_label: İstifadəçilər öz yazılarını bəyənə bilərlər
+  forum:
+    notifications:
+      others_text: => core.ref.bəzi_digərləri
+      post_liked_text: '{username} yazınızı bəyəndi'
+    post:
+      like_link: kimi
+      liked_by_self_text: '{users} bunu bəyəndiniz.'
+      liked_by_text: '{count, plural, one {{users} bunu bəyəndi} digər {{users} bunu
+        bəyəndi}}.'
+      others_link: => core.ref.bəzi_digərləri
+      unlike_link: fərqli olaraq
+      you_text: => core.ref.siz
+    post_likes:
+      load_more_button: => core.ref.load_more
+      title: Bunu Bəyənən İstifadəçilər
+    settings:
+      notify_post_liked_label: Kimsə postlarımdan birini bəyənəndə
+    user:
+      likes_link: bəyənir

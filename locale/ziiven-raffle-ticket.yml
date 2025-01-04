@@ -1,0 +1,14 @@
+ziven-guaguale:
+  forum:
+    guaguale-purchase-cancel: Ləğv et
+    guaguale-purchase-confirm: al
+    guaguale-purchase-history: Lotereya Bilet Tarixi
+    guaguale-purchase-input-placeholder: Zəhmət olmasa, almaq istədiyiniz məbləği
+      daxil edin
+    guaguale-purchase-now: al
+    guaguale-purchase-ok: Tamam
+    guaguale-purchase-scratch: qazıntı
+    guaguale-purchase-soldout: Üzr istəyirik, bu məhsul stokda yoxdur
+    guaguale-purchase-success: Satınalma Uğurlu
+    guaguale-purchase-summary: 'Ümumi xərclənmiş: {purchaseCostTotal} | '
+    guaguale-purchase-view-result: Baxın

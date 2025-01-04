@@ -1,0 +1,6 @@
+flarum-ext-pwgen:
+  admin:
+    passlenght: Şifrə uzunluğu
+    pwhelp: Təhlükəsiz parolunuzun uzunluğunu buraya yazın
+  forum:
+    generatebtn: Təhlükəsiz Parol Yaradın

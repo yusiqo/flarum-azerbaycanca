@@ -1,0 +1,25 @@
+datitisev-dashboard:
+  admin:
+    dashboard:
+      graph:
+        discussions: Müzakirələr
+        posts: Yazılar
+        users: İstifadəçilər
+      months:
+        april: Nisan
+        august: avqust
+        december: dekabr
+        february: fevral
+        january: Kamin
+        july: iyul
+        june: iyun
+        march: Mart
+        may: may
+        november: Mənfəət
+        october: oktyabr
+        september: sentyabr
+      updates:
+        available: '{count} Yeniləmələr mövcuddur|{count} Yeniləmələr mövcuddur'
+        check_button: Genişləndirmə yeniləmələrini yoxlayın
+        checking: Güncəlləmələr yoxlanılır...
+        none: Yeniləmə Tapılmadı

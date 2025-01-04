@@ -1,0 +1,99 @@
+blomstra-gdpr:
+  lib:
+    data:
+      followuser:
+        anonymize_description: => flourish-gdpr.lib.data.followuser.delete_description
+        delete_description: Aşağıdakı istifadəçilər haqqında bütün məlumatları silir.
+        export_description: İzlənən və izlənilməmiş istifadəçilərin təfərrüatlarını
+          ixrac edir.
+flarum-gdpr:
+  lib:
+    data:
+      followuser:
+        anonymize_description: => flarum-gdpr.lib.data.followuser.delete_description
+        delete_description: Aşağıdakı istifadəçilərin bütün məlumatlarını silir.
+        export_description: İzlənən və izlənilməmiş istifadəçilərin təfərrüatlarını
+          ixrac edir.
+ianm-follow-users:
+  admin:
+    permissions:
+      be_followed_label: İstifadəçilərə izləməyə icazə verin
+    settings:
+      button-on-profile-label: Təqib düyməsini birbaşa istifadəçi profilinin başlığında
+        göstərin
+      stats-on-profile-label: İstifadəçi profillərində izləyici və izləmə saylarını
+        göstərin
+  email:
+    new_discussion_by_user_body: 'Salam {recipient_display_name},
+
+
+      '
+    new_discussion_by_user_subject: '[İstifadəçini izləyin] {title}'
+    new_follower_body: 'Salam {recipient_display_name},
+
+
+      '
+    new_follower_subject: '[İstifadəçini izləyin] Yeni izləyiciniz var!'
+    new_post_body: 'Salam {recipient_display_name},
+
+
+      '
+    new_post_subject: '[İstifadəçini izləyin] {title} müzakirəsində yeni yazı'
+  forum:
+    badge:
+      label:
+        follow: Müzakirələri izlədi
+        lurk: İzləyir
+    filter:
+      following: İzləyən istifadəçilər
+    followed: təqib olunur
+    followers: '{say, cəm, bir {Followers} digər {Followers}}'
+    index:
+      follow_tag_button: => ianm-follow-users.lib.follow
+      unfollow_tag_button: => ianm-follow-users.lib.change_follow_type
+    modals:
+      select_follow_level:
+        cancel_btn: Ləğv et
+        description: <em>{username}</em>-i necə izləmək istədiyinizi müəyyənləşdirin.
+        follow_levels_heading: İzləmə səviyyələri
+        follow_select_label: İzləmə növü
+        no_user_attr_provided_err: Oh, pəncərəni açarkən xəta baş verdi.
+        no_user_attr_provided_err_debug: Bu pəncərə işləmir.
+        save_btn: Saxla
+        title: '{username} üçün izləmə səviyyəsini təyin edin'
+    notifications:
+      new_discussion_text: '{username} başladı'
+      new_follower_text: '{username} sizi izlədi'
+      new_post_text: '{username} müzakirədə dərc edilib'
+      new_unfollower_text: '{username} sizi izləməyi dayandırdı'
+    profile_link: => ianm-follow-users.lib.following_link
+    profile_page:
+      no_following: Deyəsən, heç kimi izləmirsiniz.
+    settings:
+      block_follow: İstifadəçilərin məni izləməsinə mane olun
+      notify_new_discussion_label: İzlədiyim biri müzakirəyə başlayanda
+      notify_new_follower_label: Kimsə məni izləyəndə
+      notify_new_post_label: Mövcud müzakirədə yazılarını izlədiyim biri
+      notify_new_unfollower_label: Kimsə məni təqibdən çıxaranda
+    user_controls:
+      change_button: => ianm-follow-users.lib.change_follow_type
+      follow_button: => ianm-follow-users.lib.follow
+      follow_confirmation: Bu istifadəçini izləmək istədiyinizə əminsiniz?
+      unfollow_button: => ianm-follow-users.lib.unfollow
+      unfollow_confirmation: Bu istifadəçini izləməyi dayandırmaq istədiyinizə əminsiniz?
+  lib:
+    change_follow_type: İzləmə növünü dəyişdirin
+    follow: İzləyin
+    follow_levels:
+      follow:
+        description: <em>{username}</em> yeni müzakirəyə başlayanda bildiriş alın.
+        name: Onların müzakirələrini izləyin
+      lurk:
+        description: <em>{username}</em> yeni müzakirəyə və ya yazıya başlayanda bildiriş
+          alın.
+        name: Hamısını izləyin
+      unfollow:
+        description: <em>{username}</em>-in hərəkətləri barədə bildirişlər alın.
+        name: təqib etmə
+    following_link: İzlənən İstifadəçilər
+    unfollow: İzləməni dayandırın

@@ -1,0 +1,29 @@
+antoinefr-money:
+  admin:
+    automoderator:
+      action_name: görmək
+      metric_name: Kimə
+    autoremove:
+    - Heç vaxt pul çıxarmayın
+    - Müzakirə/post gizlədildikdə və ya bərpa edildikdə (defolt)
+    - Müzakirə/post silindikdə
+    permissions:
+      edit_money_label: Məbləği redaktə edin
+    settings:
+      autoremove: Pulun avtomatik yenilənməsi
+      helpextensionlikes: <code>flarum/likes</code> genişləndirilməsi tələb olunur
+      moneyfordiscussion: Yeni müzakirə üçün verilən məbləğ
+      moneyforlike: Post bəyənilən zaman verilir
+      moneyforpost: Yeni göndərmə üçün verilən məbləğ
+      moneyname: 'Pul adı (məs: [pul] xal)'
+      noshowzero: Dəyərin sıfır olub olmadığını göstərməyin
+      postminimumlength: Pul qazanmaq üçün yazının minimum simvol uzunluğu (deaktiv
+        etmək üçün 0 daxil edin)
+      title: Parametrlər
+  forum:
+    modal:
+      current: 'Mövcuddur:'
+      submit_button: => core.ref.save_changes
+      title: '{username} adlı şəxsin pulu'
+    user_controls:
+      money_button: Məbləği redaktə edin

@@ -1,0 +1,11 @@
+flarumite:
+  spoilers-and-accordions:
+    forum:
+      post:
+        accordion:
+          tooltips:
+            closed: Baxmaq üçün klikləyin
+            open: Gizlətmək üçün klikləyin
+        spoiler:
+          closed: Baxmaq üçün klikləyin
+          open: Gizlətmək üçün klikləyin

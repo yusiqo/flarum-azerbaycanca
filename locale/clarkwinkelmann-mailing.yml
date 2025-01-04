@@ -1,0 +1,31 @@
+clarkwinkelmann-mailing:
+  admin:
+    permissions:
+      mail_all: Bütün istifadəçilərə e-poçt göndərin
+      mail_individual: Fərdi istifadəçilərə e-poçt göndərin
+  api:
+    no_recipients: Heç bir alıcı uyğun gəlmədi
+  email:
+    default_subject: => clarkwinkelmann-mailing.ref.default_subject
+  forum:
+    links:
+      mail_all: e-poçt göndər
+      mail_individual: Bu istifadəçiyə e-poçt göndərin
+    modal_mail:
+      as_html_label: HTML olaraq göndərin
+      default_subject: => clarkwinkelmann-mailing.ref.default_subject
+      message_label: Mesaj
+      recipients_label: Alıcılar
+      recipients_placeholder: Daha çox alıcı əlavə edin..
+      subject_label: Mövzu
+      submit_button: Göndər
+      title_text: Mesaj
+    modal_sent:
+      on_its_way: 'Yüksək beş! '
+      title_text: Məktub göndərildi!
+    recipient_kinds:
+      email: E-poçt
+      group: Qrup
+      user: İstifadəçi
+  ref:
+    default_subject: Forum rəhbərliyindən mesaj

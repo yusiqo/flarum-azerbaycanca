@@ -1,0 +1,131 @@
+fof-best-answer:
+  admin:
+    edit_tag:
+      qna_label: Ən Yaxşı Cavabların bu etiketdə təyin edilməsinə icazə verin
+      reminders: Bu teqdə müzakirələr üçün Ən Yaxşı Cavab təyin etmək üçün xatırlatma
+        göndərin
+    permissions:
+      best_answer: Ən yaxşı cavabı seçin (öz müzakirəsində)
+      best_answer_not_own_discussion: Ən yaxşı cavabı seçin (başqasının müzakirəsində)
+    settings:
+      allow_select_own_post: Öz postunuzu seçin
+      allow_select_own_post_help: İstifadəçiyə müzakirəyə ən yaxşı cavab olaraq öz
+        postunu seçməyə icazə verin
+      discussion_sidebar_jump_button: Müzakirələrin yan panelində Ən Yaxşı Cavaba
+        Keç düyməsini göstərin
+      discussion_sidebar_jump_button_help: Yazı lentində Ən Yaxşı Cavaba keçid edən
+        müzakirənin yan panelinə düymə əlavə edir.
+      display_tags: Axtarış nəticələrində etiketləri göstərin
+      display_tags_help: Ən Yaxşı Cavablarla müzakirələr üçün axtarış nəticələrində
+        etiket(ləri) göstərin
+      documentation: Sənədlər
+      enable_all_tags_button: Bütün teqlərdə ən yaxşı cavabı aktivləşdirin
+      enable_all_tags_reminder_button: Ən Yaxşı Cavab xatırladıcısı üçün bütün teqləri
+        aktivləşdirin
+      enabled_tags_help: 'Ən Yaxşı Cavabları aktiv edib etməməyi seçin (əgər varsa). '
+      enabled_tags_label: Teqləri aktivləşdirin
+      introduction: '<code><a>flarum/tags</a></code> bölməsində hansı teqlərin Ən
+        Yaxşı Cavabları dəstəkləməli olduğunu və isteğe bağlı olaraq hansı teqlərin
+        xatırlatmaları dəstəkləməli olduğunu aktiv edin. '
+      label:
+        advanced: İnkişaf etmiş
+        general: General
+        reminders: Xatırlatmalar
+        reminders_notice: Xatırlatmaların işləməsi üçün siz Flarum planlayıcısını
+          düzgün quraşdırmalısınız.
+        search: alırıq
+        tags: Ən yaxşı cavab etiketi
+      remind_tag_ids: Xüsusi teqlərdə xatırladıcını aktivləşdirmək üçün teqləri (vergüllə
+        ayrılmış) daxil edin
+      remind_tags_help: 'Xatırlatmaları göndərmək üçün, əgər varsa, hansı teqləri
+        seçin. '
+      remind_tags_label: Xatırlatma Etiketləri
+      remove_solutions_from_main_search: Əsas axtarışdan həll edilənləri silin
+      remove_solutions_from_main_search_help: Əsas "bütün müzakirələr" axtarış nəticələrindən
+        Əsas Cavablarla müzakirələri silin
+      schedule_log_output: Qeyd faylına taymer çıxışı əlavə edin
+      schedule_on_one_server: Planlayıcı üçün 'onOneServer()' istifadə edin
+      schedule_on_one_server_help: Redis/Memcache tələb edir
+      schedule_stop_overnight: Qeyri-aktiv saatlarda xatırlatma bildirişlərinin göndərilməsinin
+        qarşısını alın
+      schedule_stop_overnight_help: Server vaxtı ilə səhər 9-dan 8-ə qədər
+      select_best_answer_reminder_days: Xatırlatma tezliyi
+      select_best_answer_reminder_days_help: Konfiqurasiya edilə bilən gün sayından
+        sonra Ən Yaxşı Cavab seçmək üçün müzakirə sahibinə xatırlatma göndərin, 0
+        = xatırlatmaları söndürün.
+      select_best_answer_tags_help: 'Ən Yaxşı Cavab təyin edildikdə, əgər varsa, müzakirələrə
+        hansı teqlərin əlavə ediləcəyini seçin. '
+      select_best_answer_tags_label: Ən yaxşı cavabları olan müzakirələr üçün etiketlər
+      show_filter_help: Ən Yaxşı Cavabların aktiv olduğu teqlər üçün müzakirə siyahısında
+        həll edilmiş/həll olunmamış filtr seçimini göstərməyi seçin
+      show_filter_label: Ən Yaxşı Cavab filtrini göstərin
+      show_max_lines_help: 'Deaktiv etmək üçün 0-a təyin edin. '
+      show_max_lines_label: 'Postun önizləməsində göstərmək üçün maks. '
+      solution_search: Həll yolları axtarılır
+      solution_search_help: Ən Yaxşı Cavablar ilə müzakirələri axtarmaq imkanını aktivləşdirin
+      tags_info: 'Ən Yaxşı Cavab teqi aktiv olduqda, cavabları təyin edə bilən hər
+        bir istifadəçi qrupuna icazələr təyin edin (öz müzakirəsi, istənilən müzakirə). '
+      use_alt_ui: alternativ ardıcıllıq
+      use_alt_ui_help: Altbilgidə ən yaxşı cavab nəzarətləri
+  email:
+    body:
+      awarded: 'Salam {recipient_display_name},
+
+
+        '
+      ba-set: 'Salam {recipient_display_name},
+
+
+        '
+      select: 'Salam {recipient_display_name},
+
+
+        '
+    subject:
+      awarded: Postunuz {display_name} tərəfindən ən yaxşı cavab seçildi
+      ba-set: '{display_name} tərəfindən seçilmiş ən yaxşı cavab'
+      select: Sualınıza cavab verilibmi?
+  forum:
+    answered_badge: Cavab verdi
+    best_answer_button: Ən Yaxşı Cavab
+    best_answer_label: <a>{username}</a> tərəfindən {time_set}
+    composer:
+      titlePlaceholder: Sual başlığı
+    discussion:
+      jump_to_best_answer_button: Ən yaxşı Cavaba baxın
+    errors:
+      mismatch: Seçilmiş post bu müzakirədə mövcud deyil.
+    filter:
+      accessible_label: Həll edilmiş/Həll edilməmiş seçim
+      all_label: Bütün suallar
+      solved_label: Həll olunmuş suallar
+      unsolved_label: Həll olunmamış suallar
+    index:
+      ask_question: Sual verin
+      cannot_ask_question: Siz Sual Verə bilməzsiniz
+      solved_link: Həll edilmiş mübahisələr
+      unsolved_link: Həll olunmamış arqumentlər
+    notification:
+      awarded: Postunuz {username} tərəfindən ən yaxşı cavab seçildi
+      best_answer_in_discussion: '{username} bu müzakirədə ən yaxşı cavabı verdi'
+      content: Əgər sualınız cavablandırılıbsa, ən yaxşı cavabı seçin
+      preferences:
+        awarded_best_answer: Kimsə mənim postumu ən yaxşı cavab olaraq qeyd etdi
+        best_answer_in_discussion: Ən yaxşı cavab mənim iştirak etdiyim müzakirədə
+          müəyyən olundu
+        select_best_answer: Başladığım müzakirədə ən yaxşı cavabı seçmək üçün avtomatik
+          xatırlatma
+    remove_best_answer: Cari ən yaxşı cavabı silin
+    search:
+      all_discussions_solutions_button: '"{query}" həllini ehtiva edən bütün müzakirələri
+        axtarın'
+      discussions_solutions_heading: Təhlil edilən müzakirələr
+    this_best_answer: ən yaxşı cavab
+    user:
+      best-answer-count: '{count, cəm, bir { {count} ən yaxşı cavab} digər {{count}
+        ən yaxşı cavab}}'
+fof-user-directory:
+  lib:
+    sort:
+      least_best_answers: Ən az yaxşı cavablar
+      most_best_answers: ən yaxşı cavablar

@@ -1,0 +1,9 @@
+clarkwinkelmann-reset-preferences:
+  admin:
+    permissions:
+      reset: Öz seçimlərinizi sıfırlayın
+  forum:
+    preferences:
+      confirm: 'Bütün bildirişləriniz və seçimləriniz defolt dəyərlərinə qaytarılacaq. '
+      done: Tərcihlər sıfırlandı!
+      reset: Bütün üstünlükləri sıfırlayın

@@ -1,0 +1,9 @@
+hehongyuanlove-auth-qq:
+  admin:
+    qq_settings:
+      client_id_label: Tətbiq ID
+      client_secret_label: Proqram sirri
+      title: QQ Ayarları
+  forum:
+    log_in:
+      with_qq_button: QQ

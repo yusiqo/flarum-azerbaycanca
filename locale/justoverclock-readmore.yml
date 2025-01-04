@@ -1,0 +1,10 @@
+flarum-ext-readmore:
+  admin:
+    AlsoPost: Post axını üçün təklifi aktivləşdirin
+    AlsoPostdesc: Bu, genişləndirmənin bütün Flarum yazılarında işləməsinə imkan verəcək
+      (yalnız Profil Səhifəsi deyil)
+    charlenght: Xarakter Uzunluğu
+    charlenghtdesc: '"Ətraflı oxu" düyməsinin qarşısında görünəcək simvolların sayını
+      təyin edin'
+  forum:
+    readmore: Daha ətraflı...

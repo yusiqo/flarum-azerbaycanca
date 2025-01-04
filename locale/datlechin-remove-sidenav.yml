@@ -1,0 +1,4 @@
+datlechin-remove-sidenav:
+  admin:
+    permissions:
+      view_sidenav_label: Bax Sidenav

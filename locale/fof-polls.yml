@@ -1,0 +1,138 @@
+fof-polls:
+  admin:
+    permissions:
+      change_vote: səs dəyişdirmək
+      moderate: Sorğunu redaktə edin və ya silin
+      self_edit: Yaradılmış sorğuları redaktə edin (redaktədən sonra icazə tələb olunur)
+      self_post_edit: Öz postlarında *bütün* sorğuları redaktə edin (redaktədən sonra
+        icazə tələb olunur)
+      start: Sorğu yaradın
+      start_global: İctimai sorğuya başlayın
+      upload_images: İstifadəçilərə sorğular üçün şəkillər yükləməyə icazə verin
+      view_results_without_voting: Səs vermədən nəticələri göstərin
+      vote: Ankete oy ver
+    settings:
+      allow_image_uploads: Sorğular və seçimlər üçün şəkil yükləməyə icazə verin
+      allow_image_uploads_help: Aktiv edilərsə, istifadəçilər şəkil yükləyə və həmçinin
+        şəkil URL-i təqdim edə bilər (seçimlər üçün aktivləşdirilərsə, o, həmişə sorğunun
+        özü üçün aktiv olacaq).
+      allow_option_image: Hər sorğu seçimi üçün şəkil URL-nin təqdim edilməsinə icazə
+        verin
+      enable_global_polls: İctimai sorğuları aktivləşdirin
+      enable_global_polls_help: İctimai sorğular xüsusi bir yazıya bağlı deyil və
+        onlara xüsusi sorğu səhifəsindən daxil olmaq olar.
+      general:
+        heading: Ümumi Parametrlər
+        help: Bu parametrlər Sorğu genişlənməsinin əsas xüsusiyyətlərinə nəzarət edir.
+      global_polls:
+        heading: Ümumi sorğular
+        help: Bu parametrlər ümumi sorğu funksiyasını idarə edir.
+      image:
+        heading: Vizual Parametrlər
+        help: Bu parametrlər sorğular üçün vizual parametrlərə nəzarət edir.
+      image_height: Şəklin hündürlüyünü dəyişdirin
+      image_width: Şəklin enini dəyişdirin
+      max_options: Hər sorğu üçün maksimum seçim sayı
+      options_color_blend: Sorğu seçimlərində rəng qarışığı mətni
+      options_color_blend_help: 'Sorğu seçimlərini daha oxunaqlı etmək üçün rəng qarışığından
+        istifadə etmək üçün bundan istifadə edin. '
+  forum:
+    answers: Cavablar
+    compose:
+      add_title: Sorğu əlavə edin
+      continue_editing: Redaktə etməyə davam edin
+      edit_title: Sorğunu redaktə edin
+      polls_manager: Sorğu Meneceri
+      polls_preview: Sorğuya baxın
+      success: Sorğu uğurla yadda saxlanıldı.
+    composer_discussion:
+      add_poll: => fof-polls.forum.moderation.add
+      edit_poll: => fof-polls.forum.moderation.edit
+      no_permission_alert: Sizin sorğuya başlamaq üçün icazəniz yoxdur.
+    days_remaining: İstifadə müddəti {time}.
+    max_votes_allowed: Sorğu {maksimum, cəm, bir {# qəşəng} digər {# qəşəng}} seçməyə
+      imkan verir.
+    modal:
+      add_option_label: Seçim əlavə edin
+      add_title: Sorğu yaradın
+      allow_change_vote_label: İstifadəçilərə səslərini dəyişməyə icazə verin
+      allow_multiple_votes_label: İstifadəçilərə birdən çox seçimə səs verməyə icazə
+        verin
+      date_placeholder: Sorğunun bitmə vaxtı (İstəyə görə)
+      delete: => core.ref.delete
+      edit_title: Sorğunu redaktə edin
+      error: => core.lib.error.generic_message
+      hide_votes_label: Səsvermə bitənə qədər səsləri gizlədin
+      hide_votes_label_help: Sorğuya başlayan istifadəçi həmişə səsləri görə biləcək.
+      image_option_placeholder: Şəkil URL-i (isteğe bağlı)
+      include_question: Sual əlavə etməlisiniz
+      max: Maksimum {max} cavabınız ola bilər
+      max_votes_help: İstifadəçilərin bütün seçimlərə səs verə bilməsini istəyirsinizsə,
+        onu 0-a təyin edin.
+      max_votes_label: İstifadəçi başına maksimum səs
+      min: Ən azı 2 cavab əlavə etməlisiniz
+      no_voters: Səs Verilməyib
+      option_placeholder: Cavab
+      options_label: Cavablar
+      poll_image:
+        alt_help_text: 'Bu mətn şəkil quraşdırıldıqda tələb olunur; '
+        alt_label: Vizual Alternativ Mətn
+        help: Sorğunun yanında göstərmək üçün şəkil yükləyin (istəyə görə).
+        label: Sorğu Şəkli
+        later_help: Sorğunu yaratdıqdan sonra siz şəkil yükləyə biləcəksiniz.
+      poll_option_image:
+        help: Sorğu cavabının yanında göstərmək üçün şəkil yükləyin (istəyə görə).
+        label: Sorğunun Cavab Şəkli
+      public_poll_label: İstifadəçilərə kimin cavab verdiyini görməyə icazə verin
+      question_placeholder: Sual
+      submit: Göndər
+      subtitle_placeholder: Altyazı/Təsvir (istəyə görə)
+      tooltip:
+        options:
+          add-button: Cavab əlavə et
+    moderation:
+      add: Sorğu əlavə edin
+      delete: Anketi Sil
+      delete_confirm: Sorğunu silmək istədiyinizə əminsiniz?
+      edit: Sorğunu redaktə edin
+    no_permission: Səs vermək səlahiyyətiniz yoxdur
+    page:
+      nav: Sorğular
+      nav-all: Bütün Ümumi Sorğular
+    poll:
+      cannot_change_vote: Səs verdikdən sonra səsinizi dəyişdirə bilməzsiniz.
+      cannot_start_poll_button: Ümumi sorğuya başlamaq mümkün deyil
+      start_poll_button: İctimai Sorğuya başlayın
+      submit_button: Səs verin
+    poll_controls:
+      delete_confirmation: Bu sorğunu silmək istədiyinizə əminsiniz?
+      delete_error_message: Sorğunu silərkən xəta baş verdi.
+      delete_label: => core.ref.delete
+      delete_success_message: Sorğu uğurla silindi.
+      edit_label: => core.ref.edit
+      view_label: => core.ref.view
+    poll_ended: Bu sorğu başa çatıb.
+    poll_form:
+      delete: Anketi Sil
+      error: 'Sorğunu yadda saxlayarkən xəta baş verdi. '
+    poll_never_ends: Sorğu bitmir
+    polls_count: '{count, cəm, bir { {count} oy} digər {{count} oy}}'
+    polls_list:
+      empty_text: Burada, deyəsən, ümumxalq sorğusu yoxdur.
+      load_more_button: => core.ref.load_more
+    polls_page:
+      title: Sorğular
+    public_poll: seçicilər
+    showcase:
+      active-polls: Aktiv sorğular
+      ended-polls: Yekun Sorğular
+      no-active-polls: Hazırda aktiv sorğu yoxdur.
+      no-recent-polls: Bu yaxınlarda başa çatmış sorğular yoxdur.
+    tooltip:
+      badge: Anket
+      votes: '{say, cəm, bir {# oy} digər {# oy}}'
+    upload_image:
+      remove_button: Şəkili silin
+      upload_button: Şəkil Yüklə
+    votes_modal:
+      title: Seçicilər

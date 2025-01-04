@@ -1,0 +1,22 @@
+fof-geoip:
+  admin:
+    settings:
+      access_key_label: Giriş Açarı
+      security_label: Təhlükəsizlik Modulu (peşəkar əlavə tələb olunur)
+      service_freegeoip_description: Saatda 15.000 IP ölkə kodunu pulsuz əldə etmək
+        üçün <b>https://freegeoip.app</b> istifadə edin.
+      service_freegeoip_label: FreeGeoIP
+      service_ipapi_description: 'Dəqiqədə 150 ​​zəng etmək üçün <b>http://ip-api.com</b>
+        saytından istifadə edin. '
+      service_ipapi_label: Yanğın IP
+      service_ipdata_description: Gündə 1500 pulsuz axtarış etmək üçün <b>https://ipdata.co</b>
+        istifadə edin.
+      service_ipdata_label: IPData
+      service_ipstack_description: 'Pulsuz olaraq ayda 10.000 axtarış etmək üçün <b>https://ipstack.com</b>
+        istifadə edin. '
+      service_ipstack_label: IPStack
+      service_label: Xidmət
+      title: FriendsOfFlarum GeoIP
+  forum:
+    alerts:
+      ip_copied: IP ünvanı Kopyalandı

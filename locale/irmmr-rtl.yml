@@ -1,0 +1,9 @@
+irmmr-rtl:
+  admin:
+    settings:
+      ad_status_label: Admin statusu
+      ad_status_text: Admin tərəfi üçün RTL (Sağdan Sola) dəstəyinin yaradılması.
+      fm_status_label: Forum statusu
+      fm_status_text: Forum tərəfi üçün RTL (Sağdan Sola) dəstəyinin yaradılması.
+      lang_base_label: Dilə əsaslanan
+      lang_base_text: Seçilmiş dil əsasında RTL statusunun avtomatik seçilməsi.

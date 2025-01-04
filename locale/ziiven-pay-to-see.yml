@@ -1,0 +1,58 @@
+pay-to-see:
+  admin:
+    error_need_one_tag: Ən azı bir teq seçin
+    permission:
+      allow_bypass_pay2see: (Məzmuna baxmaq üçün ödəyin) ötürməyə icazə verin
+      allow_purchase_pay2see: Məzmunu görmək üçün ödənişə icazə verin
+      allow_set_pay2see: Digər istifadəçinin müzakirəsini görmək üçün ödənişə icazə
+        verin
+      allow_use_pay2see: İstifadəyə icazə verin (baxmaq üçün ödəyin)
+    set_permission_tag: Teqlər İcazə Ayarları
+    set_permission_tag_help: Müzakirə başlayarkən istifadəçi icazəsi olan istənilən
+      etiketi seçərək P2S-dən istifadə edə bilər
+    settings:
+      badge_icon: nişan nişanı
+      badge_icon_desc: '<code>fas fa-</code> prefiksi daxil olmaqla istənilən FontAwesome
+        ikona sinfinin adını daxil edin. '
+  forum:
+    cancel: Ləğv et
+    confirm: Təsdiq edin
+    modify_pay_to_see_price: Məzmun qiymətini dəyişdirin
+    need_pay2see_tag: (Məzmuna baxmaq üçün ödəyin) üçün [ödəmək][/pay] teqini əlavə
+      etməlisiniz
+    not_support_anonymous: Məzmunu görmək üçün ödəyin, anonim dərcdə dəstəklənmir
+    notifications:
+      discussion_purchased: '{username} məzmununuzu satın aldı'
+      discussion_purchased_cost: '{cost} aldınız'
+      notification_setting_some_one_purchase_content: Kimsə mənim məzmunumu alıb
+    ok: Tamam
+    pay_to_see_content: Məzmunu görmək üçün ödəyin
+    pay_to_see_content_bypass: Məzmuna baxmaq üçün ödəniş edin [İcazəli keçid]
+    pay_to_see_content_label: Ödəniş və Məzmuna Baxın
+    pay_to_see_owner_bypass: Məzmuna baxmaq üçün ödəniş edin [Admin Skip]
+    purchase_button: Məzmun al
+    purchase_confirmation: Məzmun al
+    purchase_confirmation_text: '{costText} ödəyəcəyinizə əminsiniz?'
+    purchase_count: 'Satınalmaların sayı: {count}'
+    purchase_error_insufficient_fund: Qeyri-kafi Balans
+    purchase_error_no_permission: İcazə rədd edildi
+    purchase_error_not_found: Məzmun alına bilməz
+    purchase_success: Satınalma Uğurlu
+    purchase_unlocked_button: Məzmun Kilidi Açıldı
+    purchased_content: Satın alınan məzmun
+    purchased_users: Satın alan istifadəçilər
+    purchased_users_empty: Hələ heç kim almayıb
+    remove: Sil
+    remove_pay_to_see_price_success: Silinmiş Məzmunu görmək üçün ödəniş edin
+    set_error_no_permission: Məzmunu görmək üçün ödəniş etmək icazəniz yoxdur
+    set_pay_to_see_price: Məzmun qiymətini təyin edin
+    set_pay_to_see_price_success: Məzmun Qiymət Ayarı
+    tag_has_permission: Məzmunu görmək üçün ödənişə icazə verin
+    tag_no_permission: Seçilmiş teqlərdə görmək üçün ödəniş edə bilməzsiniz
+    tag_no_permission_title: Məzmunu görmək üçün ödəyin
+    toolbar_tooltip: Məzmunu görmək üçün ödəniş daxil edin
+  lib:
+    cancel: Ləğv et
+    confirm: Təsdiq edin
+    ok: Tamam
+    save: Saxla

@@ -1,0 +1,10 @@
+justoverclock-flachat:
+  admin:
+    publishKey: PubNub Nəşr Açarı (pulsuz)
+    publishKey-help: Yayım açarını https://dashboard.pubnub.com/signup ünvanından
+      bura yapışdırın
+    subscribeKey: PubNub Abunə Açarı (pulsuz)
+    subscribeKey-help: Yayım açarını https://dashboard.pubnub.com/signup ünvanından
+      bura yapışdırın
+  forum:
+    writeinchat: Çata yazın...

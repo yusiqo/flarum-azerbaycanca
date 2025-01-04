@@ -1,0 +1,43 @@
+askvortsov-categories:
+  admin:
+    basics:
+      categories_label: Kateqoriyalar
+    headings:
+      child_display: İkinci dərəcəli Teqlərin Görünüşü
+      layout: Yaşayış
+      nav: Naviqasiya
+      parent_display: İlkin Teqlərin Görünüşü
+      performance: Performans
+    help:
+      child_bare_icon: Dairəvi fon olmadan alt kateqoriyalarda nişanlar göstərilsin?
+      full_page_desktop: 'Yan menyu bir sıraya yığışdırılsın (ənənəvi teqlər səhifəsində
+        olduğu kimi)? '
+      small_forum_optimized: Bu, daha dəqiq müzakirələr/yazıların sayını təmin edir,
+        lakin orta və böyük forumları əhəmiyyətli dərəcədə yavaşlatır.
+    labels:
+      child_bare_icon: Kiçik nişanlar çərçivəsi?
+      compact_mobile_mode: Kompakt Mobil Mod
+      full_page_desktop: Tam səhifə masaüstündə göstərilsin?
+      keep_tags_nav: Teqlər səhifəsi keçidi naviqasiya yan panelində saxlanılsın?
+      parent_remove_description: Əsas kateqoriyalar üzrə müzakirələr göstərilsin?
+      parent_remove_icon: Əsas kateqoriyalarda teqlər üçün nişanlar göstərilsin?
+      parent_remove_last_discussion: Əsas kateqoriyada etiketlə bağlı ən son müzakirəyə
+        baxın?
+      parent_remove_stats: Əsas kateqoriyalardakı etiketlər üçün statistika göstərilsin?
+      small_forum_optimized: Kiçik icmalar üçün optimallaşdırılsın?
+    title: Kateqoriyalar Parametrləri
+  forum:
+    all_categories:
+      meta_description_text: Bütün Kateqoriyalar
+      meta_title_text: => askvortsov-categories.ref.categories
+    header:
+      back_to_categories_tooltip: Kateqoriyalar səhifəsinə qayıt
+    index:
+      categories_link: => askvortsov-categories.ref.categories
+    last_discussion_widget:
+      no_discussions: Müzakirə yoxdur (Hələlik!)
+    stat-widgets:
+      discussion_label: Müzakirələr
+      post_label: Yazılar
+  ref:
+    categories: Kateqoriyalar

@@ -1,0 +1,78 @@
+Xengine-signature:
+  admin:
+    settings:
+      maximum_char_limit:
+        description: İmzada simvol limiti (yalnız simvollar, HTML ifadələri xaric)
+        placeholder: 1000 (defolt)
+      maximum_image_count:
+        description: Yerləşdirilə bilən şəkillərin limiti.
+        placeholder: 5 (defolt)
+      maximum_image_height:
+        description: Redaktordakı bütün şəkillər üçün hündürlük həddi.
+        placeholder: 500 (standart)
+      maximum_image_width:
+        description: Redaktorda şəkillər üçün hündürlük həddi.
+        placeholder: 350 (standart)
+    title: İmza
+  forum:
+    buttons:
+      save: İmza Saxla
+      signature: İmza
+    errors:
+      max_char_limit_exceed: Mövcud simvol limiti keçilib.
+      max_image_count_exceed: Yerləşdirilə bilən şəkillərin limiti keçib.
+      max_image_height_exceed: Yerləşdirilə bilən şəkil hündürlüyü həddi keçildi.
+      max_image_width_exceed: Yerləşdirilə bilən şəkil eni limiti keçilib.
+    modal:
+      error:
+        content: 'Səhvlərin siyahısı:'
+        title: 'Vay! '
+      loading:
+        content: Zəhmət olmasa gözləyin...
+        title: qeyd
+signature:
+  admin:
+    permissions:
+      allow_signature: İmzanız olsun
+      edit_signature_others: Digər istifadəçilərin imzasını redaktə edin
+    settings:
+      allow_inline_editing:
+        description: İmza daxili düzülməlidir.
+        help: Aktivləşdirildikdə, istifadəçilər yazıya baxarkən imzalarını redaktə
+          edə bilərlər.
+      maximum_char_limit:
+        description: İmzada maksimum simvol limiti.
+        help: İstifadəçi öz imzasındakı maksimum simvol limitini keçdikdən sonra simvolların
+          sayı uyğun olana qədər yadda saxlamağın qarşısı alınacaq.
+        placeholder: 1000 (defolt)
+      maximum_image_count:
+        description: Əlavə ediləcək şəkillərin maksimum sayı.
+        help: İstifadəçi öz imzasındakı şəkillərin maksimum sayını keçdikdən sonra,
+          şəkillərin sayı buna uyğun gələnə qədər onların saxlanmasının qarşısı alınacaq.
+        placeholder: 5 (defolt)
+      maximum_image_height:
+        description: Redaktora əlavə ediləcək şəkillərin ümumi hündürlüyü həddi.
+        placeholder: 500 (standart)
+      maximum_image_width:
+        description: Redaktora əlavə ediləcək şəklin maksimum eni.
+        placeholder: 350 (standart)
+    title: İmza
+  forum:
+    buttons:
+      edit: İmzaya düzəliş edin
+      save: İmza Saxla
+      signature: İmza
+    errors:
+      max_char_limit_exceed: Simvol limiti keçdi.
+      max_image_count_exceed: Şəkil sayı limitini keçib.
+      max_image_height_exceed: Vizual hündürlük limiti keçdi.
+      max_image_width_exceed: Şəkil eni limitini keçib.
+    modal:
+      error:
+        content: 'Səhvlərin siyahısı:'
+        title: 'Vay! '
+      loading:
+        content: Zəhmət olmasa gözləyin...
+        title: qeyd
+    profile:
+      click: İmzanızı yazmaq üçün klikləyin

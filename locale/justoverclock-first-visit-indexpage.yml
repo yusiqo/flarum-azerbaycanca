@@ -1,0 +1,33 @@
+first-visit-indexpage:
+  forum:
+    accept-rules: Qaydaları oxudum və qəbul etdim
+    agree-button: Qəbul edirəm
+    alert-message: Davam etmək üçün qaydaları qəbul edin
+    app-title: Forum qaydaları
+    copyright: Müəllif hüquqları və "təhqiredici" yazılar, keçidlər və ya şəkillər
+    copyright-text: '<p>Müəllif hüququ ilə qorunan materialların qeyri-qanuni yolla
+      əldə edilməsi ilə bağlı məlumat vermək və ya tələb etmək qadağandır.</p>
+
+      '
+    general-rules: Ümumi qaydalar
+    general-rules-text: '<p>Hər zaman digər üzvlərə hörmətlə yanaşın</p>
+
+      '
+    posting-rules: Yazılar və Müzakirələr
+    posting-rules-text: '<p><strong>TƏSVİRLİ olun</strong> və "ümumi" müzakirə başlığından
+      istifadə etməyin.</p>
+
+      '
+    rule-break: Bir qaydanı pozsam nə olar?
+    rule-break-text: '<p>Bir qaydanı pozsanız, sizə xəbərdarlıq ediləcək və ya qadağan
+      ediləcək.
+
+      '
+    spam: Arzuolunmaz və tanıtım məzmunu
+    spam-text: '<p>Forumda arzuolunmaz və ya reklam məzmunu yerləşdirməyin.</p>
+
+      '
+    title: Forum qaydaları
+    warning-text: 'Bu qaydalar burada bütün icma üzvlərinin müxtəlif vəzifələrini
+      aydınlaşdırmaq üçün izah edilir. '
+    warning-title: Xəbərdarlıq - Foruma davam etmək üçün forum qaydalarını qəbul etməlisiniz!

@@ -1,0 +1,18 @@
+flarum-ext-welcomebox:
+  admin:
+    UseWidget: Alət Versiyasından istifadə edin
+    enablepostbox: Ziyarətçilər üçün xoş gəlmisiniz qutusunu göstərin
+    img: Şəkil Linki (Qonaq qutusu)
+    img-help: Ziyarətçi qutusu üçün şəkil linki daxil edin
+  forum:
+    SettingsLink: Parametrlər
+    discussion: => core.ref.discussions
+    goToProfile: Profil
+    lastSeen: Son ziyarət
+    notregistered: Siz hələ bu forumun üzvü deyilsiniz.
+    npost: => core.ref.posts
+    tooltipDisclist: Mənim müzakirələrim
+    tooltipMentions: Qeydlər
+    tooltipProfile: Profil
+    wback: Xoş gəldiniz,
+    welcomeguest: Xoş gəlmisiniz Ziyaretçi

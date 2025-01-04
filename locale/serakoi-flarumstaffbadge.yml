@@ -1,0 +1,23 @@
+serakoi-flarumstaffbadge:
+  admin:
+    permissions:
+      canEditStaffBadge:
+        label: İşçi Nişanını Redaktə edə bilər
+      canEditTagList:
+        label: Etiket Siyahısını Redaktə edə bilər (İşçi Nişanı)
+    staffBadge:
+      help: İşçi Nişanı Mətni (Defolt olaraq 'İŞLƏR' üçün)
+      label: İşçi Nişanı Mətni
+    staffBadgeTextBg:
+      help: Nişan Rəngi ​​(defolt olaraq 'rgb(70, 209, 96)')
+      label: İşçi Nişanı Fon Rəngi
+    staffBadgeTextColor:
+      help: Nişan Rəngi ​​(Defolt olaraq '#fff'dir)
+      label: İşçi Nişanı Rəngi
+  forum:
+    edit_user:
+      heading: İşçi Nişanı Aktivləşdirildi
+      placeholder: Nişanı aktivləşdirmək üçün daxiletməni "doğru" olaraq təyin edin
+      tagList:
+        heading: İstifadəçi etiket siyahısı
+        placeholder: ilə ayrı,

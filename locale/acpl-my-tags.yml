@@ -1,0 +1,9 @@
+acpl-my-tags:
+  admin:
+    settings:
+      enable-placeholder: İstifadəçi hər hansı teqlərə əməl etmədikdə yer tutucu mətni
+        aktivləşdirin
+  forum:
+    index:
+      my_tags: Mənim Teqlər
+      placeholder: 'Siz heç bir etiketə əməl etmirsiniz. '

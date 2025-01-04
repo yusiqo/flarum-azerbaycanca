@@ -1,0 +1,26 @@
+tpokorra-post-notification:
+  admin:
+    settings:
+      new_discussion: Yeni müzakirəni təsvir etmək üçün etiketləyin
+      new_post: Yeni postu təsvir edən etiket
+      post_approval: Təsdiq tələb edən yeni postu təsvir edən etiket
+      recipients:
+        new_discussion:
+          bcc: Yeni müzakirələr üçün BCC alıcısı üçün e-poçt ünvanlarının vergüllə
+            ayrılmış siyahısı
+          to: Yeni müzakirələr üçün alıcının e-poçt ünvanlarının vergüllə ayrılmış
+            siyahısı
+        new_post:
+          bcc: Yeni yazılar üçün BCC alıcısının e-poçt ünvanlarının vergüllə ayrılmış
+            siyahısı
+          to: Yeni yazılar üçün alıcının e-poçt ünvanlarının vergüllə ayrılmış siyahısı
+        post_approval:
+          to: Yeni yazıların təsdiqi üçün alıcının e-poçt ünvanlarının vergüllə ayrılmış
+            siyahısı
+        revised_post:
+          bcc: BCC alıcısı üçün yenidən işlənmiş təqdimatlar üçün e-poçt ünvanlarının
+            vergüllə ayrılmış siyahısı
+          to: Redaktə edilmiş yazılar üçün alıcının e-poçt ünvanlarının vergüllə ayrılmış
+            siyahısı
+      revised_post: Yenidən işlənmiş postu təsvir edən etiket
+      title: Post Bildiriş Konfiqurasiyası

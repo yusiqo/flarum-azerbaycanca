@@ -1,0 +1,22 @@
+ziven-money-leaderboard:
+  admin:
+    permission:
+      allow_view_leaderboard: Liderlər cədvəlinə baxmağa icazə verin
+    settings:
+      leaderboard-entry-position: Lider lövhəsinə giriş yeri
+      leaderboard-entry-sideNav: yan menyu
+      leaderboard-entry-topRightMenu: Yuxarı sağ menyu
+      leaderboard-icon: Hesab lövhəsi ikonu
+      leaderboard-icon-help: <code>fas fa-</code> prefiksi daxil olmaqla istənilən
+        FontAwesome ikona sinfinin adını daxil edin.
+      leaderboard-init-load-count: İlkin yük nömrəsi
+      leaderboard-load-more-count: Daha çox nömrə yükləyin
+      leaderboard-max-load-count: Maksimum yük sayı
+  forum:
+    leaderboard-list-empty: məzmun yoxdur
+    leaderboard-list-money: Onun Sahib olduğu Pul
+    leaderboard-list-rank: Dərəcə
+    leaderboard-list-title: Pul Tablosu
+    leaderboard-list-user: İstifadəçi
+    leaderboard-load-more: Daha çox yüklə
+    leaderboard-name: Pul Tablosu

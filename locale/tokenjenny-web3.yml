@@ -1,0 +1,9 @@
+tokenjenny-web3:
+  forum:
+    log_in:
+      with_metamask_button: MetaMask ilə daxil olun
+    settings:
+      connect_button: MetaMask-a qoşulun
+      connected: <strong>{hesab}2</strong> qoşulub
+      privacy_disclose_web3_address_label: Qoy başqaları mənim pul kisəsimin ünvanını
+        görsünlər

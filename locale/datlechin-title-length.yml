@@ -1,0 +1,9 @@
+datlechin-title-length:
+  admin:
+    settings:
+      limit_help: 'Fərdi başlıq uzunluğu limitindən istifadə etməyə icazə verin. '
+      limit_label: Məhdud başlıq uzunluğunu aktivləşdirin
+      max_help: Başlığın maksimum uzunluğu, maksimum dəyəri 1000-dir.
+      max_label: maksimum uzunluq
+      min_help: Başlığın minimum uzunluğu 1-dir.
+      min_label: minimum uzunluq

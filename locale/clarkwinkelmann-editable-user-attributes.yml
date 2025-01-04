@@ -1,0 +1,5 @@
+clarkwinkelmann-editable-user-attributes:
+  admin:
+    permissions:
+      editAvatarUrl: Xarici avatar URL təyin edin (REST API)
+      editJoinTime: Qoşulma vaxtını təyin edin (REST API)

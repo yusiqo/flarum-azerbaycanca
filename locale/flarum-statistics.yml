@@ -1,0 +1,31 @@
+flarum-statistics:
+  admin:
+    date_selection_modal:
+      description: 'Statistikaya baxmaq üçün fərdi tarix diapazonu seçin. '
+      end_date: Bitmə tarixi (daxildir)
+      errors:
+        end_before_start: Bitmə tarixi başlanğıc tarixindən sonra olmalıdır.
+      start_date: Başlama tarixi (daxildir)
+      submit_button: Tarix aralığını təsdiqləyin
+      title: Fərdi tarix aralığını seçin
+    statistics:
+      active_users_text: '{count} aktivdir'
+      current_period: Etibarlı müddət
+      custom_label: Fərdi diapazon seçin...
+      custom_label_specified: '{fromDate} - {toDate}'
+      discussions_heading: => core.ref.discussions
+      export_chart_button: Qrafiki SVG-yə ixrac edin
+      last_12_months_label: Oğul 12
+      last_28_days_label: Son 28 gün
+      last_7_days_label: son 7 gün
+      loading: => core.ref.loading
+      mini_heading: Forum statistikası
+      no_data: Bu tarix diapazonu üçün heç bir məlumat yoxdur.
+      posts_heading: => core.ref.posts
+      previous_28_days_label: Əvvəlki 28 gün
+      previous_7_days_label: Əvvəlki 7 gün
+      previous_period: əvvəlki dövr
+      today_label: Bu gün
+      total_label: Cəmi
+      users_heading: => core.ref.users
+      view_full: Daha çox statistikaya baxın

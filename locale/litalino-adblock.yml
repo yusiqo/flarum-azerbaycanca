@@ -1,0 +1,38 @@
+adblock:
+  admin:
+    adblock-action: Bildiriş seçin
+    adblock-action-backup: ehtiyat nüsxəsi
+    adblock-action-help: Burada standart bildirişi dəyişə bilərsiniz
+    adblock-action-message: mesaj
+    adblock-action-notice: bildiriş
+    adblock-alt: Alt
+    adblock-alt-placeholder: IMG teqində alt atribut
+    adblock-div: HTML kodunun göründüyü yerə banner teqini əlavə edin
+    adblock-div-placeholder: Məsələn, '#content, .App-content, .IndexPage, container'
+    adblock-img: Vizual
+    adblock-img-placeholder: https://domain.tld/picture.png
+    adblock-notice-content: Mesaj məzmunu
+    adblock-notice-content-help: Burada məzmunu dəyişə bilərsiniz
+    adblock-notice-content-placeholder: 'salam. '
+    adblock-notice-content-sup: Yuxarıdakı kiçik mətn mesajı məzmununu dəstəkləyir
+    adblock-notice-content-sup-placeholder: Bildirişləri rədd etmək və məzmunu göstərmək
+      üçün × düyməsini basın.
+    adblock-notice-element: Bildirişlərin göstərildiyi etiket əlavə edin
+    adblock-notice-element-placeholder: Məsələn, '#content, .App-content, .IndexPage,
+      container'
+    adblock-notice-method: Bildiriş tərzi
+    adblock-notice-method-help: Burada bildiriş tərzini dəyişə bilərsiniz
+    adblock-supportRedirectUrl: Bizə Dəstək Linki
+    adblock-supportRedirectUrl-placeholder: Etibarlı URL-i bura yerləşdirin və ya
+      boş buraxın
+    adblock-supportUsMessage: Bizə Dəstək Mesajı
+    adblock-supportUsMessage-placeholder: Zəhmət olmasa veb saytımızda AdBlocker-i
+      söndürməklə bizə dəstək olun.
+    adblock-supportUsTitle: Bizə Dəstək Başlığı
+    adblock-supportUsTitle-placeholder: Zəhmət olmasa bizə dəstək olun
+    adblock-url: Əlaqə
+    adblock-url-placeholder: https://domain.tld
+  forum:
+    adblock-notice-content: 'salam. '
+    adblock-notice-content-sup: Bildirişləri rədd etmək və məzmunu göstərmək üçün
+      × düyməsini basın.

@@ -1,0 +1,9 @@
+datlechin-bbcode-hide-content:
+  admin:
+    permissions:
+      bypass_like_label: Bənzər tələbi atlayın
+      bypass_reply_label: Cavab tələbini atlayın
+  forum:
+    must_be_logged_in: Bu məzmuna baxmaq üçün daxil olmalısınız.
+    must_liked: Bu məzmunu görmək üçün bəyənməlisiniz
+    must_replied: Bu məzmuna baxmaq üçün cavab verməlisiniz

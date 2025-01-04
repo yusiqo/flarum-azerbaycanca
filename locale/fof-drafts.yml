@@ -1,0 +1,60 @@
+flarum-gdpr:
+  lib:
+    data:
+      drafts:
+        delete_description: İstifadəçi tərəfindən yaradılmış bütün qaralamaları silin.
+        export_description: İstifadəçi tərəfindən yaradılmış bütün qaralamalar.
+fof-drafts:
+  admin:
+    permissions:
+      schedule: Cədvəl layihəsi
+      start: Qaralama yaradın
+    settings:
+      enable_scheduled_drafts: Planlaşdırılmış qaralamaları açın
+      schedule_log_output: Günlük yaddaşına planlaşdırıcı çıxışı əlavə edin
+      schedule_on_one_server: Tapşırıq planlayıcısı üçün 'onOneServer()' direktivindən
+        istifadə edin (Redis/Memcache tələb olunur)
+      title: Qaralama Parametrləri
+  console:
+    scheduled_drafts_disabled: Planlaşdırılmış qaralamalar hazırda ayarlarda deaktiv
+      edilib.
+  forum:
+    composer:
+      discard_empty_draft_alert: Boş qaralama silinsin?
+      exit_alert: Qaralamada dəyişikliklər nəzərə alınmayacaq?
+      saved: Saxlandı!
+      saving: Qeydə alınır...
+      title: Qaralama saxla
+    dropdown:
+      alert: Qaralamanızı silmək istədiyinizə əminsiniz?
+      delete_all_alert: Bütün qaralamalarınızı silmək istədiyinizə əminsiniz?
+      delete_all_button: Bütün qaralamaları silin
+      delete_button: Qaralamanı silin
+      empty_text: Heç bir qaralama yadda saxlamamısınız
+      schedule_button: => fof-drafts.ref.schedule_draft
+      scheduled_icon_tooltip: '{datetime} üçün planlaşdırılıb'
+      scheduled_icon_tooltip_formatter: L [at] LT
+      title: qaralamalar
+      tooltip: => fof-qaralamalar.forum.açılan.başlıq
+    schedule_draft_modal:
+      reschedule_button: Yenidən planlaşdırın
+      schedule_button: Vaxtında
+      schedule_time_preview: Bu qaralama avtomatik olaraq <b>{datetime}</b> tarixində
+        dərc olunacaq.
+      schedule_time_preview_formatter: LLLL
+      schedule_time_preview_invalid: Yanlış tarix və/və ya vaxt
+      scheduled_error: 'Göndərmək mümkün olmadı, səbəb: {xəta}.'
+      scheduled_text: Hazırda {datetime} tarixində buraxılması planlaşdırılır.
+      text: Postu daha sonra dərc etmək üçün layihəni planlaşdırın!
+      title: => fof-drafts.ref.schedule_draft
+      unschedule_button: Zamanlama
+      unschedule_warning: Bu qaralamanı ləğv etmək istədiyinizə əminsiniz?
+    user:
+      settings:
+        draft_autosave_enable: Qaralamalar üçün avtomatik saxlama aktiv edilsin?
+        draft_autosave_interval_button: Yeniləmə intervalı
+        draft_autosave_interval_invalid: Yeniləmə intervalı 4-dən çox olmalıdır.
+        draft_autosave_interval_label: Avtomatik Saxlama Aralığı (saniyələr)
+        drafts_heading: qaralamalar
+  ref:
+    schedule_draft: Qaralamanı planlaşdırın

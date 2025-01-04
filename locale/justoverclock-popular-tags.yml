@@ -1,0 +1,7 @@
+justoverclock-popular-tags:
+  admin:
+    limit: Göstərilən Etiketlərin Sayı
+    limit-help: Göstərmək istədiyiniz teqlərin maksimum sayını bura qoyun
+  forum:
+    count: 'Müzakirələrin ümumi sayı:'
+    widgetTitle: Populyar Teqlər

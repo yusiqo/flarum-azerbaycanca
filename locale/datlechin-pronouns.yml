@@ -1,0 +1,15 @@
+datlechin-pronouns:
+  admin:
+    settings:
+      icon_help: İstifadəçi əvəzliklərindən əvvəl mətn əvəzinə ikona göstərmək üçün
+        bu seçimi aktivləşdirin.
+      icon_label: əvəzlik simvolu
+      prefix_help: 'Bu mətn istifadəçi əvəzliklərindən əvvəl görünəcək. '
+      prefix_label: əvəzlik prefiksi
+  forum:
+    change_pronouns:
+      help: 'Əvəzlikləriniz profilinizdə və istifadəçi kartınızda görünəcək. '
+      submit_button: => core.ref.save_changes
+      title: Əvəzlikləri dəyişdirin
+    settings:
+      change_pronouns_button: Əvəzlikləri dəyişdirin

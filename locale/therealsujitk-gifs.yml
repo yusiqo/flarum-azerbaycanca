@@ -1,0 +1,32 @@
+therealsujitk:
+  admin:
+    gifs:
+      giphyAPIkey: Giphy API Açarı
+  forum:
+    gifs:
+      label: GIF əlavə edin
+      loading: Yüklənir...
+      loadmore: Daha çox
+      noresults: Nəticə yoxdur
+      search: alırıq
+      searchbar: GIF ara
+      title: gif seçin
+therealsujitk-gifs:
+  admin:
+    apiKey: API Açarı
+    engine: Axtarış Mühərriki
+    rating: Məzmun reytinqi / Məzmun filtri
+    ratingHigh: G/Yüksək
+    ratingLow: PG-13 / Aşağı
+    ratingMedium: PG/Orta
+    ratingOff: R/Söndür
+  forum:
+    addFavourite: Sevimlilərə əlavə edin
+    favourites: sevimlilər
+    label: GIF əlavə edin
+    removeFavourite: Sevimlilərdən silin
+    search: alırıq
+    searchGiphy: Giphy'de Ara
+    searchTenor: Tenorda Ara
+    title: Postunuza GIF əlavə edin
+    trending: Trend GIFler

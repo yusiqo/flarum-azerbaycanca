@@ -1,0 +1,17 @@
+flarum-lock:
+  admin:
+    permissions:
+      lock_discussions_label: Müzakirəni bağlayın
+  forum:
+    badge:
+      locked_tooltip: Bağlanıb
+    discussion_controls:
+      lock_button: kilid
+      unlock_button: kilidi çıxarın
+    notifications:
+      discussion_locked_text: '{username} kilidlənib'
+    post_stream:
+      discussion_locked_text: '{username} müzakirəni {time}-da bağladı.'
+      discussion_unlocked_text: '{username} {time} müzakirəsini açdı.'
+    settings:
+      notify_discussion_locked_label: Kimsə müzakirəni bağlayanda siz başladınız

@@ -1,0 +1,47 @@
+core:
+  forum:
+    index_sort:
+      popular_button: göstərilir
+      unpopular_button: göstərilmir
+michaelbelgium-discussion-views:
+  admin:
+    permissions:
+      reset_views_label: Müzakirə baxışlarını sıfırlayın
+      view_number_label: Müzakirələrin sayına baxın
+    settings:
+      abbr_numbers_label: Baxış nömrələrini qısaldın
+      abbr_numbers_text: Aktiv edilərsə, yüksək baxış sayları kəsiləcək (məsələn,
+        1000 = 1K)
+      ignore_crawlers_label: Botlara/tarayıcılara məhəl qoymayın
+      ignore_crawlers_text: Botların və taramaçıların baxışların artmasının qarşısını
+        alır
+      max_viewcount_label: Maksimum baxış siyahısı elementi
+      max_viewcount_text: Görünüş siyahısında maksimum istifadəçi sayını təyin edin
+        (alt-bilgi və yan panel görünüş siyahısına aiddir)
+      show_filter_label: Məşhur sıralama sahəsini aktivləşdirin
+      show_footer_viewlist_label: Altbilgi ekran siyahısını aktivləşdirin
+      show_footer_viewlist_text: Müzakirənin ilk postunun altbilgisində izləyicilər
+        siyahısını aktivləşdirin
+      show_viewlist_label: Baxış siyahısını aktivləşdirin
+      show_viewlist_text: Müzakirənin yan panelində ən son izləyicilərin siyahısını
+        aktivləşdirin
+      title: Müzakirə Baxış Parametrləri
+      track_guests: Ziyarətçiləri izləyin
+      track_guests_label: Qonaqları izləyin
+      track_unique_label: Unikal baxışları izləyin (eyni IP 1 dəfə sayılır)
+      track_unique_text: IP ünvanına əsasən baxışları artırın
+  forum:
+    discussion_controls:
+      resetviews_button: Baxışları sıfırlayın
+    modal_resetviews:
+      label: '{count, cəm, bu müzakirəyə bir {{count} baxış silinəcək. '
+      submit_button: Bəli, hamısını silin
+      title: Müzakirələrin ekranını sıfırlayın
+    post:
+      modal_title_text: Bu müzakirəyə son baxan istifadəçilər
+      others_link: => core.ref.bəzi_digərləri
+      viewed_by: '{users} buna baxdı.'
+      you: => core.ref.siz
+    viewlist:
+      guest: Ziyarətçi
+      title: Son Baxanlar

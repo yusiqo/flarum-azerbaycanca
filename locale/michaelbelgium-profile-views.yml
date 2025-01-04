@@ -1,0 +1,13 @@
+michaelbelgium-flarum-profile-views:
+  admin:
+    settings:
+      max_viewcount_label: Ziyarətçi siyahılarının maksimum sayı
+      track_guests_label: Ziyarətçiləri izləyin
+  forum:
+    user:
+      last_viewers_heading: Son ziyarətçilər
+      view_count_text: '{görüntülərin sayı, cəm, bir {{viewcount} baxış} digər {{viewcount}
+        baxış}}'
+      viewlist:
+        guest: Ziyarətçi
+        title: Son ziyarətçilər

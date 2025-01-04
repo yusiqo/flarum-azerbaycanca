@@ -1,0 +1,79 @@
+nearata-twofactor:
+  admin:
+    permissions:
+      can_enable_twofactor: İkinci Faktoru aktivləşdirə bilər
+    settings:
+      generate_app_backups: Proqram ehtiyat kodları yaradın
+      generate_backups: Yedək kodları yaradın.
+  forum:
+    invalid_twofa_code: Yanlış iki addımlı doğrulama kodu.
+    invalid_twofa_setup: Parol və ya kod yanlışdır.
+    log_in_modal:
+      otp_placeholder: İki Addımlı Doğrulama Kodu
+      submit_button: Daxil ol
+      title: İki Addımlı Doğrulama
+    login:
+      app:
+        invalid_passcode: Yanlış parol.
+        passcode_placeholder: 6 rəqəmli parol
+      auth_buttons:
+        app: Doğrulama Tətbiqi
+      placeholder_label: Doğrulama metodu seçin...
+      submit_button_label: Daxil ol
+      title: İki faktorlu autentifikasiya
+    settings:
+      app:
+        button_help: Doğrulama tətbiqiniz vasitəsilə giriş kodu alacaqsınız.
+        button_label: autentifikasiya proqramı
+        setup:
+          close_button_label: Kvartal
+          disable:
+            button_label: əlil
+            enter_code_disable: İki Faktorlu Doğrulama Tətbiqini söndürmək üçün kodu
+              daxil edin.
+            success: Doğrulama Tətbiqi deaktiv edilib.
+          enable:
+            backups:
+              copy_button_label: surəti
+              download_button_label: İndir
+              download_file_format: '{website_title} | '
+              message: 'Bu bərpa kodlarını təhlükəsiz yerdə saxlayın. '
+            button_label: Aktivləşdirin
+            enter_code_manually: Bunun əvəzinə açarı əl ilə daxil edin
+            scan_qr: Hesabınızı qurmaq üçün bu QR kodunu iki faktorlu autentifikasiya
+              cihazınızla skan edin.
+            success: Doğrulama tətbiqi aktivləşdirildi.
+          invalid_passcode: Parol və ya 6 rəqəmli kod yanlışdır.
+          passcode_placeholder: 6 rəqəmli parol
+          password_placeholder: parol
+          title: Doğrulama Tətbiqini quraşdırın
+      configured: Konfiqurasiya edilmişdir
+      not_configured: Konfiqurasiya olunmayıb
+      section_title: İki faktorlu autentifikasiya
+    setup_button: İki Addımlı Doğrulama
+    setup_modal:
+      backups:
+        copy_button: surəti
+        download_button: İndir
+        download_file_format: '{website_title} | '
+        modal_message: 'Bu bərpa kodlarını təhlükəsiz yerdə saxlayın. '
+      close_button: Kvartal
+      disabled: İki Addımlı Doğrulama deaktiv edilib.
+      enabled: İki Addımlı Doğrulama aktiv edilib.
+      enter_code_disable: İki Addımlı Doğrulamanı deaktiv etmək üçün kodu daxil edin.
+      enter_code_manually: Bunun əvəzinə kodu əl ilə daxil edin
+      passcode_placeholder: İki Addımlı Doğrulama Kodu
+      password_placeholder: parol
+      scan_qr: Hesabınızı yaratmaq üçün bu QR kodunu iki addımlı doğrulama cihazınızla
+        skan edin.
+      submit_button:
+        disable: aradan buraxın
+        enable: aktivləşdirin
+      title: İki Addımlı Doğrulama
+  lib:
+    edit_user:
+      app:
+        label: Doğrulama Tətbiqi
+      disable_confirmation: 'əminsən? '
+      placeholder_text: Əlil etmək üçün heç bir şey yoxdur
+      section_title: İki faktorlu autentifikasiya

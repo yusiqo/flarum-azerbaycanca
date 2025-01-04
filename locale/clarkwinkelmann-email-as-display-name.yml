@@ -1,0 +1,11 @@
+clarkwinkelmann-email-as-display-name:
+  admin:
+    permissions:
+      view-all: Postunuzu bütün profillərdə göstərin
+      view-own: Postunuzu öz profilinizdə göstərin
+    settings:
+      remove-username-registration: Qeydiyyat formasından istifadəçi adı sahəsini
+        silin
+  forum:
+    log_in:
+      username_or_email_placeholder: => core.ref.email

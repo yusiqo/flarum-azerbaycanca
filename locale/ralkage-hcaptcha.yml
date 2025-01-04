@@ -1,0 +1,13 @@
+ralkage-hcaptcha:
+  admin:
+    permissions:
+      post_without_hcaptcha: hCaptcha olmadan yazılar və müzakirələr yaradın
+    settings:
+      help_text: hCaptcha etimadnaməsini <a>buradan</a> əldə edin.
+      secret_key_label: Gizli Açar
+      site_key_label: Sayt Açarı
+      type_label: hCaptcha Növü
+  forum:
+    error: 'hCaptcha göndərilərkən xəta baş verdi. '
+validation:
+  hcaptcha: hCaptcha-nı yoxlamaq mümkün olmadı.

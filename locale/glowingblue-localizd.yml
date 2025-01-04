@@ -1,0 +1,12 @@
+glowingblue-localizd:
+  admin:
+    settings:
+      redirect_en: İngilis dilini forumun standart dilinə yönləndirin
+      redirect_en_help: O, effektiv şəkildə forumda ingilis dili təcrübəsi təqdim
+        etməyə imkan verir, lakin ingilis dili paketinin quraşdırılmış qalmasına imkan
+        verir (<code>fof/linguist</code> və s. üçün açarları tanımaq).
+      title: Lokalizasiya Parametrləri
+    translation_key:
+      help: Bu seçim <b>Localizd</b> + <a>Linguist</a> vasitəsilə çoxdillidir.
+      modal_title: Linguist ilə tərcümələr əlavə edin
+      translate: Çevir

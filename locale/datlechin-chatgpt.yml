@@ -1,0 +1,22 @@
+datlechin-chatgpt:
+  admin:
+    permissions:
+      use_chatgpt_assistant_label: ChatGPT köməkçisindən istifadə edin
+    settings:
+      api_key_help: OpenAI API açarını <a>openai.com</a> saytından əldə edin.
+      api_key_label: API Açarı
+      enable_on_discussion_started_help: Müzakirə başlayanda ilkin yazının məzmunu
+        əsasında müzakirəyə cavab veriləcək.
+      enable_on_discussion_started_label: Müzakirə başlayanda aktivləşdirin
+      enabled_tags_help: Cavab yaratmaq üçün hansı teqlərdən istifadə edəcəyinizi
+        seçin.
+      enabled_tags_label: Aktivləşdirilmiş Teqlər
+      max_tokens_help: <a>Sikkələr nədir və onlar necə sayılır?</a>
+      max_tokens_label: Maksimum Ömür
+      model_help: '<a>Modellər</a> haqqında ətraflı məlumat əldə edin (defolt: <code>text-davinci-003</code>).'
+      model_label: Model
+      user_prompt_badge_help: İstifadəçi sorğusunun yanında göstəriləcək mətn.
+      user_prompt_badge_label: İstifadəçi Məlumatı Nişanı
+      user_prompt_help: 'Cavab yaratmaq üçün istifadə olunacaq istifadəçi ID-ni daxil
+        edin. '
+      user_prompt_label: İstifadəçi sorğusu

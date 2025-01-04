@@ -1,0 +1,18 @@
+sycho-action-log:
+  admin:
+    action_settings: Buradan hansı hərəkətlərin qeyd olunduğunu idarə edə bilərsiniz.
+    actions:
+      administration:
+        extension:
+          disabled:
+            label: zərərsizləşdirilib
+    clear: Girişləri Sil
+    description: Keçən həftə görülən bütün audit və idarəetmə tədbirlərinin siyahısına
+      baxın.
+    no_entries: Giriş yoxdur
+    page: 'Səhifə: {nömrə}'
+    save: => core.ref.save_changes
+    search: Alırıq...
+    settings: => core.ref.settings
+    title: Fəaliyyət Girişi
+    total_entries: '{count} Ümumi giriş.'

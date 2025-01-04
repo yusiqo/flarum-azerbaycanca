@@ -1,0 +1,30 @@
+nomiscz-auth-steam:
+  admin:
+    settings:
+      api_key_label: API Açarı
+      title: Steam Auth Parametrləri
+      use_steam_powered_domain: steamcommunity.com əvəzinə steampowered.com domenindən
+        istifadə edin (Çində bloklanıb)
+  forum:
+    alerts:
+      already_linked: Steam hesabınız artıq bağlıdır!
+      already_used: Buxar hesabı artıq başqa hesabla əlaqələndirilib!
+      error: Xəta baş verdi, sonra yenidən cəhd edin!
+      link_success: Buxar hesabı bağlantısı uğurlu oldu.
+      unlink_success: Steam linki uğurla silindi.
+    buttons:
+      link: Steam Hesabınızı əlaqələndirin
+      login: Steam ilə daxil olun
+      unlink: Steam Linkini silin
+    modals:
+      link:
+        title: Steam Hesabınızı əlaqələndirin
+      unlink:
+        buttons:
+          cancel: Xeyr!
+          confirm: Bəli, linki silin
+        info:
+          confirm: Steam hesabınızla əlaqəni kəsmək istədiyinizə əminsiniz?
+          no_providers: Başqa giriş alətindən istifadə etmədiyiniz üçün parolunuzu
+            sıfırlamalısınız.
+        title: Steam Linkini silin

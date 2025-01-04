@@ -1,0 +1,15 @@
+clarkwinkelmann-readonly-profile:
+  admin:
+    settings:
+      disableAccessTokens: Giriş açarının yaradılmasını söndürün
+      disableAvatarEdit: Avatar redaktəsini deaktiv edin
+      disableEmailChange: E-poçt Dəyişməsini deaktiv edin
+      disableLogin: Girişi deaktiv edin
+      disablePasswordChange: Parolun dəyişdirilməsini və sıfırlamasını deaktiv edin
+  api:
+    blocked_actions:
+      accessToken: Giriş açarının yaradılması deaktiv edilib
+      avatar: Bu səhifədə avatar redaktəsi deaktiv edilib
+      email: E-poçt bu səhifədən dəyişdirilə bilməz
+      login: Girişin son nöqtəsi deaktiv edilib
+      password: Parol bu səhifədən dəyişdirilə bilməz.

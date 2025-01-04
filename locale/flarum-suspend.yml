@@ -1,0 +1,46 @@
+flarum-suspend:
+  admin:
+    permissions:
+      suspend_users_label: İstifadəçiləri dayandırın
+  email:
+    no_reason_given: Bu dayandırmanın səbəbi göstərilməyib.
+    suspended:
+      body: 'Salam {recipient_display_name},
+
+
+        '
+      subject: Hesabınız dayandırılıb
+    unsuspended:
+      body: 'Salam {recipient_display_name},
+
+
+        '
+      subject: Hesabınızın dayandırılması silindi
+  forum:
+    notifications:
+      user_suspended_indefinite_text: Siz qeyri-müəyyən müddətə dayandırılmısınız
+      user_suspended_text: Siz {timeReadable} üçün dayandırılmısınız
+      user_unsuspended_text: Dayandırmağınız bitdi
+    suspend_user:
+      display_message: İstifadəçi üçün göstəriləcək mesaj
+      indefinitely_label: Qeyri-müəyyən müddətə dayandırıldı
+      limited_time_days_text: gün
+      limited_time_label: Məhdud müddətə dayandırılıb...
+      not_suspended_label: Dayandırılmayıb
+      placeholder_optional: isteğe bağlıdır
+      reason: Dayandırılma səbəbi
+      status_heading: Dayanma Vəziyyəti
+      submit_button: => core.ref.save_changes
+      title: '{username} dayandırılıb'
+    suspension_info:
+      dismiss_button: etinasızlıq etmək
+      indefinite: Bu qeyri-müəyyən dayandırmadır
+      limited: Bu dayandırma {date} tarixinə qədər qüvvədə qalacaq
+      title: Bu Hesab Dayandırılıb
+    user_badge:
+      suspended_tooltip: dayandırılıb
+    user_controls:
+      suspend_button: Asma
+  validation:
+    attributes:
+      suspendedUntil: qədər dayandırılıb

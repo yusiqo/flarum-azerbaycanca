@@ -1,0 +1,49 @@
+ianm-syndication:
+  admin:
+    settings:
+      entries-count: Lentdə neçə yazı olmalıdır?
+      forum-icons:
+        help: Lentlərə asanlıqla daxil olmaq üçün Bütün Müzakirələrdə, Teqlərdə və
+          Müzakirələrdə nişanları göstərir.
+        label: Forumda Atom/RSS lent bağlantılarını göstərin
+      forum-link-format:
+        help: Linklər forumda göstərildikdə istifadə ediləcək formatı (Atom və ya
+          RSS) seçin.
+        label: Forum feed formatı
+      full-text:
+        help: 'Əgər deaktiv edilərsə, postlarda yalnız yazılardan çıxarışlar olacaq
+          və istifadəçilər hər şeyi oxumaq üçün foruma getməli olacaqlar. '
+        label: Tam mətn axını
+        recommendation: Forumunuzu RSS vasitəsilə izləyən istifadəçiləriniz varsa,
+          bu seçimi aktiv buraxmağınız tövsiyə olunur.
+      html:
+        help: 'HTML ilə yaradılmış yazıları da dərc etmək üçün bu seçimi aktiv edin. '
+        label: Təkmilləşdirilmiş axın
+      title: Yayım Parametrləri
+  forum:
+    autodiscovery:
+      discussion_last_posts: Bu müzakirə
+      forum_activity: Forum tədbiri
+      forum_new_discussions: Forumda yeni müzakirələr
+      tag_activity: '{tag} teqi üçün tədbirlər'
+      tag_new_discussions: '{tag} bölməsində müzakirələr'
+      user_last_posts: Bu istifadəçinin yazıları və cavabları
+    discussion:
+      feed_link: Axın
+    feeds:
+      entries:
+        user_posts:
+          title_reply: 'In: {danışmaq}'
+      titles:
+        discussion_subtitle: Bu müzakirədəki son yazılar
+        discussion_title: '{discussion_name}'
+        main_d_subtitle: Forumda ən son müzakirələr
+        main_d_title: '{forum_name} üçün yeni müzakirələr'
+        main_subtitle: Forumda ən son yazılar
+        main_title: '{forum_name}'
+        tag_d_subtitle: '{tag}-da ən son müzakirə'
+        tag_d_title: '{tag} üzrə ən son müzakirələr'
+        tag_subtitle: '{tag}-da ən son yazılar'
+        tag_title: '{tag} teqindəki hadisələr'
+        user_subtitle: Bu istifadəçinin ən son yazıları və cavabları.
+        user_title: '{istifadəçi adı}'

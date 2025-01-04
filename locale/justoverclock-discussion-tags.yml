@@ -1,0 +1,8 @@
+justoverclock-discussion-tags:
+  admin:
+    permissions:
+      canEditDiscussionTags: Müzakirə Teqlərini Redaktə edə bilər
+  forum:
+    dTags: Müzakirə Teqləri
+    tagHere: Bura tag edin
+    tagSaved: Teq uğurla yadda saxlanıldı!

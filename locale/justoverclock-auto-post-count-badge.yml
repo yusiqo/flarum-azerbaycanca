@@ -1,0 +1,40 @@
+justoverclock-auto-post-count-badge:
+  admin:
+    levelFive: 'Səviyyə 5 - "Canavar!" '
+    levelFive-help: Səviyyə 5 üçün göstərmək istədiyiniz heyrətamiz şrifti bura yapışdırın
+      (məsələn, "fas fa-quare")
+    levelFour: Səviyyə 4 - "Müəllim" üçün işarəni dəyişdirin
+    levelFour-help: Səviyyə 4 üçün göstərmək istədiyiniz heyrətamiz şrifti bura yapışdırın
+      (məsələn, "fas fa-quare")
+    levelOne: Səviyyə 1 - "Körpə" üçün işarəni dəyişdirin
+    levelOne-help: Səviyyə 1 üçün göstərmək istədiyiniz heyrətamiz şrifti bura yapışdırın
+      (məsələn, "fas fa-quare")
+    levelSix: 'Səviyyə 6 - "Ağıllı!" '
+    levelSix-help: Səviyyə 6 üçün göstərmək istədiyiniz heyrətamiz şrifti bura yapışdırın
+      (məsələn, "fas fa-quare")
+    levelThree: Səviyyə 3 üçün ikona dəyişdirin - "Danatıcı"
+    levelThree-help: Səviyyə 3 üçün göstərmək istədiyiniz heyrətamiz şrifti bura yapışdırın
+      (məsələn, "fas fa-quare")
+    levelTree: Səviyyə 3 - "Danışan" üçün işarəni dəyişdirin
+    levelTree-help: Səviyyə 3 üçün göstərmək istədiyiniz heyrətamiz şrifti bura yapışdırın
+      (məsələn, "fas fa-quare")
+    levelTwo: Səviyyə 2 - "Ətrafda Yeni" üçün işarəni dəyişdirin
+    levelTwo-help: Səviyyə 2 üçün göstərmək istədiyiniz gözəl şrift işarəsini bura
+      yapışdırın (məsələn, "fas fa-quare")
+    settings:
+      icon-manager:
+        help_text: => core.ref.icon_text
+        title: Simge İdarəetmə
+      label-manager:
+        help: Qat adlarını fərdiləşdirin
+        title: Mətn etiket meneceri
+      tier: 'Layer {tier}: {from} - {to} arası yazılar'
+  forum:
+    hasWritten: '{say, cəm, bir {# yazı yazılıb} digər {# yazı yazılıb}}'
+    less1000post: Hər şeyi bil!
+    less100post: danışıq
+    less10post: Körpə
+    less300post: müəllim
+    less50post: Burada Yeni
+    less600post: Canavar!
+    posts: yazılar

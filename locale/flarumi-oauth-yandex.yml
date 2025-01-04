@@ -1,0 +1,14 @@
+fof-oauth:
+  admin:
+    settings:
+      providers:
+        yandex:
+          client_id_label: => fof-oauth.ref.settings.client_id
+          client_secret_label: => fof-oauth.ref.settings.client_secret
+          description: Burada müraciət edə bilərsiniz {link}
+  forum:
+    log_in:
+      with_yandex: '{provayder} ilə daxil olun'
+  lib:
+    providers:
+      yandex: Yandex

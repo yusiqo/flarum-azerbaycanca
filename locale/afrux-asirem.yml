@@ -1,0 +1,30 @@
+afrux-theme-base:
+  admin:
+    extension:
+      sections:
+        content: Əsas Parametrlər
+        permissions: İcazələr
+    extensions:
+      description: Bütün quraşdırılmış uzantıların siyahısı.
+      title: Genişləndiricilər
+    header:
+      go_back: Foruma qayıt
+    settings:
+      edit_footer_links: Altbilgi bağlantılarını redaktə edin
+      footer_bottom_line: Altbilgi Altı xətt
+      footer_description: Altbilgi Təsviri
+      hero_banner: Xoş gəlmisiniz Mesaj şəkli
+      hero_banner_position: 'Xoş gəlmisiniz Rəsmi CSS Mövqe (məsələn: "mərkəzdə yuxarı"
+        və ya "mərkəz 20%")'
+      links_modal:
+        add_group: Yeni Qrup Linkləri
+        add_link: Link əlavə edin
+        group_name: Qrup {number} Adı
+        group_title: Qrup Başlığı Linki
+        link_label: Link Tag
+        link_url: Əlaqə ünvanı
+    users:
+      grid:
+        columns:
+          avatar:
+            title: Avatar

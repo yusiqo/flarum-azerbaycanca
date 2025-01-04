@@ -1,0 +1,15 @@
+justoverclock-og-meta-tag:
+  admin:
+    ogdesc: Qrafik Təsviri açın
+    ogdesc-help: Saytınızı bir və ya iki cümlə ilə təsvir edin.
+    ogimage: Rəsmi Açıq Qrafik
+    ogimage-help: Açıq Qrafik önizləməsində göstərmək üçün şəkilə keçid əlavə edin.
+    ogtitle: Qrafik başlığı açın
+    ogtitle-help: 'Saytınızın başlığının önizləmədə necə görünməsini istədiyinizi
+      yazın, məs. '
+    ogurl: Qrafik Əlaqəsini açın
+    ogurl-help: 'Önizləmədə daimi olaraq istifadə ediləcək bağlantınızı daxil edin,
+      məs. '
+    siteName: Saytın Adı
+    siteName-help: 'Saytınız bir alt layihədirsə, hələ də sayt adından istifadə etmək
+      üçün diqqətli olun, məs. '

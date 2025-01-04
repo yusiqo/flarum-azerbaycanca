@@ -1,0 +1,145 @@
+kilowhat-audit:
+  admin:
+    header:
+      free: Pulsuz
+      pro: Pro
+      title: Nəzarət
+      upgrade: Pro-a yüksəldin
+    permissions:
+      view: Audit jurnalına baxın
+  forum:
+    link:
+      actor-audit: Audit jurnalı (iştirakçı kimi istifadəçi)
+      discussion-audit: Audit jurnalı
+      user-audit: Audit jurnalı (hesab redaktələri)
+    modal:
+      actor-title: İştirakçı audit jurnalı
+      discussion-title: Müzakirə Audit jurnalı
+      user-title: İstifadəçi audit jurnalı
+  lib:
+    browser:
+      audit_log_cleared: '{deleted_count} giriş audit jurnallarından silindi'
+      cache_cleared: Keşi əl ilə təmizlədi
+      client:
+        access_token: Joten daxil olun
+        api_key: API açarı
+        cli: komanda xətti
+        session: veb sessiya
+        unknown: naməlum müştəri
+      controls:
+        filterAction: Eyni hərəkətin qeydlərini göstərin
+        filterActor: İştirakçı qeydlərini göstərin
+        filterClient: Bu müştəri növü üzrə qeydləri göstərin
+        filterDiscussion: Eyni müzakirəyə təsir edən qeydləri göstərin
+        filterIp: Bu IP ilə qeydləri göstərin
+        filterUser: Eyni istifadəçiyə təsir edən qeydləri göstərin
+        hideRaw: İşlənməmiş jurnalı gizlədin
+        showRaw: Xam jurnalı göstərin
+      deletedResource:
+        discussion: 'Müzakirə #{id}'
+        group: 'Qrup #{id}'
+        post: 'Post #{id}'
+        tag: 'Etiket #{id}'
+        user: 'İstifadəçi #{id}'
+      discussion:
+        create_date_changed: '{müzakirə} başlama tarixi {old_date} olandan {new_date}
+          olaraq dəyişdirildi'
+        created: Müzakirə başladı {discussion}
+        deleted: Müzakirə silindi {müzakirə}
+        hidden: Müzakirə gizlədilib {müzakirə}
+        locked: Müzakirə kilidlənib {müzakirə}
+        merged_away: '{müzakirə} {new_discussion} ilə birləşdirildi'
+        merged_into: '{original_discussion_ids_count} müzakirəsindəki {post_count}
+          post {discussion} ilə birləşdirildi'
+        renamed: Müzakirənin adı {old_title} olandan {new_title} olaraq dəyişdirildi
+        restored: Müzakirə bərpa edildi {müzakirə}
+        split_away: '{new_discussion} müzakirəsi üçün {discussion} bölməsində {post_count}
+          postu rezerv edin'
+        split_into: Post {post_count} yeni müzakirəyə birləşdirildi {müzakirə}
+        stickied: Müzakirə bərkidildi {müzakirə}
+        tagged: '{discussion} teqləri {old_tags}-dən {new_tags}-a yeniləndi'
+        unlocked: Müzakirə kilidi silindi {müzakirə}
+        unstickied: Müzakirə sabiti silindi {müzakirə}
+        user_changed: '{discussion} müəllifi {old_user}-dən {new_user} olaraq dəyişdirildi'
+      empty: nəticə yoxdur
+      extension:
+        disabled: Artırma deaktiv edildi {paket}
+        enabled: Aktiv artırma {paket}
+      filterApply: Müraciət edin
+      filterPlaceholder: Günlükləri süzün
+      fof_ban_ips:
+        banned: IP qadağan edildi {ip}
+        unbanned: IP qadağası silindi {ip}
+      genericResource:
+        comment: Cavab
+        post: Post
+      loadMore: Daha çox yükləyin
+      noReason: (səbəb yoxdur)
+      noValue: (dəyər yoxdur)
+      permissionGroup:
+        everyone: => core.admin.permissions_controls.everyone_button
+        members: => core.admin.permissions_controls.members_button
+      permission_changed: '{new_groups} üçün {old_groups} üçün {permission} yaradıldı'
+      post:
+        approved: '{postuser}-in {post} postu {müzakirədə} təsdiq edildi'
+        create_date_changed: '{post} başlanğıc tarixi {postuser} {old_date} olandan
+          {new_date} olaraq dəyişdirildi'
+        created: '{müzakirə} bölməsində {post} yaradıldı'
+        deleted: '{postuser} adlı istifadəçidən {post} {müzakirədə} silindi'
+        dismissed_flags: '{postuser} {müzakirə} tərəfindən {post}dakı təsdiqlənməmiş
+          bayraqlar'
+        edit_date_changed: '{postuser}-in {post} redaktə tarixi {old_date} olan {new_date}
+          olaraq dəyişdirildi'
+        flagged: '{postuser} {post} {müzakirədə} {səbəb} olaraq qeyd olunub'
+        hidden: '{postuser} tərəfindən {post} {müzakirə} bölməsində gizlədilib'
+        restored: '{postuser}-in {post} postu {müzakirə} bölməsində bərpa edildi'
+        revised: '{postuser} adlı şəxsin {post} yazısı {müzakirə} bölməsində yenidən
+          işlənib'
+        user_changed: '{post} müəllifi {old_user}-dən {new_user} olaraq dəyişdirildi'
+      setting_changed: '{key} ayarı düzəldildi'
+      setting_changed_with_values: '{key} ayarı {old_value} səviyyəsindən {new_value}
+        olaraq dəyişdirildi'
+      tag:
+        created: '{tag} teq yaradıldı'
+        deleted: '{tag} teq silindi'
+        updated: '{tag} teqi yeniləndi'
+      user:
+        activated: '{username} hesabı əl ilə aktivləşdirildi'
+        activated_with_email: '{username} hesabı təsdiqləmə linki ilə aktivləşdirildi'
+        avatar_changed: '{username} avatarını dəyişdirdi'
+        avatar_removed: '{username}-in avatarı silindi'
+        bio_changed: '{username} adlı istifadəçinin bioqrafiyası redaktə edilib'
+        created: '{username} üçün hesab yaradıldı'
+        deleted: '{username} adlı istifadəçi silindi'
+        email_change_requested: '{username} e-poçtunu {new_email} olaraq dəyişmək
+          tələb olundu'
+        email_changed: '{username} e-poçtu {old_email} əvəzinə {new_email} olaraq
+          dəyişdirildi'
+        groups_changed: '{username} adlı şəxsin qrupunun qrupu {old_groups} qrupundan
+          {new_groups} olaraq dəyişdirildi'
+        impersonated: '{username} təqlid edildi'
+        logged_in: '{username} hesabı daxil oldu'
+        logged_in_with_provider: Siz {provider} istifadə edərək {username} hesabına
+          daxil olmusunuz
+        logged_out: '{username} hesabından çıxdı'
+        nickname_changed: '{username} adlı şəxsin ləqəbi {old_nickname}-dən {new_nickname}
+          olaraq dəyişdirildi'
+        nickname_request_approved: Təsdiqlənmiş istifadəçinin {username} ləqəbi {old_nickname}-dən
+          {new_nickname} olaraq dəyişdirildi
+        nickname_request_rejected: '{username} üçün ləqəb dəyişikliyi rədd edildi'
+        nickname_requested: '{username} istifadəçisi üçün yeni ləqəb {new_nickname}
+          sorğulandı'
+        password_change_requested: '{username} parolunun dəyişdirilməsi tələb olundu'
+        password_changed: '{username} istifadəçisinin parolu dəyişdirildi'
+        provider_connected: Provayder {provider} ilə {username} hesabına qoşulub
+        suspended: '{username} {until} tarixinə qədər dayandırılıb'
+        unsuspended: Dayandırıldı {username}
+        username_changed: '{username} istifadəçisinin istifadəçi adı {old_username}-dən
+          {new_username} olaraq dəyişdirildi'
+        username_request_approved: '{username} adlı istifadəçinin istifadəçi adının
+          {old_username}-dən {new_username}-ə dəyişdirilməsi təsdiqləndi'
+        username_request_rejected: '{username} üçün istifadəçi adı dəyişikliyi rədd
+          edildi'
+        username_requested: '{new_username} istifadəçisi üçün yeni istifadəçi adı
+          sorğusu'
+      withoutActor: => əsas.qrup.qonaq

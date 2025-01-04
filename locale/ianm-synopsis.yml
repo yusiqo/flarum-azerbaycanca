@@ -1,0 +1,30 @@
+ianm-synopsis:
+  admin:
+    settings:
+      disable-when-searching:
+        help: Aktivləşdirildikdə, xülasə əvəzinə defolt ən uyğun post sitatı istifadə
+          ediləcək
+        label: Axtarış zamanı xülasəni söndürün
+      excerpt-label: Xülasə mətninin simvollarının sayı
+      excerpt-length:
+        help: Postdan neçə simvol göstərilməlidir?
+        label: Xülasə sitatının simvol uzunluğu
+      excerpt-type: Xülasədə hansı məzmun göstərilməlidir?
+      excerpt-type.help: Xülasə məzmunu üçün ilk və ya son yazıdan istifadə etməyi
+        seçin
+      excerpt-type.label: Hansı posta istinad edilməlidir?
+      first-label: ilk yazı
+      last-label: son yazı
+      rich-excerpts: Zəngin məzmundan istifadə edərək xülasə göstərin (Ehtiyatla istifadə
+        edin)
+      rich-excerpts.help: Aktivləşdirildikdə, təsvirlər, yerləşdirmələr və digər qeyri-mətn
+        elementləri xülasəyə daxil edilə bilər
+      rich-excerpts.label: Zəngin məzmundan istifadə edərək sitatları göstərin
+      tags-enabled: '<code>flarum/tags</code>-u aktiv etmisiniz. '
+  forum:
+    user:
+      settings:
+        show-summaries: Müzakirə siyahılarında yazıların çıxarışlarını göstərin (Masaüstü/Tablet)
+        show-summaries-mobile: Müzakirə siyahılarında yazıların çıxarışlarını göstərin
+          (Mobil)
+        summaries-heading: xülasələr

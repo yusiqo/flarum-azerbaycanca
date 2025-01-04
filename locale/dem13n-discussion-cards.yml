@@ -1,0 +1,19 @@
+dem13n:
+  admin:
+    settings:
+      actor_info: Müəllifi göstər
+      badges: Nişanları göstərin
+      choose_tags: Teqləri seçin
+      default_img: Defolt şəkil
+      desktop_card_width: 'Masaüstü cihazlarda kartların eni: %{percent}'
+      mark_cards: Oxunmamış müzakirələri olan kartları qeyd edin
+      output_on_index_page: Əsas səhifədə çıxışı göstərin
+      preview_text: Qısa mətni göstərin
+      settings_error: Keşi təmizləyin, bu uzantıyı deaktiv edin, Sil düyməsini (sağda)
+        klikləyin, məlumatların silinməsini təsdiqləyin və genişlənməni aktivləşdirin
+      show_replies: Cavabları göstərin
+      show_views: Baxışları göstər ("Flarumite Simple Discussion Views" uzantısı quraşdırıldıqda)
+      small_cards: Əsas kartların sayı
+      tablet_card_width: 'Planşetlərdə kartların eni: %{percent}'
+  forum:
+    replies: 'Cavablar: {count}'

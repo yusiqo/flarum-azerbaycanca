@@ -1,0 +1,18 @@
+nearata-maintenance-mode:
+  admin:
+    dashboard:
+      maintenance_widget:
+        detail: Baxım zamanı foruma yalnız səlahiyyətli istifadəçilər baxa bilər.
+        title: Baxım rejimi aktivdir
+    permissions:
+      bypass: Baxım rejimini keçə bilər
+    settings:
+      maintenance_mode_enabled:
+        label: Baxım rejimi
+  api:
+    title: 'Hazırda təmir üçün bağlıdır. '
+  views:
+    default:
+      body: '<p>Hazırda planlaşdırılmış texniki xidmət göstəririk. '
+      header: Hazırda təmir üçün bağlıdır.
+      title: Qayğı

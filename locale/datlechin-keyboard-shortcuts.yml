@@ -1,0 +1,59 @@
+datlechin-keyboard-shortcuts:
+  admin:
+    settings:
+      discussion_list_heading: => datlechin-keyboard-shortcuts.ref.discussion_list_heading
+      discussion_page_heading: => datlechin-keyboard-shortcuts.ref.discussion_page_heading
+      global_heading: => datlechin-keyboard-shortcuts.ref.global_heading
+      shortcuts:
+        help: => datlechin-klaviatura-shortcuts.ref.shortcuts.help
+  forum:
+    modal:
+      title: Klaviatura Qısayolları
+  lib:
+    discussion_list: Müzakirə Siyahısı
+    discussion_list_heading: Müzakirə Siyahısı
+    discussion_page: Danışıq Səhifəsi
+    discussion_page_heading: Danışıq Səhifəsi
+    global_heading: Sferik
+    shortcuts:
+      back: Geri
+      close: Kvartal
+      first_post: İlk Yazı
+      flags: Sənədlər
+      follow: İzləyin/Fəaliyyətdən çıxın
+      help: Kömək edin
+      last_post: Son Yazı
+      login: Daxil ol
+      mark_all_as_read: Hamısını oxunmuş kimi qeyd edin
+      new_discussion: Yeni Müzakirə
+      notifications: Bildirişlər
+      pin_nav: Pin Naviqasiyası
+      refresh: Yeniləyin
+      reply: Cavab verin
+      search: alırıq
+      session: İstifadəçi Açılan Menyu
+      signup: Qeydiyyatdan keçin
+  ref:
+    discussion_list: Müzakirə Siyahısı
+    discussion_list_heading: Müzakirə Siyahısı
+    discussion_page: Danışıq Səhifəsi
+    discussion_page_heading: Danışıq Səhifəsi
+    global_heading: Sferik
+    shortcuts:
+      back: Geri
+      close: Kvartal
+      first_post: İlk Yazı
+      flags: Sənədlər
+      follow: İzləyin/Fəaliyyətdən çıxın
+      help: Kömək edin
+      last_post: Son Yazı
+      login: Daxil ol
+      mark_all_as_read: Hamısını oxunmuş kimi qeyd edin
+      new_discussion: Yeni Müzakirə
+      notifications: Bildirişlər
+      pin_nav: Pin Naviqasiyası
+      refresh: Yeniləyin
+      reply: Cavab verin
+      search: alırıq
+      session: İstifadəçi Açılan Menyu
+      signup: Qeydiyyatdan keçin

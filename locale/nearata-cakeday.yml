@@ -1,0 +1,30 @@
+nearata-cakeday:
+  admin:
+    permissions:
+      can_view_anniversaries_page: Yubileylər səhifəsini göstərin
+    settings:
+      anniversaries_page_label: Yubiley səhifəsini aktivləşdirin
+      cake_bg_color_help: 'Bu parametr tortun fon rəngini dəyişir. '
+      cake_bg_color_label: Fon Rəngi
+      cake_txt_color_help: 'Bu parametr tortun rəngini dəyişir. '
+      cake_txt_color_label: Simge Rəngi
+      general_section_title: General
+      members_section_title: Üzvlər
+      new_members: Yeni üzvlərdə tort ikonasını göstərin
+      new_members_changelabel: 'Etiketi dəyişdirin: Yeni Üzv'
+      new_members_howlong: nə qədər
+      new_members_howlong_help: Günlərlə ifadə edilir.
+  forum:
+    anniversary: Yubiley
+    new_member_label: Yeni Üzv
+    page:
+      anniversaries_between_label: '{date1} və {date2} arasındakı yubileylər'
+      anniversaries_for_label: '{date} üçün yubileylər'
+      empty: Yubiley yoxdur.
+      filter_options:
+        all: Hamısı
+        today: Bu gün
+        tomorrow: Sabah
+        upcoming: yaxınlaşır
+      load_more_button: Daha çox yükləyin
+      title: Yubileylər

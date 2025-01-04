@@ -1,0 +1,49 @@
+nearata-embed-video:
+  admin:
+    settings:
+      options:
+        airplay: Airplay
+        hotkey: qısayol
+        lang: Oyunçu dili
+        logo: logo linki
+        modal_enabled: Pəncərə Aktivdir
+        modal_enabled_help: Modu aktivləşdirin və ya BBCode-u redaktorun içərisinə
+          yerləşdirin.
+        quality_switching: Keyfiyyət Seçimi
+        theme: mövzu rəngi
+      permissions:
+        can_create_video_player: Video pleyer yarada bilər
+        can_view_video_player: Video pleyer göstərə bilər
+      video_types:
+        dash: Dash
+        flv: Flv
+        hls: Hls
+        shaka: Şaka
+        webtorrent: WebTorrent
+  forum:
+    button_tooltip_title: Video Gizlət
+    cannot_create: Videoları yerləşdirməyə icazəniz yoxdur
+    cannot_view: 'Xəta: Bu məzmuna baxmaq üçün icazəniz yoxdur'
+    modal:
+      add_pointer: Nöqtə əlavə edin
+      add_quality: Keyfiyyət əlavə edin
+      live_mode: canlı rejim
+      pointer_label: Durğu işarələri
+      pointer_option_new: Yeni
+      qualities_label: İxtisaslar (İstəyə görə)
+      quality_option_new: Yeni
+      quality_switching_tutorial: Keyfiyyət dəyişikliyi təlimi
+      remove_pointer: nöqtəni çıxarın
+      remove_quality: Keyfiyyəti Sil
+      submit_button: Dəyişiklikləri Saxla
+      title: Video Gizlət
+      video_type_label: Video növləri
+      video_types:
+        dash: Dash
+        flv: Flv
+        hls: Hls
+        normal: Normal
+        shaka: Şaka
+        webtorrent: WebTorrent
+      video_url_label: Video Link
+      video_url_placeholder: 'Qartal. '

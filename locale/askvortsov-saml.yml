@@ -1,0 +1,33 @@
+askvortsov-saml:
+  admin:
+    header:
+      text: Metadata linkinin və ya metadatanın doldurulduğundan əmin olun.
+    labels:
+      authn_requests_signed: Avtorizasiya sorğuları imzalansın?
+      idp_metadata: Şəxsiyyət Provayderi Metadata XML (Link alternativi)
+      idp_metadata_url: Şəxsiyyət Provayderi Metadata Linki (XML Alternativi)
+      logout_request_signed: Çıxış sorğuları?
+      logout_response_signed: Çıxış cavabları?
+      nameid_format: NameID Format
+      only_option: Giriş seçimi kimi SAML2 SSO istifadə edirsiniz?
+      sign_metadata: Giriş metadatası?
+      slo: 'SLO aktiv edilsin? '
+      sync_attributes: 'Sinxronizasiya (Avatar, Qruplar, Bio və Profil)? '
+      want_assertions_encrypted: Təsdiqlərin şifrələnməsini istəyirsiniz?
+      want_assertions_signed: Təsdiqlərin İmzalanmasını İstəyirsiniz?
+      want_messages_signed: Mesajların İmzalanmasını İstəyirsiniz?
+      x509_cert: x509 Sertifikat (əgər aktivdirsə, imza tələb olunur)
+      x509_key: x509 Şəxsi Açar (əgər aktivdirsə, imza tələb olunur)
+    options:
+      nameid_format:
+        emailAddress: E-poçt (Defolt. Davamlılıq dəstəklənmirsə istifadə edin)
+        persistent: Davamlı (Dəstəklənirsə tövsiyə olunur)
+        unspecified: Müəyyən edilməmiş
+    title: SAML2 SSO Parametrləri
+  forum:
+    log_in:
+      enable_popups: Giriş/Qeydiyyat üçün Popup-ı aktivləşdirin
+      open_popup: Giriş pəncərəsini yenidən açın
+      with_saml_button: SAML2 SSO
+    sign_up:
+      post_saml_title: Son bir addım...

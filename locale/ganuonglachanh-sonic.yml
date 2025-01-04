@@ -1,0 +1,9 @@
+ganuonglachanh-sonic:
+  admin:
+    settings:
+      GNOptionsHeading: Tənzimləmə
+      host: Ev sahibi
+      locale: Yerli
+      password: parol
+      port: Liman
+      timeout: Vaxt aşımı

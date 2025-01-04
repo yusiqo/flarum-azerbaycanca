@@ -1,0 +1,8 @@
+datitisev-discussion-agree-message:
+  admin:
+    settings:
+      agreement_label: Müqavilə mətni
+      description_label: İzahat
+      disable_inputs_label: Müqavilə yoxlanılmadıqda müzakirə mövzusunu və məzmun
+        qeydlərini söndürün.
+      title_label: Başlıq

@@ -1,0 +1,15 @@
+clarkwinkelmann-typewriter:
+  admin:
+    settings:
+      add: səs əlavə edin
+      defaultFile: Defolt audio faylı
+      head:
+        file: Fayl
+        keys: açarlar
+      muteByDefault: Defolt olaraq səssiz
+      showIntroductionPopup: Giriş popupını ilk dəfə göstərin
+      sounds: əlavə səslər
+  forum:
+    enable: Səslərin yazılmasını aktivləşdirin
+    introductionMessage: Yazma səslərini aktivləşdirmək və ya susdurmaq üçün klikləyin
+    mute: Yazma səslərini söndürün

@@ -1,0 +1,5 @@
+justoverclock-first-visit-popup:
+  admin:
+    CookieExp: Kuki bitmə vaxtı (saatla)
+    modalContent: Modal Məzmun (HTML)
+    modalTitle: Modal başlıq

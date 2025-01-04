@@ -1,0 +1,27 @@
+nodeloc-dislikes:
+  admin:
+    permissions:
+      dislike_posts_label: Postları bəyənin
+    settings:
+      dislike_own_posts_help: 'Aktivləşdirildikdə, istifadəçilər icazədən asılı olaraq
+        forumda öz yazılarını "bəyənməmək" edə bilər. '
+      dislike_own_posts_label: İstifadəçilər öz yazılarını bəyənməyə bilər
+  forum:
+    notifications:
+      others_text: => core.ref.bəzi_digərləri
+      post_disliked_text: '{username} yazınızı bəyənmədi'
+    post:
+      dislike_link: bəyənməmək
+      disliked_by_self_text: '{users} bunu bəyənmədi.'
+      disliked_by_text: '{count, cəm, bir {{users} bunu bəyənmədi} digər {{users}
+        bunu bəyənmədi}}.'
+      others_link: => core.ref.bəzi_digərləri
+      undislike_link: bəyənməməyi dayandırın
+      you_text: => core.ref.siz
+    post_dislikes:
+      load_more_button: => core.ref.load_more
+      title: Bu Postu Kim Bəyənmədi?
+    settings:
+      notify_post_disliked_label: Kimsə postlarımdan birini bəyənmədi
+    user:
+      dislikes_link: sevmir

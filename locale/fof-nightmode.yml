@@ -1,0 +1,52 @@
+fof-default-user-preferences:
+  admin:
+    settings:
+      fofNightMode: 'FoF Gecə rejimi: Defolt olaraq istifadə ediləcək rəng mövzusu'
+      fofNightMode-help: 0 - avtomatik, 1 - gündüz rejimi, 2 - gecə rejimi
+      fofNightMode_perDevice: 'FoF Gecə rejimi: Cihaz parametrlərinə uyğun istifadə
+        edin'
+      fofNightMode_perDevice-help: Gecə rejimi parametrləri üçün hər cihaz üçün seçimlərdən
+        istifadə edin
+fof-nightmode:
+  admin:
+    settings:
+      general:
+        heading: Ümumi Parametrlər
+        help: Bu parametrlər plaqinin əsas davranışını idarə edir.
+      modal:
+        always_show_theme_toggle_on_header: Həmişə forum mövzusunda mövzu dəyişdirmə
+          düyməsini göstərin
+        default_theme: Defolt forum mövzusu
+        default_theme_helper: Defolt mövzu avtomatik olaraq yeni istifadəçilər, qonaqlar
+          və üstünlüklər dəsti olmayanlar üçün təyin edilir.
+        show_theme_toggle_in_solid: Mövzu simgesi tam simgede goster
+        theme_auto: => fof-nightmode.ref.auto
+        theme_dark: => fof-nightmode.ref.dark
+        theme_light: => fof-nightmode.ref.light
+  forum:
+    day: => fof-nightmode.ref.light
+    header:
+      nightmode_button: Forumun mövzusunu dəyişdirin
+    night: => fof-nightmode.ref.dark
+    user:
+      settings:
+        auto_unsupported: Brauzeriniz avtomatik qaranlıq rejimi dəstəkləmir.
+        description: Forumda istifadə etmək istədiyiniz rəng sxemini seçin.
+        description2: Bu mövzu hesabınızda görünür və hər bir cihaz ayarını yandırmayınca,
+          bütün cihazlarda aktivləşdirilir.
+        device_specific_setting_checkbox: Cihaz başına parametr
+        device_specific_setting_checkbox_tooltip: Mövzu seçiminiz hər bir cihazınız
+          üçün ayrıca saxlanılır.
+        heading: O
+        option_descriptions:
+          auto: 'Mövzunuz brauzer və ya cihaz parametrlərinə əsasən avtomatik seçilir. '
+          day: 'Öyrəndiyiniz klassik təcrübə. '
+          night: 'Bir az da gecə bayquşu kimisən. '
+        options:
+          auto: => fof-nightmode.ref.auto
+          day: => fof-nightmode.ref.light
+          night: => fof-nightmode.ref.dark
+  ref:
+    auto: Avtomatik (brauzer və ya cihaz seçiminizə əsasən)
+    dark: Gecə rejimi
+    light: Gün rejimi

@@ -1,0 +1,54 @@
+flarum-ext-newsletter:
+  admin:
+    listn: Siyahı adı
+    listndesc: Elasticmail-də yaradılmış siyahınızın adını əlavə edin
+    pubacc: Ümumi Hesab ID
+    pubaccdesc: İctimai hesab ID-nizi burada https://elasticemail.com/account#/account/security
+      tapın
+  forum:
+    accept: abunə olmaq istəyirəm
+    modaltext: İndi bülletenimizə abunəsiniz.
+    modalthanku: Təşəkkür edirəm!
+    prconsent: Məxfilik Razılığı
+    submitbutton: Göndər
+    subscribe: 'Bülletenimizə abunə olun. '
+justoverclock-newsletter:
+  admin:
+    ctaText: Cəmiyyətimizi ziyarət edin
+    emailSentErrorMessage: E-poçt göndərilə bilmədi.
+    emailSentSuccessMessage: E-poçtlar uğurla göndərildi!
+    emailTitle: Xəbər bülleteni başlığı
+    lastNewsletterSent: Son xəbər bülleteni göndərildi
+    lastNewsletterSentDescription: Son göndərilən xəbər bülleteni başlığı
+    lastNewsletterSentText: 'göndərildi:'
+    newsLetterOptOutFooter: Bu e-poçtları bəyənmirsiniz?
+    newsLetterOptOutFooterUnsubscribe: Abunəliyinizi ləğv edin.
+    newsletterCountText: Bülleteniniz yuxarıda göstərilən bütün abunəçilərə göndəriləcək.
+    newsletterCountTextTwo: istifadəçilər!
+    noNewsletterSent: Məlumat yoxdur
+    sendEmailButtonText: Bütün Abunəçilərə E-poçt göndərin
+    sendingText: Göndərilir...
+    textOrHtml: Bülleten sahəsi (mətn və ya html)
+    totalSubscribers: Ümumi abunəçilər
+    totalSubscribersCount: abunə olan istifadəçilərin ümumi sayı
+  forum:
+    consent: oxudum
+    dataProcessingModalContent: '<p><strong>Məqsəd</strong></p>
+
+      '
+    emailNotFound: Abunəçi tapılmadı və ya artıq silinib
+    emailRequired: E-poçt tələb olunur
+    invalidEmailHint: Yanlış E-poçt
+    newsLetterDescription: 'bülletenimizə. '
+    newsLetterModalTitle: Məlumatların emalı siyasəti *
+    newsLetterTitle: Abunə ol
+    optOutPageDescription: '<p>Tərcihlərin dəyişdiyini başa düşürük və abunəliyinizi
+      ləğv etdiyinizə görə təəssüflənirik. '
+    optOutPageTitle: 'Gələnlər qutunuz çox dolur? '
+    optOutPlaceholder: E-poçt ünvanınızı daxil edin
+    subscribe: Abunə ol
+    subscriberDeleted: Abunəçi uğurla silindi
+    subscriberExist: Bu e-poçt artıq abunədir.
+    successMessage: Artıq bülletenimizə abunəsiniz!
+    successUnsubscribedMessage: İndi xəbər bülleteni abunəliyini dayandırmısınız!
+    unSubscribe: Abunəni ləğv edin

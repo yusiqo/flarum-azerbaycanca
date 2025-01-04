@@ -1,0 +1,15 @@
+fof-default-user-preferences:
+  admin:
+    settings:
+      followAfterReply: Cavabdan sonra izləyin
+      followAfterReply-help: Aktivləşdirildikdə, yeni istifadəçilər cavab verdikləri
+        müzakirələri avtomatik izləyəcəklər.
+      groupMentioned: Qrup qeyd e-poçtları
+      groupMentioned-help: Aktivləşdirildikdə, yeni istifadəçilər mənsub olduqları
+        qrup qeyd edildikdə avtomatik olaraq e-poçt bildirişi almağı seçirlər.
+      postMentioned: Qeyd olunduqda e-poçt göndərin
+      postMentioned-help: Aktivləşdirildikdə, yeni istifadəçilər postlarda qeyd edildiyi
+        təqdirdə avtomatik olaraq elektron mesajlar alacaqlar.
+      userMentioned: İstifadəçi qeyd edildikdə e-poçt göndərin
+      userMentioned-help: Aktivləşdirildikdə, yeni istifadəçilər @qeyd edildiyi zaman
+        e-poçt bildirişi almağa avtomatik qoşulurlar.

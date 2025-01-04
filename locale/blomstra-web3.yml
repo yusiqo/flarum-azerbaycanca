@@ -1,0 +1,10 @@
+blomstra-web3:
+  admin:
+    settings:
+      allow-sign-up: Web3 ilə qeydiyyatdan keçməyə icazə verin
+      prioritize-web3-auth-modals: Web3 ilə daxil olun/Defolt olaraq qeydiyyatdan
+        keçin
+  forum:
+    connect-wallet-modal:
+      could-not-sign: Seçilmiş hesabda istifadəçinin adını kriptoqrafik olaraq imzalamaq
+        alınmadı.

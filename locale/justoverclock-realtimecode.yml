@@ -1,0 +1,7 @@
+flarum-ext-realtimecode:
+  forum:
+    description: Bu HTML redaktoru HTML/CSS kodlarını dəstəkləyir, kodunuzu yazın
+      və çıxış kimi baxın
+    htmleditor: HTML redaktoru
+    outputtitle: Canlı Önizləmə Çıxışı
+    title: HTML redaktoru

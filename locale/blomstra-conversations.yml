@@ -1,0 +1,11 @@
+blomstra-conversations:
+  admin:
+    permissions:
+      view-conversation-source: Söhbət mənbəyinə baxın
+      view-raw-source: Daxil olan yazıların yerli HTML və ya HTML mənbəyinə baxın
+  forum:
+    post:
+      controls:
+        view: HTML versiyasını göstərin
+        view-code: HTML Mənbəsini yoxlayın
+      source-raw-heading: HTML göstər

@@ -1,0 +1,21 @@
+fof-prevent-necrobumping:
+  admin:
+    settings:
+      days_help: 'Müzakirə o vaxt köhnə kimi qeyd olunur ki, həmin müzakirədəki son
+        yazıdan sonra müəyyən günlər keçsin. '
+      days_label: Gün
+      message_agreement_label: Mesajın Təsdiqlənməsi (Seçim qutusu)
+      message_description_label: Mesaj Təsviri
+      message_title_help: Məsələn, <code>[time]</code> sahəsinə "14 gün" daxil edin.
+      message_title_label: Fərdi Mesaj Başlığı
+      tags_help: 'Xüsusi etiket üçün cavabları ləğv edin. '
+      tags_title: Teqlər
+  forum:
+    composer:
+      warning:
+        checkbox_label: Etiraf edirəm ki, bu müzakirə olduqca köhnədir, amma yenə
+          də cavab vermək istədim.
+        description: Bu mübahisə olduqca köhnəlmişdir və yəqin ki, sonrakı müzakirələr
+          üçün uyğun deyil.
+        error: Bu mübahisə sizin cavab vermək üçün çox köhnədir.
+        title: Bu müzakirə <b>{time}</b> tarixindən köhnədir.

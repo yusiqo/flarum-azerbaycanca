@@ -1,0 +1,99 @@
+fof-webhooks:
+  actions:
+    discussion:
+      deleted: Müzakirə `{1}` silindi
+      hidden: Müzakirə gizlədilib `{1}`
+      renamed:
+        description: 'Yeni başlıq: {1}'
+        title: Müzakirə `{1}` adlandırıldı
+      restored: Müzakirə `{1}` bərpa edildi
+      started: Müzakirə `{1}` başladı
+    group:
+      created: Qrup yaradıldı `{1}`
+      deleted: Qrup `{1}` silindi
+      renamed: Qrup adı `{1}` olaraq dəyişdirildi
+    post:
+      approved: '`{1}` üçün təsdiqlənmiş post'
+      deleted: Post silindi `{1}`
+      hidden: Post gizlədilib `{1}`
+      posted: Yeni post `{1}`
+      restored: Post bərpa edildi `{1}`
+      revised: Post redaktə edildi `{1}`
+    user:
+      deleted: İstifadəçi `{1}` silindi
+      registered: Qeydiyyatdan keçmiş yeni istifadəçi
+      renamed:
+        description: 'Yeni istifadəçi: {1}'
+        title: İstifadəçi adı `{1}` olaraq dəyişdirildi
+  adapters:
+    errors:
+      404: Webhook Tapılmadı
+  admin:
+    errors:
+      service_not_found: '"{service}" xidməti tapılmadı.'
+      tag_disabled: 'Bu webhook konfiqurasiya edilmiş teq məhdudiyyətinə malik idi. '
+      tag_invalid: 'Bu webhook etibarsız teqlə məhdudlaşdırılıb. '
+      url_invalid: Link seçilmiş xidmət üçün keçərli deyil.
+    nav:
+      desc: Forumunuz üçün fərdiləşdirilə bilən webhooks.
+    settings:
+      actions:
+        flarum:
+          approval:
+            postwasapproved: Göndərmə Təsdiq edildi
+            title: Flarum Təsdiqi
+          discussion:
+            deleted: => fof-webhooks.ref.deleted
+            hidden: => fof-webhooks.ref.hidden
+            renamed: => fof-webhooks.ref.adlandırıldı
+            restored: => fof-webhooks.ref.restored
+            started: başladı
+            title: Flarum müzakirəsi
+          group:
+            created: yaradılmışdır
+            deleted: => fof-webhooks.ref.deleted
+            renamed: => fof-webhooks.ref.adlandırıldı
+            title: Flarum Qrupu
+          post:
+            deleted: => fof-webhooks.ref.deleted
+            hidden: => fof-webhooks.ref.hidden
+            posted: göndərildi
+            restored: => fof-webhooks.ref.restored
+            revised: Redaktə edilib
+            title: Flarum Post
+          user:
+            deleted: => fof-webhooks.ref.deleted
+            registered: Qeydiyyatdan keçib
+            renamed: => fof-webhooks.ref.adlandırıldı
+            title: Flarum İstifadəçisi
+      debug_help: Webhooks və/yaxud hadisələrin düzgün işləməməsi ilə bağlı problemləri
+        aradan qaldırmaq üçün Flarum jurnal faylına əlavə qeydlər əlavə edin.
+      debug_label: Xəta Düzəltmə
+      help:
+        disabled: Bu webhook aktiv hadisə olmadığı üçün deaktiv edilib.
+        general: Burada siz forumunuza webhooklar əlavə edə, redaktə edə və silə bilərsiniz.
+        tags: 'Siz webhookları xüsusi teqlərlə məhdudlaşdıra bilərsiniz. '
+        url: İcra ediləcək webhookun son nöqtəsi
+      item:
+        tag_any_label: İstənilən Etiket
+      modal:
+        description: Burada hansı hadisələrin webhook-u işə saldığını dəyişdirirsiniz.
+        events_label: Hadisələr
+        extra_text_help: Göndərilən webhook-a əlavə ediləcək əlavə mətn.
+        extra_text_label: Əlavə Mətn
+        group_help: Bu qrupa görünən resursları yerləşdirin
+        group_label: Qrup
+        max_post_content_length_help: 'Bütün webhook ilə əlaqəli hadisələrdə yazı
+          məzmununu məhdudlaşdırmaq üçün nömrə təyin edin. '
+        max_post_content_length_label: Maksimum Post Məzmununun Uzunluğu
+        title: WebHooks Parametrləri
+        use_plain_text_label: Post məzmununda formatlaşdırma miqdarını azaldın
+      services:
+        discord: Mübahisə
+        microsoft-teams: Microsoft Komandaları
+        slack: Sülh
+  ref:
+    deleted: Silindi
+    hidden: Gizli
+    renamed: Adı dəyişdirildi
+    restored: geri çəkildi

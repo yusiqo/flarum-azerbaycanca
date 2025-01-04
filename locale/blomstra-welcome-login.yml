@@ -1,0 +1,7 @@
+blomstra-welcome-login:
+  admin:
+    settings:
+      welcome-only-mobile:
+        help: 'Varsayılan olaraq, əlavə giriş düymələri hər kəsə göstərilir (daxil
+          olmadıqda). '
+        label: Yalnız mobildə göstərin

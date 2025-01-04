@@ -1,0 +1,24 @@
+migratetoflarum-canonical:
+  admin:
+    settings:
+      field:
+        status: Yönləndirmə növü
+        wrong_url: Forumunuza kanonik keçid vasitəsilə daxil olduğunuz zaman genişləndirmə
+          parametrləri görünəcək
+      option:
+        301: 301 (Daimi yönləndirmə)
+        302: 302 (Müvəqqəti yönləndirmə, sınaq üçün)
+        disabled: Deaktiv edin (uzatma heç nə etmir)
+      step:
+        admin_on_canonical: Canonical link vasitəsilə admin panelinə daxil olun
+        check_config_url: 'config.php-də müəyyən edilmiş keçidin sizin üstünlük verdiyiniz
+          kanonik link olub-olmadığını yoxlayın (hazırda: {url})'
+        enable_permanent: Daimi yönləndirməni aktivləşdirin
+        enable_temporary: Müvəqqəti yönləndirməni aktivləşdirin və hər şeyin işlədiyini
+          yoxlayın
+        how_to: Kanonik yönləndirməni necə aktivləşdirmək olar
+        suggestions: Bu genişləndirmənin həyata keçirmədiyi və ya əhatə etmədiyi digər
+          tövsiyələr
+        use_hsts: Aşağı səviyyəli hücumların qarşısını almaq üçün HSTS-dən istifadə
+          edin
+        use_https: HTTPS kanonik bağlantısı istifadə edin

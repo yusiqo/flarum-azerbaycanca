@@ -1,0 +1,52 @@
+clarkwinkelmann-anonymous-posting:
+  admin:
+    permissions:
+      moderate: İstənilən müzakirə və ya postu anonimləşdirin və ya anonimləşdirin
+      reveal: Anonim müzakirələrin və yazıların əsl müəlliflərinə baxın
+      use: Redaktorda olarkən məzmunu anonim olaraq dəyişdirmək imkanı
+    settings:
+      alwaysAnonymiseEdits: Həmişə redaktələri anonim edin
+      alwaysAnonymiseEditsHelp: 'Varsayılan olaraq, anonim yazı müəllifi tərəfindən
+        edilən redaktələr/gizlətmələr anonimləşdirilir, lakin yazı və ya müzakirəni
+        redaktə edən hər hansı moderator hələ də redaktə/gizlətmə müəllifi kimi göstəriləcək. '
+      avatarAdd: Avatar qaydası əlavə edin
+      avatarAvatarUrl: Avatar Linki
+      avatarFieldKey: sahə açarı
+      avatarFieldValue: sahə dəyəri
+      avatarFormId: Forma ID
+      avatars: anonim avatarlar
+      avatarsHelp: 'Bu funksiya premium <a>Formula əlavəsi</a> tələb edir. '
+      composerHelpTextPosition: Redaktor yardım mətn yeri
+      composerHelpTextPositionHelp: Qeyd xanası və bu mətni yalnız icazəsi olan istifadəçilər
+        görə bilər.
+      composerHelpTextPositionHidden: Gizli
+      composerHelpTextPositionTooltip: İpucu (etiketdən sonra)
+      composerHelpTextPositionVisible: Görünən (etiketin altında)
+      defaultAnonymity: Defolt olaraq yeni məzmunu anonim edin
+      defaultAnonymityWhenAbleToSwitch: İcazələri olan istifadəçilər üçün defolt olaraq
+        yeni məzmunu anonim edin
+  forum:
+    composerControls:
+      anonymize: Anonim yazın
+      anonymizeHelp: Moderatorlar hələ də bu məzmunu yaratdığınızı biləcəklər
+    discussionControls:
+      anonymize: Anonimləşdirin
+      anonymizeConfirmation: 'Bu, müzakirə müəllifini anonim edəcək. '
+      deanonymize: Anonimləşdirmə
+      deanonymizeConfirmation: 'Bu, müzakirənin orijinal müəllifini yenidən ictimailəşdirəcək. '
+    discussionList:
+      genericReplyText: Son cavab {əvvəl}
+    postControls:
+      anonymize: Anonimləşdirin
+      deanonymize: Anonimləşdirmə
+      deanonymizeConfirmation: 'Bu, yazının orijinal müəllifini yenidən ictimailəşdirəcək. '
+      firstPostConfirmation: 'Bu, orijinal yazının müəllifini anonimləşdirəcək. '
+    postPrivacy:
+      mine: Ben
+      mineHelp: Bu məlumatı yalnız siz görə bilərsiniz
+      profile: Yalnız sizə görünür
+      profileHelp: Profilinizdə anonim yazılarınızı yalnız siz görə bilərsiniz
+  lib:
+    userMeta:
+      initials: '?'
+      username: Anonim

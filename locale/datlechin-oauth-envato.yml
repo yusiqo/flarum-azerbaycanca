@@ -1,0 +1,16 @@
+fof-oauth:
+  admin:
+    settings:
+      providers:
+        envato:
+          client_id_label: Müştəri ID
+          client_secret_label: Müştəri sirri
+          description: Forumunuzu Envato {link}-də qeydiyyatdan keçirin.
+  forum:
+    log_in:
+      with_envato_button: => fof-oauth.forum.log_in.with_button
+    providers:
+      envato: => fof-oauth.lib.providers.envato
+  lib:
+    providers:
+      envato: Envato

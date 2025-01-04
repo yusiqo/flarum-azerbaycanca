@@ -1,0 +1,14 @@
+flarum-akismet:
+  admin:
+    akismet_settings:
+      api_key_label: API Açarı
+      delete_blatant_spam_help: Akismet şərhin açıq-aşkar spam olduğunu müəyyən edərsə,
+        postu işarələmək əvəzinə avtomatik silin
+      delete_blatant_spam_label: Aşkar spamları avtomatik silin
+      title: Akismet Parametrləri
+    permissions:
+      bypass_akismet: Atla Akismet'i
+  forum:
+    post:
+      akismet_flagged_text: Akismet spam olaraq qeyd edildi
+      not_spam_button: İstənməyən deyil

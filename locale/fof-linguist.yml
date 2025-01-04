@@ -1,0 +1,99 @@
+fof-linguist:
+  admin:
+    buttons:
+      apply: Müraciət edin
+      copy-original: Orijinal mətni kopyalayın
+      delete-all: Tərcümələri silin
+      delete-all-confirm: 'Bu, BÜTÜN {count} fərdi tərcümənizi siləcək. '
+      delete-redundant: Lazımsız tərcümələri silin
+      delete-redundant-confirm: 'Bu, orijinal və fərdi dəyərləri eyni olan {count}
+        tərcüməni siləcək. '
+      load-more: Daha çox
+      reset: orijinala qayıt
+    clear-cache:
+      button: İndi keşi təmizləyin
+      text: 'Yeni tərcümələr hələ həyata keçirilməyib. '
+    coverage:
+      all-namespaces: Hamısı
+      apply-missing-filter: Çatışmayan uyğun tərcümələri göstərin
+      column-options:
+        locale: Dilə görə
+        namespace: Ön tərəfdə
+      columns:
+        all-except-admin: Forum və digər cəbhələr
+        all-frontends: Bütün frontendləri göstərin
+        namespace: ad sahəsi
+        total: Cəmi
+      count:
+        details: '{total} cəmi / {orijinal} orijinal / {xüsusi} xüsusi'
+        percent: '% {faiz}'
+        total: '{tərcümə edildi} / {cəmi}'
+      total-options:
+        count: Sayı
+        percent: Faiz
+    export:
+      download: İndir
+      include-all: '"Bütün" dillər üçün müəyyən edilmiş tərcümələri daxil edin'
+      include-originals: Bütün orijinal tərcümələri daxil edin
+      locale: yerli
+      locale-all: '"hamısı"'
+      namespace: Ad sahəsi
+      namespace-all: Hamısı
+      output: Çıxış
+      output-empty: boş çıxdı
+      output-loading: İxrac yüklənir...
+      title: İxrac
+      warning: 'İxrac formatı Flarum-un YAML əsaslı tərcümə fayllarında və forumlarda
+        dil paketi tərcümələrində istifadə olunur. '
+    filters:
+      for-extension: Uzatmalar üçün
+      frontend: Ön tərəf üçün
+      frontend-all-except-admin: Admindən başqa hamısı
+      mass-edit: toplu redaktə
+      missing: Çatışmayan tərcümələri tapın
+      missing-middle-label: tərcümələr
+      negation-options:
+        with: ilə
+        without: olmadan
+      operation-options:
+        and: Hamısı
+        or: başqa biri
+      results: '{total} uyğun tərcümədən {göstərilir}'
+      search: Tərcümələrdə axtar...
+      type-options:
+        any: Orijinal və ya Xüsusi
+        original: orijinal
+        own: Xüsusi
+      with-own-translations: Mənim tərcümələrim
+    import:
+      input: Giriş
+      input-placeholder: YAML faylını sürükləyin və buraxın və ya yapışdırın
+      locale: yerli
+      locale-all: '"hamısı"'
+      override-existing: Mövcud fərdi tərcümələrimi ləğv edin
+      results: 'İdxal tamamlandı. '
+      results-with-ignore: 'İdxal tamamlandı. '
+      submit: İçə Aktar
+      title: İçə Aktar
+    known-frontend:
+      admin: İcraçı
+      api: API
+      forum: Forum
+      lib: Lib (Həm Forumda, həm də İdarəetmə Panelində istifadə olunur)
+      ref: Ref (digər açarlar təkrar istifadə olunur)
+    known-namespace:
+      core: Flarum Core
+      validation: Doğrulama Səhvləri
+    locales:
+      all: Hamısı
+    permissions:
+      view_string_keys: Tərcümə ardıcıllığı düymələrinə baxın
+    placeholder:
+      all-locales: Bu sahədə yazılmış mətn bütün dillərdə göstəriləcək
+      hint: 'Orijinal dəyər:'
+      not-translated: Tərcümə edilməmiş
+    tabs:
+      coverage: Əhatə dairəsi
+      export: İxrac
+      import: İçə Aktar
+      strings: Tərcümələr

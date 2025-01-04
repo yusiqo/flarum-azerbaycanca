@@ -1,0 +1,9 @@
+clarkwinkelmann-create-user-modal:
+  admin:
+    permissions:
+      view: İstifadəçi yaratma pəncərəsini göstərin
+  forum:
+    link: Yeni istifadəçi yaradın
+    modal:
+      submit: Yeni İstifadəçi
+      title: Yeni İstifadəçi

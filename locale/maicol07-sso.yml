@@ -1,0 +1,34 @@
+maicol07-sso:
+  admin:
+    forum:
+      manage_account_btn: Hesabı idarə et
+    settings:
+      client_api_key: API açarı
+      client_api_key_help: Flarum nümunəniz üçün API açarı.
+      client_name: ad
+      client_name_help: Flarum nümunə adı
+      client_password_token: Parol işarəsi
+      client_password_token_help: Flarum nümunəsi qeydiyyatı ilə istifadə ediləcək
+        təsadüfi parol işarəsi.
+      client_url: Əlaqə
+      client_url_help: Flarum nümunəsinə keçid
+      client_verify_ssl: SSL-i yoxlayın
+      client_verify_ssl_help: Sorğu edərkən Flarum instansiyasının SSL statusunu yoxlayın
+        (tövsiyə olunur).
+      cookies_prefix: Kuki adı prefiksi
+      jwt_iss: Sertifikat verən domen
+      jwt_section_subtitle: JWT Plugin parametrləri
+      jwt_signer_key: imzalayan açar
+      jwt_signing_algorithm: İmzalama üsulu
+      login_url: Giriş Linki
+      logout_url: Çıxış Bağlantısı
+      manage_account_btn_open_in_new_tab: Hesab idarəçiliyini yeni tabda açın
+      manage_account_url: Hesab bağlantısını idarə edin
+      provider_mode: 'Provayder rejimindən istifadə etmək üçün bu seçimi aktiv edin
+        (Flarum nümunələri arasında SSO). '
+      remove_login_btn: Giriş düyməsini silin
+      remove_signup_btn: Qeyd düyməsini çıxarın
+      signup_url: Qeydiyyat Linki
+      title: SSO Parametrləri
+  forum:
+    manage_account_btn: Hesabı idarə et

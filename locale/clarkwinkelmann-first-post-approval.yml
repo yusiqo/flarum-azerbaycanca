@@ -1,0 +1,7 @@
+clarkwinkelmann-first-post-approval:
+  admin:
+    permissions:
+      bypass: İlk postun təsdiqi olmadan dərc edin
+    settings:
+      discussionCount: Təsdiq ediləcək ilk müzakirələrin sayı
+      postCount: Təsdiq ediləcək ilk yazıların sayı

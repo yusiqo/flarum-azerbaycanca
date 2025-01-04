@@ -1,0 +1,16 @@
+the-turk-nodp:
+  admin:
+    permissions:
+      double_posting_label: İkiqat göndər
+    settings:
+      time_limit_label: Vaxt məhdudiyyəti
+      time_limit_text: 'Müzakirədəki sonuncu postdan <b>xxx</b> dəqiqədən çox vaxt
+        keçibsə, sonuncu poster öz yazısını redaktə etməyə məcbur olacaq. '
+  forum:
+    composer_edit:
+      double_posting_warning_description: Bu müzakirəyə bu yaxınlarda cavab verdiyiniz
+        üçün, lütfən, yenisini yazmaq əvəzinə sonuncu yazınızı redaktə edin.
+      double_posting_warning_title: Siz bu müzakirənin son yazı müəllifisiniz.
+    discussion:
+      cannot_reply_alert_message: Başqası cavab verməyincə müzakirəyə yeni cavab daxil
+        edə bilməzsiniz.

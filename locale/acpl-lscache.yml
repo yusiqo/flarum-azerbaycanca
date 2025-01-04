@@ -1,0 +1,26 @@
+acpl-lscache:
+  admin:
+    cache_enabled_help: 'Keşi yoxlamaq üçün <a>Məlumat vərəqinə</a> baxın. '
+    cache_enabled_label: LSCache-i aktivləşdirin
+    cache_exclude_help: 'Bu sətirləri ehtiva edən yollar keşlənmir. '
+    cache_exclude_label: Kataloqları keşləmədən xaric edin
+    clearing_cache_listener_label: Flarum Keşi Təmizləndikdə LSCache silin
+    drop_qs_help: '<code>fbclid</code> və ya <code>utm*</code> kimi keşləmə zamanı
+      xüsusi sorğu sətirlərini buraxmaq üçün bu funksiyadan istifadə edin. '
+    drop_qs_label: Sorğu sətirlərini buraxın
+    public_cache_ttl_help: 'Ümumi səhifələrin nə qədər saniyə ərzində keşdə saxlanacağını
+      müəyyənləşdirin. '
+    public_cache_ttl_label: Defolt Qlobal Keş TTL
+    purge_all: Bütün LSCache silin
+    purge_all_success: LiteSpeed ​​​​Web Server bütün LSCache girişlərini təmizləmək
+      üçün xəbərdar edilir
+    purge_on_discussion_update_help: 'Müzakirə yeniləndikdə silmək istədiyiniz URL-ləri
+      və ya keş teqlərini daxil edin, hər sətirdə bir. '
+    purge_on_discussion_update_label: Müzakirə Güncəlləməsində URL-ləri və ya Teqləri
+      təmizləyin
+    serve_stale_help: 'Aktiv edilərsə, yeni keşlənmiş nüsxə yaradılana qədər ziyarətçilərə
+      keşlənmiş səhifənin köhnə versiyası təqdim ediləcək. '
+    serve_stale_label: Köhnə məzmunu çatdırın
+    status_codes_cache_help: 'HTTP status kodunu və həmin səhifənin keşləşdirilməsi
+      üçün tələb olunan saniyələrin sayını boşluqla ayırın. '
+    status_codes_cache_label: Defolt HTTP Status Kodu Səhifəsi TTL

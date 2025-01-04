@@ -1,0 +1,24 @@
+sycho-private-facade:
+  admin:
+    settings:
+      force_redirect: Qonaqları Giriş/Qeydiyyat interfeysinə yönləndirməyə məcbur
+        edin
+      header_layout:
+        options:
+          hide_secondary_items: İkinci dərəcəli elementləri gizlədin (Axtar, Giriş
+            və Qeydiyyat linkləri)
+          show_header: Başlığı göstərin
+          show_only_logo: Yalnız Loqo göstər
+        title: Başlıq Düzeni
+      illustration_path: İllüstrasiya Şəkil
+      primary_color_bg: Əsas Rəng Fonundan istifadə edin
+      route_exclusions: Giriş/Qeydiyyat Səhifəsinə Yönləndirmədən Çıxarılma Yolları.
+      screen_banner_description: Mesajı göstərin
+      screen_banner_heading: Banner göstərin
+      screen_banner_title: Ekran Başlığı
+      url_exclusions: Giriş/Qeydiyyat Səhifəsinə Yönləndirmədən Çıxarılacaq Linklər.
+      use_welcome_hero_text: Xoş gəlmisiniz Banner mətnindən istifadə edin
+  forum:
+    log_in_label: => core.ref.log_in
+    or_label: və ya
+    sign_up_label: => core.ref.sign_up

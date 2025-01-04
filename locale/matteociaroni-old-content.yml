@@ -1,0 +1,6 @@
+matteociaroni-old-content:
+  admin:
+    time_label: Postun "köhnə" sayılacağı günlər
+  forum:
+    message: 🟡
+    tooltip: Bu {contentType} köhnə və köhnə ola bilər

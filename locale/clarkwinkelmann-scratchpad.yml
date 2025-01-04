@@ -1,0 +1,45 @@
+clarkwinkelmann-scratchpad:
+  admin:
+    compilation-alert:
+      failure: Kompilyasiya uğursuz oldu!
+      success: Tərtib edilmişdir!
+      view-output: Çıxışı göstərin
+    compilation-modal:
+      npm: NPM çıxışı
+      npm-not-run: NPM işləmədi
+      title: Kompilyasiya çıxışı
+      webpack: Veb paket çıxışı
+    controls:
+      compile: JS'yi derle
+      delete: Sil
+      delete-confirmation: '"{title}" varmı?'
+      disable: Deaktiv etmək üçün klikləyin
+      enable: Aktivləşdirmək üçün klikləyin
+      new: Yeni
+      new-confirmation: 'Cari iş kitabı yadda saxlanmayıb. '
+      refresh: Yeniləyin
+      save: Saxla
+      settings: Redaktor parametrləri
+    fields:
+      admin_js: Admin JS
+      admin_less: Admin Az
+      forum_js: JS forumu
+      forum_less: Forum Az
+      php: PHP
+      title: İş kitabının adı
+    placeholders:
+      js-log: Salam, {frontend}!
+      php-comment: Genişləndiriciləri burada qeyd edin
+      untitled: başlıqsız
+    settings:
+      compile-automatically: Yadda saxlandıqda JS-ni avtomatik tərtib edin
+      empty-for-default: Standart əmri boş buraxın
+      indent: Girinti boşluqlarının sayı
+      npm-install-command: NPM quraşdırma əmri
+      single-column: Redaktorları 3 əvəzinə bir sütunda qruplaşdırın
+      theme: CodeMirror mövzusu (qüvvəyə minmək üçün səhifəni yeniləyin)
+      theme-auto: Avtomatik (defolt işıq teması, dracula qaranlıq teması)
+      title: İş dəftəri parametrləri
+      validate-live: Saxlamadan əvvəl Less və PHP-ni yoxlamaq üçün ana səhifəyə sorğu
+        göndərin
+      webpack-command: webpack əmri

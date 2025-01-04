@@ -1,0 +1,8 @@
+gpx-preview:
+  admin:
+    settings:
+      gkey: Maps API-ə çıxışı olan Google API Açarı.
+    templates:
+      gpx: GPX Marşrut Ön Baxışı
+      gpx.file_description: O, yüklənmiş GPX faylı ilə örtülmüş Google xəritəsini
+        yerləşdirir.

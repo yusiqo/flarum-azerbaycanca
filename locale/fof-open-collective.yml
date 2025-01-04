@@ -1,0 +1,13 @@
+fof-open-collective:
+  admin:
+    settings:
+      api_key_label: Tətbiq API Açarı (köhnəlmişdir)
+      desc: 'Şəxsi Tokeninizi <a>https://opencollective.com/dashboard</a> saytından
+        Parametrlər > Tərtibatçılar üçün əldə edin. '
+      group_label: Təyin ediləcək qrup
+      personal_token_label: Şəxsi Token
+      slug_label: Kollektiv Ünvan Qısa Ad
+      title: FriendsOfFlarum Açıq Kollektiv
+      use_legacy_api_key_help: 'Əgər köhnə API açarınız varsa, ondan istifadə etməyə
+        davam edə bilərsiniz, lakin Şəxsi Tokenə keçmək tövsiyə olunur. '
+      use_legacy_api_key_label: Legacy App API Key istifadə edin

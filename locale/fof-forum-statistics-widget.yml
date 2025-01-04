@@ -1,0 +1,25 @@
+fof-forum-statistics-widget:
+  admin:
+    permissions:
+      view_discussions_count_label: Forum statistikasında müzakirələrin sayını göstərin
+      view_lastest_member_label: Forum statistikasında sonuncu üzvü göstərin
+      view_posts_count_label: Forum statistikasında yazıların sayını göstərin
+      view_users_count_label: Forum statistikasında istifadəçilərin sayını göstərin
+    settings:
+      cache_duration_help: 'Alət üçün nə qədər uzunluqda (saniyələrlə) statistikanın
+        keş saxlanılacağını göstərin. '
+      cache_duration_label: Keş vaxtı
+      flush_cache_on_new_registration_help: Aktivləşdirilərsə, yeni istifadəçi forumda
+        qeydiyyatdan keçəndə statistika keşi təmizlənəcək.
+      flush_cache_on_new_registration_label: Yeni Saxlamada Statistika Keşini Təmizləyin
+      widget_helper_text: 'Bu parametri elə düzəldin ki, alət Flarum-un aşağı sol
+        menyusunda yerləşsin. '
+      widget_ignore_private_discussions_label: Şəxsi müzakirələrə məhəl qoymayın
+      widget_order_label: Avtomobilin Yerləşdirilməsi
+  forum:
+    navbar:
+      discussions_count: 'Müzakirələr: {discussionsCount}'
+      latest_member: 'Son İstifadəçi:'
+      posts_count: 'Yazılar: {postsCount}'
+      users_count: 'İstifadəçilər: {usersCount}'
+      widget_title: Forum Statistikası

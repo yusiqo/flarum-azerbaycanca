@@ -1,0 +1,40 @@
+clarkwinkelmann-post-stream-search:
+  admin:
+    settings:
+      authorQuickFilter: Yazı müəllifi üçün sürətli filtr
+      authorQuickFilterHelp: Həmin istifadəçi tərəfindən süzülmək üçün hər bir yazı
+        açılan menyuya qısa yol əlavə olunacaq.
+      dropdownAccess: Müzakirə açılan menyusundan daxil olun
+      dropdownAccessHelp: Alətlər paneli deaktivdirsə, o, yalnız klaviatura qısayolu
+        və ya aşağıdakı aktiv qısa yollardan hər hansı biri vasitəsilə istifadə edilə
+        bilər.
+      originalPosterBadge: İnteraktiv OP nişanını göstərin
+      originalPosterBadgeHelp: 'OP tərəfindən edilən yazıların yanında nişan əlavə
+        olunacaq. '
+      sideNavAccess: Müzakirə daxilində naviqasiyaya daxil olun
+      sideNavAccessHelp: Bu, əvvəlki parametrlə eynidir, lakin düymə açılan menyu
+        əvəzinə kənar paneldə ayrıca giriş kimi əlavə olunacaq.
+  forum:
+    cannotGoToPost:
+      action: Filtrləri təmizləməyə çalışın
+      message: Posta gedə bilmirəm
+    discussionControls:
+      searchInDiscussion: Müzakirədə axtarın
+    post:
+      opBadge: müzakirə başlanğıcı
+      opBadgeTooltip: Yalnız bu istifadəçinin cavablarını göstərmək üçün klikləyin
+    postControls:
+      authorFilter: Yalnız bu müəllifin cavablarını göstərin
+    stream:
+      noResults: Bu müzakirədə axtarış sorğusuna uyğun yazı yoxdur
+      otherAuthorsGap: '{count, plural, one {Başqa müəllifin yazısı gizlədilib} digər
+        müəlliflərin digər {{count} yazıları gizlədilib}}'
+      unmatchedGap: '{count, cəm, bir {Uyğun olmayan yazı gizləndi} digər {{count}
+        uyğun olmayan yazı gizlədilib}}'
+    toolbar:
+      authorPlaceholder: Müəllifə görə süzün...
+      clear: Filtrləri təmizləyin
+      close: Filtrləri təmizləyin və alətlər panelini bağlayın
+      pin: Müzakirələrdə həmişə filtr alətlər panelini açın
+      searchPlaceholder: Müzakirələrdə tapın...
+      summary: '{total} uyğun gələn {uyğunluq}'

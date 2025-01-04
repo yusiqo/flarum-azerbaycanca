@@ -1,0 +1,11 @@
+huoxin-auto-follow-discussion:
+  admin:
+    default-follow-after-create-help: 'Defolt: aktivdir'
+    default-follow-after-create-label: İstifadəçi tərəfindən yaradılmış avtomatik
+      izləmə müzakirələri üçün defolt dəyər
+    default-follow-after-read-help: 'Defolt: off'
+    default-follow-after-read-label: İstifadəçi tərəfindən oxunan müzakirələri avtomatik
+      izləmək üçün defolt dəyər
+  forum:
+    default-follow-after-create-label: Yaratdığım müzakirələri avtomatik izləyin
+    default-follow-after-read-label: Oxuduğum müzakirələri avtomatik izləyin

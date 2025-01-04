@@ -1,0 +1,12 @@
+flarum-pusher:
+  admin:
+    pusher_settings:
+      app_cluster_label: Klaster
+      app_id_label: Tətbiq ID
+      app_key_label: Tətbiq açarı
+      app_secret_label: Tətbiq Gizli Açarı
+      title: Pusher Parametrləri
+  forum:
+    discussion_list:
+      show_updates_text: '{hesab, cəm, bir {# yenilənmiş müzakirəni göstər} digər
+        {# yenilənmiş müzakirəni göstər}}'

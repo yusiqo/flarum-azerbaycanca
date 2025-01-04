@@ -1,0 +1,22 @@
+flarum-ext-dontgoaway:
+  admin:
+    altdesc: Şəkiliniz üçün "alt" dəyərini daxil edin
+    altext: Şəklin "alt" dəyəri
+    btn: 'Fərdiləşdirmə düyməsi. '
+    btndesc: Düymə üçün FontAwesome istifadə edə bilərsiniz
+    enableExtLink: Xarici keçidlər üçün popup-u aktivləşdirin
+    heightdesc: Şəkilinizin hündürlüyünü daxil edin (məsələn, 450)
+    heightext: Vizual hündürlük
+    modtext: Pəncərə mətni
+    modtextdesc: Açılan pəncərədə mətni fərdiləşdirin.
+    modtitle: Pəncərə Başlığı
+    modtitledesc: Açılan pəncərənin başlığını fərdiləşdirin
+    urltext: Fərdi şəkilə keçid
+    urltextdesc: Fərdi bir şəkil istifadə etmək istəyirsinizsə, linki bura yapışdırın
+    widthdesc: Şəkilinizin enini daxil edin (məsələn, 450)
+    widthtext: Şəklin eni
+  forum:
+    cancelbutton: Burada qalın!
+    confbutton: Deva və
+    extlinktext: Xarici keçidə kliklədiyiniz üçün saytı tərk etmək üzrəsiniz
+    extlinktitle: Xarici keçid

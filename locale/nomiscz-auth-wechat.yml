@@ -1,0 +1,28 @@
+nomiscz-auth-wechat:
+  admin:
+    settings:
+      api_app_id: API Tətbiq İD
+      api_app_secret: API Tətbiq Sirri
+      title: WeChat Giriş Parametrləri
+  forum:
+    alerts:
+      already_linked: WeChat Hesabı artıq bağlıdır!
+      already_used: WeChat Hesabı artıq başqa istifadəçi ilə əlaqələndirilib!
+      error: 'Nəsə xəta baş verdi. '
+      link_success: WeChat Hesab bağlantısı uğurludur.
+      unlink_success: WeChat Hesabının əlaqəsi uğurla kəsildi.
+    buttons:
+      link: WeChat Hesabınızı əlaqələndirin
+      login: WeChat ilə daxil olun
+      unlink: WeChat Hesabını ayırın
+    modals:
+      link:
+        title: WeChat Hesabınızı əlaqələndirin
+      unlink:
+        buttons:
+          cancel: Xeyr!
+          confirm: Bəli, hesabı kəsin
+        info:
+          confirm: WeChat hesabınızla əlaqəni kəsmək istədiyinizə əminsiniz?
+          no_providers: 'Başqa giriş təminatçınız yoxdur! '
+        title: WeChat Hesabını ayırın

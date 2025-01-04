@@ -1,0 +1,18 @@
+clarkwinkelmann-composer-page:
+  admin:
+    settings:
+      forPrivateDiscussions: Şəxsi müzakirələr üçün istifadə edin
+      forPrivateDiscussionsHelp: Byobu Discussion Redaktorunu səhifəyə inteqrasiya
+        edir
+      onlyInTags: Yalnız aşağıdakı etiketlərdə (isteğe bağlı)
+      onlyInTagsHelp: 'Teq yollarının vergüllə ayrılmış siyahısı (şlaklar). '
+  forum:
+    nav:
+      cancel: Redaktordan çıxın
+      continue: müzakirəyə davam edin
+    page:
+      heading: Müzakirə başlayın
+      title: Müzakirə başlayın
+    page-private:
+      heading: Şəxsi müzakirəyə başlayın
+      title: Şəxsi müzakirəyə başlayın

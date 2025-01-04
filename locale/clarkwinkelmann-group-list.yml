@@ -1,0 +1,12 @@
+clarkwinkelmann-group-list:
+  admin:
+    items:
+      add: Qrup əlavə edin
+    permissions:
+      see: Qrup siyahısına baxın
+    settings:
+      showAvatarBadges: Avatarın yanında digər nişanları göstərin
+      showOnlineStatus: Onlayn statusu göstərin
+      showSideNavLink: Yan naviqasiyada linki göstərin
+  forum:
+    nav: Qrup siyahısı

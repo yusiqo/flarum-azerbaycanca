@@ -1,0 +1,66 @@
+fof-default-user-preferences:
+  admin:
+    settings:
+      showIPCountry: İstifadəçinin göndərdiyi ölkənin bayrağını göstərin
+      showIPCountry-help: 'Bu, yerləşdirmə zamanı IP ünvanlarına əsaslanır. '
+fof-geoip:
+  admin:
+    permissions:
+      see_country: Həmişə IP ünvanının ölkəsini göstərin
+    settings:
+      access_key_label: Giriş Açarı
+      general:
+        heading: Ümumi Parametrlər
+        help: Bu parametrlər genişləndirmənin ümumi davranışına nəzarət edir.
+      providers:
+        heading: IP Axtarış Xidməti
+        help: 'IP axtarışları üçün istifadə etmək üçün xidmət seçin. '
+      quota_label: Axtarış kvotası
+      security_label: Təhlükəsizlik Modulu (pro+ tələb edir)
+      service_freegeoip_description: Saatda 15.000-ə qədər IP ölkə kodunu pulsuz əldə
+        etmək üçün <b>https://freegeoip.app/</b> istifadə edin.
+      service_freegeoip_label: FreeGeoIP
+      service_ipapi-pro_description: '<b>https://members.ip-api.com/#pricing</b> istifadə
+        edin. '
+      service_ipapi-pro_label: IP Api Pro
+      service_ipapi_description: 'Dəqiqədə 45-ə qədər pulsuz zəng etmək üçün <b>http://ip-api.com</b>
+        saytından istifadə edin. '
+      service_ipapi_label: Yanğın IP
+      service_ipdata_description: 'Gündə 1500-ə qədər pulsuz axtarış etmək üçün <b>https://ipdata.co</b>
+        istifadə edin. '
+      service_ipdata_label: IPData
+      service_iplocation_description: 'Ölkə və ISP məlumatlarını əldə etmək üçün <b>https://www.iplocation.net/</b>
+        istifadə edin. '
+      service_iplocation_label: IP yeri
+      service_ipsevenex_description: 'Dəqiqədə 20 sorğu üçün pulsuz API açarı əldə
+        etmək üçün <b>https://7x.ax</b> istifadə edin. '
+      service_ipsevenex_label: 7x Geolocation API
+      service_ipstack_description: 'Ayda 10.000-ə qədər pulsuz axtarış etmək üçün
+        <b>https://ipstack.com</b> istifadə edin. '
+      service_ipstack_label: IPStack
+      service_label: Xidmət
+      show_flag_help: İstifadəçi öz seçimləri ilə iştirak etdikdə, IP ünvanını açıqlamadan
+        yazı müəllifinin IP ünvanının ölkə bayrağını göstərin.
+      show_flag_label: Hər yazı üçün ölkə bayrağını göstərin
+      title: FriendsOfFlarum GeoIP
+  forum:
+    alerts:
+      ip_copied: IP ünvanı Kopyalandı
+    copy_ip_label: IP-ni panoya kopyalayın
+    map_button_label: IP məlumat
+    map_modal:
+      as: ASN
+      country_code: Ölkə kodu
+      error: Hətta
+      ip_address: IP ünvanı
+      isp: Xidmət Təchizatçı
+      mobile: mobil şəbəkə
+      not_enough_data: Xəritə üçün kifayət qədər məlumat yoxdur
+      organization: Təşkilat
+      threat_level: Təhdid Səviyyəsi
+      threat_types: Təhdid Səviyyəsi
+      title: IP məlumat
+      zip_code: Poçt kodu
+    user:
+      settings:
+        ip_country: IP ünvanıma əsasən, göndərdiyim ölkənin bayrağını göstərin

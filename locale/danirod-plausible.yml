@@ -1,0 +1,22 @@
+danirod-plausible:
+  admin:
+    settings:
+      domain:
+        help: Analizləri təqdim edərkən istifadə ediləcək domen adı.
+        label: Domen adı
+      enable:
+        help: İzləmə kodunu həqiqətən əlavə etmək üçün bu seçimi aktiv edin.
+        label: Aktivləşdirilib
+      exclude_admin:
+        help: Bu, daxil olduğunuz zaman idarəçilərin baxışlarının izlənməyə daxil
+          edilməsinin qarşısını alacaq.
+        label: Admini sayma
+      proxy_domain:
+        help: 'JS kodunu harada xidmət etmək olar. '
+        label: proxy domen
+    validation:
+      domain:
+        regex: Verilmiş domen adı etibarlı deyil
+        required: Bir domen adı təqdim edilməlidir
+      proxy_domain:
+        regex: Göstərilən proxy domeni etibarlı deyil

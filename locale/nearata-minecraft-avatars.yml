@@ -1,0 +1,20 @@
+nearata-minecraft-avatars:
+  admin:
+    retrieve_avatar_on_register:
+      help: Bu istifadəçi adı ilə Minecraft Hesabı yoxdursa, standart dəri olaraq
+        Steve və ya Alex.
+      label: Qeydiyyatdan Avatar alın
+  forum:
+    avatar_changed: Avatar uğurla dəyişdirildi.
+    change_button: Minecraft Avatarı dəyişdirin
+    dismiss_button: TAMAM
+    help_text: İstifadəçi adı UUID-ə çevriləcək.
+    minotar_enabled: Aktivləşdirilib
+    page_title: Minecraft avatarları
+    placeholder: İstifadəçi adı və ya UUID
+    submit_button: Dəyişiklikləri Saxla
+    title: Minecraft avatarları
+    use_button: Minecraft Avatarı istifadə edin
+    username_not_found: İstifadəçi adı tapılmadı.
+    username_uuid_not_valid: İstifadəçi adı və ya UUID etibarlı deyil.
+    userpage_nav_button: Minecraft avatarları

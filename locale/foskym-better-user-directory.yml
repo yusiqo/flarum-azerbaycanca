@@ -1,0 +1,12 @@
+foskym-better-user-directory:
+  admin:
+    go_to_this_extension: Daha çox parametrlərlə Better User Index uzantısına keçin
+    go_to_user_directory_extension: Daha çox parametrlərlə İstifadəçi Kataloquna keçin
+    settings:
+      hide_filter_groups: Filtr qruplarını gizlədin
+      hide_search: axtarışı gizlət
+      podium_style: podium tərzi
+      show_all_items_in_bottom_cards: Bütün elementləri alt kartlarda göstərin (və
+        ya sifarişdə yalnız bir element)
+      show_all_items_in_top_cards: Ana kartlardakı bütün elementləri göstərin (və
+        ya sifarişdə yalnız bir element)

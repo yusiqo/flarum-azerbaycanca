@@ -1,0 +1,51 @@
+sycho-move-posts:
+  admin:
+    permissions:
+      move_posts: => sycho-move-posts.ref.move_posts
+    settings:
+      group_sequential_posts: Qrup ardıcıl postu hadisə yazılarını bir posta köçürür.
+      moved_first_post_content: Köçürülən Müzakirə (Birinci Yazı) Məzmunu
+      moved_first_post_content_help: 'Yalnız bir yazı ilə müzakirə olduqda, həmin
+        postun köçürülməsi ilk müzakirənin ilk postunun yeni müzakirəyə işarə etmək
+        üçün redaktə edilməsinə səbəb olacaq. '
+  forum:
+    badge:
+      first_moved_tooltip: köçdü
+    discussion:
+      move_posts: => sycho-move-posts.ref.move_posts
+    error:
+      move_old_post_to_newer_discussion: => sycho-move-posts.ref.status.old_to_new_move
+    modal:
+      check: Əməliyyat növünü yoxlayın
+      destination: Hədəf müzakirəsi
+      discussion_help: Mənbə müzakirəsi üçün teqlər istifadə olunacaq və yaradıldıqdan
+        sonra dəyişdirilə bilər.
+      discussion_name: => core.forum.composer_discussion.title_placeholder
+      new_discussion: Yeni Müzakirə
+      selected_posts: '{count, cəm, bir {Bir Yazı Seçildi} digər {{count} Yazı Seçildi}}'
+      status:
+        complex_move: 'Bu mürəkkəb bir hərəkət olacaq; '
+        old_to_new_move: => sycho-move-posts.ref.status.old_to_new_move
+        simple_move: Bu sadə bir hərəkət olacaq, bütün yazılar müzakirənin sonunda
+          əlavə olunacaq.
+      submit: irəli gedin
+      title: => sycho-move-posts.ref.move_posts
+    notifications:
+      post_moved_text: Postlarınızdan biri və ya bir neçəsi {targetDiscussionTitle}
+        müsabiqəsinə köçürülüb.
+    post:
+      move: Hərəkət etmək üçün işarələyin
+      moving: Göndərmə daşınması
+      unmove: Hərəkət etmək üçün işarəni silin
+    post_stream:
+      post_moved: '{count, plural, one {{username} postunuzu {target_discussion} müzakirəsinə
+        köçürdü.} digər {{username}, {count} yazınızı {target_discussion} müzakirəsinə
+        köçürdü}}'
+  lib:
+    discussion:
+      first_post:
+        default_content: '*Bu yazı müzakirəyə köçürülüb **[%DISCUSSION_NAME%](%POST_LINK%)**.*'
+  ref:
+    move_posts: Yazıları köçürün
+    status:
+      old_to_new_move: Köhnə postu yeni müzakirəyə köçürə bilməzsiniz.

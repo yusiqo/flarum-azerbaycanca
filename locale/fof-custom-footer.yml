@@ -1,0 +1,7 @@
+fof-custom-footer:
+  admin:
+    settings:
+      css: CSS
+      height: Altbilgi Hündürlüyü (px)
+      js: JS
+      text: Səhifə qırma mətni

@@ -1,0 +1,12 @@
+justoverclock-user-pc-specs:
+  forum:
+    cabinet: 'Kabinet:'
+    cpu: 'CPU:'
+    gpu: 'GPU:'
+    motherboard: 'Ana plata:'
+    pcSpecsOf: 'PC xüsusiyyətləri:'
+    ram: 'Qoç:'
+    savePcSpecs: Kompüter Xüsusiyyətlərini Saxlayın
+    so: 'Əməliyyat sistemi:'
+    specsSaved: PC uğurla qeydiyyatdan keçdi!
+    storage: 'Yaddaş:'

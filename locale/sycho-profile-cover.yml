@@ -1,0 +1,16 @@
+sycho-profile-cover:
+  admin:
+    max_size: Maksimum profil qapaq şəklinin ölçüsü (KB ilə)
+    permission:
+      set_cover: Profil qapağını tənzimləyin
+    thumbnails: Miniatürlər yaradın
+  forum:
+    added:
+      error: Şəkili yükləmək mümkün olmadı.
+      success: Profil qapağı yeniləndi.
+    cover: Qapaq
+    edit_cover: Qapağı redaktə edin
+    notice: 'Maksimum ölçü: {size}'
+    removed:
+      error: Qapağı çıxarmaq mümkün olmadı, sonra yenidən cəhd edin.
+      success: Profil örtüyü çıxarıldı.

@@ -1,0 +1,9 @@
+justoverclock-country-flags:
+  admin:
+    countryColumn: ölkə
+    showFlagsOnPosts: Postlarda Bayraqları göstərin
+  forum:
+    clickToSelectCountry: Ölkənizi seçmək üçün klikləyin
+    countrySaved: Ölkə uğurla qeydiyyatdan keçdi!
+    inputCountryCode: Ölkə kodu
+    saveButton: Saxla

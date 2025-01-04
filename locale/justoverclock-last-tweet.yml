@@ -1,0 +1,11 @@
+justoverclock-last-tweet:
+  admin:
+    profile: Profil Linki
+    profile-help: misal - https://twitter.com/flarum
+    theme: O
+    theme-help: Qaranlıq üçün "qaranlıq" və işıq üçün "açıq" daxil edin (defolt işıq)
+    tweet_number: Tweetlərin sayı
+    tweet_number-help: Bura gətiriləcək Tweetlərin sayını daxil edin (defolt 2)
+  forum:
+    loading: Tvitlər yüklənir...
+    widget-title: Oğul Tweet

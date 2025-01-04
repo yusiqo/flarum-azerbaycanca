@@ -1,0 +1,5 @@
+core:
+  lib:
+    meta_titles:
+      with_page_title: '{pageNumber, cəm, =1 {{pageTitle}} digər {{pageTitle}: Səhifə
+        #}}'

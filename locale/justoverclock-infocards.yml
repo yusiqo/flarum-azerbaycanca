@@ -1,0 +1,22 @@
+flarum-ext-infocards:
+  admin:
+    apikeyhelp: https://countapi.xyz/ vasitəsilə pulsuz API açarı yaradın
+    createapikey: API Açarı
+  forum:
+    forumstats: Forum Statistikası
+    friday: Yalnız
+    geninfo: Ümumi məlumat
+    groups: Qruplarınız
+    monday: bazar ertəsi
+    opthread: Müzakirələr Başladı
+    saturday: şənbə
+    sunday: bazar günü
+    thursday: cümə axşamı
+    times: Vaxt
+    totalpost: Ümumi Yazılar
+    totdisc: Ümumi müzakirə
+    tuesday: çərşənbə axşamı
+    viscounter: Sayğac ziyarət edin
+    wasviewed: Bu səhifəyə baxıldı
+    wednesday: çərşənbə
+    welcome_back: Xoş gəldiniz,

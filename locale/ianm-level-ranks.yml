@@ -1,0 +1,11 @@
+ianm-level-ranks:
+  admin:
+    settings:
+      levelText: Xalları göstərmək üçün mətn daxil edin (məsələn, Səviyyə və ya Reytinq)
+      title: Səviyyə Reytinq Parametrləri
+  forum:
+    desc:
+      expText: '{expTotal} DNYM'
+  lib:
+    defaults:
+      level: Səviyyə

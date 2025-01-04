@@ -1,0 +1,33 @@
+huseyinfiliz-modern-footer:
+  admin:
+    settings:
+      about: Haqqında
+      about_us: Haqqımızda
+      about_us_help: 'Mətn sahəsi: Bu sahə HTML formatını dəstəkləmir. '
+      all_pages: Bütün səhifələrdə göstərin
+      block: Blok
+      blocks: Bloklar
+      bottom: Bölmə
+      bottom_help: 'Nümunə: © 2025, Bütün hüquqlar qorunur'
+      bottom_section: Aşağı hissə
+      custom: Xüsusi
+      custom_html: Xüsusi HTML Kodu
+      custom_js: Xüsusi JS
+      custom_js_code: Fərdi JavaScript Kodu
+      display_mode: Altbilgilərə Baxış Modu
+      font_awesome_icon: Şrift Zəhmli Nişanı
+      forum_logo: Forum loqosu
+      forum_logo_help: 'Forum loqosu üçün URL əlavə edin. '
+      general: General
+      hide_everywhere: Bütün səhifələrdə gizlədin
+      hide_except_index: Əsas səhifədən başqa bütün səhifələrdə gizlədin
+      hide_on_discussions: Müzakirələrdə gizlən
+      link: Əlaqə
+      manage_footer_sections: Altbilgi bölmələrini idarə edin
+      mobile_tab_height: Mobil Tab Hündürlüyü
+      mobile_tab_height_help: 'Mobil Tab plagini quraşdırılıbsa, siz bunu dəyər kimi
+        istifadə edə bilərsiniz: var(--mobile-tab-height)'
+      social_link: Sosial Link
+      social_media_button: Sosial media düyməsi
+      text: Mətn
+      title: Başlıq

@@ -1,0 +1,41 @@
+davwheat:
+  ads:
+    admin:
+      permissions:
+        bypassAds: Forumda reklamları gizlədin
+      settings:
+        add_script: Yeni
+        admin_bypass_warning: "Flarum-un icazə sisteminin xarakterinə görə, Admin\
+          \ qrupunun üzvləri forumda heç bir reklam görməyəcəklər. \n"
+        alert:
+          code_has_script: 'Bir və ya bir neçə reklam kodunuzda icazə verilməyən skript
+            teqləri var. '
+          fix_errors: Dəyişiklikləri yadda saxlamazdan əvvəl aşağıdakı səhvləri düzəldin
+        allow_after_placeholder: 'Yazılar arasında: cavab verəndən sonra reklamı göstərin'
+        between_posts_gap: 'Yazılar arasında: reklamlar arasında boşluq'
+        code_input: HTML Reklam Zona Kodu
+        code_input_disabled: HTML kodunu redaktə etmək üçün bu yeri aktiv edin.
+        enabled_locations: Reklam zonalarını aktivləşdirin
+        js_input: JavaScript kodu
+        js_input_disabled: JS kodunu redaktə etmək üçün bu yeri aktiv edin.
+        pub_id: AdSense Publisher ID
+        save_btn:
+          dirty: Dəyişiklikləri yadda saxlayın
+          fix_errors: Saxlamadan əvvəl səhvləri düzəldin
+          saved: Bütün dəyişikliklər yadda saxlanıldı
+          saving: Qeydə alınır...
+        script_deletion: Skripti silmək üçün mətn qutusunu boş buraxın və "Dəyişiklikləri
+          Saxla" düyməsini basın.
+        script_urls: Fərdi skript URL-ləri
+        use_adsense: AdSense istifadə
+        warning: '<b>Təlimatlar:</b>
+
+          '
+    lib:
+      locations:
+        between_posts: Yazılar arasında
+        discussion_header: Müzakirə səhifəsi (yuxarı başlığın altında)
+        discussion_sidebar: Müzakirə naviqasiya paneli (yalnız iş masası)
+        footer: altbilgi
+        header: Üst Başlıq
+        sidebar: Yan menyu (yalnız masaüstü)

@@ -1,0 +1,6 @@
+malago-fancybox:
+  forum:
+    close: Kvartal
+    error: Tələb olunan məzmunu yükləmək mümkün olmadı.
+    next: Sonrakı
+    prev: Keçmiş

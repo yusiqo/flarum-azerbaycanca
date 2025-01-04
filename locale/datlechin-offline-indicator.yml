@@ -1,0 +1,4 @@
+datlechin-offline-indicator:
+  forum:
+    offline: 'İnternet bağlantısı yoxdur. '
+    online: İndi onlaynsınız.

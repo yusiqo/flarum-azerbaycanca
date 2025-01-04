@@ -1,0 +1,38 @@
+datlechin-simple-tour-guide:
+  admin:
+    add_step: Yeni addım əlavə edin
+    description: İzahat
+    description_placeholder: Addım təsviri.
+    edit_modal:
+      create_step: Yeni addım yaradın
+      delete_step: adımı sil
+      delete_step_confirmation: Bu addımı silmək istədiyinizə əminsiniz?
+      edit_step: '{title} redaktə edin'
+    'no': yox
+    permissions:
+      reset_tour_guide: Tur bələdçisini sıfırlayın
+    settings:
+      allow_close_help: İstifadəçilərə boş yerə klikləməklə bələdçini bağlamağa icazə
+        verin.
+      allow_close_label: bağlanmağa icazə verin
+      show_progress_help: Bu, pop-upun yuxarı hissəsində cari addımı və ümumi addımları
+        göstərəcək.
+      show_progress_label: göstərmək prosesi
+      skip_null_elements_help: 'Hədəfi heç bir HTML elementinə uyğun gəlməyən addımları
+        atlayın. '
+      skip_null_elements_label: Boş elementləri keçin
+    target: Məqsəd
+    target_placeholder: 'Addımdakı hədəf element (məsələn, #oge-id).'
+    title: Başlıq
+    title_placeholder: Addım başlığı.
+    trigger_click: Tətik klik
+    'yes': Bəli
+  forum:
+    done_btn_text: tam
+    next_btn_text: Sonrakı
+    prev_btn_text: Keçmiş
+    progress_text: '{total} addımdan {cari}'
+    user_controls:
+      reset_tour_guide: Turu yenidən başladın
+      reset_tour_guide_confirmation: Bu istifadəçini turu yenidən başlatmağa məcbur
+        etmək istədiyinizə əminsiniz?

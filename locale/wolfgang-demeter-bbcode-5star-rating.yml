@@ -1,0 +1,19 @@
+flarum-ext-bbcode-5star-rating:
+  forum:
+    button:
+      label: 5 Ulduzlu Reytinq
+      tooltip: 5 Ulduzlu Reytinq seçin
+    modal:
+      cancel: Ləğv et
+      headline: Reytinqinizi seçin
+      stars_0: 0 ulduz
+      stars_1: 0.5 ulduz
+      stars_10: 5 ulduz
+      stars_2: 1 ulduz
+      stars_3: 1.5 ulduz
+      stars_4: 2 ulduz
+      stars_5: 2.5 ulduz
+      stars_6: 3 ulduz
+      stars_7: 3.5 ulduz
+      stars_8: 4 ulduz
+      stars_9: 4.5 ulduz

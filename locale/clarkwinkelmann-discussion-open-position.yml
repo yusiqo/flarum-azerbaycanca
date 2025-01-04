@@ -1,0 +1,29 @@
+clarkwinkelmann-discussion-open-position:
+  admin:
+    settings:
+      defaultOpenLastRead: Defolt olaraq son oxunmuş yazıda müzakirə açın
+      openLastOptions:
+        always: => clarkwinkelmann-discussion-open-position.ref.openLastOptions.always
+        never: => clarkwinkelmann-discussion-open-position.ref.openLastOptions.never
+        unread: => clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread
+      suggestFirstTime: İstifadəçiyə müzakirəni ilk dəfə açanda parametri dəyişmək
+        üçün seçim göstərin
+  forum:
+    firstTimePrompt:
+      fromAlways: Müzakirə bağlantıları oxuduğunuz son yazıya səbəb olur
+      fromNever: Müzakirə bağlantıları ilk postu açır
+      more: Daha çox seçim
+      openLastOptions:
+        always: Bunun əvəzinə həmişə oxuduğum son postu açın
+        never: Əvəzində həmişə ilk yazıda açın
+    preferences:
+      discussionOpenLastRead: Müzakirə Siyahısı
+      openLastOptions:
+        always: => clarkwinkelmann-discussion-open-position.ref.openLastOptions.always
+        never: => clarkwinkelmann-discussion-open-position.ref.openLastOptions.never
+        unread: => clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread
+  ref:
+    openLastOptions:
+      always: Həmişə son oxunan yazı ilə bağlı müzakirələri açın
+      never: İlk yazıda həmişə açıq müzakirələr aparın
+      unread: Müzakirələri yalnız sonuncu oxunmuş yazıda yeni cavablar olduqda açın

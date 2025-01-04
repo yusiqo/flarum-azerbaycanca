@@ -1,0 +1,5 @@
+justoverclock-discussion-sentiment-analyzer:
+  forum:
+    negative: Sentiment Balı - Mənfi
+    neutral: Sentiment Balı - Neytral
+    positive: Sentiment Balı - Müsbət

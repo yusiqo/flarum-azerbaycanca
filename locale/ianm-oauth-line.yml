@@ -1,0 +1,17 @@
+fof-oauth:
+  admin:
+    settings:
+      providers:
+        line:
+          client_id_label: Kanal ID
+          client_secret_label: Kanalın (gizli) gizli açarı
+          description: LINE Developers Console {link} üçün forumunuzu qeydiyyatdan
+            keçirin
+  forum:
+    log_in:
+      with_line_button: => fof-oauth.forum.log_in.with_button
+    providers:
+      line: => fof-oauth.lib.providers.line
+  lib:
+    providers:
+      line: XƏT

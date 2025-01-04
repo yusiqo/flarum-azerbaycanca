@@ -1,0 +1,7 @@
+fof-secure-https:
+  admin:
+    settings:
+      replace: HTTPS vasitəsilə proxy-ni göstərir
+  forum:
+    removed: Şəkil HTTPS-i dəstəkləmədiyi üçün silindi.
+    show: Hər halda göstər

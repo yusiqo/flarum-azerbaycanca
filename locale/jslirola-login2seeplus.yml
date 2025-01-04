@@ -1,0 +1,15 @@
+jslirola-login2seeplus:
+  admin:
+    code: Kodlar
+    hide: gizlətmək
+    image: şəkillər
+    link: Bağlantılar
+    post:
+      title: Bu uzunluqdan çox olan məzmunu gizlədin (<em>-1</em> hamısını göstərir)
+    title: Login2SeePlus
+  forum:
+    code: Kodu görmək üçün daxil olun
+    image: Şəkli görmək üçün daxil olun
+    link: Linki görmək üçün daxil olun
+    post: Tam postu görmək üçün {login} və ya {register} lazımdır
+    post_login: Tam postu görmək üçün {daxil olmalısınız}.

@@ -1,0 +1,18 @@
+expired-posts:
+  admin:
+    settings:
+      days_help: 'Müzakirə müəyyən edilmiş günlərdən çox müddət ərzində yerləşdirilməsə,
+        o, vaxtı keçmiş kimi qeyd olunur. '
+      days_label: Gün
+      message_description_label: Şəxsi Mesaj Təsviri
+      message_title_help: Mətndə müddəti göstərmək üçün <code>[time]</code> istifadə
+        edin, nümunələr "14 gün"dür.
+      message_title_label: Fərdi Mesaj Başlığı
+      tags_help: 'Xüsusi etiket üçün ictimai günləri ləğv edin. '
+      tags_title: Teqlər
+  forum:
+    composer:
+      warning:
+        description: Bu postun müddəti başa çatıb.
+        error: Bu müzakirə vaxtı keçmişdir.
+        title: Postun müddəti bitdi

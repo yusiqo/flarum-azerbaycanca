@@ -1,0 +1,89 @@
+malago-achievements:
+  admin:
+    achievement_modal:
+      active_label: Aktiv
+      add_delete_instructions: 'İstifadəçi uğur qazanmasa, ona əlavə olunacaq. '
+      add_delete_title: İstifadəçidən nailiyyətlər əlavə edin və ya silin
+      col_label: Sütun
+      col_placeholder: '0'
+      computation_label: 'Hesablamaq üçün dəyişən: yazılar, şərhlər, bəyənmələr, müzakirələr,
+        şərhlər, redaktələr, avatar, il'
+      computation_placeholder: Sayı
+      delete_button: Nailiyyəti silin
+      delete_confirmation: Bu nailiyyəti silmək istədiyinizə əminsiniz?
+      description_label: İzahat
+      description_placeholder: Uğur Bəyannaməsi
+      height_label: vizual hündürlük
+      height_placeholder: '32'
+      hidden_label: Bütün nailiyyətlər siyahısından gizlədin
+      image_label: Şəkil Linki və ya ikon kodu
+      image_placeholder: Uğur Vizual Link
+      name_label: ad
+      name_placeholder: Uğur Adı
+      points_label: Bu nailiyyət üçün xallar
+      points_placeholder: '0'
+      row_label: Xətt
+      row_placeholder: '0'
+      submit_button: => core.ref.save_changes
+      title: Uğur yaradın
+      tooltip:
+        comments: Müzakirə zamanı alınan cavabların minimum sayı (məsələn, 10) və
+          ya əhatə dairəsi (məsələn, 10.19)
+        contains: Söz və ya sözlər və onu ehtiva edən postların minimum sayı (məsələn,
+          toyuq,10) və ya əhatə dairəsi (məsələn, toyuq,10,19)
+        discussions: Yaradılan müzakirələrin minimum sayı (məsələn, 10) və ya əhatə
+          dairəsi (məsələn, 10.19)
+        edits: Redaktə edilmiş postların minimum sayı (məsələn, 10) və ya daxil olmaqla
+          (məsələn, 10,19)
+        likes: Minimum bəyənmə sayı (məsələn, 10) və ya əhatə dairəsi (məsələn, 10,19)
+        meanwords: Hər yazı üçün orta söz sayı, minimum 10 (məsələn, 10) və ya əhatəli
+          diapazon (məsələn, 10,19)
+        posts: Postların minimum sayı (məsələn, 10) və ya hərtərəfli diapazon (məsələn,
+          10,19)
+        selflikes: Alınan bəyənmələrin minimum sayı (məsələn, 10) və ya əhatə dairəsi
+          (məsələn, 10,19)
+        tagposts: Axtarış üçün məlumatı və minimum postların sayını (məsələn, mövzudan
+          kənar,10) və ya əhatə dairəsini (məsələn, mövzudan kənar,10,19) etiketləyin
+        years: Qeydə alınmış minimum il sayı (məsələn, 10) və ya daxil olmaqla interval
+          (məsələn, 10,19)
+      username: İstifadəçi adı
+      username_placeholder: İstifadəçi adı
+      variable:
+        avatar: Avatar yükləmə
+        comments: Müzakirə zamanı alınan cavablar
+        contains: ehtiva edən mesajlar
+        discussions: Müzakirələr
+        edits: Redaktə edilmiş yazılar
+        likes: Bəyənmələr verilir
+        manual: Elle
+        meanwords: orta söz
+        posts: Yazılar
+        selflikes: Bəyənmələr alındı
+        tagposts: Etiketdəki yazılar
+        years: Qeydiyyat ili
+      variable_label: Dəyişən
+      width_label: Şəkil eni
+      width_placeholder: '32'
+    achievements_page:
+      add_delete_users: İstifadəçidən nailiyyətlər əlavə edin/çıxarın
+      create_achievement_button: Yeni Nailiyyət Yaradın
+      instructions_header: Təlimatlar
+      instructions_text: '<li>Nailiyyət yaratmaq üçün ona ad verməlisiniz.</li>
+
+        '
+      list_heading: Nailiyyətlər
+      show: 'Nailiyyət siyahısını göstərin:'
+    settings:
+      link-left-column: Yan menyuya Nailiyyətlər linkini əlavə edin
+      show-post-footer: hər yazının altında
+      show-user-card: İstifadəçi kartlarında
+  forum:
+    achievement_points: Xallar
+    achievement_total_points: Cəmi
+    hidden_achievements: gizli nailiyyətlər
+    list_heading: Uğurlar
+    new_achievement_close: başa düşürəm!
+    new_achievement_name: Uğur
+    new_achievement_title: Yeni uğur!
+    other_achievements: Digər nailiyyətlər
+    your_achievements: Nailiyyətləriniz

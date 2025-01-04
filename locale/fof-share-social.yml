@@ -1,0 +1,30 @@
+fof-share-social:
+  admin:
+    settings:
+      canonical-urls: Paylaşım üçün kanonik URL-lərdən istifadə edin
+      default-option: Defolt paylaşma seçimi
+      default-option-help: 'Defolt seçimin seçilməsi düyməni açılan seçimə çevirəcək.
+
+        '
+      plain-copy: Düz URL nüsxəsini göstərin
+  forum:
+    discussion:
+      share_button: Paylaşın
+      share_dropdown_accessible_label: Müzakirə paylaşımı açılan menyusunu dəyişin
+    modal:
+      copy_button: surəti
+      title: Paylaşın
+  lib:
+    networks:
+      facebook: Facebook
+      linkedin: LinkedIn
+      my_mail: Mənim Dünyam
+      native: Yerli Paylaşım
+      odnoklassniki: Odnoklassniki
+      qq: QQ
+      qzone: QZone
+      reddit: Reddit
+      telegram: Telegram
+      twitter: Twitter
+      vkontakte: VKontakte
+      whatsapp: WhatsApp

@@ -1,0 +1,32 @@
+flarum-calendar:
+  admin:
+    basics:
+      homepage: Cari Ay Təqvimi
+    permissions:
+      add: Təqvimə Yeni Tədbir əlavə edin
+      moderate: Tədbirləri təqvimdən redaktə edin və ya silin (hər bir istifadəçi
+        öz yaradıcılığını redaktə edə bilər)
+      view: Hadisələri göstərin
+    settings:
+      hide_host: Ev sahibini gizlədin (Host :)
+  forum:
+    button:
+      create: Yeni Hadisə
+      landing: Tədbir Təqvimi
+      login: Tədbirinizi əlavə edin
+    event:
+      confirm_delete: Bu tədbiri silmək istədiyinizə əminsiniz?
+      deleted: Bu hadisə silindi
+      details: Bu hadisə haqqında daha çox məlumat
+      ends: 'Bitir:'
+      hosted_by: 'Ev sahibi:'
+      starts: 'Başlanğıc:'
+    modal:
+      dates_label: Nə vaxt
+      description_label: Detal
+      description_placeholder: Hadisə təfərrüatları
+      requirement_message: Hadisələr ad və təsvir tələb edir
+      submit: Göndər
+      title_create: Yeni təqvim hadisəsi yaradın
+      title_edit: Tədbir təfərrüatlarını redaktə edin
+      title_label: Bəli

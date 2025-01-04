@@ -1,0 +1,5 @@
+datlechin-flarum-add-like-controls:
+  forum:
+    ignore: etinasızlıq etmək
+    mark_read: Oxunmuş kimi qeyd edin
+    mark_unread: Oxunmamış kimi qeyd edin

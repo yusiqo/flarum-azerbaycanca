@@ -1,0 +1,82 @@
+blomstra-gdpr:
+  lib:
+    data:
+      userpolicydata:
+        delete_description: İstifadəçini şərtləri qəbul etməkdən uzaqlaşdırır
+        export_description: İstifadəçinin şərtləri qəbul etməsi ilə bağlı təfərrüatlar
+flarum-gdpr:
+  lib:
+    data:
+      userpolicydata:
+        delete_description: İstifadəçini şərtləri qəbul etməkdən uzaqlaşdırır
+        export_description: İstifadəçinin şərtləri qəbul etdiyi təfərrüatlar
+fof-terms:
+  admin:
+    buttons:
+      add-policy: Şərt əlavə edin
+      delete-policy: Vəziyyəti silin
+      edit-policy: Şərti redaktə edin
+      new-policy: Yeni Nizamnamə
+      save-policy: Vəziyyəti Saxla
+      set-to-now: Set
+    messages:
+      delete-policy-confirmation: 'Bu, {name} tələbini və bütün əlaqədar qəbul tarixlərini
+        həmişəlik siləcək. '
+    permissions:
+      export-policies: Bütün istifadəçi və şərtlər məlumatlarını ixrac edə bilər
+      postpone-policies-accept: Yeni şərtləri qəbul etməyi gecikdirə bilər
+      see-user-policies-state: İstifadəçi şərtlərin vəziyyətinə baxa bilər
+    policies:
+      export-url: Eksport linki
+      export-url-help: '"Bütün şərtlər məlumatlarını ixrac et" icazəsi olan bütün
+        istifadəçilər şərtləri qəbul etmiş istifadəçilərin siyahısı üçün yükləmə linklərinə
+        daxil ola bilərlər. '
+      name: ad
+      name-help: Bu ad yeniləmə pəncərəsinin başlığı kimi qeyd qutusu ilə birlikdə
+        görünəcək.
+      optional: Könüllü siyasət
+      optional-help: Aktivləşdirildikdə, istifadəçilər bu siyasətlə razılaşmadan forumdan
+        istifadə edə və onunla əlaqə saxlaya bilər.
+      terms-updated-at: 'Yeniləmə:'
+      terms-updated-at-help: 'Son şərtlərin yenilənmə tarixi. '
+      terms-updated-at-placeholder: YYYY-AA-GG (ss:dd:ss)
+      update-message: Mesajı Yeniləyin
+      update-message-help: Son şərtləri qəbul etməyən istifadəçilərə göstəriləcək
+        mesaj.
+      url: Əlaqə
+      url-help: 'Şərtləri oxuya biləcəyiniz səhifəyə keçid. '
+    settings:
+      field:
+        date-format: Tarix formatı
+        date-format-help: 'İstənilən <a>Day.js</a> formatından istifadə edə bilərsiniz. '
+        hide-updated-at: Yeniləmə edildiyi zaman şərtlərin yeniləmə tarixini göstərin
+        signup-legal-text: Qeydiyyat forması üçün əlavə mətn
+      title: Vəziyyət Parametrləri
+    titles:
+      policies: Şərtlər
+  forum:
+    accept-modal:
+      accept: Təsdiq edin
+      close: Qəbul etdiyiniz üçün təşəkkür edirik, indi foruma qayıda bilərsiniz
+      i-accept: Mən <a>{policy}</a> şərtlərini qəbul edirəm
+      title: Şərtlərin Yenilənməsi
+      updated-at: Şərtlər {date} tarixində yenilənib
+      updated-recently: Son girişinizdən sonra şərtlər yeniləndi
+    signup:
+      i-accept: <a>{policy}</a> qəbul edirəm
+      must-accept: '{policy} qəbul edilməlidir.'
+    state-modal:
+      accepted-at: '{date} qəbul edildi'
+      not-accepted: qəbul edilmir
+      title: '{username} üçün şərtlərin qəbul statusu'
+    update-alert:
+      can-accept-message: 'Biz bu yaxınlarda şərtləri yenilədik. '
+      can-accept-optional-message: 'Biz bu yaxınlarda şərtləri yenilədik. '
+      close: Kvartal
+      must-accept-message: Siz yeni şərtləri nəzərdən keçirənə qədər hesabınıza girişi
+        məhdudlaşdırdıq.
+      review: Yeni şərtləri nəzərdən keçirmək və qəbul etmək üçün bura klikləyin
+    user_controls:
+      state_button: Şərtləri qəbul etmə vəziyyəti
+    user_settings:
+      optional_policies_label: Siyasətlər

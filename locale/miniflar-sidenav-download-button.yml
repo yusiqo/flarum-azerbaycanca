@@ -1,0 +1,21 @@
+miniflar-sidenav-download-button:
+  admin:
+    permissions:
+      view_download_button_label: Yan menyuda yükləmə düyməsini göstərin
+    settings:
+      button_link_heading: Yükləmə Linki
+      button_link_text: Düzgün keçid daxil edin (məsələn, https://example.com).
+      button_order_heading: Düymə Sifarişi
+      button_order_text: 'Flarum forumunuzun yan menyu bölməsində bu alətin yerini
+        tənzimləmək üçün bu parametri redaktə edin. '
+      enter_link_message: Etibarlı link daxil edin.
+      labels:
+        add_separator: Ayırıcı əlavə edilsin?
+        disable_widget: Doğma aləti söndürün və əvəzinə Afrux ilə işləyən alətdən
+          istifadə edin
+      separator_order_heading: Ayırıcı Sifariş
+      separator_order_text: 'Flarum forumunuzun yan menyu bölməsində bu alət üçün
+        bölücünün yerini tənzimləmək üçün bu parametri redaktə edin. '
+  forum:
+    index:
+      download_button: İndir

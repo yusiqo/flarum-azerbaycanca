@@ -1,0 +1,27 @@
+reflar-recache:
+  admin:
+    nav:
+      desc: Keşləmə parametrlərini konfiqurasiya edin.
+    page:
+      check_button: Nəzarət Bir
+      connection_failed: Bağlantı qurmaq mümkün olmadı.
+      heading: Parametrlər
+      redis:
+        check: Saxlamadan əvvəl linki yoxlayın!!
+        database: verilənlər bazası
+        failed: Parametrləri saxlamaq alınmadı, lütfən, "vendor/flarum/core/src/Database/"
+          serveriniz tərəfindən yazıla bilən olduğundan əmin olun
+        fillin: Zəhmət olmasa Redis formasını tamamilə doldurun
+        host: Ev sahibi
+        label: Redis
+        password: parol
+        port: Liman
+        success: Redis serverinə uğurla qoşuldu.
+      switches:
+        avatar: Vizual təkmilləşdirməni aktivləşdirin
+        cache: Keşi aktivləşdirin
+        lazy: Şəkillər üçün tənbəl yükləməni aktivləşdirin
+        query: Sorğu Keşini aktivləşdirin (Yalnız Redis)
+  forum:
+    redis:
+      error_alert: 'Redis bağlantısı {time}-da uğursuz oldu. '

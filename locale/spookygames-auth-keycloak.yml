@@ -1,0 +1,13 @@
+flarum-ext-auth-keycloak:
+  admin:
+    keycloak_settings:
+      attribute_mapping_label: Xüsusi atribut xəritəsi
+      client_id_label: Müştəri ID
+      client_secret_label: Müştəri sirri
+      delegate_avatars_label: Nümayəndə avatarları
+      encryption_algorithm_label: şifrələmə alqoritmi
+      encryption_key_label: Şifrələmə açarı (və ya sertifikat)
+      realm_label: səltənət
+      role_mapping_label: Roldan qrupa xəritəçəkmə
+      server_url_label: Server URL
+      title: Klaviatura Parametrləri

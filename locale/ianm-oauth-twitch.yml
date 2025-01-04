@@ -1,0 +1,16 @@
+fof-oauth:
+  admin:
+    settings:
+      providers:
+        twitch:
+          client_id_label: Müştəri ID
+          client_secret_label: Müştəri sirri
+          description: Forumunuzu Twitch-də qeydiyyatdan keçirin {link}
+  forum:
+    log_in:
+      with_twitch_button: => fof-oauth.forum.log_in.with_button
+    providers:
+      twitch: => fof-oauth.lib.providers.twitch
+  lib:
+    providers:
+      twitch: Twitch

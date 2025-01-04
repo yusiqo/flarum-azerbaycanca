@@ -1,0 +1,20 @@
+datlechin-more-discussions:
+  admin:
+    settings:
+      block_name_help: Blokun adı (defolt <code>Son müzakirələr</code>)
+      block_name_label: blok adı
+      discussion_limit_help: Göstəriləcək müzakirələrin sayı (defolt <code>5</code>)
+      discussion_limit_label: Müzakirə limiti
+      discussion_related_help: 'Müzakirə mövzusu üzrə müvafiq nəticələri axtarın. '
+      discussion_related_label: Əlaqədar nəticələr
+      filter_by_help: 'Müzakirələri süzün (defolt: <code>son</code>)'
+      filter_by_label: Filtr edin
+      filter_dropdown:
+        hot: Trend (fof/gamification lazımdır)
+        latest: sonuncu
+        newest: Ən son
+        oldest: Ən köhnə
+        top: Pik
+        votes: Təkliflər (fof/oyunlaşdırma tələb olunur)
+  forum:
+    block_default_name: Ən son müzakirələr

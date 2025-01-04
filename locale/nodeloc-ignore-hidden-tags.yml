@@ -1,0 +1,4 @@
+ignore-hidden-tags:
+  admin:
+    permissions:
+      select-group-ignore: Gizlətmələrə məhəl qoymamaq üçün qrupu seçin

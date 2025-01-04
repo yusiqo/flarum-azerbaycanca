@@ -1,0 +1,19 @@
+clarkwinkelmann-clippy:
+  admin:
+    events:
+      animation: Animasiya
+      name: Fəaliyyət
+      text: Mətn
+    settings:
+      agent: Xarakter
+      agent-help: 'Hər bir xarakterin fərqli animasiya dəsti var. '
+      cdn: CDN
+      cdn-options:
+        custom: Xüsusi
+        jsdelivr: jsDeliver
+        s3: Amazon S3
+      events: Hadisələr
+      events-help: Hər tədbirdə hansı animasiyalar və ifadələrin görünəcəyini seçin
+      path: Şəxsi CDN Yolu
+      path-help: <a>clippy.js repozitoriyası</a> olan qovluğa kəsiksiz tam keçid daxil
+        edin.

@@ -1,0 +1,22 @@
+fof-oauth:
+  admin:
+    settings:
+      providers:
+        apple:
+          client_id_label: Xidmət ID
+          description: Forumunuzu Apple ilə qeydiyyatdan keçirin {link}
+          key_file_id_label: Açar Fayl İdentifikatoru (Açar Fayl)
+          keyfile_upload:
+            remove_button: Açar faylı silin
+            upload_button: Açar faylı yükləyin
+          keyfile_upload_help: <a>açar fayl</a> yaradın və onu buraya yükləyin
+          keyfile_upload_label: Açar Fayl
+          team_id_label: Komanda ID
+  forum:
+    log_in:
+      with_apple_button: '{provayder} ilə daxil olun'
+    providers:
+      apple: => fof-oauth.lib.providers.apple
+  lib:
+    providers:
+      apple: alma

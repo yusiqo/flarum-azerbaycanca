@@ -1,0 +1,23 @@
+tituspijean-auth-ldap:
+  admin:
+    settings:
+      account_prefix: Hesab prefiksi
+      account_suffix: Hesab şəkilçisi
+      admin_dn: LDAP administratorunun seçilən adı (anonim bağlama üçün boş buraxın)
+      admin_password: LDAP administrator parolu (anonim quraşdırma üçün boş buraxın)
+      base_dn: Əsas DN-lər (nöqtəli vergüllə ayrılır)
+      filter: Tətbiq etmək üçün filtr (isteğe bağlı)
+      follow_referrals: LDAP serverinə qoşulmaq üçün addımları izləyin
+      hosts: LDAP domenləri və ya server IP ünvanları (vergüllə ayrılmış)
+      method_name: LDAP server adı ("Daxil ol"dan sonra görünəcək)
+      onlyUse: Flarum defolt giriş metodunu gizlədin
+      port: liman
+      search_user_fields: LDAP istifadəçi axtarış sahələri (vergüllə ayrılmış)
+      title: LDAP parametrləri
+      use_ssl: SSL istifadə edin
+      use_tls: TLS qızıl
+      user_mail: LDAP istifadəçi poçt domeni
+      user_username: LDAP istifadəçi adı sahəsi
+  forum:
+    log_in_with: '{server} ilə daxil olun'
+    log_out: => core.ref.log_out

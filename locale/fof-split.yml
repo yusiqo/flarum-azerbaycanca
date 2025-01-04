@@ -1,0 +1,18 @@
+fof-split:
+  admin:
+    permissions:
+      split_discussion_label: Yazıları müzakirələrdən ayırın
+  forum:
+    modal:
+      new_discussion_label: Yeni müzakirə üçün başlıq təyin edin
+      submit_button: ayrı
+      title: Müzakirəni ayırın
+    post:
+      was_split_from: '{count, cəm, bir {{count} yazı {target} müzakirəsindən köçürüldü.}
+        digər {{count} yazı {target} müzakirəsindən köçürüldü.}}'
+      was_split_to: '{count, cəm, bir {{count} yazı {target} müzakirəsinə daşındı.}
+        digər {{count} yazı {target} müzakirəsinə köçürüldü.}}'
+    split:
+      cancel: Gözləməni ləğv edin
+      from: Buradan ayrılın
+      to: Burada bölün

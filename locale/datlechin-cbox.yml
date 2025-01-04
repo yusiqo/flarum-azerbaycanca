@@ -1,0 +1,10 @@
+datlechin-cbox:
+  admin:
+    settings:
+      box_id: Qutu ID
+      box_tag: qutu etiketi
+      description: 'Sizin Cbox Pro versiyası olmalıdır. '
+      secret: Gizli Açar
+      show_when_user_not_login: İstifadəçinin daxil olmamasını göstərin
+      show_when_user_not_login_help: İstifadəçi daxil olmasa belə, söhbət qutusunu
+        göstərin

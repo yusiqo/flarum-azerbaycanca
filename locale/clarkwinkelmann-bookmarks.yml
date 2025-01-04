@@ -1,0 +1,15 @@
+clarkwinkelmann-bookmarks:
+  admin:
+    settings:
+      independentButton: Müzakirə yan menyusuna işarələmə nəzarəti əlavə edin
+  forum:
+    badge: işarələnmişdir
+    dropdownButton:
+      add: Əlfəcinlərə əlavə edin
+      remove: Əlfəcinlərdən silin
+    independentButton:
+      add: işarələyin
+      remove: işarələnmişdir
+    page:
+      link: İşarələnmiş
+      title: İşarələnmiş

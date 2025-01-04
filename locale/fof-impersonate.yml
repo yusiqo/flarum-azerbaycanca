@@ -1,0 +1,29 @@
+fof-impersonate:
+  admin:
+    permissions:
+      login: Bu istifadəçi kimi daxil olun
+    settings:
+      no_settings_available: 'Hazırda heç bir parametr mövcud deyil. '
+      require_reason: Başqa bir istifadəçini təqlid etməyə davam etməzdən əvvəl səbəb
+        tələb edin.
+      title: FoF Təqlid
+  forum:
+    modal:
+      impersonate_username: '{username} kimi daxil olun'
+      label: 'Böyük güclə böyük məsuliyyət gəlir. '
+      placeholder_optional: (İstəyə görə) Bu istifadəçiyə keçid səbəbinizi göstərin
+      placeholder_required: Davam etməzdən əvvəl bu istifadəçiyə keçid səbəbinizi
+        qeyd etməlisiniz.
+      title: Başqa istifadəçi kimi daxil olun
+    user_controls:
+      impersonate_button: Daxil olmaq üçün istifadəçi
+  lib:
+    modal:
+      impersonate_username: '{username} kimi daxil olun'
+      label: 'Böyük güclə böyük məsuliyyət gəlir. '
+      placeholder_optional: (İstəyə görə) Bu istifadəçiyə keçid səbəbinizi göstərin
+      placeholder_required: Davam etməzdən əvvəl bu istifadəçiyə keçid səbəbinizi
+        qeyd etməlisiniz
+      title: Başqa istifadəçi kimi daxil olun
+    user_controls:
+      impersonate_button: İstifadəçi kimi daxil olun

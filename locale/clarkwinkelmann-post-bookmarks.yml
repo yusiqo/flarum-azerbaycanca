@@ -1,0 +1,20 @@
+clarkwinkelmann-post-bookmarks:
+  admin:
+    settings:
+      buttonPosition: Düymənin düzülüşü
+      buttonPositionActions: Postun altında (tez hərəkətlər)
+      buttonPositionHeader: Yuxarıdakı post (başlıq)
+      buttonPositionMenu: Göndərmə menyusunda (3 nöqtə)
+      headerBadge: Əlfəcin edilmiş yazının üstündə əlfəcin etiketini göstərin
+  forum:
+    alert:
+      added: Əlfəcin edildi!
+      removed: Əlfəcin silindi!
+      show-bookmarks: Əlfəcinlərə keçin
+    badge: əlfəcinlərdə
+    button:
+      add: əlfəcinlər
+      remove: əlfəcinlərdə
+    page:
+      link: əlfəcinlər
+      title: əlfəcinlər

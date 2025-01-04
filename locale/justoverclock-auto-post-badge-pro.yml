@@ -1,0 +1,31 @@
+justoverclock-auto-post-badge-pro:
+  admin:
+    cologBackg: Fon Rəngi
+    colorBg: Tərəqqi zolağının fonu
+    colorBgTwo: fon
+    fromPost: Göndərmə nömrəsindən
+    icon: Simvol
+    levelEight: Səviyyə 8
+    levelEighteen: Səviyyə 18
+    levelEleven: Səviyyə 11
+    levelFifteen: Səviyyə 15
+    levelFive: Səviyyə 5
+    levelFour: Səviyyə 4
+    levelFourteen: Səviyyə 14
+    levelNine: Səviyyə 9
+    levelOne: Səviyyə 1
+    levelSeven: Səviyyə 7
+    levelSeventeen: Səviyyə 17
+    levelSix: Səviyyə 6
+    levelSixteen: Səviyyə 16
+    levelTen: Səviyyə 10
+    levelThirteen: Səviyyə 13
+    levelTree: Səviyyə 3
+    levelTwelve: Səviyyə 12
+    levelTwo: Səviyyə 2
+    text: Mətn
+    toPost: Göndərmə nömrəsinə
+  forum:
+    hasWritten: Bu istifadəçi yazıb
+    nextBadge: Növbəti Nişan
+    posts: yazılar

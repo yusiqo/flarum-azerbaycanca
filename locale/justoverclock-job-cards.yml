@@ -1,0 +1,19 @@
+justoverclock-job-cards:
+  forum:
+    actualOccupationField: Faktiki məşğuliyyət/vəzifə
+    actualSalaryField: Real Maaş
+    available: İcarəyə verilir
+    availableForHireField: İcarəyə verilir
+    avatarField: Avatar(URL)
+    companyNameField: Şirkət Adı
+    fieldNotFilled: Sahə doldurulmayıb!
+    formSaved: Forma uğurla yadda saxlanıldı
+    fullNameField: Tam Ad
+    jobFormTitle: Vizit kartı
+    jobProfile: İş Profili
+    'no': yox
+    notAvailable: uyğun deyil
+    saveBtn: Saxla
+    showInsidePostsField: Postların içərisində Biznes Kartı göstərilsin?
+    yearOfExperienceField: İllərin Təcrübəsi
+    'yes': Bəli

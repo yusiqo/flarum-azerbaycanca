@@ -1,0 +1,109 @@
+fof-oauth:
+  admin:
+    configure_button_label: FoF OAuth ilə qurun
+    permissions:
+      moderate_user_providers: İstifadəçinin bağlı hesablarını yoxlayın
+    settings:
+      advanced:
+        heading: İnkişaf etmiş
+        log-oauth-errors-help: 'Aktiv edilərsə, OAuth xətaları Flarum jurnalına daxil
+          ediləcək. '
+        log-oauth-errors-label: OAuth xətalarını qeyd edin
+      fullscreen_popup_help: 'Aktivləşdirildikdən sonra OAuth girişi tam ekran açılan
+        pəncərədə açılacaq. '
+      fullscreen_popup_label: OAuth üçün Tam Ekran Popup istifadə edin
+      only_icons_label: Yalnız Giriş Düymə nişanlarını göstərin (alternativ tərtibat)
+      popup_height_help: 'OAuth popupunun hündürlüyünü tənzimləyin. '
+      popup_height_label: OAuth Popup Hündürlüyü
+      popup_width_help: 'OAuth pop-upunun enini tənzimləyin. '
+      popup_width_label: OAuth Popup Genişliyi
+      providers:
+        callback_url_text: Lazım gələrsə, geri zəng linkini {url} olaraq təyin edin.
+        discord:
+          client_id_label: => fof-oauth.ref.settings.client_id
+          client_secret_label: => fof-oauth.ref.settings.client_secret
+          description: '{link} ünvanında tətbiq yaradın. '
+        facebook:
+          app_id_label: => fof-oauth.ref.settings.app_id
+          app_secret_label: => fof-oauth.ref.settings.app_secret
+          description: '{link} ünvanında proqram yaradın.'
+        github:
+          client_id_label: => fof-oauth.ref.settings.client_id
+          client_secret_label: => fof-oauth.ref.settings.client_secret
+          description: '{link} üzərində OAuth tətbiqi yaradın.'
+        gitlab:
+          client_id_label: => fof-oauth.ref.settings.app_id
+          client_secret_label: => fof-oauth.ref.settings.app_secret
+          description: '{link} ünvanında proqram yaradın. '
+          domain_label: GitLab Domain
+        google:
+          client_id_label: => fof-oauth.ref.settings.client_id
+          client_secret_label: => fof-oauth.ref.settings.client_secret
+          description: '{link} ünvanında proqram yaradın.'
+          hosted_domain_label: Hosted Domain (G Suite/Biznes üçün Google Tətbiqləri,
+            istəyə görə)
+        linkedin:
+          client_id_label: => fof-oauth.ref.settings.client_id
+          client_secret_label: => fof-oauth.ref.settings.client_secret
+          description: '{link} ünvanında proqram yaradın.'
+        twitter:
+          api_key_label: API Açarı
+          api_secret_label: API sirri
+          description: '{link} ünvanında proqram yaradın. '
+      update_email_from_provider_help: 'Aktiv edilərsə, istifadəçinin e-poçt ünvanı
+        hər dəfə foruma daxil olanda OAuth provayderi tərəfindən verilən ünvana uyğun
+        olaraq yenilənəcək. '
+      update_email_from_provider_label: Provayderdən e-poçt ünvanını yeniləyin
+    settings_accessibility_label: '{name} parametrləri'
+  forum:
+    error:
+      bad_verification_code: 'Etibarsız və ya vaxtı keçmiş doğrulama nişanı. '
+      invalid_state: 'Etibarsız status. '
+    log_in:
+      with_button: '{provayder} ilə daxil olun'
+      with_discord_button: => fof-oauth.forum.log_in.with_button
+      with_facebook_button: => fof-oauth.forum.log_in.with_button
+      with_github_button: => fof-oauth.forum.log_in.with_button
+      with_gitlab_button: => fof-oauth.forum.log_in.with_button
+      with_google_button: => fof-oauth.forum.log_in.with_button
+      with_linkedin_button: => fof-oauth.forum.log_in.with_button
+      with_twitter_button: => fof-oauth.forum.log_in.with_button
+    providers:
+      discord: => fof-oauth.lib.providers.discord
+      facebook: => fof-oauth.lib.providers.facebook
+      github: => fof-oauth.lib.providers.github
+      gitlab: => fof-oauth.lib.providers.gitlab
+      google: => fof-oauth.lib.providers.google
+      linkedin: => fof-oauth.lib.providers.linkedin
+      twitter: => fof-oauth.lib.providers.twitter
+    signup:
+      username_help: Lütfən, burada tanınacaq istifadəçi adı seçin
+    unlink: linki silin
+    user:
+      settings:
+        linked-account:
+          help: Bu əlaqəli hesablar digər provayderlərdən istifadə edərək foruma daxil
+            olmağa imkan verir.
+          identification-label: '{provayder} ID'
+          identifier-label: '{provayder} ID'
+          label: Əlaqədar hesablar
+          last-used-label: İstifadə müddəti
+          link-created-label: Link yaradıldı
+          orphaned-account: Siz əvvəllər bu provayder vasitəsilə daxil olmusunuz,
+            lakin bu forum o vaxtdan bu üsulla girişi qeyri-aktiv edib.
+          unlink-confirm: '{provider} linkini silmək istədiyinizə əminsiniz? '
+  lib:
+    providers:
+      discord: Mübahisə
+      facebook: Facebook
+      github: GitHub
+      gitlab: GitLab
+      google: Google
+      linkedin: LinkedIn
+      twitter: Twitter
+  ref:
+    settings:
+      app_id: Proqram ID
+      app_secret: Proqram sirri
+      client_id: Müştəri ID
+      client_secret: Müştəri sirri

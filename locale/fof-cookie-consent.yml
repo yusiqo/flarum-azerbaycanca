@@ -1,0 +1,23 @@
+fof-cookie-consent:
+  admin:
+    settings:
+      backgroundColor: fon
+      buttonBackgroundColor: fon
+      buttonText: Düymə Mətnini Bağlayın
+      buttonTextColor: Mətn
+      ccTheme: O
+      configuration_button_title: Daha çox Baxın Düyməsi
+      configuration_title: Konfiqurasiya Seçimləri
+      consentText: Məzmun Mesajı
+      learnMoreLinkText: Mətn
+      learnMoreLinkUrl: Əlaqə
+      textColor: Mətn
+      theme_dismiss_title: Düymə Rəngini Bağlayın
+      theme_popup_title: Popup Rəngləri
+      theme_title: Mövzu Parametrləri
+      themes:
+        blocky: Bloklu
+        classic: Klassik
+        custom: Xüsusi
+        edgeless: haşiyəsiz
+        no_css: CSS yoxdur

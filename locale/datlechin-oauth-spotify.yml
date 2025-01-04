@@ -1,0 +1,16 @@
+fof-oauth:
+  admin:
+    settings:
+      providers:
+        spotify:
+          client_id_label: Müştəri ID
+          client_secret_label: Müştəri sirri
+          description: Forumunuzu Spotify-da yadda saxlayın {link}.
+  forum:
+    log_in:
+      with_spotify_button: => fof-oauth.forum.log_in.with_button
+    providers:
+      spotify: Spotify ilə daxil olun
+  lib:
+    providers:
+      spotify: Spotify

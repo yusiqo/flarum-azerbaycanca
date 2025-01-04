@@ -1,0 +1,33 @@
+fof-pretty-mail:
+  admin:
+    css_settings:
+      help: 'Siz e-poçta forumun CSS-ni daxil etməyi seçə bilərsiniz. '
+      label: CSS parametrləri
+      switch_label: Forum CSS kodlarını əlavə edin
+    nav:
+      desc: E-poçt şablonlarınızı HTML ilə fərdiləşdirin.
+    settings:
+      attributes:
+        body: E-poçtun faktiki məzmununu ehtiva edir
+        forumStyle: <strong>Bütün forum CSS-lərini ehtiva edir</strong>
+        link: E-poçtdakı keçid daxildir
+        settings: SettingsRepositoryInterface ilə qarşılıqlı əlaqə yaratmağa imkan
+          verir
+        url: Flarum'un <code>UrlGenerator</code>
+      attributes_label: Mövcud xüsusiyyətlər
+      confirm: Defolt e-poçt şablonuna qayıtmaq istədiyinizə əminsiniz?
+      default: Defolt Şablon
+      help: '"$body" e-poçtun məzmununu göstərir, "$forumStyle" <strong>bütün forumun
+        CSS kodunu</strong> əlavə edir, "$url" forumunuza keçiddir, "$settings" sizə
+        e-poçtla qarşılıqlı əlaqə yaratmağa imkan verir. SettingsRepositoryInterface
+        və "$link" E-poçt daxilində keçid təmin edir. '
+      label: E-poçt Şablonları
+      newPost: Flarum/Abunəliklər Yeni Post E-poçtu
+      notificationHelp: '"$forumStyle" istifadə etmək tövsiyə olunur, çünki e-poçtlarda
+        BBCode ola bilər. '
+      notifications: Bildiriş şablonları
+      postMentioned: Flarum/Qeyd E-poçtu
+      reset: Default olaraq sıfırlayın
+      template_help: Hər bir xüsusiyyətdən necə istifadə edəcəyinizi öyrənmək üçün
+        hər şablona baxın.
+      userMentioned: Flarum/İstifadəçi E-poçtu qeyd edir

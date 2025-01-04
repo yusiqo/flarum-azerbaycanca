@@ -1,0 +1,27 @@
+clarkwinkelmann-predefined-avatars:
+  admin:
+    permissions:
+      setCustomAvatarAlways: İstədiyiniz zaman fərdi avatar qurun
+      setPredefinedAvatar: Əvvəlcədən təyin edilmiş siyahıdan avatar seçin
+    settings:
+      defaultOptions:
+        first: Siyahıdakı ilk avatar
+        none: avatar yoxdur
+        random: Siyahıdan təsadüfi avatar
+      predefinedAvatars: Avatarlar mövcuddur
+      predefinedAvatarsDefault: Defolt Avatar
+      predefinedAvatarsDefaultHelp: Qeydiyyatdan keçən yeni istifadəçilər üçün etibarlıdır.
+      predefinedAvatarsHelp: 'Faylların ölçüsü dəyişdirilmir və ya çevrilmir. '
+      predefinedAvatarsNoRemove: Avatar aşkarlanmasının qarşısını alın
+      predefinedAvatarsNoRemoveHelp: Artıq fərdi və ya əvvəlcədən təyin edilmiş avatarı
+        olan istifadəçilər aşağıdakı icazəyə malik olmadıqca defolt "baş hərflər"
+        avatarına qayıda bilməzlər.
+      predefinedAvatarsOnly: Yalnız əvvəlcədən təyin edilmiş avatarlara icazə verin
+      predefinedAvatarsOnlyHelp: Aşağıdakı icazə fərdi avatarları yükləmək imkanını
+        aradan qaldırır.
+  forum:
+    editor:
+      setPredefinedAvatar: Əvvəlcədən təyin edilmiş avatar seçin
+    modal:
+      imageAlt: Avatar
+      title: Bir avatar seçin

@@ -1,0 +1,97 @@
+kyrne-aegis:
+  admin:
+    permissions:
+      required: Qrupların iki faktorlu icazəsi olmalıdır.
+    settings:
+      authyApi: Authy API Açarı
+      authyHelp: 'API açarınızı əldə edin və forumunuzun Authy proqramında necə görünəcəyini
+        buradan fərdiləşdirin: <a>https://www.twilio.com/console/authy</a>'
+      emailHelp: Yeni cihazlar daxil olduqda istifadəçilərə e-poçt göndərin.
+      email_method: E-poçt vasitəsilə iki faktorlu (<a>Websocket</a> Tələb olunur)
+      enable: Twilio-nu aktivləşdirin
+      enableAuthy: Authy OneTouch-u aktivləşdirin (<a>Websocket</a> Tələb olunur)
+      group_requirement: İki faktorlu Qrup Tələbləri (aşağıdakı icazə)
+      help: Hesabınız SID, <a>https://twilio.com/console</a> ünvanında Avtorizasiya
+        Tokeni və <a2>https://twilio.com/console/phone-numbers/incoming</a2> ünvanında
+        telefon nömrəniz alın
+      number: Twilio Telefon Nömrəsi
+      sid: Twillio Hesab SID
+      token: Twillio Auth Token
+  api:
+    expired-token-error: Bu linkin vaxtı keçib
+    invalid-token-error: Bu keçid etibarsızdır
+    pusher-token-error: Bu giriş sorğusu ləğv edilib
+    request-throttle-error: Lütfən, başqa token tələb etməzdən əvvəl 5 dəqiqə gözləyin
+    success: Giriş təsdiqləndi
+  forum:
+    2fa_disabled: İki addımlı doğrulama uğurla deaktiv edildi.
+    2fa_enabled: İki faktorlu autentifikasiya uğurla aktivləşdirildi
+    accountlabel: İki Amil
+    incorrect_2fa: Yanlış doğrulama kodu
+    modal:
+      2fa_heading: İki faktorlu kod
+      2fa_help: SMS və ya TOTP birdəfəlik kodunuzu yazın.
+      2fa_required: '{qrup} üzvlüyünə görə siz iki faktorlu autentifikasiya qurmalısınız.'
+      2fa_required_2: '{qrup} üzvlüyünə görə sizə iki faktorlu autentifikasiya lazımdır.'
+      authy_heading: Authy Quraşdırma
+      back: Geri
+      button: Göndər
+      close: Kodlarımı saxladım
+      download: Kodları yükləyin
+      emailModalHeader: Doğrulama tələb olunur, giriş linki üçün e-poçtunuzu yoxlayın.
+      emailModalTitle: İki faktorlu autentifikasiya
+      gate_error: Lütfən, başqa token tələb etməzdən əvvəl 5 dəqiqə gözləyin.
+      heading: İki Faktor parametrləri
+      helpAuthy: Ölkənizi seçin, telefon nömrənizi daxil edin və sonra "Quraşdırma"
+        düyməsini basın.
+      helpAuthy2: 'İndi siz Authy tətbiqinizdən Authy quraşdırmaq üçün təlimatlarla
+        mətn və ya bildiriş almalısınız. '
+      helpPhone: Ölkənizi seçin, telefon nömrənizi daxil edin, sonra "Telefonu qeydiyyatdan
+        keçir" düyməsini basın
+      helpPhone2: İndi kodu olan bir mətn alacaqsınız, onu aşağıya daxil edin və "göndər"
+        düyməsini basın.
+      helpQR: QR kodunu skan edin və ya kodu əl ilə Google Authenticator və ya başqa
+        TOTP tətbiqinə əlavə edin.
+      login_title: İki faktorlu autentifikasiya
+      not_you: Sən deyilsən?
+      oneTouchCodeHeader: Authy Tətbiqinizdən Kodu daxil edin
+      oneTouchHeader: OneTouch Təsdiqi Gözlənir
+      oneTouchHeaderVerified: Təsdiq edildi!
+      oneTouchTitle: Avtorizasiya Təsdiqi Tələb olunur
+      otSetup: Quraşdırma
+      phone_heading: SMS Doğrulama
+      placeholder: Birdəfəlik parol
+      recov: Bərpa kodları
+      recov_header: Bərpa kodları
+      recov_help1: Lütfən, bu kodları yadda saxlayın, onlar bir daha göstərilməyəcək!
+      recov_help2: Telefonunuza və ya TOTP proqramına girişinizi itirsəniz, hesabınıza
+        qayıtmağın yeganə yolu bunlardır.
+      stAuthy: Authy quraşdırılmasına keçin
+      stPhone: Telefon quraşdırmasına keçin
+      stTOTP: TOTP quraşdırmasına davam edin
+      submitPhone: Telefonu Saxla
+      switch: İki Amil
+      twofactor_title: İki Faktorlu Quraşdırma
+      useACode: Kod istifadə
+    onetouch: '{forum}a giriş sorğusu'
+    page:
+      devices_heading: Doğrulanmış Cihazlar
+      ip: 'IP: {ip}'
+      last_seen: 'Son görünmə: {zaman}'
+      location: 'Konum: {location}'
+      my_device: Bu Cihaz
+      revoke: Girişi ləğv edin
+      settings_heading: Təhlükəsizlik parametrləri
+      success: Giriş uğurla ləğv edildi, bu cihaz dərhal sistemdən çıxacaq.
+      title: Təhlükəsizlik
+    security_button: Təhlükəsizlik
+    text: '{forum} doğrulama kodunuz: {code}'
+  mail:
+    emailBod: 'Kimsə {forum} icma hesabınızı sındırmağa çalışır - ümid edirəm ki,
+      bu sizsiniz.
+
+      '
+    emailSub: Giriş sorğusu
+    reminderBod: 'Bu, hesabınızda iki faktorlu autentifikasiyanın aktiv edildiyini
+      xatırladan dostluqdur. '
+    reminderSub: Hesabınızda iki faktorlu autentifikasiya aktivləşdirilib

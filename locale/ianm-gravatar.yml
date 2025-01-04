@@ -1,0 +1,40 @@
+ianm-gravatar:
+  admin:
+    settings:
+      defaults:
+        helptext: 'E-poçt ünvanında uyğun Gravatar şəkli yoxdursa nə olacaq? '
+        identicon_label: 'identicon: e-poçt hashına əsaslanan həndəsi naxış'
+        monsterid_label: 'canavar: müxtəlif rənglər, üzlər və s. '
+        mp_label: 'mp: (sirrli şəxs) sadə, cizgi filmi tipli bir insanın silueti (e-poçt
+          heşinə əsasən dəyişmir)'
+        retro_label: 'retro: sərin 8-bit arcade üslublu piksel təsvirli üzlər'
+        robohash_label: 'robohash: müxtəlif rənglər, üzlər və s. '
+        title: Defolt
+        wavatar_label: 'wavatar: müxtəlif xüsusiyyətlərə və fona malik yaradılan üzlər'
+      force-default:
+        helptext: E-poçt hash xüsusi istifadəçi tərəfindən yüklənmiş avatarla əlaqələndirilsə
+          belə, defolt dəstdən istifadəni tətbiq edir
+        title: Varsayılanı məcbur edin
+      proxy:
+        helptext: 'Varsayılan olaraq, gravatar URL-ləri birbaşa gravatar.com saytından
+          götürülür. '
+        title: Proxy gravatarlar
+      rating:
+        g_label: 'g: istənilən auditoriya növü olan istənilən vebsaytda baxmaq üçün
+          uyğundur'
+        helptext: 'Gravatar istifadəçilərə şəklin müəyyən auditoriya üçün uyğun olub
+          olmadığını müəyyən etmək üçün öz şəkillərini qiymətləndirməyə imkan verir. '
+        pg_label: 'PG: Tərkibində vulqar jestlər, təxribatçı geyimli insanlar, daha
+          az söyüş və ya yüngül zorakılıq ola bilər'
+        r_label: 'r: güclü söyüş, şiddətli zorakılıq, çılpaqlıq və ya ağır narkotik
+          istifadəsi ola bilər'
+        title: Qiymətləndirmə
+        x_label: 'x: sərt cinsi şəkillər və ya son dərəcə narahatedici zorakılıq ola
+          bilər'
+      replace-flarum-custom:
+        helptext: Forumda əvvəlcədən quraşdırılmış xüsusi avatarları Gravatar ilə
+          əvəz edin
+        title: Foruma yüklənmiş fərdi avatarları dəyişdirin
+  forum:
+    settings:
+      edit-gravatar: gravatar.com vasitəsilə avatarı idarə edin

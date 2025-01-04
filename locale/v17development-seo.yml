@@ -1,0 +1,11 @@
+v17development-flarum-seo:
+  admin:
+    permissions:
+      configure_seo: SEO konfiqurasiyasına icazə verin
+  forum:
+    controls:
+      configure_seo: SEO-nu redaktə edin
+      reset_seo: SEO-nu sıfırlayın
+      update_seo: SEO-nu yeniləyin
+    profile_description: '{username} profili | '
+    profile_title: '{username} profili'

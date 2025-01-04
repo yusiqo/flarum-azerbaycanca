@@ -1,0 +1,21 @@
+clarkwinkelmann-external-email-validation:
+  admin:
+    settings:
+      body: Sorğu orqanı
+      body-help: 'E-poçt dəyərini əvəz edəcək qısa kodlar əlavə edə bilərsiniz, baxın. '
+      default-error-message: Defolt xəta mesajı
+      default-error-message-help: 'Başqa heç bir mesaj tapılmadıqda, e-poçtun yoxlanılması
+        uğursuz olduqda bu mesaj istifadəçiyə göstəriləcək. '
+      headers: Sorğu Başlığı
+      headers-help: Hər sətir yeni bir başlıqdır
+      method: Sorğu Metodu
+      response-error-key: Xəta mesajı ilə JSON atributuna yol
+      response-error-key-help: 'Yol <code>key1.key2.key3</code> formatında olmalıdır. '
+      response-success-key: Cari vəziyyətlə JSON atributuna gedən yol
+      response-success-key-help: 'Yol <code>key1.key2.key32</code> formatında olmalıdır. '
+      uri: URI tələb edin
+      uri-help: 'E-poçt dəyərini əvəz edəcək qısa kodlar əlavə edə bilərsiniz, baxın. '
+      use-response-status: Doğrulama üçün HTTP cavab statusundan istifadə edin
+      use-response-status-help: '2xx cavab etibarlı hesab olunacaq. '
+  api:
+    email-validation-error: E-poçt xarici doğrulama uğursuz oldu.

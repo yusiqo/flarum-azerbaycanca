@@ -1,0 +1,18 @@
+blomstra-user-filter:
+  admin:
+    settings:
+      intro: '<code>Axtarış icazəsi olmayan istifadəçilər</code> axtarış qutusunu
+        görməyəcək. '
+      min_length: Axtarmağa başlamaq üçün minimum simvol
+      result_count: Açılan avtomatik tamamlamada maksimum nəticələr
+  forum:
+    index_page:
+      filter_user:
+        accessible_label: Müəllif tərəfindən
+        all: Hamısı
+        keep_typing: Yazmağa davam...
+        label: 'Müəllif tərəfindən: {text}'
+        no_results: nəticə yoxdur
+        remove_filter: Müəllif filtrini silin
+        search_label: İstifadəçiləri axtarın...
+        start_typing: Yazmağa başlayın...

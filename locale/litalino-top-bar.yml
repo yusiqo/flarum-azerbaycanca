@@ -1,0 +1,6 @@
+litalino-top-bar:
+  admin:
+    settings:
+      intro: HTML etiketi aşağıdakı kimi düzgün göstəriləcək
+      topbar_html_help: HTML teqi yuxarı paneldə göstəriləcək (məsələn, <ul li>)
+      topbar_html_label: Üst Bar HTML

@@ -1,0 +1,6 @@
+peruguitar-user-portrait:
+  admin:
+    exclude_from_mobile_help: İstifadəçi portretini mobil cihazlardan xaric edin
+    exclude_from_mobile_label: Mobildən xaric edilsin?
+  forum:
+    welcome_back_label: xoş gəlmisiniz

@@ -1,0 +1,10 @@
+fof-formatting:
+  admin:
+    plugins:
+      Autoimage: Şəkil bağlantılarını həqiqi şəkillərə çevirin
+      Autovideo: Video bağlantılarını oynatıla bilən videolara çevirin
+      FancyPants: Qəşəng şriftdən istifadə edin
+      HTMLEntities: HTML istifadəsinə icazə verin
+      MediaEmbed: Dəstəklənən saytlardan məzmunun önizlənməsinə icazə verin
+      PipeTables: ASCII tipli cədvəllər
+      TaskLists: GitHub/GitLab tapşırıq siyahıları

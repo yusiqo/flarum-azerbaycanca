@@ -1,0 +1,10 @@
+clarkwinkelmann-roll-die:
+  admin:
+    settings:
+      clearOnEdit: Post redaktəsində yeni nömrələr yaradın
+  forum:
+    composer:
+      rollDie: Zər atın
+    tooltip:
+      preview: Təsadüfi silkələnmə zamanı qeyd edin
+      render: 'Təsadüfi silkələyin: {number}'

@@ -1,0 +1,131 @@
+kilowhat-rich-embeds:
+  admin:
+    permissions:
+      disableOnAnyPost: İstənilən yazıda yerləşdirmələri söndürün
+      disableOnOwnPost: Öz postunda yerləşdirmələri deaktiv edin
+      refreshOnAnyPost: İstənilən postda yerləşdirmələri yeniləyin
+      refreshOnOwnPost: Öz postunda yerləşdirmələri yeniləyin
+      useOnOwnPost: Öz postunuzda yerləşdirmədən istifadə edin
+      viewGoogleDriveThumbnails: API ilə işləyən Google Disk miniatürlərinə baxın
+    preview:
+      loading: Yüklənir...
+      refresh: Yeniləyin
+      title: Önizləmə
+    section:
+      flarum: Flarum
+      github: GitHub
+      google: Google
+      googledrive: Google Disk
+      siteSpecificHelp: 'Aşağıda OpenGraph və HTML qırıntıları vasitəsilə mövcud olmayan
+        məlumatlardan istifadə edərək yerləşdirmələri təkmilləşdirən sayta xas parametrlər
+        verilmişdir. '
+      youtube: YouTube
+    settings:
+      blacklist: URL Qara Siyahı
+      blacklistHelp: 'Format üçün sənədlərə baxın. '
+      cacheProxy: Proksi şəkilləri keş
+      cacheProxyHelp: Şəkillər HTTP başlıqları əsasında diskə yaddaşda saxlanılacaq
+      flarumApiPreviews: Qabaqcıl Flarum önizləmələrini aktivləşdirin
+      flarumApiPreviewsHelp: 'Bu funksiya artıq bütün Flarum ilə işləyən forumlar
+        tərəfindən HTML-yə daxil edilmiş əlavə JSON məlumatlarını təhlil edir. '
+      githubApiKey: GitHub API Açarı
+      githubApiKeyHelp: Şəxsi depolar da daxil olmaqla bütün depolar, məsələlər və
+        PR-lər üçün API ilə təchiz edilmiş zəngin GitHub önizləmələrini aktivləşdirmək
+        üçün doldurun.
+      githubOrgWhitelist: Təşkilatın ağ siyahısı
+      githubOrgWhitelistHelp: 'API ilə təchiz edilmiş önizləmədən istifadə edəcək
+        GitHub təşkilatlarının vergüllə ayrılmış siyahısı. '
+      googleApiAuthConfig: Google SDK Doğrulama Konfiqurasiya Yolu və ya JSON
+      googleApiAuthConfigHelp: 'Bu ayar aşağıdakı YouTube və Google Disk ayarları
+        ilə birlikdə istifadə olunur. '
+      googleApiKey: Google SDK API açarı
+      googleApiKeyHelp: 'Bu ayar aşağıdakı YouTube və Google Disk ayarları ilə birlikdə
+        istifadə olunur. '
+      googledriveApiPreviews: Təkmil API dəstəyi ilə zəngin Google Disk önizləmələrini
+        aktivləşdirin
+      googledriveApiPreviewsHelp: 'Google API SDK yuxarıda konfiqurasiya edilməlidir. '
+      imageEmbeds: Şəkillər üçün zəngin yerləşdirmələr
+      imageEmbedsHelp: 'Bu funksiya bbcode və ya markdown ilə yazılara əlavə edilmiş
+        xarici şəkillər haqqında əlavə məlumatları əldə edir və göstərir. '
+      imageProxy: OpenGraph Image Proxy
+      imageProxyHelp: Bütün OpenGraph və favikon şəkilləri ziyarətçi brauzeri tərəfindən
+        əldə edilmək əvəzinə Flarum vasitəsilə proxy olacaq
+      layout: Sifariş verin
+      layoutOptions:
+        block: Blok
+        inline: xəttdə
+        separated: Ayrılmış
+      maxImageCount: Önizləmədəki şəkillərin maksimum sayı
+      maxImageCountHelp: 'Opengraph və ya qayıdış təhlilçisindən neçə şəkil göstəriləcək. '
+      maxImageCountPlaceholder: Limitsiz istifadə üçün boş buraxın
+      position: Qadınlar
+      positionOptions:
+        above: linkin üstündə
+        below: Aşağıdakı link
+        replace: Linki dəyişdirin
+      style: Stil
+      styleOptions:
+        horizontal: Üfüqi
+        vertical: Şaquli
+      whitelist: URL ağ siyahısı
+      whitelistHelp: 'Format üçün sənədlərə baxın. '
+      withoutOpengraph: OpenGraph məlumatı olmayan səhifələr üçün zəngin yerləşdirmələr
+        yaradın
+      withoutOpengraphHelp: Başlıq, təsvir və şəkil HTML səhifəsindən çıxarılacaq
+      youtubeApiPreviews: Təkmil API dəstəyi ilə zəngin YouTube önizləmələrini aktivləşdirin
+      youtubeApiPreviewsHelp: 'Google API SDK yuxarıda konfiqurasiya edilməlidir. '
+      youtubeNoCookie: YouTube-un kukisiz iframe-dən istifadə edin
+      youtubeNoCookieHelp: 'YouTube tərəfindən təklif olunan kukidən azad alternativ
+        sahəyə keçir. '
+      youtubePlayer: YouTube videolarını önizləmədən oynatmağa icazə verin
+      youtubePlayerHelp: 'İstifadəçi önizləmədə oynat düyməsini kliklədikdə iframe
+        pleyeri isteğe bağlı olaraq yüklənir. '
+  api:
+    embed:
+      flarum:
+        discussion:
+          stats:
+            commentCount: Cavablar
+            createdAt: Başlama tarixi
+            participantCount: İştirakçılar
+          type: Arqument
+        user:
+          avatarAlt: Rəsmi profil
+          stats:
+            commentCount: Şərhlər
+            discussionCount: Müzakirələr
+            joinTime: Qoşulma tarixi
+          type: Profil
+      github:
+        issue:
+          stats:
+            commentCount: Şərhlər
+            createdAt: Yaradılma tarixi
+          type: Problem
+        privateRepoSuffix: '[xüsusi]'
+        pull:
+          stats:
+            commentCount: Şərhlər
+            reviewCount: Rəylər
+          type: çəkmə tələbi
+        siteName: GitHub
+    error:
+      blacklistedUrl: URL {url} inyeksiya üçün ağ siyahıya salınmayıb.
+      invalidUrl: URL {url} etibarlı deyil.
+  lib:
+    controls:
+      disable: Bu postda yerləşdirmələri söndürün
+      disableConfirmation: 'Bu postdakı bütün daxiletmələr silinəcək. '
+      expandDescription: Təsviri genişləndirin
+      imgCopied: Kopyalandı!
+      imgCopy: Şəklin linkini kopyalayın
+      imgOpen: Şəkli yeni tabda açın
+      play: Daxili pleyerdən istifadə edərək medianı oynamaq üçün klikləyin
+      refresh: Məlumatı Yeniləyin
+    embed:
+      altAvatar: Müəllif profil şəkli
+      altFavicon: '{veb-sayt} İkonu'
+      altImageFallback: '{Vebsayt} Opengraph Şəkil'
+      missing:
+        other: Bu keçid üçün önizləmə yaratmaq mümkün olmadı
+        retrieving: Qəbul edilir...

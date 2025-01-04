@@ -1,0 +1,12 @@
+core:
+  admin:
+    permissions:
+      can_push_to_frontpage_label: FrontPage-ə əlavə edə bilərsiniz
+  forum:
+    badge:
+      frontpage_tooltip: FrontPage kimi qeyd edin
+    index_sort:
+      front_button: ÖnSayfa
+    post_controls:
+      pull_from_front_button: FrontPage-dən silin
+      push_to_front_button: FrontPage-ə əlavə edin

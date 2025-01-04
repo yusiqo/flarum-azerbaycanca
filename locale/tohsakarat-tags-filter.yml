@@ -1,0 +1,13 @@
+tohsakarat-tags-filter:
+  forum:
+    index_page:
+      filter_tags:
+        accessible_label: etiket filtri
+        all: hamısı
+        comment_filter: Ləğv etmək üçün bərkidilmiş teqlərə klikləyin~
+        keep_typing: Deyir...
+        label: '{mətn}'
+        no_results: nəticə yoxdur
+        remove_filter: son zəng;
+        search_label: Alırıq...
+        start_typing: Yazmağa başlayın...

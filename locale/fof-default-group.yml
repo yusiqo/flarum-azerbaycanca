@@ -1,0 +1,5 @@
+fof-default-group:
+  admin:
+    settings:
+      info: Aşağıda istifadəçinin hesabı aktivləşdirildikdə onun təyin ediləcəyi qrupu
+        seçə bilərsiniz.

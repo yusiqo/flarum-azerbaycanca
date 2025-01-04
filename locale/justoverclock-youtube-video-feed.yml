@@ -1,0 +1,11 @@
+justoverclock-youtube-video-feed:
+  admin:
+    showTitle: Avtomobilin adını göstərin
+    ytChannelId: YouTube Kanal ID-niz
+    ytChannelId-help: Kanal ID-niz (məsələn, "UC_evXMvSW5N7_qMpnvWRonA"
+    ytHeight: Videoya baxış hündürlüyü
+    ytHeight-help: Videonun önizləməsinin hündürlüyünü təyin edin (piksellə)
+    ytWidth: Videoya baxış eni
+    ytWidth-help: Videonun önizləməsinin enini təyin edin (piksellə)
+  forum:
+    title: Ən son YouTube Videoları

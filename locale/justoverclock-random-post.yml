@@ -1,0 +1,7 @@
+justoverclock-random-post:
+  admin:
+    limit: Random Post üçün simvol limiti
+    limit-help: Bura təsadüfi yazı üçün simvolların maksimum sayını daxil edin (defolt
+      olaraq 280-dir)
+  forum:
+    inThe: 'müzakirədə:'

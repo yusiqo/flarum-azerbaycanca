@@ -1,0 +1,56 @@
+kyrne-shout:
+  admin:
+    permissions:
+      start_label: Şəxsi söhbətə başlayın
+    settings:
+      return_key: Qayıdış düyməsi mesaj göndərir
+      set_own_password: İstifadəçilərə öz parollarını yaratmağa icazə verin - SSO
+        Uyğunluğu
+      title: Qışqırıq Parametrləri
+  forum:
+    chat:
+      cant_send: '{username} cavab verənə qədər yeni mesaj göndərə bilməzsiniz (yalnız
+        ilk mesaja aiddir)'
+      cant_send_toomany: Əlavə mesaj göndərməzdən əvvəl {username}-dən cavab gözləyin.
+      cant_start: Söhbətə başlamaq mümkün deyil
+      chat_with: '{username} ilə söhbət edin'
+      failed_message: Mesajın şifrəsini açmaq mümkün olmadı, №{metod} bərpa üsulu
+        sınanır
+      failed_to_decrypt: '[Şifrəni açarkən xəta]'
+      messages_multiple: '{count} ümumi mesaj'
+      messages_single: yeni söhbət
+      recovery_message: 'Sistem mesajı: Şifrələmə sinxronizasiyası itirildi və bərpa
+        edildi'
+      send: Mesaj Göndər
+      start: Söhbətə başlayın
+      start_of_conversation: Söhbətə başlayın
+      text_placeholder: Mesajınızı yazın
+    dropdown:
+      tooltip: Söhbətlər
+    modal:
+      already: Artıq {username} istifadəçisi ilə söhbətiniz var.
+      copied: Mesajınız mübadilə buferinə kopyalandı.
+      help: Söhbətə başlamaq üçün istifadəçi adı yazın.
+      help_start: 'İlk mesajınızı yazın. '
+      more_users: Axtardığınız istifadəçini görmürsünüzsə, onun şəxsi mesajlaşma quraşdırması
+        yoxdur.
+      search_recipients: İstifadəçi adını daxil edin...
+      submit: Göndər və Söhbətə Başla
+      title: Söhbətə başlayın
+    setup:
+      button_import: İçə Aktar
+      button_setup: Set
+      confirm_password: Şifrənizi Doğrulayın
+      header_import: Şəxsi mesajlarınızı idxal etmək üçün istifadəçi adınızı və şifrənizi
+        daxil edin.
+      header_set_own: Şəxsi mesajlar hazırlamaq üçün parol daxil edin.
+      header_set_own_import: Şəxsi mesajlarınızı idxal etmək üçün parolunuzu daxil
+        edin.
+      header_setup: Şəxsi mesajlaşma qurmaq üçün istifadəçi adınızı və şifrənizi daxil
+        edin.
+      invalid_password: Parolunuz düzgün deyil.
+      passwords_mismatch: Parol uyğun gəlmədi
+      success: Şəxsi mesajlaşma sistemi qurulub, səhifə yenidən yüklənəcək...
+      title: Şəxsi Mesajlaşma qurun
+    user_modal_alert: '{username} şəxsi mesajlaşma qurdu, onun parolunu təhlükəsiz
+      şəkildə dəyişmək mümkün deyil.'

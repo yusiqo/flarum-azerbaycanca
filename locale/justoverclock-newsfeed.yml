@@ -1,0 +1,4 @@
+flarum-ext-newsfeed:
+  admin:
+    feedurldesc: RSS lenti üçün etibarlı keçid daxil edin
+    feedutltitle: RSS Feed Linki

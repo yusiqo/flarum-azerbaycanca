@@ -1,0 +1,25 @@
+flarum-ext-toastme:
+  admin:
+    background: Fon Rəngi ​​(hex formatda)
+    backgrounddesc: Arxa fon rənginizi HEX formatında daxil edin - məsələn, "#ffcc00"
+    dest: Hədəf Linki
+    destdesc: Elan kliklədikdə brauzerin keçəcəyi səhifəyə keçid
+    duration: Elanı daimi olaraq göstərmək üçün dəyəri -1 olaraq daxil edin
+    durdesc: Millisaniyələrdən istifadə edin - məsələn, 3 saniyə üçün "3000"
+    enabletoast: Elanı aktivləşdirin/deaktiv edin
+    gravdesc: Elanın mövqeyini tənzimləyin, yuxarı və aşağı seçimlər etibarlıdır
+    gravity: Təsbit - yuxarı üçün "yuxarı" və ya aşağı üçün "aşağı" olmalıdır
+    helpenable: Elanları aktivləşdirmək və ya söndürmək üçün bu parametrdən istifadə
+      edin
+    message: Elan mətni
+    messagedesc: Elan sahəsində görünmək istədiyiniz mətni daxil edin.
+    offsetxdesc: 'Şaquli ox - piksel dəyərini göstərən rəqəm ola bilər. '
+    offsetxx: X təyyarəsi - üfüqi ox kənarı (px) (defolt olaraq boş buraxın)
+    offsetydesc: 'Şaquli ox - piksel dəyərini göstərən rəqəm ola bilər. '
+    offsetyy: Y müstəvisi - şaquli ox kənarı (px) (defolt olaraq boş buraxın)
+    posdesc: 'Elanın harada görünməsini istərdiniz? '
+    position: Yerləşdirmə - sol üçün "sol", sağ üçün "sağ" və ya mərkəz üçün "mərkəz"
+      olmalıdır
+  forum:
+    message1: Məlumdur ki, istifadəçilər səhifə dizaynına baxarkən diqqətlərini xarici
+      məzmundan yayındırırlar.

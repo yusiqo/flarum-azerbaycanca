@@ -1,0 +1,12 @@
+clarkwinkelmann-username-blacklist:
+  admin:
+    settings:
+      blacklist: Qara siyahı
+      blacklistHelp: 'Hər sətirdə bir ifadə. '
+      message: Fərdi Xəta Mesajı
+      regex: Normal İfadə
+      regexHelp: 'Domen siyahısından müntəzəm ifadə nəzarətinə keçin. '
+      whitelist: Ağ siyahı
+      whitelistHelp: 'Hər sətirdə bir ifadə. '
+  api:
+    fallbackMessage: İstifadəçi adı ağ siyahıda deyil.

@@ -1,0 +1,8 @@
+blomstra-secondary-tags-toggler:
+  admin:
+    permissions:
+      view_toggler: Müzakirələrdə ikinci dərəcəli etiket dəyişdiricisindən istifadə
+        edin
+    settings:
+      only_one_secondary_tag: Bir anda maksimum bir ikincil teq seçilir
+      only_one_secondary_tag_help: 'Mövcud müzakirələrə təsir etmir. '

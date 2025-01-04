@@ -1,0 +1,62 @@
+justoverclock-feedback:
+  admin:
+    background-color: Avtomobilin fon rəngi
+    background-color-help: 'Fon rəngi kimi istifadə ediləcək hex kodu daxil edin,
+      məsələn. '
+    box-title: Qutu Başlığı
+    box-title-help: Əlaqə vidceti popupının başlığını təyin edin (əvvəllər "Flarum
+      Əlaqə")
+    collect-email: İstifadəçilərə e-poçt ünvanı sahəsini göstər (istəyə görə)
+    collect-email-help: Aktivləşdirildikdə, istifadəçilər öz e-poçt ünvanlarını rəyə
+      əlavə edə bilərlər
+    contactdesc: Geribildirim alətini tam aktivləşdirmək üçün bu tamamlanmalıdır
+    contactmail: Rəy göndərmək üçün e-poçt ünvanı
+    feedback1-icon: Əlaqə növü 1 üçün ikona
+    feedback1-icon-help: '"⚠️, ☎️, ✏️" kimi simvol əlavə edin - Windows (Win + .)
+      MacOS 🌐'
+    feedback1-title: Əlaqə növü 1
+    feedback1-title-help: '"Əlaqə növünüzün" adını fərdiləşdirin'
+    feedback2-icon: Əlaqə növü 2 üçün ikona
+    feedback2-icon-help: '"⚠️, ☎️, ✏️" kimi simvol əlavə edin - Windows (Win + .)
+      MacOS 🌐'
+    feedback2-title: Əlaqə növü 2
+    feedback2-title-help: '"Əlaqə növünüzün" adını fərdiləşdirin'
+    feedback3-icon: Əlaqə növü 3 üçün işarə
+    feedback3-icon-help: '"⚠️, ☎️, ✏️" kimi simvol əlavə edin - Windows (Win + .)
+      MacOS 🌐'
+    feedback3-title: Əlaqə növü 3
+    feedback3-title-help: '"Əlaqə növünüzün" adını fərdiləşdirin'
+    font-color: avtomobilin mətn rəngi
+    font-color-help: 'Şrift rəngi kimi istifadə ediləcək hex kodu daxil edin, məs. '
+    left_label: Sol
+    position: avtomobilin yerləşdirilməsi
+    position-help: Əlaqə düyməsini göstərmək üçün aşağı sol və ya sağ alt yerləşdirməni
+      seçin
+    right_label: Sağ
+  api:
+    validation_error: Siz boş rəy verə bilməzsiniz
+  forum:
+    button-title: Əlaqə
+    email:
+      body: 'Siz {type} ilə bağlı {user} tərəfindən yeni rəy aldınız!
+
+
+        '
+      guest: anonim istifadəçi
+      subject: Əlaqə
+    feedback-widget:
+      back: Geri
+      contact-text: Və ya e-poçt göndərin!
+      email-field-placeholder: E-poçt (isteğe bağlı)
+      email-placeholder: E-poçt (isteğe bağlı)
+      failed-message: 'Lütfən, sonra yenidən cəhd edin. '
+      failed-title: Ups, xəta baş verdi
+      placeholder: Rəyinizi bura daxil edin
+      submit: Göndər
+      success: Təşəkkür edirəm!👊
+      title: Flarum Əlaqə
+      type-message: Hansı rəyiniz var?
+      types:
+        bug: Hesabatda xəta
+        general: Ümumi rəy
+        idea: bir fikrim var

@@ -1,0 +1,70 @@
+ianm-translate:
+  admin:
+    glossary:
+      button: Lüğət
+    permission:
+      refresh-translation: Keşlənmiş tərcümənin yenidən tərcüməsini məcbur edin
+      translate-to-all-locales: İstənilən forum dilində tərcüməyə baxın
+      translate-to-locale: Cari dildə tərcüməyə baxın
+    settings:
+      bind-browser-language: Brauzer dili əlavə edin
+      bind-browser-language-help: Aktivləşdirildikdə istifadəçinin brauzer dili(lər)i
+        tərcümə üçün mövcud dillər siyahısına əlavə olunacaq.
+      deepl:
+        api_key:
+          help: '{link} ünvanında qeydiyyatdan keçin. '
+          label: => ianm-translate.lib.settings.api-key
+        en_choice:
+          help: İngilis dilinə tərcümə edərkən hansı dəyişənin istifadə olunacağını
+            seçin.
+          label: İngilis variantı
+          options:
+            en-GB: İngilis (Böyük Britaniya) en-GB
+            en-US: İngilis (ABŞ) en-US
+        formality:
+          help: 'Mümkünsə, tərcümələr müxtəlif səviyyəli rəsmiyyətdən istifadə edə
+            bilər. '
+          label: Formallıq
+          options:
+            default: Defolt
+            prefer_less: daha az rəsmi
+            prefer_more: çox formal
+      google-cloud:
+        api_key:
+          help: 'API açarı üçün {link} ünvanında qeydiyyatdan keçin. '
+          label: => ianm-translate.lib.settings.api-key
+      provider: tərcümə provayderi
+      readme-info: Geniş məlumat üçün README sənədlərinə baxın.
+      readme-none: Bu sürücü üçün əlavə parametrlər tələb olunmur.
+      translate-all-enabled: Bütün tərcümə dillərini aktivləşdirin
+      translate-all-help: Aktivləşdirildikdə, inzibati istifadəçilər və icazəsi olan
+        digər şəxslər məzmunu istənilən quraşdırılmış forum dilinə tərcümə edə bilərlər.
+      use-native-locale-names: Yerli adlardan istifadə edin
+      use-native-locale-names-help: Aktiv edildikdə, adın cari dil versiyası əvəzinə
+        defolt dil ayarı istifadə ediləcək.
+  forum:
+    detected-language: Bu yazı {postLang} dilindədir
+    discussion:
+      post:
+        close-translation: yaxın tərcümə
+        translated-header: '{from}-dan {to}-a AI tərcüməsi'
+        translated-updated: Tərcümə sonuncu dəfə {time} {provayder} istifadə edərək
+          yenilənib
+      title:
+        detected-language: '{postLang}'
+    translate-button-label: Tərcümə
+    unknown-language: '[aşkar edilməyib]'
+    user:
+      settings:
+        heading: Tərcümə
+        source-language:
+          help: 'Deaktiv edildikdə, cari forum dilindən başqa dildə yazılmış yalnız
+            tərcümə edilə bilən məzmun etiketlənəcək. '
+          label: Həmişə dil göstərin
+  lib:
+    providers:
+      deepl: DeepL
+      google-cloud: Google Cloud Translate
+      google-free: Google Tərcümə
+    settings:
+      api-key: API Açarı

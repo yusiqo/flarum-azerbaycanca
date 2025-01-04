@@ -1,0 +1,9 @@
+justoverclock-discord-widget:
+  admin:
+    channelId: Kanal Kimliyi (ID)
+    channelId-help: Serverinizdə Vidceti açın və kanal ID-nizi oraya yapışdırın
+  forum:
+    channels: Kanallar
+    close: Kvartal
+    joinUs: Bizə qoşulun
+    onlineUsers: 'Onlayn İstifadəçilər:'

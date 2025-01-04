@@ -1,0 +1,5 @@
+justoverclock-composer-autocomplete:
+  admin:
+    settingsSubTitle: Bu səhifədə siz əvvəlcədən təyin edilmiş cümlənizi avtomatik
+      tamamlama üçün konfiqurasiya edə bilərsiniz.
+    settingsTitle: 'Avtomatik tamamlama açarı və dəyərləri:'

@@ -1,0 +1,22 @@
+imdong-spam-alert:
+  admin:
+    permissions:
+      see-spam-info: Arzuolunmaz Məlumata baxın
+      set-spam: Lazımsız kimi qeyd edin
+    settings:
+      btn-name: İstənməyən
+      btn-name-help: İstifadəçiyə göstərilən bu düymənin adı standart olaraq "Spam"dır.
+      to-folding-number: Avtomatik susdurma həddi
+      to-folding-number-help: İşarələnəndə neçə nəfərin gizli məzmunu avtomatik gizlədəcəyini
+        müəyyən edir, avtomatik gizlətməmək üçün onu 0-a təyin edin
+  forum:
+    notification:
+      content: Cavab bir neçə dəfə spam olaraq qeyd edildiyi üçün gizlədilib
+      excerpt: Zəhmət olmasa, icma qaydalarına əməl edin, dəfələrlə spam kimi qeyd
+        olunan cavablar sistematik cəzaya məruz qala bilər.
+    post:
+      btn-set-spam: Lazımsız kimi qeyd edin
+      btn-unset-spam: Lazımsız kimi işarələmə
+      spam-hide-tips: Arzuolunmaz gizlidir
+    settings:
+      notify_post_spam_hide_label: Spam olaraq qeyd edildiyi üçün gizlədilib

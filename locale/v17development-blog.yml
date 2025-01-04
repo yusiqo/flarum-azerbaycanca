@@ -1,0 +1,113 @@
+v17development-flarum-blog:
+  admin:
+    blog: Bloq
+    permissions:
+      approve_posts: Bloq məqalələrini təsdiq edə bilər
+      auto_approve_posts: Məqalələri təsdiq olmadan dərc edin
+      write_articles: Bloq məqalələrini yazın və redaktə edin
+    settings:
+      add_hero_label: Xoş gəlmisiniz pankartı göstərin
+      add_hero_text: Əgər onlar hələ bağlanmayıbsa, bloq səhifələrində salamlama bannerini
+        göstərin.
+      add_sidebar_nav_label: Yan panel naviqasiyasına əlavə edin
+      add_sidebar_nav_text: Yan panel naviqasiya menyusunda bloga keçid əlavə edin.
+      allow_comments_label: Şərhlərə icazə verin
+      allow_comments_text: 'Varsayılan olaraq, blog yazılarında şərhlərə icazə verin. '
+      blog_heading: Bloq
+      categories_heading: Kateqoriyalar
+      default_article_image_label: Defolt məqalə şəkli
+      default_article_image_text: Heç bir şəkil təyin edilmədikdə göstərmək üçün defolt
+        məqalə şəklini seçin.
+      featured_count_label: Maksimum Seçilmiş Yazılar
+      featured_count_text: Bloq səhifəsinin yuxarısındakı böyük bir şəbəkədə neçə
+        yazı göstərilməlidir?
+      hide_on_discussion_list_label: Müzakirə siyahısında göstərin
+      hide_on_discussion_list_text: Bloq yazılarını müzakirə siyahısından gizlədin.
+      hide_tags_in_taglist_label: Teqləri etiket siyahısında gizlədin
+      hide_tags_in_taglist_text: Aktivləşdirildikdən sonra bu artırma blog teqlərini
+        ana səhifənizdən gizlədir.
+      no_categories_selected: Heç bir kateqoriya seçilmədi
+      redirect_articles_label: Bloq məqalələrini yönləndirin
+      redirect_articles_text: Aktivləşdirildikdə, bu artırma orijinal müzakirə URL-lərini
+        öz bloq URL-lərinə yönləndirir.
+      redirect_tags_label: Bloq etiketlərini yönləndirin
+      redirect_tags_text: Aktivləşdirildikdə, bu artırma blog teq URL-lərini blog
+        kateqoriya URL-ə yönləndirir.
+      redirects_heading: İstiqamətləndirmələr
+      require_review_label: Bloq yazıları nəzərdən keçirilməlidir
+      require_review_text: Məqalə göndərilərkən o, birbaşa görünmür və moderator tərəfindən
+        nəzərdən keçirilməlidir.
+      select_categories_button: Bloq kateqoriyalarını seçin
+      selected_category_count: '{say, cəm, bir {# kateqoriya seçdiyiniz} digər {#
+        kateqoriya seçdiyiniz}}'
+      show_tag_hierarchy_label: Teq iyerarxiyasını göstərin
+      show_tag_hierarchy_text: Alt kateqoriyalara boşluqlar əlavə edin və kateqoriya
+        siyahısına iyerarxiya verin.
+  forum:
+    article:
+      slug: Ünvan Qısa Ad
+      summary: Xülasə
+      title: Başlıq
+    article_settings:
+      fields:
+        highlight:
+          helper_text: Bloqun icmalı səhifəsində bu yazıya böyük bir şəkil verin.
+          title: Seçilmiş post
+        image:
+          helper_text: 'Sosial media üçün ən yaxşı təsvir ölçüsü: 1200x630'
+          title: Məqalə şəkli
+        summary:
+          helper_text: Bu xülasə blogun icmalı səhifəsində və SEO məqsədləri üçün
+            sahələrdə istifadə olunacaq.
+          placeholder: Xülasə və ya təsvir daxil edin
+          title: Məqalənin xülasəsi
+      title: Bloq yazısı parametrləri
+    blog: Bloq
+    categories: Kateqoriyalar
+    category_empty: Bu kateqoriyada heç bir blog yazısı yoxdur.
+    comment_section:
+      comments: Şərhlər
+      locked: Bu məqalə üçün şərh bölməsi deaktiv edilib
+    compose:
+      write_article: məqalə yaz
+    composer:
+      comment_section: Məqalə yaratarkən şərh bölməsi mövcud deyil.
+      edit_categories: Kateqoriyaları redaktə edin
+      enter_message_here: Mesajınızı bura daxil edin
+      no_blog_tags_selected: 'Seçdiyiniz teqlərin heç biri blog teqləri deyil. '
+      no_title: başlıq yoxdur
+      nothing_to_preview: Öncədən baxılacaq heç nə yoxdur
+      post_article: Məqaləni dərc et
+      post_without_blog_info: 'Bu bloq yazısını təqdim etmək istədiyinizə əminsiniz? '
+      select_category: Kateqoriya seçin
+      update_settings: Bloq parametrlərini yeniləyin
+      view: Görünüş
+      write: Yaz
+    forum_nav: Forum Menyu
+    hidden: Gizli
+    no_more_posts: Daha blog yazısı yoxdur.
+    read_more: Daha ətraflı oxuyun
+    recent_posts: Ən son blog yazıları
+    return_to_overview: Bloq görünüşünə qayıt
+    review_article:
+      approve_article: Məqaləni təsdiqləyin
+      approve_article_approved: Məqalə təsdiqləndi və nəşr olundu
+      pending_review: Bu məqalə nəzərdən keçirilir və hələ dərc olunmayıb
+      pending_review_title: baxış gözləyir
+    tools:
+      approve_article: Məqaləni təsdiqləyin
+      article_settings: Məqalə parametrləri
+      delete_forever: Həmişə silin
+      disable_comments: Şərhləri deaktiv edin
+      edit_article: Məqaləni redaktə edin
+      enable_comments: Şərhləri aktivləşdirin
+      hide_article: Məqaləni gizlədin
+      recover_article: Məqaləni yadda saxla
+      rename_article: Məqalənin adını dəyişdirin
+      update_category: Kateqoriyaları yeniləyin
+    utils:
+      redirect:
+        link: Əgər siz yönləndirilməmisinizsə, <a>buraya</a> klikləyin
+        title: Sizi bloq yazımıza yönləndiririk...
+    validation:
+      missing_id: İtirilmiş şəxsiyyət vəsiqəsi

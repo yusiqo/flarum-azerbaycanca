@@ -1,0 +1,14 @@
+blomstra-fontawesome:
+  admin:
+    settings:
+      kit_url: Font Awesome dəstinizin URL-i (seçilmişsə)
+      kit_url_help: Kitinizin 'Veb Şrift' olaraq təyin olunduğundan əmin olun, sonra
+        aşağıdakı URL-i yapışdırın.
+      test:
+        desc: 'Aşağıda nişanların düzgün işlədiyini yoxlamaq üçün istifadə edə biləcəyiniz
+          bəzi testlər verilmişdir. '
+        fa5_compat: Font Awesome 5 uyğunluğu
+        fa6_free: Font Awesome 6 Pulsuz
+        fa6_pro: Font Awesome 6 Pro
+        heading: İkon testləri
+      type: Font Awesome kitabxana növü

@@ -1,0 +1,5 @@
+justoverclock-be-active-user-indicator:
+  admin:
+    active: Effektiv
+    activeUI: Hesab aktivdir?
+    notActive: qeyri-aktiv

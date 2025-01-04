@@ -1,0 +1,14 @@
+nodeloc-telegram:
+  admin:
+    settings:
+      field:
+        botToken: Bot Açarı
+        botUsername: Bot İstifadəçi adı
+        enableNotifications: Bildirişləri aktivləşdirin
+      title: Telegram Parametrləri təmin edin
+  forum:
+    link_telegram_button: Telegram Linki
+    log_in_with_telegram_button: Telegram ilə daxil olun
+    settings:
+      notify_by_telegram_heading: Telegram
+      unblock_telegram_bot: 'Görünür, siz TelegramProvide botuna icazə verməmisiniz. '

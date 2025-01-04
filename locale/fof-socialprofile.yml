@@ -1,0 +1,22 @@
+fof-socialprofile:
+  admin:
+    permissions:
+      editAny: İstənilən sosial profili redaktə edin
+      editOwn: Öz sosial profilinizi redaktə edin
+      view: Sosial profili göstərin
+    settings:
+      allow_external_favicons_label: Xarici saytlar üçün ikonaları redaktə etməyə
+        icazə verin (DuckDuckGo API istifadə edir)
+  forum:
+    edit:
+      add: Sosial medianıza bir düymə əlavə edin
+      delete: Sil
+      deletetitle: Sil düyməsi
+      edit: Sosial media düymələrini redaktə edin
+      favicon: favikon
+      grey_favicon: Boz Sayt İkonu
+      headtitle: Düymələri redaktə edin
+      save_disabled_fetching_favicons: 'Bir və ya daha çox ikona gətirilir. '
+      submit: Saxla
+      title: Başlıq
+      url: Əlaqə

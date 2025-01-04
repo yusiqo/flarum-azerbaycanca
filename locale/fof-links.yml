@@ -1,0 +1,42 @@
+fof-links:
+  admin:
+    edit_link:
+      delete_link_button: Linki silin
+      delete_link_confirmation: Bu linki silmək istədiyinizə əminsiniz?
+      everyone-label: Hər kəs
+      guests-label: ziyarətçilər
+      icon_additional_text: Brend ikonasından istifadə etmək istəyirsinizsə, əvəzinə
+        <code>fab fa-</code> prefiksini istifadə edin.
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
+      internal_link: Bu daxili keçiddir?
+      members-label: Qeydiyyatdan keçmiş istifadəçilər
+      open_newtab: Linki yeni tabda açın
+      submit_button: => core.ref.save_changes
+      title: => fof-links.ref.create_link
+      title_label: => fof-links.ref.title
+      title_placeholder: => fof-links.ref.title
+      url_description: Etiket kimi göstərmək üçün boş buraxın.
+      url_label: => fof-links.ref.url
+      url_placeholder: => fof-links.ref.url
+      use_rel_me: Digər saytlarda autentifikasiya üçün <code>rel='me'</code> atributunu
+        əlavə edin
+      visibility: Linkin görünməsi
+      visibility.guest-only.help: 'Yalnız {qonaq} bu linki görə bilər. '
+      visibility.guest-only.label: Yalnız {qonaq}?
+      visibility.help: 'Defolt olaraq, linklər yalnız <code>{admin}</code> istifadəçiləri
+        üçün görünür. '
+      visibility.help-disabled: Görünüş parametrlərini dəyişməzdən əvvəl linki yadda
+        saxlayın.
+      visibility.label: Linkin görünməsi
+    links:
+      create_button: => fof-links.ref.create_link
+      links: => fof-links.ref.links
+    settings:
+      show_icons_only_on_mobile: İkonları yalnız mobil telefonda göstərin
+      show_icons_only_on_tablet: İkonları yalnız planşet ekranlarında göstərin
+  ref:
+    create_link: Link yaradın
+    links: Bağlantılar
+    title: Başlıq
+    url: Əlaqə

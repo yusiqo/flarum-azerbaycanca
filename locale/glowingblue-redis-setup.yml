@@ -1,0 +1,10 @@
+glowingblue-redis-setup:
+  admin:
+    settings:
+      enable_cache: Redis keşini aktivləşdirin
+      enable_queue: Redis növbəsini aktivləşdirin
+      enable_redis_sessions: Redis seanslarını aktivləşdirin (bu ayarı dəyişdikdən
+        sonra bütün istifadəçilər sistemdən çıxacaqlar)
+      horizon_config: 'Horizon konfiqurasiyası (format: JSON).'
+      horizon_help_text: Bu <code>(new \Blomstra\Horizon\Extend\Horizon)->config(...))</code>-a
+        ötürüləcək

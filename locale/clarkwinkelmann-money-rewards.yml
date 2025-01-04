@@ -1,0 +1,41 @@
+clarkwinkelmann-money-rewards:
+  admin:
+    permissions:
+      createMoney: Mükafatlarda yeni pul yaradın
+      customAmounts: Mükafatlar üçün fərdi məbləğlər seçin
+      rewardWithMoney: Digər istifadəçiləri pulla mükafatlandırın
+      seeMoneyRewardHistory: Digər istifadəçilərin mükafatlarının tarixinə baxın
+    settings:
+      decimals: Fərdi məbləğlər üçün onluq yerlərin maksimum sayı
+      max: Fərdi məbləğlər üçün maksimum dəyər
+      min: Xüsusi məbləğlər üçün minimum dəyər
+      preselection: Əvvəlcədən seçilmiş məbləğlər (vergüllə ayrılmış, isteğe bağlı)
+  api:
+    error:
+      decimals: Məbləğ {ondalık} onluqlarla məhdudlaşır.
+      notEnoughFunds: Kifayət qədər vəsait yoxdur.
+  forum:
+    modal:
+      balance: 'Balansınız: {amount}'
+      label:
+        comment: Şərh (ümumi)
+        create: Balansımı çıxarmaq əvəzinə pul yaradın
+        custom: xüsusi miqdar
+      optionCustom: Xüsusi
+      submit: Göndər
+      success: Mükafat müəllifə göndərildi!
+      target: '{username} tərəfindən #{number} mükafat qazanan yazı'
+      title: mükafat postu
+    post:
+      action: Mükafat
+      disallowedOther: 'Siz bu postu mükafatlandıra bilməzsiniz. '
+      disallowedOwn: Öz yazılarınızı mükafatlandıra bilməzsiniz.
+      section: Mükafatlar
+    profile:
+      nav: Mükafatlar
+      title: Mükafatlar
+    record:
+      comment: 'Şərh:'
+      from: -dən
+      post: '"{title}" müzakirəsində <a>#{number}</a> postu üçün'
+      to: ilə

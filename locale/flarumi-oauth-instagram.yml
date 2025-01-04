@@ -1,0 +1,14 @@
+fof-oauth:
+  admin:
+    settings:
+      providers:
+        instagram:
+          client_id_label: => fof-oauth.ref.settings.client_id
+          client_secret_label: => fof-oauth.ref.settings.client_secret
+          description: Burada müraciət edə bilərsiniz {link}
+  forum:
+    log_in:
+      with_instagram: '{provayder} ilə daxil olun'
+  lib:
+    providers:
+      instagram: Instagram

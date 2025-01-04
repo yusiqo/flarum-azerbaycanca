@@ -1,0 +1,17 @@
+gbcl-userip:
+  admin:
+    permissions:
+      view_ip_info_label: IP məlumatlarına baxın
+    service:
+      ipinfo:
+        description: Daha dəqiq IP məlumatı əldə etmək üçün <b>https://ipinfo.io</b>
+          istifadə edin (token açarı tələb olunur)
+        key: IpInfo Token Açarı (Tələb olunur)
+        label: IpInfo
+      ipsb:
+        description: Pulsuz IP məkan məlumatı əldə etmək üçün <b>https://ip.sb</b>
+          istifadə edin (zəhmət olmasa tarif limitini qeyd edin)
+        label: IP.SB
+      label: Xidmət
+  forum:
+    unknownNotice: Naməlum

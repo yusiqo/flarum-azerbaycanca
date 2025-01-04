@@ -1,0 +1,9 @@
+datlechin-who-replied:
+  admin:
+    limit_help: Kimin cavab verdiyini görmək üçün düyməni göstərmək üçün yazıların
+      sayı (defolt olaraq 5-dir).
+    limit_label: Yazıların sayını məhdudlaşdırın
+  forum:
+    button_label: Görün kim cavab verdi
+    post_replies:
+      title: Buna Cavab Verən İstifadəçilər

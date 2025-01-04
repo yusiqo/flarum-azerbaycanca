@@ -1,0 +1,44 @@
+simonxeko-follow-users:
+  admin:
+    permissions:
+      can_not_be_followed_label: izlənilə bilməz
+  email:
+    newDiscussionInTag: '[Etiket | '
+    newPostInTag: '[Etiket | '
+  forum:
+    index:
+      follow_tag_button: İzləyin
+      unfollow_tag_button: İzləməni dayandırın
+    notifications:
+      new_discussion_text: '{username} başladı'
+      new_post_text: '{username} göndərildi'
+    profile_link: İzləyir
+    settings:
+      notify_new_discussion_label: İzlədiyim biri yeni müzakirəyə başlayanda
+      notify_new_post_label: İzlədiyim biri yeni yazı yazanda
+    sub_controls:
+      follow_button: => simonxeko-follow-users.ref.follow
+      following_button: => simonxeko-follow-users.ref.following
+      following_text: Bütün yeni müzakirələri bildirin.
+      hiding_button: => simonxeko-follow-users.ref.hiding
+      hiding_text: Bütün Müzakirələr səhifəsində müzakirələri gizlədin.
+      ignoring_button: => simonxeko-follow-users.ref.ignoring
+      ignoring_text: Heç vaxt hesabat verməyin.
+      lurking_button: => simonxeko-follow-users.ref.lurking
+      lurking_text: Bütün yeni müzakirələr və yazılar barədə mənə bildirin.
+      not_following_button: İzlənmir
+      not_following_text: Yalnız kimsə @qeyd etdikdə bildirin.
+      notify_alert_tooltip: Yeni müzakirə və ya yazı olduqda foruma bildirin
+      notify_email_tooltip: Yeni müzakirə və ya yazı olduqda mənə e-poçt vasitəsilə
+        bildirin
+    user_controls:
+      follow_button: İzləyin
+      follow_confirmation: Bu istifadəçini izləmək istədiyinizə əminsiniz?
+      unfollow_button: təqibdən çıx
+      unfollow_confirmation: Bu istifadəçini izləməyi dayandırmaq istədiyinizə əminsiniz?
+  ref:
+    follow: İzləyin
+    following: İzləyir
+    hiding: gizlətmək
+    ignoring: blok
+    lurking: Gizli

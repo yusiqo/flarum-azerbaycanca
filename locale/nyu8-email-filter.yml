@@ -1,0 +1,28 @@
+nyu8-email-filter:
+  admin:
+    blacklist_literal:
+      description: Bütün e-poçtlar qara siyahıya salınmalıdır
+      label: Qara siyahı
+      placeholder: Qara siyahıya e-poçt göndər...
+    blacklist_regex:
+      description: Qara siyahıya müntəzəm ifadələri e-poçtla göndərin
+      label: Qara siyahıdakı müntəzəm ifadə
+      placeholder: Qara siyahıya müntəzəm ifadə...
+    custom_failure_message_hint: 'E-poçt mövcud olmadıqda xüsusi xəta mesajı göstərilir. '
+    custom_failure_message_label: Fərdi Xəta Mesajı
+    general: General
+    invalid_regular_expression: etibarsız ifadə
+    name_placeholder: Qayda adı
+    rule_settings: Qayda Parametrləri
+    whitelist_literal:
+      description: Bütün e-poçtlar ağ siyahıya salınmalıdır
+      label: Ağ siyahı
+      placeholder: Ağ siyahıya e-poçt göndər...
+    whitelist_regex:
+      description: Ağ siyahıya müntəzəm ifadələri e-poçtla göndərin
+      label: Ağ siyahı müntəzəm ifadə
+      placeholder: Ağ siyahıya müntəzəm ifadə...
+  forum:
+    blacklist_exception: Bu e-poçt və ya domen icmanın qara siyahısındadır.
+    generic_exception: 'Nəsə xəta baş verdi. '
+    whitelist_exception: Bu e-poçt və ya domen icma ağ siyahısında deyil.

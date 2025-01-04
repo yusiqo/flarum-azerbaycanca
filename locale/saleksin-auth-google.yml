@@ -1,0 +1,9 @@
+saleksin-auth-google:
+  admin:
+    google_settings:
+      client_id_label: Proqram ID
+      client_secret_label: Proqram sirri
+      title: Google Parametrləri
+  forum:
+    log_in:
+      with_google_button: Google ilə daxil olun

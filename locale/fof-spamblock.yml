@@ -1,0 +1,10 @@
+fof-spamblock:
+  admin:
+    permissions:
+      spamblock_users_label: İstifadəçini spam kimi qeyd edin
+  forum:
+    user_controls:
+      spammer_button: İstənməyən
+      spammer_confirmation: 'Bunları etmək istədiyinizə əminsiniz?
+
+        '

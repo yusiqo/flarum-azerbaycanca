@@ -1,0 +1,39 @@
+jeromegillard-map:
+  admin:
+    settings:
+      mapbox:
+        help: 'Token almaq üçün <a>mapbox.com</a> saytında pulsuz qeydiyyatdan keçin. '
+        label: Mapbox açarı
+      maptiler:
+        help: 'Token əldə etmək üçün <a>maptiler.com</a> saytında pulsuz qeydiyyatdan
+          keçin. '
+        label: MapTiler nişanı
+      osm:
+        help: OpenStreetMap plitələri xəritənizi proqramlaşdırmaq üçün yaxşıdır, lakin
+          siz plitələrdən istehsalda istifadə edəcəksinizsə, OpenStreetMap-ın <a>Kafel
+          İstifadəsi Siyasətini</a> oxuyun.
+      style:
+        help: 'Xəritə üslubu seçin. '
+        label: '{provayder} üçün defolt üslub'
+      thunderforest:
+        help: 'API açarı əldə etmək üçün <a>thunderforest.com</a> saytında pulsuz
+          qeydiyyatdan keçin. '
+        label: Thunderforest API açarı
+      tiles_provider:
+        help: Arxa fonda görünən təbəqənin provayderini seçin
+        label: Defolt təbəqə provayderi
+        link: Bura baxın
+      zoom:
+        help: 0 ilə 18 arasında istənilən tam ədəd.
+        label: Defolt böyütmə səviyyəsi
+    templates:
+      file_description: 'Flarumda xəritə göstərin. '
+      map: Rəylər
+      markdown-osm: Markdown xəritəsi
+      markdown-osm_description: Markdown xəritəsi təsviri
+  forum:
+    text_editor:
+      bbcode_tooltip: xəritə əlavə edin
+      location_placeholder: HARADA
+      marker_description_placeholder: 'Göstərici popup məzmunu. '
+      marker_title_placeholder: Göstərici başlığı

@@ -1,0 +1,9 @@
+miniflar-admin-notepad-widget:
+  admin:
+    dashboard:
+      notepad_heading: Admin Notebook
+      notepad_text: Digər Administratorların görməsi üçün qeydlər əlavə edin!
+    settings:
+      widget_order_heading: Avtomobilin Yerləşdirilməsi
+      widget_order_text: 'Bu sahə Flarum forumunuzun Admin sahəsinin İdarə Paneli
+        bölməsində notebookun yerini təyin etmək üçündür. '

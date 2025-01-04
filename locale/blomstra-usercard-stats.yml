@@ -1,0 +1,5 @@
+blomstra-usercard-stats:
+  forum:
+    user:
+      discussion-count: '{count, cəm, bir { {count} müzakirə} digər {{count} müzakirə}}'
+      post-count: '{say, cəm, bir {{count} yazı} digər {{count} yazı}}'

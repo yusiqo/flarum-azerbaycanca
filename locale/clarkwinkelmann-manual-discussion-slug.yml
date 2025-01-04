@@ -1,0 +1,14 @@
+clarkwinkelmann-manual-discussion-slug:
+  admin:
+    permissions:
+      edit: Discussion Slug-u redaktə edin
+  forum:
+    controls:
+      edit: Slug-u redaktə edin
+    modal:
+      autoFormat: Kiçik hərflərin və tirelərin avtomatik formatlanması
+      automatic: Avtomatik
+      cancel: ləğv edin
+      manual: Manuel
+      submit: Saxla
+      title: Discussion Slug-u redaktə edin

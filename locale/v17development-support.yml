@@ -1,0 +1,287 @@
+v17development-flarum-support:
+  emails:
+    replied_to_ticket:
+      body: 'Hörmətli {recipient_display_name},
+
+
+        '
+      subject: '{replier_display_name} #{ticket_id} biletinizə cavab verdi'
+    ticket_pending_reply:
+      body: 'Hörmətli {recipient_display_name},
+
+
+        '
+      subject: 'Bilet #{ticket_id} cavabınızı gözləyir'
+    ticket_pending_reply_closed:
+      body: 'Hörmətli {recipient_display_name},
+
+
+        '
+      subject: 'Bilet #{ticket_id} hərəkətsizlik səbəbindən bağlandı'
+    ticket_resolved:
+      body: 'Hörmətli {recipient_display_name},
+
+
+        '
+      subject: 'Bilet #{ticket_id} həll edilmiş kimi qeyd olunub'
+    ticket_status_update:
+      body: 'Hörmətli {recipient_display_name},
+
+
+        '
+      subject: 'Bilet #{ticket_id} {new_status} olaraq qeyd olunub'
+  forum:
+    admin_overview: Admin icmalını açın
+    article:
+      article: Məqalə
+      articles: Məqalələr
+      author: yazıçı
+      authors: Müəlliflər
+      created_at: '{tarix} yaradıldı'
+      hidden: Gizli
+      last_modified: Son redaktə {date}
+      not_found: Məqalə tapılmadı
+      share_article:
+        perma_link: 'Bu məqaləyə daimi keçid:'
+        title: Məqaləni paylaşın
+      tools:
+        audit_log: Audit jurnalına baxın
+        delete_forever: Həmişə silin
+        edit_article: Məqaləni redaktə edin
+        edit_tags: Məqalə etiketlərini redaktə edin
+        hide_article: Məqaləni gizlədin
+        recover_article: məqaləni geri qaytarın
+        rename_article: Məqalənin adını dəyişdirin
+        view_ratings: Reytinqləri göstərin
+    article_events:
+      article_hidden: Məqalə {username} tərəfindən gizlədilib
+      article_modified: '{username} bu məqaləni redaktə etdi.'
+      article_public: Məqalə {username} tərəfindən ictimailəşdirilib
+    ask_a_question_on_forums: Forumlarda suallar verin
+    ask_your_question_on_forum: Sualınızı forumlarda verin
+    composer:
+      article_saved: Məqalə saxlanıldı
+      compose_article: Məqalə yaradın
+      compose_ticket: Bilet yaradın
+      enter_message_here: Mesajınızı bura daxil edin
+      manage_tags: Teqləri idarə edin
+      new_article_title: Yeni məqalə başlığı
+      nothing_to_preview: Öncədən baxılacaq heç nə yoxdur
+      publish_article: Məqaləni paylaşın
+      publish_article_hint: Məqaləni təqdim etdikdən sonra paylaşın.
+      view: Görünüş
+      warning_save_changes: 'XƏBƏRDARLIQ: Siz bu səhifəni tərk etmək üzrəsiniz və
+        dəyişikliklərinizi yadda saxlamamısınız. '
+      write: Yaz
+    create: Yaradın
+    discard: Ləğv et
+    hero:
+      check_forum: Əgər axtardığınızı tapa bilmirsinizsə, <a>foruma nəzər sala bilərsiniz</a>
+      help_question: Biz sizə necə kömək edə bilərik?
+    knowledge_base: məlumat mərkəzi
+    modals:
+      article_ratings:
+        article_not_rated: Bu məqalə hələ qiymətləndirilməyib.
+        confirm_delete_rating: Bu reytinqi silmək istədiyinizə əminsiniz?
+        feedback: Əlaqə
+        loading_ratings: Reytinqlər yüklənir
+        no_ratings_found: Axtarış kriteriyalarınıza uyğun reytinq tapılmadı
+        rated_on: Qiymətləndirildi
+        rating: Reytinq
+        title: Məqalələrin reytinqi
+        username: => core.ref.username
+      audit_log:
+        article_created: Məqalə yaradılmışdır
+        loading_auditlog: Audit jurnalı yüklənir
+        no_more_events: Daha tədbir tapılmadı
+        title: Məqalənin audit jurnalı
+    not_found:
+      description: Üzr istəyirik, bu məqalə və ya kateqoriya artıq mövcud deyil.
+      solution: Axtardığınızı tapmaq üçün yuxarıdakı axtarış qutusundan istifadə edə
+        bilərsiniz.
+      title: Tapılmadı
+    notifications:
+      replied_to_ticket:
+        content: => v17development-flarum-support.emails.replied_to_ticket.subject
+        name: Kimsə biletimə cavab verəndə
+      ticket_resolved:
+        content: => v17development-flarum-support.emails.ticket_resolved.subject
+        name: Biletim həll olundu
+    or: atmaq
+    overview:
+      back_to: '{kateqoriyaya qayıt'
+      back_to_main_categories: Əsas kateqoriyalara qayıt
+      back_to_overview: Bilik mərkəzinin icmalına qayıdın
+      category_not_found: Kateqoriya tapılmadı
+      knowledge_base_overview: Məlumat mərkəzinə baxış
+      loading_articles: Məqalələr yüklənir
+      no_articles_found: Bu kateqoriyada məqalə tapılmadı
+      no_categories_found: Bağışlayın, burada kateqoriyalar yoxdur...
+      tools:
+        change_icon: Simgeni dəyişdirin
+        edit_description: Təsviri redaktə edin
+        new_article: yeni məqalə
+        recount_articles: Məqalələri təkrarlayın
+        rename_category: Kateqoriyanızın adını dəyişdirin
+    reopen: yenidən yandırın
+    return_to_home: Bilik mərkəzinə qayıt
+    search:
+      back_to_search_results: Axtarış nəticələrinə qayıdın
+      no_results: '{searchterm} üçün heç bir nəticə tapmadıq.'
+      search_knowledge_base: Məlumat mərkəzində axtarın
+      searched_for: '{searchterm} üçün {nəticələr} axtarış nəticəsi tapıldı.'
+      searching: istədi
+      searching_for: '{searchterm} üçün axtarış'
+      title: alırıq
+      use_searchbox_below: Bilik mərkəzində axtarış etmək üçün aşağıdakı axtarış qutusundan
+        istifadə edin.
+    send: Göndər
+    settings: => core.ref.settings
+    support_ratings:
+      enter_feedback: Rəyinizi bura daxil edin
+      feedback: Rəyiniz üçün təşəkkür edirik, rəyiniz varmı?
+      feedback_not_helpful: Üzr istəyirik ki, bu məqalə faydalı olmadı, nə axtarırdınız?
+      finished: 'Təşəkkürlər! '
+      helful_article: Bu məqalə faydalı oldu?
+      helful_support: Dəstək sorğunuza yanaşmamız sizi qane etdimi?
+      score: Dərəcə
+      switch_sort_score:
+        description: Yalnız rəyi olan, ən aşağı reytinqli məqaləyə görə sıralanmış
+          məqalələri göstərin.
+        label: Aşağıdan yüksək ballara malik məqalələri göstərin
+      validation:
+        cannot_rate_article: Bu məqaləni qiymətləndirə bilməzsiniz.
+        guest: Bu məqaləni qiymətləndirməzdən əvvəl daxil olun.
+        invalid_discussion: 'Ups, nəsə səhv getdi. '
+        invalid_points: 'Naməlum reytinq. '
+        missing_article_id: İtirilmiş və ya mövcud olmayan məqalə ID-si
+        neutral_emoji_disabled: Qərarsız ifadəsi zərərsizləşdirildi.
+    support_tickets: Dəstək biletləri
+    tickets:
+      compose_ticket:
+        not_allowed: İndi yeni dəstək bileti aça bilməzsiniz
+        private_support: 'Xüsusi dəstək üçün dəstək platformamızda yeni bilet yaratmaq
+          üçün bu formadan istifadə edə bilərsiniz. '
+        title: Yeni bilet yazın
+      convert_to_discussion:
+        button: Müzakirəyə çevirin
+        confirm: 'Bu bileti ictimai müzakirəyə çevirmək istədiyinizə əminsiniz? '
+        event: '{ticket_title} adlı bilet müzakirəyə çevrildi
+
+
+          '
+      convert_to_ticket:
+        button: Biletə çevirin
+        confirm: Bu müzakirəni biletə çevirmək istədiyinizə əminsiniz?
+        event: '{ticket_title} müzakirəsi biletə çevrildi'
+      fields:
+        assignees:
+          placeholder: Bilet statusu
+          title: Təyin edənlər
+        information:
+          placeholder: Sizə necə kömək edə biləcəyimizi bizə bildirin
+          title: Bilet məlumatı
+        language:
+          description: Dəstək biletiniz {language} dilində ünvanlanacaq.
+          empty: Dil aşkarlanmadı
+          placeholder: Dil seçin
+          title: Dil
+        private_note:
+          edit_button: Qeydi redaktə edin
+          info: 'Şəxsi qeydləri yalnız digər dəstək nümayəndələri görə bilər. '
+          placeholder: 'Nümunə: 1 yanvar 2022-ci il - Agentin adı: Müştəri bazasından
+            təmizləndi'
+          tip: 'İPUCU: Bir bilet üzərində birdən çox agentlə işləyirsinizsə, adınızı
+            və tarixinizi qeydə daxil edin.'
+          title: xüsusi qeydlər
+        status:
+          placeholder: Bilet statusu
+          title: Durum
+        subject:
+          description: Sualınızı qısa bir cümlə ilə izah etməyə çalışın.
+          placeholder: bilet məsələsi
+          title: Mövzu
+      load_more:
+        title: Daha çox bilet yükləyin
+      my_tickets:
+        description: Bütün xüsusi biletlərinizi bu səhifədə tapa bilərsiniz.
+        no_tickets: Hələ biletiniz yoxdur.
+        title: mənim biletlərim
+      new_tickets_dropdown:
+        no_tickets: Bilet bildirişi yoxdur
+        ticket_new: '{username} bilet yaratdı {ticket}'
+        ticket_updated: '{username} {ticket} biletinə göndərdi'
+        title: Bilet bildirişləri
+      opened_on: açıldı
+      overview:
+        all_tickets: Bütün biletlər
+        description: Gülümsə, sən başqalarının günlərini xilas edən qəhrəmansan.
+        filter:
+          assignees:
+            search: Məmur axtarın
+            title: Təyin edilmiş şəxslərə görə süzün
+            unassigned: Təyin edilmədi
+          language:
+            any: istənilən dil
+          status:
+            filter_count: '{count, cəm, bir {# filtre} digər {# filtre}}'
+            title: bilet statusu
+        no_tickets: Kriteriyalarınıza uyğun bilet yoxdursa, yəqin ki, yaxşı iş görürsünüz!
+        refresh: Yeniləyin
+        selection_closed: qapalı biletlər
+        selection_open: açıq biletlər
+        selection_unfiltered: Süzgəcdən keçirilməyib
+        sort:
+          least_recent: son fəaliyyət
+          newest: Əvvəlcə yeni
+          oldest: Əvvəlcə köhnələr
+          recent_activity: Ən son fəaliyyətlər
+        title: Biletlərə baxış
+      reminders_sent: '{say, cəm, bir {xatırlatma göndərildi} digər {# xatırlatma
+        göndərildi}}'
+      return_to_overview: Bilet icmalına qayıdın
+      status:
+        closed:
+          close_after_posting: Təqdim etdikdən sonra bileti bağlayın
+          description: Bu bilet bağlıdır.
+          is_auto_closed: Bu bilet heç bir tədbirə görə bağlanıb.
+          is_closed: 'Bu bilet bağlanıb, cavab verəndə yenidən açılacaq. '
+          title: bağlıdır
+        duplicate:
+          description: Bu bilet dublikat kimi qeyd olunub.
+          title: dublikat
+        new:
+          description: Bu yeni cavabsız biletdir
+          title: Yeni
+        on_hold:
+          description: Bu bilet gözləmədədir.
+          title: Gözlənir
+        open:
+          description: Bu biletin yeni cavabı var və cavabınızı gözləyir.
+          title: Açıq
+        pending:
+          description: Bu bilet istifadəçidən cavab gözləyir.
+          description_user: Bu biletə cavab verməyinizi və ya onu həll edilmiş kimi
+            qeyd etməyinizi salamlayırıq.
+          title: gözləyir
+        solved:
+          description: Bu bilet həll edilmiş kimi qeyd olunur
+          mark_as_solved: Bu bileti həll edilmiş kimi qeyd edin
+          title: həll olundu
+      subject: Mövzu
+      ticket: Bilet
+      ticket_activity: '{username} {date} tərəfindən son əməliyyat'
+      ticket_does_not_exist: Tələb olunan dəstək bileti mövcud deyil.
+      ticket_overview: Bilet icmalı
+      tools:
+        assign_me: O pul
+        close_ticket: bileti bağlayın
+        remove_me: məni sil
+        update_note: Fərdi qeydi yeniləyin
+        update_status: Bilet statusunu yeniləyin
+        update_subject: Mövzunu yeniləyin
+        view_ticket: Bilet göstər
+    utils:
+      redirect:
+        link: Səhifə sizi yönləndirmirsə, <a>buraya klikləyin</a>
+        title: Sizi Bilik Bazası məqaləmizə yönləndiririk...

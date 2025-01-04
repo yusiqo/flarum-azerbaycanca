@@ -1,0 +1,9 @@
+antoinefr-online:
+  admin:
+    settings:
+      displaymax: Göstəriləcək istifadəçilərin sayı
+      titleoflist: Siyahının yuxarısında göstəriləcək başlıq
+  forum:
+    andmore: və daha {daha}...
+    online_users: '{daha çox, cəm, bir {# istifadəçi onlayn} digər {# istifadəçi onlayn}}'
+    title: Kim onlayndır?

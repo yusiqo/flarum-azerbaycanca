@@ -1,0 +1,22 @@
+datlechin-flarum-scroll-buttons:
+  admin:
+    scroll_to_bottom:
+      help: Səhifənin aşağısına keçmək üçün düyməni göstərin
+      icon:
+        help: 'Düymənin simvolunu fərdiləşdirin. '
+        label: Aşağı sürüşdürün Nişanı
+      label: Aşağı sürüşdürün
+    scroll_to_bottom_button_help: Səhifənin aşağısına keçmək üçün düyməni göstər
+    scroll_to_bottom_button_label: Aşağı sürüşdürün
+    scroll_to_bottom_help: Səhifənin aşağısına keçmək üçün düyməni göstərin
+    scroll_to_bottom_label: aşağı enmək
+    scroll_to_top:
+      help: Səhifənin yuxarısına keçmək üçün düyməni göstərin
+      icon:
+        help: 'Düymənin simvolunu fərdiləşdirin. '
+        label: Yuxarı fırladın
+      label: Yuxarı sürüşdürün
+    scroll_to_top_button_help: Səhifənin yuxarısına keçmək üçün düyməni göstərin
+    scroll_to_top_button_label: Yuxarı sürüşdürün
+    scroll_to_top_help: Səhifənin yuxarısına keçmək üçün düyməni göstərin
+    scroll_to_top_label: yuxarı qalx

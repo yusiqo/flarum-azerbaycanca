@@ -1,0 +1,8 @@
+clarkwinkelmann-prominent-post-numbers:
+  admin:
+    settings:
+      floating: Yazı başlığı əvəzinə yuxarı sağ mətndə sürüşən mətn nömrəsi
+      prefix: Prefiks
+      prefixPlaceholder: Tərcüməçi vasitəsilə fərdiləşdirmək üçün boş buraxın
+  views:
+    format: '{nömrə}'

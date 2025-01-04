@@ -1,0 +1,13 @@
+askvortsov-auth-sync:
+  admin:
+    labels:
+      ignored_avatar: 'Əgər qaytarılmış avatar buna bərabərdirsə, o, autentifikasiyadan
+        təyin edilməyəcək. '
+      stop_avatar_change: İstifadəçilərin Flarum-dan öz avatarını dəyişməsinə mane
+        olmaq?
+      stop_bio_change: 'İstifadəçilərin bio-larını Flarum-dan dəyişməsinə mane olmaq? '
+      sync_avatar: Avatar sinxronlaşdırılsın?
+      sync_bio: 'Bio sinxronlaşdırılsın? '
+      sync_groups: Qruplar Sinxronlaşdırılsın?
+      sync_masquerade: 'Maskarad datası sinxronlaşdırılsın? '
+    title: Auth Sync Parametrləri

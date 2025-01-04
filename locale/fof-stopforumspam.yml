@@ -1,0 +1,41 @@
+fof-stopforumspam:
+  admin:
+    settings:
+      api_key_instructions_text: '<register>StopForumSpam üçün qeydiyyatdan keçin</register>. '
+      api_key_label: API Açarı
+      api_key_text: fof/spamblock uzantısını aktivləşdirdiniz, daha böyük forum icmasını
+        spamdan azad saxlamaq üçün artıq spam göndərənləri StopForumSpam-a bildirmək
+        seçiminiz var.
+      confidence_help: 'Güvən balı, sınaqdan keçirilmiş sahənin arzuolunmaz fəaliyyətlə
+        nəticələnəcəyini göstərən olduqca yaxşı göstəricidir. '
+      confidence_label: Güvən
+      email_hash_help: 'E-poçt ünvanının özünü yönləndirmək istəmirsinizsə, e-poçt
+        ünvanının MD5 hashini yönləndirin. '
+      email_hash_label: Qarışıq e-poçt ünvanından istifadə edin
+      email_label: E-poçt spama nəzarət
+      frequency_example_text: 'Məsələn: E-poçtda 1, ipdə isə 2 vuruş varsa, cəmi 3
+        xit olacaq. '
+      frequency_help: 'Bütün aktiv nəzarətlər arasında spam filtrini işə salacaq spam
+        hesabatlarının sayı.
+
+        '
+      frequency_label: Həddi
+      frequency_text: Bütün aktivləşdirilmiş yoxlamalar arasında spam filtrini pozacaq
+        spam hesabatlarının sayı.
+      introduction: 'Yeni istifadəçi qeydiyyatları <a>StopForumSpam</a> verilənlər
+        bazası ilə yoxlanılır. '
+      ip_label: IP ünvanı spam nəzarəti
+      region_closest_label: Ən yaxın
+      region_europe_label: Avropa
+      region_us_label: Amerika Birləşmiş Ştatları
+      regional_endpoint_help: 'Varsayılan olaraq, ən sürətli cavabı təmin etmək üçün
+        zəng ən yaxın regional serverə yönləndirilir. '
+      regional_endpoint_label: Coğrafi Giriş
+      title: FriendsOfFlarum Forumun spamını dayandırın
+      username_label: İstifadəçi adı Spam yoxlanışı
+  api:
+    error:
+      unknown: İstifadəçi StopForumSpam sisteminə məlumat verilə bilmədi.
+  forum:
+    message:
+      spam: Məlumatınız spam kimi qeyd edilib.

@@ -1,0 +1,27 @@
+blomstra-database-queue:
+  admin:
+    settings:
+      backoff_help: İdarə olunmayan istisna ilə qarşılaşan işi yenidən cəhd etməzdən
+        əvvəl gözlənilən saniyələrin sayı.
+      backoff_label: Geri Al
+      memory_help: Meqabaytla yaddaş limiti.
+      memory_label: Yaddaş
+      rest_help: İşlər arasında gözləmək üçün saniyələrin sayı.
+      rest_label: gözləyin
+      retries_help: İşə daxil edilməzdən əvvəl uğursuz ola biləcək cəhdlərin sayı.
+      retries_label: yenidən cəhd edir
+      timeout_help: Bir prosesin vaxtı bitənə qədər davam edə biləcəyi saniyələrin
+        sayı.
+      timeout_label: Taymout
+    stats:
+      auto_refresh: Avtomatik Yeniləmə
+      data:
+        failed-jobs: Həyata keçirilməsi mümkün olmayan əməliyyatlar
+        pending-jobs: Gözləyən Əməliyyatlar
+        queue-name: Quyruq
+        status:
+          inactive: qeyri-aktiv
+          label: Durum
+          running: işləyir
+      heading: Növbəyə Baxış
+      refresh: Yeniləyin

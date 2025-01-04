@@ -1,0 +1,31 @@
+flarum-ext-contactme:
+  admin:
+    settings:
+      emaillabel: Əlaqə formasının göndəriləcəyi e-poçt ünvanı
+  email:
+    contact:
+      body: 'salam!
+
+
+        '
+      subject: Forma vasitəsilə yeni əlaqə mesajı
+  forum:
+    backsoon: Biz ən qısa zamanda cavab verəcəyik
+    emailfield: E-poçt ünvanınızı bura yazın
+    messagesent: Mesaj Göndərildi!
+    notloggedin: Əlaqə formasından istifadə etmək üçün daxil olun
+    pText: '<p>Bu əlaqə formasını doldurmaqla siz bizə kommersiya yazışmaları, tərəfdaşlıqlar
+      və bütün suallarınızı verə bilərsiniz, biz maksimum 7 gün ərzində bütün suallarınıza
+      cavab verməyə çalışırıq.</p>
+
+      '
+    pageTitle: .Bizimlə əlaqə saxlayın
+    placeholderName: Adınızı bura yazın
+    plsregister: Zəhmət olmasa qeydiyyatdan keçin və ya daxil olun
+    sendForm: Mesaj Göndər
+    subject: Əlaqə formasından mesajınız var
+    textAreaField: Mesajınızı bura yazın
+    title: Bizimlə əlaqə saxlayın
+    tocontinue: Formanı doldurmağa davam etmək üçün
+  settings:
+    emaillabel: Əlaqə formasının göndəriləcəyi e-poçt ünvanı

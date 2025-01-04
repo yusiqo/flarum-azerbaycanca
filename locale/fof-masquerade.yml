@@ -1,0 +1,53 @@
+fof-masquerade:
+  admin:
+    buttons:
+      add-field: Sahə yaradın
+      delete-field: Sahəni silin
+      edit-field: Dəyişiklikləri yadda saxlayın
+    fields:
+      add: Alan Ekle {sahə}
+      description: Sahənin təsviri
+      description-help: Bu sahənin istifadəsi üçün əlavə təsvir.
+      edit: sahəsini redaktə edin {sahə}
+      force-user-to-completion: İstifadəçini profilini tamamlamağa məcbur edin
+      icon: Simvol
+      icon-help: 'İstifadəçinin daxil etdiyi dəyərlərin qarşısında bir işarə göstərir. '
+      name: domen adı
+      name-help: Hər kəsə görünən sahə (tərcümə edilməyib).
+      on_bio: İstifadəçi biosunda bu sahəyə cavabı göstərin
+      option-comma-warning: Seçim üçün teqdə vergül ("") ola bilməz.
+      option-new: yeni variant
+      options: Seçimlər
+      prefix: Sahə prefiksi
+      prefix-help: İstifadəçinin daxil etdiyi dəyərlərin qarşısındakı prefiksi göstərir.
+      required: Sahə tələb olunur
+      title: Sahələr
+      type: İpucu
+      validation: Doğrulama
+      validation-help: 'Dəstəklənən <a>Laravel doğrulama qaydalarını</a> yoxlayın. '
+    general-options: Ümumi parametrlər
+    permissions:
+      edit-others-profile: Digər istifadəçilərin profilini redaktə edin
+      have-profile: Maskarad profili idi
+      view-profile: Masquerade profilinə baxın
+    types:
+      advanced: İnkişaf etmiş
+      boolean: seçim siyahısı
+      email: E-poçt
+      select: açılan menyu
+      url: Əlaqə
+  forum:
+    alerts:
+      profile-completed: 'Profil tamamlandı! '
+      profile-completion-required: Zəhmət olmasa aşağıdakı tələb olunan sahələri doldurun.
+    buttons:
+      edit-profile: Profili redaktə edin
+      save-profile: Saxla
+      view-profile: Profilə baxın
+    fields:
+      boolean:
+        'no': yox
+        'yes': Bəli
+      select:
+        none-optional: Seçim seçilməyib (İstəyə görə)
+        none-required: Zəhmət olmasa bir seçim seçin (Tələb olunur)

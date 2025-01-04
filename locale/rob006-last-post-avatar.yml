@@ -1,0 +1,16 @@
+rob006-last-post-avatar:
+  admin:
+    settings:
+      ignorePrivateDiscussions:
+        help: Şəxsi müzakirələr üçün avatar davranışını dəyişmək istəmirsinizsə, bu
+          seçimi yoxlayın.
+        label: Şəxsi müzakirələrə məhəl qoymayın (FoF Byōbu)
+      mode:
+        help: 'Müzakirə siyahısında sonuncu yazı müəllifinin avatarının nə vaxt və
+          harada göstəriləcəyini seçin. '
+        label: Ən son post avatarının göstərilməsi rejimi
+        options:
+          all-replies: Yalnız cavablar
+          always: Hamısı
+          non-op-replies: Yalnız müzakirə müəllifinin yazılarına cavab verir
+          replace-main: Əsas müzakirə avatarını dəyişdirin

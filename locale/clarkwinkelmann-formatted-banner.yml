@@ -1,0 +1,15 @@
+clarkwinkelmann-formatted-banner:
+  admin:
+    settings:
+      dismissible: Bannerin bağlanmasına icazə verin
+      guestContent: Qonaq üslublu məzmun
+      guestHtml: Qonaq HTML məzmunu
+      hideWelcomeHero: Xoş gəlmisiniz Qəhrəmanı gizlədin
+      memberContent: Üzv Formatter Məzmunu
+      memberHtml: Üzv HTML məzmunu
+      replaceWelcomeHero: Xoş Qəhrəmanı bannerlə əvəz edin
+  forum:
+    alert:
+      login: Siz avtomatik qoşulmusunuz.
+      logout: Sessiyanız bitdi.
+      refresh: Səhifəni yeniləyin

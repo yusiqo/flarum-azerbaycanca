@@ -1,0 +1,10 @@
+finteger-shorts:
+  admin:
+    explain:
+      it: Yükləmələrin görünməsini istədiyiniz etiket ID-ni daxil edin.
+    maxFile: Maksimum fayl ölçüsü (MB ilə, 10000-ə qədər).
+    permissions:
+      moderate: Qısa Redaktə
+      submit: Qısa göndərin
+      view: Şortlara baxın
+    uploadLimit: 'Yükləmə limiti (0 - 1000). '

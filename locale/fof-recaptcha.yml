@@ -1,0 +1,26 @@
+fof-recaptcha:
+  admin:
+    permissions:
+      post_without_captcha: Captcha olmadan yazılar və müzakirələr yaradın
+    settings:
+      forgot: => core.forum.forgot_password.title
+      help_text: Google reCAPTCHA məlumatınızı <a>buradan</a> əldə edin.
+      secret_key_label: Gizli Açar
+      signin: => core.forum.log_in.title
+      signup: => core.forum.sign_up.title
+      site_key_label: Sayt Açarı
+      type_help: 'Bu artırma yalnız reCAPTCHA v2-ni dəstəkləyir. '
+      type_label: reCAPTCHA Növü
+    test:
+      help_text: 'Bu test yuxarıda daxil edilmiş mövcud dəyərlərdən istifadə edəcəkdir. '
+      load_test_button: Yükle
+      reload_button: Yenidən yükləyin
+      submit_button: Göndər
+      success_message: 'Uğurlu! '
+      title: reCAPTCHA'yı Test Və
+  forum:
+    error: 'reCAPTCHA göndərilərkən xəta baş verdi. '
+    unknown_error: 'Naməlum xəta baş verdi. '
+validation:
+  recaptcha: reCAPTCHA doğrulaması alınmadı.
+  recaptcha-unknown: reCAPTCHA ({errors}) təsdiqlənərkən naməlum xəta baş verdi.

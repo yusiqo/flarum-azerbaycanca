@@ -1,0 +1,16 @@
+fof-ignore-users:
+  admin:
+    permissions:
+      can_not_be_ignored_label: bloklana bilməyən
+  forum:
+    badge:
+      discussion_label: Bloklanmış istifadəçi tərəfindən başladıldı
+      user_label: Bloklanmış istifadəçi
+    profile_link: Bloklanmış İstifadəçilər
+    profile_page:
+      no_ignored: Deyəsən heç kimə məhəl qoymursan.
+    user_controls:
+      ignore_button: blok
+      ignore_confirmation: Bu istifadəçini bloklamaq istədiyinizə əminsiniz?
+      unignore_button: blokdan çıxarın
+      unignore_confirmation: Bu istifadəçini blokdan çıxarmaq istədiyinizə əminsiniz?

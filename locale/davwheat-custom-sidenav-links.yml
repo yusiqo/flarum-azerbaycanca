@@ -1,0 +1,58 @@
+davwheat:
+  custom_sidenav_links:
+    admin:
+      settings_page:
+        display_options:
+          heading: Şəkil parametrləri
+          labels:
+            bottom_spacer: Aşağı mötərizəni göstərin
+            position: Linkin yerləşdirilməsi
+            top_spacer: Üst mötərizəni göstərin
+          options:
+            position:
+              above-tags-link: '"Teqlər düyməsinin üstündə'
+              below-tags-link: '"Etiketlər" düyməsinin altında'
+        link_table:
+          add_link_btn: Yeni keçid əlavə edin
+          alert:
+            fix_errors: Parametrləri saxlamazdan əvvəl yuxarıda qeyd olunan problemləri
+              həll edin.
+          confirm_delete: '"{link}" linkinin silinməsini təsdiq edin'
+          heading: Bağlantıları fərdiləşdirin
+          save_btn:
+            dirty: Parametrləri yadda saxlayın
+            fix_errors: Saxlamadan əvvəl səhvləri düzəldin
+            saved: Saxlamaq üçün heç bir dəyişiklik yoxdur
+            saving: Parametrlər yadda saxlanılır...
+          table:
+            header:
+              delete: Sil
+              icon: keçid ikonu
+              internal: Bu Flarum bağlantısıdır?
+              position: Mövqeləşdirmə
+              text: anker mətni
+              url: Əlaqə ünvanı
+            placeholders:
+              icon: fas fa-link
+              text: mənim gözəl saytım
+              url: https://flarum.org
+            tooltips:
+              icon_preview: Nişan önizləməsi
+              move_down: aşağı hərəkət edin
+              move_up: yuxarı hərəkət edin
+        new_link_modal:
+          labels:
+            icon: => davwheat.custom_sideav_links.admin.settings_page.link_table.table.header.icon
+            internal: => davwheat.custom_sideav_links.admin.settings_page.link_table.table.header.internal
+            text: => davwheat.custom_sideav_links.admin.settings_page.link_table.table.header.text
+            url: => davwheat.custom_sideav_links.admin.settings_page.link_table.table.header.url
+          placeholders:
+            icon: => davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon
+            text: => davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text
+            url: => davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url
+          submit_btn:
+            add: yeni link
+            fix_url: etibarsız link
+            invalid_form: Bütün sahələri doldurun
+            loading: Link əlavə edin
+          title: Yeni keçid əlavə edin

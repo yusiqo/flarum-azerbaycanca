@@ -1,0 +1,49 @@
+fof-merge-discussions:
+  admin:
+    permissions:
+      merge_discussions_label: Müzakirələri birləşdirin
+    settings:
+      search_result_help: '"Müzakirələri birləşdir" modelində axtarış apararkən neçə
+        müzakirə qaytarılmalıdır.'
+      search_result_label: Müzakirə Axtarış Limitini birləşdirin
+  api:
+    error:
+      deleting_failed: Boş müzakirələri silərkən xəta baş verdi.
+      fixing_posts_number_failed: Post nömrələrini düzəltmək mümkün olmadı.
+      fixing_posts_number_meta_failed: Post nömrələrini düzəltmək mümkün olmadı.
+      merging_failed: Müzakirələri birləşdirərkən xəta baş verdi.
+      updating_failed: Müzakirə detallarını yeniləyərkən xəta baş verdi.
+  email:
+    merged:
+      body: "Salam {recipient_display_name}, \n\n"
+      subject: '"{merged_discussion_title}" müzakirəniz birləşdirildi'
+  forum:
+    discussion:
+      merge: => fof-merge-discussions.ref.merge
+    modal:
+      load_preview_button: Önizləmə
+      ordering_date_help: Nəticədə müzakirə edilən yazılar fərdi yaradılış tarixlərinə
+        görə sıralanır
+      ordering_date_label: Yaradılma tarixinə görə yazıları birləşdirin
+      ordering_heading: Birləşdirmə çeşidi
+      ordering_suffix_help: Sağ qalan müzakirəyə birləşdirilən yazılar müzakirənin
+        sonuna əlavə olunacaq
+      ordering_suffix_label: Müzakirənin sonunda birləşdirilmiş yazıları əlavə edin
+      submit_button: => fof-merge-discussions.ref.merge
+      title: Müzakirələri birləşdirin
+      type_from_help_text: <b>{title}</b> müzakirəsini daxil etmək üçün müzakirə(lər)
+        seçin.
+      type_from_label: Bu müzakirəni başqa müzakirə ilə birləşdirin
+      type_heading: Qoşulma növü
+      type_target_help_text: <b>{title}</b> ilə birləşmək üçün müzakirə(lər)i seçin.
+      type_target_label: Bu müzakirəyə qoşulun
+    notification:
+      discussion_merged: <b>{oldTitle}</b> müzakirəniz {username} tərəfindən bu müzakirəyə
+        birləşdirilib.
+      preferences:
+        discussion_merged: Kimsə mənim müzakirələrimin birini digəri ilə birləşdirir
+    post:
+      merged: '{count, cəm, bir {<b>#</b> post {titles} müzakirəsindən birləşdirildi.}
+        digər {<b>#</b> post {titles} müzakirəsindən birləşdirildi.}}'
+  ref:
+    merge: birləşdirin

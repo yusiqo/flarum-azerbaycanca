@@ -1,0 +1,39 @@
+flarum-flags:
+  admin:
+    permissions:
+      flag_posts_label: Şikayət edilmiş yazılar
+      view_flags_label: Şikayət edilmiş yazılara baxın
+    settings:
+      flag_own_posts_label: İstifadəçilərə öz yazılarını bildirməyə icazə verin
+      guidelines_url_label: İcma Qaydaları Linki
+      title: Bildiriş Parametrləri
+  forum:
+    flag_post:
+      confirmation_message: 'Bu postu bildirdiyiniz üçün təşəkkür edirik. '
+      dismiss_button: => core.ref.okay
+      reason_details_placeholder: Əlavə təfərrüatlar (İstəyə görə)
+      reason_inappropriate_label: Uyğun deyil
+      reason_inappropriate_text: Bu post təhqiramiz, təhqiramizdir və ya <a>icma qaydalarını</a>
+        pozur.
+      reason_missing_message: Moderatorlarımız üçün bəzi təfərrüatları izah edin.
+      reason_off_topic_label: mövzudan kənar
+      reason_off_topic_text: Bu yazı cari müzakirəyə aid deyil və başqa yerə köçürülməlidir.
+      reason_other_label: Digər (təsvir edin)
+      reason_spam_label: İstənməyən
+      reason_spam_text: Bu yazı bir reklamdır.
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+    flagged_posts:
+      empty_text: Heç bir bildiriş yoxdur.
+      item_text: <em> {discussion} </em> içində {username}
+      title: => flarum-flags.ref.flgged_posts
+      tooltip: => flarum-flags.ref.flgged_posts
+    post:
+      dismiss_flag_button: Hesabata məhəl qoymayın
+      flagged_by_text: '{username} tərəfindən bildirildi'
+      flagged_by_with_reason_text: '{username} tərəfindən {səbəb} üçün bildirildi'
+    post_controls:
+      flag_button: Bildir
+  ref:
+    flag_post: Report Post
+    flagged_posts: Şikayət edilən Yazılar

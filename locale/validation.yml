@@ -1,0 +1,115 @@
+validation:
+  accepted: :atribut qəbul edilməlidir.
+  active_url: :atribut etibarlı keçid deyil.
+  after: ':atribut bu tarixdən sonra olmalıdır; '
+  after_or_equal: ':atribut bu tarixdən sonra və ya ona bərabər olmalıdır; '
+  alpha: :atribut yalnız hərflərdən ibarət ola bilər.
+  alpha_dash: :atribut yalnız hərflər, rəqəmlər və tirelərdən ibarət ola bilər.
+  alpha_num: :atribut yalnız hərf və rəqəmlərdən ibarət ola bilər.
+  array: :atribut massiv olmalıdır.
+  attributes:
+    content: məzmunu
+    email: e-poçt
+    name_plural: cəm isim
+    name_singular: tək
+    password: parol
+    tag_count_primary: əsas etiketlərin sayı
+    tag_count_secondary: ikinci dərəcəli etiketlərin sayı
+    title: başlıq
+    username: istifadəçi adı
+  before: :atribut :date-dən əvvəl olmalıdır.
+  before_or_equal: ':atribut bu tarixdən əvvəl və ya ona bərabərdir; '
+  between:
+    array: :atributu :min və :max arasında olmalıdır.
+    file: :atribut :min və :max kilobayt arasında olmalıdır.
+    numeric: ':atribut bu dəyərlər sahəsində olmalıdır; '
+    string: :atribut :min və :max simvolları arasında olmalıdır.
+  boolean: :atribut doğru və ya yalan olmalıdır.
+  confirmed: :atributu təsdiqləmək mümkün deyil.
+  date: :atribut etibarlı tarix deyil.
+  date_equals: :atribut :date ilə bərabər olmalıdır.
+  date_format: ':atribut aşağıdakı formata uyğun gəlmir; '
+  different: :atribut və :digər fərqli olmalıdır.
+  digits: :attribute :digits olmalıdır.
+  digits_between: ':atribut bu qiymətlər arasında olmalıdır; '
+  dimensions: :atributda yanlış şəkil ölçüləri var.
+  distinct: :atribut sahəsinin dublikat dəyəri var.
+  email: :atribut etibarlı e-poçt ünvanı olmalıdır.
+  ends_with: ':atribut aşağıdakılardan biri ilə bitməlidir: :dəyərlər.'
+  exists: Seçilmiş :atribut etibarsızdır.
+  file: :atribut fayl olmalıdır.
+  file_too_large: :atribut çox böyükdür.
+  file_upload_failed: :atribut yüklənə bilmədi.
+  filled: :atribut faylı olmalıdır.
+  gt:
+    array: :atributu :value elementindən böyük olmalıdır.
+    file: :atribut, :dəyər kilobaytdan böyük olmalıdır.
+    numeric: :atribut :value-dən böyük olmalıdır.
+    string: :atribut :value simvollarından çox olmalıdır.
+  gte:
+    array: :atributunda :value və ya daha çox element olmalıdır.
+    file: :atribut, :dəyər kilobaytdan kiçik və ya ona bərabər olmalıdır.
+    numeric: :atribut :value-dən böyük və ya ona bərabər olmalıdır.
+    string: :atribut :value simvolundan böyük və ya ona bərabər olmalıdır.
+  image: :atribut şəkil olmalıdır.
+  in: Seçilmiş :atribut etibarsızdır.
+  in_array: :atribut sahəsi :digərə daxil deyil.
+  integer: :atribut rəqəm olmalıdır.
+  ip: :atribut etibarlı IP ünvanı olmalıdır.
+  ipv4: :atribut etibarlı IPv4 ünvanı olmalıdır.
+  ipv6: :atribut etibarlı IPv6 ünvanı olmalıdır.
+  json: :atribut etibarlı JSON obyekti olmalıdır.
+  lt:
+    array: :atribut :value elementindən kiçik olmalıdır.
+    file: :atribut, :dəyər kilobaytdan az olmalıdır.
+    numeric: :atribut :value-dən kiçik olmalıdır.
+    string: :atribut :value simvollarından kiçik olmalıdır.
+  lte:
+    array: :atributunda :value elementlərindən çox olmamalıdır.
+    file: :atribut, :dəyər kilobaytdan kiçik və ya ona bərabər olmalıdır.
+    numeric: :atribut :value-dən kiçik və ya ona bərabər olmalıdır.
+    string: :atribut :value-dən kiçik və ya ona bərabər olmalıdır.
+  max:
+    array: :atributda :max elementlərindən çox ola bilməz.
+    file: :atribut :max kilobaytı keçə bilməz.
+    numeric: :atribut :max-dan uzun olmamalıdır.
+    string: :atribut :max simvoldan uzun olmamalıdır.
+  mimes: ':atribut aşağıdakı fayl növlərindən biri olmalıdır; '
+  mimetypes: ':atribut aşağıdakı fayl növlərindən biri olmalıdır; '
+  min:
+    array: ':atribut bu dəyərdən az olmamalıdır; '
+    file: ':atribut bu dəyərdən az olmamalıdır; '
+    numeric: ':atribut bu dəyərdən az olmamalıdır; '
+    string: ':atribut bu dəyərdən az olmamalıdır; '
+  multiple_of: :atribut :dəyərin çoxluğu olmalıdır.
+  not_in: Seçilmiş :atribut etibarsızdır.
+  not_regex: :atribut formatı yanlışdır.
+  numeric: :atribut rəqəm olmalıdır.
+  password: Parol düzgün deyil.
+  present: :atribut sahəsi mövcud olmalıdır.
+  prohibited: :atribut sahəsi qadağandır.
+  prohibited_if: :atribut sahəsi :digər, :value olduqda qadağandır.
+  prohibited_unless: :atribut sahəsi :digər :dəyərlərdə olmadığı halda qadağandır.
+  regex: :atribut formatı uyğun deyil.
+  required: :atribut sahəsi tələb olunur.
+  required_if: :atribut sahəsi :digər :dəyər olduqda tələb olunur.
+  required_unless: :digər :value dəyərləri arasında olmadığı halda :atribut sahəsi
+    tələb olunur.
+  required_with: :atribut sahəsi :dəyərlər olduqda tələb olunur.
+  required_with_all: :atribut sahəsi :dəyərlər olduqda tələb olunur.
+  required_without: :atribut sahəsi :dəyərlər olmadıqda tələb olunur.
+  required_without_all: :atribut sahəsi :dəyərlərin heç biri mövcud olmadıqda tələb
+    olunur.
+  same: :atribut və :digər uyğun olmalıdır.
+  size:
+    array: :atributunda :size elementi olmalıdır.
+    file: :atribut :ölçü kilobayt olmalıdır.
+    numeric: :atribut :size olmalıdır.
+    string: :atribut :size simvolu olmalıdır.
+  starts_with: :atributu :values ​​dəyərlərindən biri ilə başlamalıdır.
+  string: :atribut simvol sətri olmalıdır.
+  timezone: :atribut etibarlı bölgə olmalıdır.
+  unique: :atribut artıq götürülüb.
+  uploaded: :atribut yüklənə bilmədi.
+  url: :atribut növü etibarsızdır.
+  uuid: :atribut etibarlı UUID olmalıdır.

@@ -1,0 +1,58 @@
+migratetoflarum-fake-data:
+  admin:
+    generator:
+      bulk-mode: => migratetoflarum-fake-data.ref.bulk-mode
+      bulk-mode-description: => migratetoflarum-fake-data.ref.bulk-mode-description
+      date: => migratetoflarum-fake-data.ref.date
+      date-interval-placeholder: => migratetoflarum-fake-data.ref.date-interval-placeholder
+      date-start-placeholder: => migratetoflarum-fake-data.ref.date-start-placeholder
+      discussion-count: Yaradılacaq müzakirələrin sayı
+      discussion-tags: Yeni müzakirələr üçün etiketlər
+      discussion-tags-none: Heç biri
+      discussion-tags-random: təsadüfi
+      post-count: => migratetoflarum-fake-data.ref.post-count
+      send: => migratetoflarum-fake-data.ref.send
+      user-count: => migratetoflarum-fake-data.ref.user-count
+  api:
+    no-discussions-matched: Uyğun müzakirələr yoxdur
+    no-users-matched: Uyğun istifadəçilər yoxdur
+  forum:
+    generator:
+      bulk-mode: => migratetoflarum-fake-data.ref.bulk-mode
+      bulk-mode-description: => migratetoflarum-fake-data.ref.bulk-mode-description
+      date: => migratetoflarum-fake-data.ref.date
+      date-interval-placeholder: => migratetoflarum-fake-data.ref.date-interval-placeholder
+      date-start-placeholder: => migratetoflarum-fake-data.ref.date-start-placeholder
+      post-count: => migratetoflarum-fake-data.ref.post-count
+      send: => migratetoflarum-fake-data.ref.send
+      title: Saxta cavablar yaradın
+      user-count: => migratetoflarum-fake-data.ref.user-count
+    link:
+      generate-replies: Saxta cavablar yaradın
+  lib:
+    generator:
+      bulk-mode: toplu rejimi
+      bulk-mode-description: Tək təsadüfi dəyər yaradır və onu hər bir giriş üçün
+        təkrar istifadə edir
+      date: xurma toxumu
+      date-interval-placeholder: 'Interval (defolt: 1 saniyə)'
+      date-start-placeholder: 'Başlama tarixi (defolt: indi)'
+      discussion-count: Yaradılacaq müzakirələrin sayı
+      discussion-tags: Yeni müzakirələr üçün etiketlər
+      discussion-tags-none: Heç biri
+      discussion-tags-random: təsadüfi
+      post-count: Yaradılmalı yazıların sayı
+      refresh: Səhifəni bağlayın və yeniləyin
+      reset: 'Bitdi! '
+      send: Məlumat yaradın
+      user-count: Yaradılmalı olan istifadəçilərin sayı
+  ref:
+    bulk-mode: toplu rejimi
+    bulk-mode-description: Tək təsadüfi dəyər yaradır və onu hər bir giriş üçün təkrar
+      istifadə edir
+    date: xurma toxumu
+    date-interval-placeholder: 'Interval (defolt: 1 saniyə)'
+    date-start-placeholder: 'Başlama tarixi (defolt: indi)'
+    post-count: Yaradılmalı yazıların sayı
+    send: Məlumat yaradın
+    user-count: Yaradılmalı olan istifadəçilərin sayı

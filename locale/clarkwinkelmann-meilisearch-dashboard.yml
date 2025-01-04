@@ -1,0 +1,6 @@
+clarkwinkelmann-meilisearch-dashboard:
+  admin:
+    header:
+      link: Mailsearch Paneli
+    permission:
+      access: Meilisearch Panelinə giriş

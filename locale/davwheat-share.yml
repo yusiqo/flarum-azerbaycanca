@@ -1,0 +1,18 @@
+davwheat-share:
+  admin:
+    browser_support_notice: '"Paylaş" seçimi yalnız Veb Paylaşım API-ni dəstəkləyən
+      cihazlarda görünəcək. '
+    button_preview_header: Önizləmə
+    display_options:
+      icon: Yalnız ikon
+      menu: Fəaliyyət menyusu daxilində
+      text: Yalnız mətn
+    display_options_label: Paylaş düyməsi ekranı
+    preview:
+      dropdown:
+        delete: Sil
+        edit: Redaktə et
+      reply: Cavab verin
+  lib:
+    share: Paylaşın
+    share_a11y_label: Postu paylaşın

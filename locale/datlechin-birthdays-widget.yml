@@ -1,0 +1,8 @@
+datlechin-birthdays-widget:
+  admin:
+    settings:
+      max_users: Göstəriləcək maksimum istifadəçilər
+  forum:
+    widget:
+      more_label: Bütün ad günlərinə baxın
+      title: Bu gün Doğuldu

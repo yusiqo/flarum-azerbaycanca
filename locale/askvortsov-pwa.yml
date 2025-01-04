@@ -1,0 +1,103 @@
+askvortsov-pwa:
+  admin:
+    nav:
+      pwa_button: Qabaqcıl Veb Tətbiqi
+      pwa_text: Flarumu mobil cihazlarda quraşdırıla bilən Qabaqcıl Veb Tətbiqi kimi
+        konfiqurasiya edin.
+    pwa:
+      about:
+        description_label: İzahat
+        description_text: Təsviri İdarəetmə səhifəsində 'Əsas elementlər' sekmesinde
+          təyin edə bilərsiniz.
+        heading: Haqqında
+        long_name_label: uzun ad
+        long_name_text: İstifadəçi tərəfindən baxılan veb proqram adı.
+        short_name_label: qısa ad
+        short_name_text: Uzun ad üçün kifayət qədər yer olmadıqda istifadəçiyə göstərilən
+          proqram adı.
+      colors:
+        background_color_label: fon rəngi
+        background_color_text: 'PWA tətbiqiniz açıldıqda bu rəng sıçrayış ekranı üçün
+          fon rəngi olacaq. '
+        heading: Rənglər
+        theme_color_label: mövzu rəngi
+        theme_color_text: Bu rəng Tapşırıq Menecerində tətbiqinizin rəngini müəyyən
+          edir.
+      firebase_config:
+        heading: Firebase
+        help_text: 'Tətbiqinizi Apple proqramlar mağazasında dərc edərkən təkan bildiriş
+          dəstəyi əlavə etmək üçün tətbiqinizə təkan bildirişləri əlavə etmək üçün
+          Firebase istifadə etməlisiniz. '
+        see_documentation_here: Bələdçini burada yoxlayın
+        upload_file: Fayl yükləyin
+        upload_successful: Firebase konfiqurasiyanız uğurla yükləndi
+      heading: Qabaqcıl Veb Tətbiq Parametrləri
+      logo_heading: Loqolar və Nişanlar
+      logo_size_text: '{size} pikselə {size} piksel ölçülən loqo yükləyin.'
+      logo_text: 'PWA quraşdırmadan əvvəl ən azı bir loqo yükləməlisiniz. '
+      maintenance:
+        debug_label: Sazlama rejimi?
+        debug_text: 'Bu, bildirişlər haqqında məlumatı "saxlama/loglarda" saxlayır. '
+        heading: Qayğı
+        reset_vapid_confirm: 'VAPID açarlarının sıfırlanması, mövcud açarlardan istifadə
+          edən hər hansı abunəlikləri siləcək, beləliklə, istifadəçilər saytınıza
+          növbəti səfərlərinə qədər heç bir bildiriş almayacaqlar. '
+        reset_vapid_success: 'VAPID açarlarını uğurla sıfırlayın. '
+        reset_vapid_text: Bu, VAPID açarlarını bərpa edəcək və mövcud VAPID açarlarından
+          istifadə edərək mövcud abunəlikləri siləcək.
+      other:
+        force_portrait_text: Şaquli istifadəni məcbur etmək?
+        heading: Digər
+        push_notif_preference_default_to_email_label: E-poçt üçün defolt Push Tercihləri?
+        push_notif_preference_default_to_email_text: 'Doğrudursa, istifadəçilər e-poçt
+          bildirişlərinin defolt olaraq aktiv edildiyi bütün bildiriş növləri üçün
+          defolt olaraq təkan bildirişlərini aktivləşdirəcəklər. '
+        user_max_subscriptions_label: İstifadəçi Başına Maksimum Push Abunəlikləri
+        user_max_subscriptions_text: 'Hər bir istifadəçinin eyni anda neçə təkan abunəsi
+          olmalıdır? '
+        window_controls_overlay_label: Pəncərə Nəzarətləri Yerləşdirməsi aktiv edilsin?
+        window_controls_overlay_text: 'Doğrudursa, istifadəçilər yerli başlıq çubuğunu
+          gizlədə və daha təsirli, doğma təcrübə əldə edə biləcəklər. '
+      refreshed_message: PWA konfiqurasiyası uğurla yeniləndi.
+      status_check_heading: Status yoxlanışı
+      submit_button: Parametrləri yadda saxlayın
+      text: 'Flarum veb saytınızı Qabaqcıl Veb Tətbiqinə çevirin! '
+    status:
+      config_no_https: 'config.php faylınızdakı keçid HTTPS-dən istifadə etmir. '
+      key_gen_failed: 'Push bildirişləri üçün tələb olunan açarları yaratmaq alınmadı. '
+      no_logo: PWA-nın quraşdırılması üçün ən azı 144x144 piksel ölçüsündə loqo yükləməlisiniz.
+      no_name: Tətbiqinizin işləməsi üçün tam uyğun ad təqdim etməlisiniz.
+      no_vapid_keys: 'VAPID açarı tapılmadı. '
+      possible_https_disabled: 'Saytınız HTTPS üzərində işləməyə bilər (İdarəetmə
+        > Alətlər düyməsi) keşi təmizləməyə kömək edəcəkdir. '
+      success: Potensial xəta mövcud deyil!
+      suggest_gmp: 'Gmp PHP uzantısı serverinizdə aktiv görünmür. '
+  forum:
+    alerts:
+      optin: Siz brauzer bildirişlərini aktiv etmisiniz, lakin onları bu cihaz üçün
+        quraşdırmamısınız.
+      optin_button: Konfiqurasiya edin
+    discussion_controls:
+      share_button: Paylaşın
+    post_controls:
+      share_api:
+        title: '{username}-nin {title} müzakirəsinə cavabı'''
+      share_button: Paylaşın
+    settings:
+      push_header: Skaner
+      pwa_notifications:
+        access_default: Brauzer məhdudiyyətlərinə görə, bu cihazda təkan bildirişləri
+          almağı seçməlisiniz.
+        access_default_button: Qeydiyyatdan keçin
+        access_denied: Bu cihazda təkan bildirişləri almaq üçün brauzerinizin parametrlərini
+          tənzimləməlisiniz.
+        access_denied_button: Necə oldu
+        no_browser_support: Bu brauzer mütərəqqi veb proqramlar üçün təkan bildirişlərini
+          dəstəkləmir.
+        no_browser_support_button: Necə oldu
+    user_controls:
+      share_button: Paylaşın
+  views:
+    offline:
+      header: Şəbəkə bağlantısı xətası
+      text: 'Bu proqram şəbəkə bağlantısı tələb edir; '

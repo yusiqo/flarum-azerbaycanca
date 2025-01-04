@@ -1,0 +1,41 @@
+clarkwinkelmann-jwt-cookie-login:
+  admin:
+    settings:
+      actorId: İnzibati əməliyyatlar üçün Flarum İstifadəçi ID-si
+      actorIdHelp: 'Bu Flarum istifadəçisi yeni istifadəçilər yaradan daxili REST
+        API sorğusunun aktyoru kimi istifadə olunacaq. '
+      audience: JWT Audience / Firebase Layihə ID
+      audienceHelp: 'Tokenin <code>aud</code> atributunu təsdiq edir. '
+      authorizationHeader: Fərdi Avtorizasiya başlıq dəyəri
+      authorizationHeaderHelp: Bu sahə boş qalsa, <code>Authorization</code> başlığında
+        <code>Token <JWT token></code> olacaq.
+      autoLoginDelay: Gizli Iframe Avtomatik Giriş Gecikməsi (millisaniyələr)
+      autoLoginDelayHelp: 'Gizli iframe daxil olmuş statusunu qaytararsa, istifadəçinin
+        əlaqəsi olmadan səhifənin neçə saniyə təzələnməsinə icazə verilir. '
+      cookieName: Kuki adı
+      emailTemplate: E-poçt şablonu
+      emailTemplateHelp: JWT atributundan istifadə etmək üçün <code>{sub}</code> sintaksisindən
+        istifadə edin
+      expirationLeeway: İstifadə müddəti bitmə yolu (saniye)
+      expirationLeewayHelp: 'JWT bitdikdən neçə saniyə sonra sessiya hələ də başlamalıdır. '
+      hiddenIframe: Gizli Iframe URL
+      hiddenIframeHelp: 'Bu iframe Flarum tək səhifə tətbiqinin bütün səhifələrində
+        ekrandan kənar yüklənəcək. '
+      logoutRedirect: Yönləndirmə URL-dən çıxın
+      logoutRedirectHelp: 'JWT vətəndaşlığı olmayan sessiya zamanı Flarum çıxış linki
+        bu URL-i göstərən keçidlə əvəz olunacaq. '
+      publicKey: açıq açar
+      publicKeyAlgorithm: Açıq Açar Alqoritmi
+      publicKeyAlgorithmHelp: 'Yalnız İctimai Açar ilə tələb olunur. '
+      publicKeyHelp: Google Firebase açarlarından istifadə etmək üçün boş buraxın
+      registrationHook: Qeydiyyat Hook Endpoint
+      registrationHookHelp: 'İstifadəçi foruma ilk dəfə daxil olduqda POST sorğusu
+        göndərəcək tam ixtisaslı URL. '
+      usernameTemplate: İstifadəçi adı şablonu
+      usernameTemplateHelp: JWT atributundan istifadə etmək üçün <code>{sub}</code>
+        sintaksisindən istifadə edin
+  forum:
+    alert:
+      login: Siz avtomatik qoşulmusunuz.
+      logout: Sessiyanız bitdi.
+      refresh: Səhifəni yeniləyin

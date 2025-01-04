@@ -1,0 +1,26 @@
+flamarkt-backoffice:
+  admin:
+    settingsInBackoffice: Backoffice parametrləri
+  backoffice:
+    nav:
+      dashboard: İdarə paneli
+      searchPlaceholder: => core.admin.nav.search_placeholder
+      users: İstifadəçilər
+    permissions:
+      backoffice: Arxaofis qızılı
+    settingsNotAvailableForNonAdmin: Bu genişləndirmənin parametrləri var, lakin yalnız
+      administrator hesabları onları görə və redaktə edə bilər.
+    users:
+      field:
+        email: E-poçt
+        password: parol
+        username: İstifadəçi adı
+      head:
+        email: E-poçt
+      new: İstifadəçi yaradın
+      searchPlaceholder: İstifadəçiləri axtarın...
+      title: İstifadəçilər
+  lib:
+    header:
+      admin_button: => core.forum.header.admin_button
+      backoffice_button: Arkaofis

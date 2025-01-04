@@ -1,0 +1,150 @@
+flamarkt-taxonomies:
+  admin:
+    edit-taxonomy:
+      delete: => flamarkt-taxonomies.ref.delete
+      deleteConfirmation: 'Həqiqətən {name} təsnifatını silmək istəyirsiniz? '
+      field:
+        allowCustomValues: Fərdi dəyərlərə icazə verin
+        color: => flamarkt-taxonomies.ref.field.color
+        countRequired: Tələb olunan terminlərin sayı
+        countRequiredDescription: Bu taksonomiyadan resursa tətbiq oluna biləcək minimum
+          və maksimum termin sayını daxil edin.
+        customValueSlugger: Fərdi dəyərlər üçün slugger
+        customValueSluggerDescription: 'Şlakın necə yaradılmasını istədiyinizi seçin. '
+        customValueValidation: Xüsusi dəyərlər üçün doğrulama
+        description: => flamarkt-taxonomies.ref.field.təsviri
+        enableFilter: Sorğu sətri/API filtrlərini aktivləşdirin
+        enableFilterDescription: 'Taksonomiya filtrlərinin taksonomiya növü üçün "hamısına
+          bax" icazəsi olan istifadəçilər üçün müzakirələr, istifadəçilər və məhsullarla
+          dərindən əlaqələndirilməsinə imkan verir. '
+        enableFulltextSearch: Tam mətn axtarışı üçün indeks şərtləri
+        enableFulltextSearchDescription: 'Yalnız Skaut inteqrasiyası aktiv olduqda
+          effektivdir. '
+        enableFulltextSearchWarning: 'Resurs axtarış icazələriniz (“müzakirələr üçün
+          foruma baxmaq”, istifadəçilər üçün “istifadəçi axtar”) Taksonomiyalar üçün
+          “hamısına baxmaq” icazələrindən fərqlidir. '
+        icon: => flamarkt-taxonomies.ref.field.icon
+        iconDescription: => flamarkt-taxonomies.ref.field.iconDescription
+        name: => flamarkt-taxonomies.ref.field.name
+        rangeSeparatorText: ilə
+        showFilter: Siyahı/indeks səhifələrində filtrləri göstərin
+        showFilterDescription: 'Müzakirə siyahısında, istifadəçi kataloqunda və ya
+          mağaza kataloqunda müntəzəm ziyarətçilərə filtrləri göstərin. '
+        showLabel: Terminlə taksonomiya etiketini göstərin
+        showLabelDescription: 'Müzakirə siyahısı və qəhrəman üçün üslub göstərin. '
+        slug: => flamarkt-taxonomies.ref.field.slug
+        tagScope: Yalnız müəyyən edilmiş etiketlərdə
+        tagScopeDescription: 'Təsnifat yalnız seçilmiş teqlərdə mövcuddur. '
+        tagScopePlaceholder: Teqləri axtarmaq üçün yazın...
+        type: İpucu
+        typeDescription: 'Taksonomiyalar bir çox Flarum resurslarında istifadə edilə
+          bilər. '
+      section:
+        browsing: Skan olunur
+        filling: Doldurma
+        info: Məlumat
+        scope: Durbin
+      slugger-options:
+        alpha_dash: ASCII alfasayısal yavaşlama
+        random: Təsadüfi identifikator
+        transliterator: FoF Transliterator uzantısından istifadə edin
+      submit:
+        edit: => flamarkt-taxonomies.ref.submit.edit
+        new: => flamarkt-taxonomies.ref.submit.new
+      title:
+        edit: Taksonomiyaya düzəliş edin
+        new: Təsnifat yaradın
+      type-options:
+        discussions: Müzakirələr
+        products: Məhsullar
+        users: İstifadəçilər
+      validation-options:
+        alpha_dash: Alfasayısal dəyərlər və tire/alt xətt
+        alpha_num: Alfa-rəqəm dəyərləri
+        default: İstənilən mətn dəyəri
+        regex: müntəzəm ifadə
+    edit-term:
+      delete: => flamarkt-taxonomies.ref.delete
+      deleteConfirmation: 'Həqiqətən {name} adlı şəxsi silmək istəyirsiniz? '
+      field:
+        color: => flamarkt-taxonomies.ref.field.color
+        description: => flamarkt-taxonomies.ref.field.təsviri
+        icon: => flamarkt-taxonomies.ref.field.icon
+        iconDescription: => flamarkt-taxonomies.ref.field.iconDescription
+        name: => flamarkt-taxonomies.ref.field.name
+        slug: => flamarkt-taxonomies.ref.field.slug
+      submit:
+        edit: => flamarkt-taxonomies.ref.submit.edit
+        new: => flamarkt-taxonomies.ref.submit.new
+      title:
+        edit: Müddəti redaktə edin
+        new: Müddət yaradın
+    menu:
+      description: Fərdi taksonomiyalar və terminlər yaradın.
+      discussions: Müzakirə taksonomiyaları
+      products: Məhsul taksonomiyaları
+      title: Taksonomiyalar
+      users: İstifadəçi taksonomiyaları
+    page:
+      create:
+        taxonomy: Taksonomiya yaradın
+        term: Termin yaradın
+      reset-term-order: Şərtlər siyahısını əlifba sırasına sıfırlayın
+      title: Taksonomiyalar
+    permissions:
+      bypassTermCounts: Termin sayı tələbini ləğv edin
+      editAnyDiscussion: İstənilən müzakirədə taksonomiyaları redaktə edin
+      editAnyUser: İstənilən istifadəçinin taksonomiyalarını redaktə edin
+      editOwnDiscussion: Taksonomiyaları öz müzakirələrində təşkil edin
+      editOwnUser: Öz istifadəçinizdə taksonomiyaları redaktə edin
+      heading: Taksonomiyalar
+      moderate: Mövcud taksonomiyaları konfiqurasiya edin
+      ownDisabledEveryone: Qeyri-aktiv və fəaliyyəti dayandırılmış üzvlər
+      ownDisabledMembers: Aktiv üzvlər
+      seeAnyDiscussion: Bütün müzakirələrdə taksonomiyalara baxın
+      seeAnyUser: İstənilən istifadəçinin taksonomiyalarına baxın
+      seeOwnDiscussion: Taksonomiyalara öz müzakirələrində baxın
+      seeOwnUser: Öz istifadəçinizdə taksonomiyalara baxın
+    settings:
+      goToPage: Konfiqurasiya səhifəsinə keçin
+  api:
+    error:
+      cannot_use_taxonomies_on_model: Bu kontekstdə taksonomiyalardan istifadə etməyə
+        icazəniz yoxdur
+      discussion_taxonomy_not_in_scope: '"{slug}" taksonomiyası cari teq kombinasiyasında
+        mövcud deyil'
+      invalid_filter_taxonomy: Yanlış "{type}" təsnifat filtr açarı "{slug}"
+  forum:
+    blog:
+      widget:
+        title: Təsnifatlar
+    composer:
+      choose: '{taksonomiya} seçin'
+    discussion:
+      edit: '{taksonomiya} redaktə edin'
+    user:
+      edit: '{taksonomiya} redaktə edin'
+      nav: Taksonomiyalar
+  lib:
+    modal:
+      bypassTermCounts: Müddət saylarını ləğv edin
+      custom: '{dəyər} istifadə edin'
+      placeholder: '{hesab, cəm, bir {Termin seçin...} digər {# şərt seçin...}}'
+      placeholderOptional: Seçin...
+      submit: Tamam
+      title:
+        edit: '{title} üçün {taksonomiya} redaktə edin'
+        new: Müzakirəniz üçün {taksonomiya} seçin
+  ref:
+    delete: Sil
+    field:
+      color: Rəng
+      description: İzahat
+      icon: Simvol
+      iconDescription: İstənilən <a>FontAwesome</a> ikona sinfinin adını <code>fas
+        fa-</code> prefiksi ilə <em>o cümlədən</em> daxil edin.
+      name: ad
+      slug: Slug
+    submit:
+      edit: Saxla
+      new: Yaradın

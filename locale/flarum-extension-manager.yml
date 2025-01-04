@@ -1,0 +1,168 @@
+flarum-extension-manager:
+  admin:
+    auth_config:
+      add_label: Yeni autentifikasiya üsulu
+      add_modal:
+        host_label: Aparıcı
+        host_placeholder: 'misal: extiverse.com'
+        submit_button: Göndər
+        token_label: O yaşayır
+        type_label: Növ
+        unchanged_token_placeholder: (dəyişməmiş)
+      delete_confirmation: Bu doğrulama metodunu silmək istədiyinizə əminsiniz?
+      delete_label: Doğrulama metodunu silin
+      edit_label: Doğrulama metodunu redaktə edin
+      fields:
+        host: Aparıcı
+        token: O yaşayır
+      no_auth_methods_configured: 'Heç bir identifikasiya metodu konfiqurasiya edilməyib. '
+      remove_button_label: Doğrulama metodunu silin
+      title: Doğrulama üsulları
+      types:
+        bearer: HTTP daşıyıcısı
+        github-oauth: GitHub OAuth
+        gitlab-oauth: GitLab OAuth
+        gitlab-token: GitLab Jetonu
+    composer:
+      add_repository_label: Anbar əlavə edin
+      delete_repository_confirmation: 'Bu deponu silmək istədiyinizə əminsiniz? '
+      delete_repository_label: Depoyu sil
+      edit_repository_label: Anbarı redaktə edin
+      minimum_stability:
+        help: 'Quraşdırmağa icazə verilən paketlərin növü. '
+        label: Minimum Sabitlik
+        options:
+          alpha: Alfa
+          beta: Beta
+          dev: Dev (İnkişaf)
+          rc: Namizədi azad edin
+          stable: Stabil (tövsiyə olunur)
+      repositories:
+        add_modal:
+          name_label: Adı
+          submit_button: Göndər
+          type_label: Növ
+          url: Əlaqə
+        help: 'Paketləri quraşdırmaq üçün əlavə depolar əlavə edin. '
+        label: Anbarlar
+        types:
+          composer: tənzimləyici
+          path: yol
+          vcs: vcs
+      title: Tənzimləyici
+    exceptions:
+      composer_command_failure: 'Qaçmaq mümkün olmadı. '
+      extension_already_installed: Artırma artıq quraşdırılıb.
+      extension_not_directly_dependency: Artırma başqa bir uzantıdan asılı olaraq
+        quraşdırılıb və onu birbaşa silmək mümkün deyil.
+      extension_not_installed: Artırma tapılmadı.
+      guessed_cause:
+        extension_incompatible_with_instance: Artırma, çox güman ki, mövcud Flarum
+          nümunənizlə uyğun gəlmir.
+        extension_not_found: Artırma tapılmadı və ya mövcud deyil.
+        extensions_incompatible_with_new_major: 'Bəzi quraşdırılmış genişləndirmələr
+          ən son əsas versiyaya uyğun gəlmir. '
+    extensions:
+      check_why_it_failed_updating: Niyə ən son versiyaya yenilənmədiyini göstərin.
+      install: Yeni bir uzantı quraşdırın
+      install_help: 'Davam etmək üçün genişləndirmə paketinin adını daxil edin. '
+      proceed: irəli gedin
+      remove: Sil
+      successful_install: '{extension} uğurla quraşdırıldı, siz yönləndirilirsiniz...'
+      successful_remove: Artırma uğurla silindi.
+      successful_update: '{extension} uğurla yeniləndi, siz yönləndirilirsiniz...'
+      update: Yeniləyin
+      update_hard_label: məcbur yeniləmə
+      update_soft_label: yumşaq yeniləmə
+    file_permissions: 'Artırma meneceri aşağıdakı fayl və qovluqlarda oxumaq və yazma
+      icazələrini tələb edir: composer.json, composer.lock, vendor, storage, storage/.composer'
+    major_updater:
+      description: 'Əsas Flarum yeniləmələri geriyə uyğun deyil; '
+      dry_run: Modeli yeniləyin
+      dry_run_help: 'Update Emulator, cari quraşdırmanızın təhlükəsiz şəkildə yenilənə
+        biləcəyini görmək üçün yeniləməni simulyasiya edir; '
+      failure:
+        desc: 'Son əsas yeniləmə uğursuz oldu; '
+        why: daha çox tapın
+      title: Flarum {versiya} Əsas Yeniləmə Mövcuddur
+      update: Yeniləyin
+    minor_update_confirmation:
+      content: Bu, həmçinin digər genişləndirmələri/paketləri mövcud yeniləmələrlə
+        yeniləyəcək.
+    sections:
+      control:
+        title: İcraçı
+      queue:
+        columns:
+          details: Detal
+          elapsed_time: tamamlandı
+          operation: CƏRRAHİYYƏ
+          package: Paket
+          peak_memory_used: Maksimum Yaddaş İstifadəsi
+          status: Durum
+        none: Hələ heç bir missiya yoxdur.
+        operations:
+          extension_install: Uzatma quraşdırın
+          extension_remove: Uzatma silin
+          extension_update: Uzatma yeniləyin
+          update_check: Yeniləmələri yoxlayın
+          update_global: Bütün proqram paketlərini yeniləyin
+          update_major: böyük yeniləmə
+          update_minor: kiçik yeniləmə
+          why_not: Paketin niyə yenilənə bilmədiyini təhlil edin
+        output_modal:
+          cause_unknown: Naməlum
+          command: Redaktor əmri
+          guessed_cause: Haradan
+          output: Çıxış
+        refresh: Tapşırıq siyahısını yeniləyin
+        statuses:
+          failure: Uğursuz
+          pending: gözləyirdi
+          running: işləyir
+          success: Uğurlu
+        task_just_started: Missiya yenicə başlayıb
+        title: Sıra
+    settings:
+      access_warning: 'Zəhmət olmasa, admin sahəsinə kimə giriş verdiyinizə diqqətli
+        olun; '
+      debug_mode_warning: 'Siz sazlama rejimində çalışırsınız, genişləndirmə meneceri
+        yerli inkişaf paketlərini düzgün quraşdıra və yeniləyə bilmir. '
+      queue_jobs: Arxa planda prosesləri işə salın
+      queue_jobs_help: 'Siz <a href=''{basic_impl_link}''>Əsas növbə</a> və ya <a
+        href=''{adv_impl_link}''>daha təkmil</a> tətbiqi haqqında öyrənə bilərsiniz. '
+      task_retention_days: Tapşırıq saxlama günləri
+      task_retention_days_help: 'Tapşırıqların yerinə yetirildiyi günlərin sayı verilənlər
+        bazasında saxlanılacaq. '
+      title: => core.ref.settings
+    update_successful: Flarum uğurla yeniləndi.
+    updater:
+      check_for_updates: Yeniləmələri yoxlayın
+      flarum: Flarum Core
+      global_update_successful: Bütün paketlər uğurla yeniləndi.
+      last_update_checked_at: 'Son yeniləmə yoxlaması:'
+      run_global_update: Toplu yeniləməni işə salın
+      up_to_date: Hər şey aktualdır!
+      updater_help: Yeni genişləndirmə və Flarum yeniləmələrini yoxlayır.
+      updater_title: Yeniləmələr
+    why_not_modal:
+      title: Niyə Yenilənmir?
+  validation:
+    attributes:
+      bearer: HTTP daşıyıcısı
+      bearer.*: HTTP daşıyıcısı
+      extension_id: Plugin ID
+      github_oauth: GitHub OAuth
+      github_oauth.*: GitHub OAuth
+      gitlab_oauth: GitLab OAuth
+      gitlab_oauth.*: GitLab OAuth
+      gitlab_token: GitLab Giriş Açarı
+      gitlab_token.*: GitLab Giriş Açarı
+      minimum_stability: minimum sabitlik
+      package: paket
+      repositories: anbarlar
+      repositories.*: anbarlar
+      repositories.*.type: anbar növü
+      repositories.*.url: anbar bağlantısı
+      update_mode: yeniləmə rejimi
+      version: versiya

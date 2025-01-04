@@ -1,0 +1,7 @@
+clarkwinkelmann-post-permissions:
+  admin:
+    permissions:
+      edit-first-own-post-forever: Öz müzakirəsinin ilk postunu əbədi olaraq redaktə
+        edin
+      edit-own-post-forever: Öz yazılarınızdan hər hansı birini əbədi olaraq redaktə
+        edin

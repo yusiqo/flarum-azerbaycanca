@@ -1,0 +1,13 @@
+blessing-oauth-client:
+  admin:
+    popup:
+      field:
+        app-id: OAuth müştəri ID
+        app-secret: OAuth müştəri sirri
+        base-url: Blessing Skin Root Link
+        button-icon: Giriş düyməsi ikonu
+        button-title: Giriş düyməsi üçün etiket
+        button-title-placeholder: => xeyir-dua-oauth-client.api.default-login-button-title
+      title: Blessing Skin ilə daxil olun
+  api:
+    default-login-button-title: Blessing Skin ilə daxil olun

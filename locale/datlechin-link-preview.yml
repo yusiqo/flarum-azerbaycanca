@@ -1,0 +1,25 @@
+datlechin-link-preview:
+  admin:
+    settings:
+      blacklist_help: 'Link önizləmələri yaratmayan domenləri və ya URL-ləri göstərin. '
+      blacklist_label: Domen adı qara siyahı
+      blacklist_placeholder: 'Məsələn: facebook.com, twitter.com/specific-page'
+      cache_time_help: 'Link önizləmələri təzələnmədən əvvəl nə qədər müddət saxlanılacaq. '
+      cache_time_label: Keş vaxtı (dəqiqə)
+      convert_media_urls_help: Media fayllarına (şəkillər, videolar və s.) işarə edən
+        URL-lər üçün önizləmələr yaradın.
+      convert_media_urls_label: Media URL-lərini önizləyin
+      enable_batch_requests_help: 'Birdən çox keçidin önizləməsini eyni vaxtda emal
+        etməklə performansı yaxşılaşdırın. '
+      enable_batch_requests_label: Toplu Emalı aktivləşdirin
+      open_links_in_new_tab_help: Öncədən baxılmış bağlantıları həmişə yeni brauzer
+        nişanında açın.
+      open_links_in_new_tab_label: Linkləri Yeni Tabda açın
+      use_google_favicons_help: Vizual tanınmanı artırmaq üçün Google-un Favicon xidmətindən
+        istifadə edərək veb sayt favikonlarını göstərin.
+      use_google_favicons_label: Sayt nişanlarına baxın
+      whitelist_help: 'Yalnız bu domenlər və ya URL-lər üçün önizləmələr yaradın. '
+      whitelist_label: Domen ağ siyahısı
+      whitelist_placeholder: 'Məsələn: etibarlı-site.com, specific-domain.org/path'
+  forum:
+    site_cannot_be_reached: 'Önizləməni yükləmək alınmadı. '

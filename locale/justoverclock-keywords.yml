@@ -1,0 +1,15 @@
+flarum-ext-keywords:
+  admin:
+    addRow: Təsvir əlavə edin
+    definition: Tərif
+    parseonce: Yazıda sözləri bir dəfə müəyyənləşdirin
+    removedef: tərifi silin
+    word: Söz
+  forum:
+    definition: Tərif
+    loadMore: Daha çox yüklə
+    pagetitle: Lüğət səhifəsi
+    searchtext: Lüğətdə axtarış etmək üçün yazın...
+    tagline: 'Bu saytda istifadə olunan terminlər haqqında daha çox öyrənmək istəyirsiniz? '
+    term: Müddət
+    title: Lüğət

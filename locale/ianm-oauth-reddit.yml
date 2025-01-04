@@ -1,0 +1,16 @@
+fof-oauth:
+  admin:
+    settings:
+      providers:
+        reddit:
+          client_id_label: Müştəri ID
+          client_secret_label: Müştəri sirri
+          description: Forumunuzu Reddit-də qeydiyyatdan keçirin {link}
+  forum:
+    log_in:
+      with_reddit_button: => fof-oauth.forum.log_in.with_button
+    providers:
+      reddit: => fof-oauth.lib.providers.reddit
+  lib:
+    providers:
+      reddit: Reddit

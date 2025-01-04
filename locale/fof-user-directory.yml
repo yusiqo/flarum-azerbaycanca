@@ -1,0 +1,42 @@
+fof-user-directory:
+  admin:
+    permissions:
+      view_user_directory: İstifadəçi siyahısına baxın
+    settings:
+      default-sort: Defolt çeşidləmə
+      disable-global-search-source: Flarum qlobal axtarış sahəsinə İstifadəçi Siyahısı
+        daxil etməyin
+      link: İstifadəçi siyahısına baxmaq üçün ana səhifəyə keçid əlavə edin
+      link-group-mentions: Yazılarda qeyd olunan qrupları İstifadəçi Kataloquna bağlayın
+      use-small-cards: Kiçik istifadəçi kartlarından istifadə edin
+  forum:
+    header:
+      back_to_user_directory_tooltip: İstifadəçi siyahısına qayıdın
+    page:
+      empty_text: Axtarışınıza uyğun heç bir istifadəçi tapa bilmədik.
+      filter_button: Filtr qrupları
+      load_more_button: => core.ref.load_more
+      nav: İstifadəçi siyahısı
+      refresh_tooltip: => core.forum.index.refresh_tooltip
+      usercard:
+        discussion-count: '{count, cəm, bir { {count} müzakirə} digər {{count} müzakirə}}'
+        post-count: '{say, cəm, bir {{count} yazı} digər {{count} yazı}}'
+    search:
+      field:
+        placeholder: Bütün istifadəçiləri axtarın
+      kinds:
+        group: Qrup
+        text: pulsuz mətn
+      users_heading: '"{query}" üçün bütün istifadəçiləri axtarın'
+  lib:
+    sort:
+      default: Defolt
+      least_discussions: Az müzakirəyə görə
+      least_posts: Bir neçə yazıya görə
+      most_discussions: Çox mübahisəyə görə
+      most_posts: Çox poçtla
+      newest: Ən son
+      not_specified: Defolt olaraq Flarum istifadə edin
+      oldest: Ən köhnə
+      username_az: İstifadəçi adı (a-z)
+      username_za: İstifadəçi adı (z-a)

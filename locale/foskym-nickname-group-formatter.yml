@@ -1,0 +1,8 @@
+foskym-nickname-group-formatter:
+  admin:
+    display: Qrup istifadəçilərinin ləqəbləri necə göstəriləcək?
+    optional: Könüllü
+    setting:
+      showInUserCard: istifadəçi kartında göstərmək (istifadəçi profili səhifəsi kimi)
+      showInUserCardPopover: istifadəçi kartında göstərin (popup)
+      showInUserPost: İstifadəçinin yazılarında göstərin

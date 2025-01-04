@@ -1,0 +1,16 @@
+imgur-upload:
+  admin:
+    settings:
+      allow-paste: Şəkli yapışdırmaqla yükləməyə icazə verin
+      embed-type:
+        full-with-link: Tam ölçülü şəkilə keçid
+        full-without-link: Link olmadan tam ölçülü şəkil
+        preview-with-link: Önizləmə ilə tam ölçülü şəkilə keçid (1024px)
+        preview-without-link: Link önizləməsiz
+        title: Giriş tipli
+      hide-markdown-image: Markdown vizual düyməsini gizlədin
+  forum:
+    done: Uğurlu!
+    error: Hətta
+    loading: Yüklənir...
+    upload: Quraşdırmaq üçün klikləyin və ya yapışdırın

@@ -1,0 +1,56 @@
+kyrne-websocket:
+  admin:
+    chart:
+      title: Websocket Statistikası
+    help:
+      app_id: Pusher Application ID - onu daxili veb-soket serverindən istifadə edən
+        kimi buraxın.
+      app_key: Pusher Application Switch - onu daxili veb-soket serverindən istifadə
+        edən kimi buraxın.
+      auth_only: Yalnız təsdiqlənmiş istifadəçilərə vebsoket serverinə qoşulmağa icazə
+        verin, CPU yükünü azalda bilər.
+      auto_update: Sarı yeniləmə bannerini göstərməyin, müzakirə siyahısını dərhal
+        yeniləyin.
+      cert_path: 'Yalnız ssl istifadə edildikdə tələb olunur və əks proxy DEYİL. '
+      host: Əgər websocket serverinizin hostu server administratorunuzla eyni hostdursa,
+        onu olduğu kimi buraxın.
+      passphrase: 'Yalnız ssl istifadə edildikdə tələb olunur və əks proxy DEYİL. '
+      pk_path: 'Yalnız ssl istifadə edildikdə tələb olunur və əks proxy DEYİL. '
+      port: Websocket serverinizin portu - server portunda strukturu dəyişməyincə
+        onu olduğu kimi buraxın.
+      reverse_proxy: Bu aktiv olduqda, Websockets port 443 üzərindən qoşulur - əgər
+        siz 443 portundan veb-soket serverinizə əks proksi istifadə edirsinizsə, bundan
+        istifadə edin.
+      secret: Pusher App Secret - onu daxili veb-soket serverindən istifadə edən kimi
+        buraxın.
+      secure: Veb-soketi təhlükəsiz protokollardan istifadə etməyə məcbur edin - Təhlükəsiz
+        veb-soket serverindən istifadə edirsinizsə, vebsaytdan istifadə etmirsinizsə,
+        bunu aktiv edin.
+      self_signed: 'Yalnız ssl istifadə edildikdə tələb olunur və əks proxy DEYİL. '
+      stats: 'Statistikalar arasındakı vaxt intervalı - saniyələrlə. '
+    pusher_settings:
+      app_host_label: Ev sahibi
+      app_id_label: Proqram ID
+      app_key_label: Proqram Açarı
+      app_port_label: Liman
+      app_secret_label: Tətbiq sirri (Tətbiq sirri)
+      auth_only: Yalnız Giriş İstifadəçiləri üçün Websocket
+      auto_update: Müzakirələri avtomatik yeniləyin
+      cert_self_signed: Özünü İmzalayan Sertifikat Dəstəyi
+      local_cert_path: Yerli SSL Sertifikat Yolu
+      local_pk_path: Yerli SSL Şəxsi Açar Yolu
+      passphrase: (İstəyə bağlı) SSL Açar Parolu
+      reverse_proxy: Əks Proksi Dəstəyi
+      secure: Websocket üçün wss/https-i məcbur edin
+      stats_label: Statistika diapazonu
+      title: Websocket/Pusher Parametrləri
+  forum:
+    discussion_list:
+      show_updates_text: '{count, cəm, bir {Göst # yenilənmiş müzakirə} digər {Göst
+        # yenilənmiş müzakirələr}}'
+    discussion_page:
+      viewing_title: 'İndi burada:'
+    widget:
+      empty: Onlayn İstifadəçi yoxdur.
+      guests: '{count, cəm, bir {1 Ziyarətçi} digər {{count} Ziyarətçi}}'
+      title: Onlayn İstifadəçilər

@@ -1,0 +1,16 @@
+fof-passport:
+  admin:
+    popup:
+      field:
+        app-auth-url: OAuth avtorizasiya linki
+        app-id: OAuth tətbiq ID-si
+        app-scopes: OAuth tələb etmək üçün əhatə dairələri
+        app-secret: OAuth tətbiq sirri (gizli)
+        app-token-url: OAuth token bağlantısı
+        app-user-url: API bağlantısı təsdiq edildikdə istifadəçi təfərrüatlarını təmin
+          edir
+        button-icon: Giriş düyməsi ikonu
+        button-title: Giriş düyməsi etiketi
+        button-title-placeholder: => fof-passport.api.default-login-button-title
+  api:
+    default-login-button-title: => core.ref.log_in

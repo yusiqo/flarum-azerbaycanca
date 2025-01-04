@@ -1,0 +1,5 @@
+flarum-emoji:
+  forum:
+    composer:
+      emoji_tooltip: İfadə əlavə edin
+      type_to_search_text: İfadə axtarmaq üçün yazın

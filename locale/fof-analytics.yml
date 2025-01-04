@@ -1,0 +1,31 @@
+fof-analytics:
+  admin:
+    matomo-widget:
+      title: Görünən
+    popup:
+      field:
+        googleGTMCode: GTM kodu ID (isteğe bağlı)
+        googleTrackingCode: İzləmə Kodu ID
+        optTrackingCode: İzləmə kodunu optimallaşdırın (isteğe bağlı)
+        piwikAliasUrl: Xarici əlaqə
+        piwikAuthToken: Doğrulama Tokeni
+        piwikHideAliasUrl: Outlinks hesabatında digər məlum keçidlərə klikləri gizlədin
+        piwikPrependDomain: İzləyərkən sayt domenini səhifə başlığına bağlı saxlayın
+        piwikSiteId: Sayt ID
+        piwikTrackAccounts: Fərdi istifadəçi hesablarını gizlədin
+        piwikTrackSubdomain: Flarumun bütün subdomenlərində ziyarətçiləri izləyin
+        piwikUrl: Matomo domeni və ya keçid
+        statusGoogle: Google Analytics-i aktivləşdirin (UA/GA4)
+        statusPiwik: Matomonu aktivləşdirin
+      placeholder:
+        piwikAuthToken: 'İdarə panelində Matomo statistika alətini aktivləşdirmək
+          üçün bu işarəni doldurun.
+
+          '
+      section:
+        googleAnalytics: Google Analytics
+        piwik: Görünən
+      trackAccounts:
+        email: E-poçtla izləyin
+        none: təqib etmə
+        username: İstifadəçi adı ilə izləyin

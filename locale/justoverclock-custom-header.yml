@@ -1,0 +1,31 @@
+custom-header:
+  admin:
+    button-text: Sol Düymə Mətni
+    button-text-help: Sol düymə üçün bəzi mətn yazın
+    button2-text: Sağ Düymə Mətni
+    button2-text-help: Sağ düymə üçün bəzi mətn yazın
+    facebookIcon: Facebook səhifə linki
+    facebookIcon-help: Facebook səhifənizə etibarlı keçid daxil edin
+    githubIcon: GitHub səhifə bağlantısı
+    githubIcon-help: GitHub səhifənizə etibarlı keçid daxil edin
+    headerBackgroundImage: Başlıq fon şəkli
+    headerBackgroundImage-help: fərdi fon şəklinizin URL-ni bura yapışdırın
+    headerTagline: Üst Sloqan
+    headerTagline-help: Burada şüarı dəyişə bilərsiniz
+    headerTitle: Üst Başlıq
+    headerTitle-help: Əsas başlığı burada dəyişə bilərsiniz
+    link-button-one: Sol Düymə üçün Link
+    link-button-one-help: Sol düymə üçün etibarlı keçid daxil edin
+    link-button-two: Sağ düymə üçün keçid
+    link-button-two-help: Sağ düymə üçün etibarlı link daxil edin
+    twitterIcon: Twitter səhifə linki
+    twitterIcon-help: Twitter səhifənizə etibarlı keçid daxil edin
+    youtubeIcon: YouTube səhifə linki
+    youtubeIcon-help: YouTube səhifənizə etibarlı keçid daxil edin
+  forum:
+    facebook: Facebook-da bizi bəyənin
+    github: GitHub Səhifəmiz
+    login: Daxil ol
+    signup: Qeydiyyatdan keçin
+    twitter: Bizi Twitter-də izləyin
+    youtube: YouTube-da bizə abunə olun

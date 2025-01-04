@@ -1,0 +1,16 @@
+shriker-pronouns:
+  admin:
+    settings:
+      prefix_help_text: 'Bu mətn istifadəçi əvəzliklərindən əvvəl görünəcək. '
+      prefix_label: Əvəzlik prefiksi
+      title: Şəxsi əvəzlik ayarı
+  forum:
+    change_pronouns_button: Əvəzliyi dəyişdirin
+    change_pronouns_title: Əvəzliyi dəyişdirin
+    dismiss_button: Saxlandı
+    my_pronouns_are_help_text: 'Əvəzlikləriniz profilinizdə və istifadəçi kartınızda
+      görünəcək. '
+    my_pronouns_are_label: mənim əvəzliklərim
+    my_pronouns_are_placeholder: 'Məsələn: kişi, qadın və ya özünüzü necə tanıdığınız'
+    submit_button: Dəyişiklikləri Saxla
+    submit_success_text: Şəxsi əvəzliyiniz qeydə alınıb.

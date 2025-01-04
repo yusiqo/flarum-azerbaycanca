@@ -1,0 +1,174 @@
+datitisev-backup:
+  admin:
+    adapter-settings-modal:
+      aliyun:
+        access-id:
+          description: Doğrulama Sizin giriş nişanı ID-niz
+          label: Giriş ID
+        access-key:
+          description: Doğrulama Giriş nişanı Sizin açarınız
+          label: giriş açarı
+        bucket:
+          description: İstifadə ediləcək saxlama paketi.
+          label: vedrə
+        endpoint:
+          description: Yaddaşın son nöqtəsi ilə əlaqə.
+          label: ifrat
+        path-prefix:
+          description: Fayllar üçün əlavə standart yol prefiksi.
+          label: yol prefiksi
+      aws:
+        bucket:
+          description: Yükləmək üçün S3 kovası.
+          label: vedrə
+        credentials:
+          key:
+            description: AWS etimadnamə açarı
+            label: Açar
+          secret:
+            description: AWS etimadnamələri sirri
+            label: Gizli
+        credentials-key:
+          description: AWS etimadnamə açarı
+          label: Açar
+        credentials-secret:
+          description: AWS etimadnamələrinin şəxsi açarı
+          label: gizli açar
+        path-prefix:
+          description: Fayllar üçün əlavə standart yol prefiksi.
+          label: yol prefiksi
+        region:
+          description: Yaddaşınızın bölgəsi.
+          label: Ərazi
+        version:
+          description: Versiyanı göstərin və ya ən son versiya üçün boş buraxın.
+          label: Versiya
+      azure:
+        container:
+          description: Azure operatoru
+          label: Daşıyıcı
+        endpoint:
+          description: Yaddaş son nöqtənizin URL-i.
+          label: ifrat
+      dropbox:
+        access-token:
+          description: https://www.dropbox.com/developers/apps ünvanında oAuth 2 giriş
+            nişanı yaradın.
+          label: giriş nişanı
+        help:
+          obtain-access-code-button: Dropbox'u Aç
+          obtain-access-code-label: Giriş kodu əldə edin (tətbiq açarı tələb olunur)
+          obtain-refresh-token-button: Kodu geri alın
+          obtain-refresh-token-label: Yeniləmə nişanı əldə etmək üçün giriş kodundan
+            istifadə edin (tətbiq açarı və gizli proqram açarı tələb olunur)
+          obtain-refresh-token-success: 'Yeniləmə nişanı uğurla alındı ​​və yuxarıda
+            yeniləndi! '
+        key:
+          label: Tətbiq açarı
+        refresh-token:
+          description: Yeniləmə nişanını əldə etmək üçün aşağıdakı sahələrdən istifadə
+            edin və ya https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-
+            ünvanındakı təlimatları əl ilə edin. refresh-token-manly kimi baxın.
+          label: Tokeni yeniləyin
+        secret:
+          label: Tətbiq Gizli Açarı
+      ftp:
+        host:
+          description: 'FTP vasitəsilə qoşulmaq üçün host adı, məsələn: <em>ftp.yourdomain.local</em>.'
+          label: uzaq host adı
+        passive:
+          description: Serverə passiv FTP bağlantısından istifadə edib-etməmək.
+          toggle: passiv keçid
+        password:
+          description: FTP serverinə autentifikasiya etmək üçün istifadəçi parolu.
+          label: parol
+        port:
+          description: FTP portu (standart olaraq 21).
+          label: Liman
+        private-key:
+          description: 'FTP bağlantısını təsdiqləmək üçün istifadə ediləcək şəxsi
+            açarın yolu (üstünlük: mütləq).'
+          label: Şəxsi Açar
+        root:
+          description: Ehtiyatların saxlanacağı uzaq kök yolu (alt kataloq).
+          label: kök yolu
+        ssl:
+          description: Serverə şifrələnmiş SSL bağlantısından istifadə edib-etməmək.
+          toggle: SSL
+        timeout:
+          description: FTP serverinə qoşulmanı gözləmək üçün saniyələrin sayı.
+          label: vaxt aşımı
+        username:
+          description: FTP serverinə autentifikasiya ediləcək istifadəçi adı.
+          label: İstifadəçi adı
+      gdrive:
+        client:
+          id:
+            description: 'Google layihəsi yaratmaq və idxal etmək üçün @ https://github.com/ivanvermayan/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md
+              təlimatlarına əməl edin . '
+            label: Müştəri ID
+          secret:
+            description: ''
+            label: Müştəri sirri
+        client-id:
+          description: Google layihəsi yaratmaq və Müştəri ID və Müştəri Sirrini əldə
+            etmək üçün https://github.com/ivanvermayan/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret
+            .md ünvanındakı təlimatlara əməl edin.
+          label: Müştəri ID
+        client-secret:
+          description: ''
+          label: Müştəri Şəxsi Açarı
+        folder:
+          description: https://drive.google.com/drive/u/0/folders/ID
+          label: Qovluq ID
+        help:
+          test_button: sınaq bağlantısı
+          test_success_alert: 'Google Diskə uğurla qoşuldu! '
+        refresh-token:
+          description: Google oAuth tətbiqiniz üçün yeniləmə nişanını əldə etmək üçün
+            @ https://github.com/ivanvermayan/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md
+            təlimatlarına əməl edin.
+          label: Tokeni yeniləyin
+      local:
+        target:
+          description: Yedəkləmələrin saxlanacağı yerli qovluğu göstərin.
+          label: hədəf yolu
+      name_label: Məkan Adı
+      title: konfiqurasiya {adapter}
+    adapters:
+      aliyun: Alibaba Cloud (Aliyun)
+      aws: Amazon AWS S3
+      azure: Microsoft Azure
+      dospaces: Rəqəmsal Okean Məkanları
+      dropbox: Dropbox
+      ftp: FTP
+      gdrive: Google Disk
+      gridfs: GridFS
+      local: yerli saxlama
+      rackspace: Rackspace
+      sftp: SFTP
+      webdav: Webdav
+      zip: Zip arxivi
+    create_button: Yeni adapter əlavə edin
+    delete_button: Sil
+    delete_confirmation: '"{name}" ({adapter}) silmək istədiyinizə əminsiniz?'
+    nav:
+      description: Forumunuzun nüsxələrini saxlayın.
+      label: ehtiyat nüsxəsi
+    required-package-modal:
+      content: 'Bu seçimi istifadə etmək üçün xüsusi bir paket quraşdırmalısınız. '
+      title: '{adapter} paket tələb edir'
+    required_package_button: Harada
+    settings_button: Konfiqurasiya edin
+    you-need-for:
+      aliyun: aliyuncs/aliyun-oss-flysystem
+      aws: liqa/flysystem-aws-s3-v3
+      azure: liqa/flysystem-azure
+      copy: liqa/flysystem-surəti
+      dospaces: liqa/flysystem-aws-s3-v3
+      dropbox: kosmik/flysystem-dropbox
+      gdrive: nao-pon/flysystem-google-drive
+      gridfs: liqa/flysystem-gridfs
+      rackspace: liqa/flysystem-rackspace
+      sftp: liqa/flysystem-sftp
+      webdav: liqa/flysystem-webdav

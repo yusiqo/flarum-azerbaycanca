@@ -1,0 +1,37 @@
+clarkwinkelmann-scout:
+  admin:
+    setting:
+      algoliaConnectTimeout: Algolia Bağlantı Taymout (isteğe bağlı)
+      algoliaId: Algolia ID
+      algoliaReadTimeout: Algolia Read Timeout (isteğe bağlı)
+      algoliaSecret: Algolia Gizli Açar
+      algoliaWriteTimeout: Algolia Yazma Taymout (isteğe bağlı)
+      driver: Sürücü
+      driverOption:
+        algolia: Alqoliya
+        meilisearch: Meilisearch
+        'null': Boş
+        tntsearch: TNTSearch
+      limit: Defolt Nəticə Limiti
+      limitHelp: 'Bu, axtarış sisteminə tələb olunan nəticələrin sayını üstələyir
+        və yaradıla bilən nəticə səhifələrinin sayına təsir edir (həmçinin limit istifadəçiyə
+        görünməyən məzmunu da hesablayır). '
+      limitPlaceholder: Oto
+      meilisearchHost: Meilisearch Host
+      meilisearchKey: Meilisearch açarı
+      prefix: Kataloq adı prefiksi (isteğe bağlı)
+      queryMinLength: Tövsiyələr üçün minimum sorğu uzunluğu
+      queryMinLengthHelp: 'Bu parametr yalnız başlıqdakı axtarış girişi üçün təklif
+        açılan menyusuna təsir edir. '
+      queryMinLengthPlaceholder: Oto
+      queue: Sıradakı indeks yeniləmələrini emal edin
+      queueHelp: Bu parametr yalnız asinxron növbə sürücüsü Flarum-da konfiqurasiya
+        edildikdə effektivdir.
+      tntsearchFuzziness: TNT Axtarış qeyri-müəyyənliyi (yazı xətaları/variant uyğunluğu)
+      tntsearchFuzzyDistance: TNT Axtarış Qeyri-müəyyənliyi Levenshtein məsafəsi (isteğe
+        bağlı)
+      tntsearchFuzzyMaxExpansions: TNT Axtarış Qeyri-səlislik Maks Genişlənmələri
+        (isteğe bağlı)
+      tntsearchFuzzyPrefixLength: TNT Axtarış qeyri-müəyyənlik prefiks uzunluğu (isteğe
+        bağlı)
+      tntsearchMaxDocs: TNT Search Max Docs (isteğe bağlı, maksimum nəticə sayı)

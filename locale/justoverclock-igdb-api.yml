@@ -1,0 +1,25 @@
+justoverclock-igdb-api:
+  admin:
+    composerAlert: Yeni Müzakirələrdə Redaktor Xəbərdarlığını göstərin
+    rawgApi: RawG API Anahtarı
+    rawgApi-help: Pulsuz API açarınızı https://rawg.io/signup saytından bura yapışdırın
+  forum:
+    availableOn: mövcuddur
+    game-title-alert-box: Bu oyunla bağlı müzakirədir?
+    game-title-alert-box-description: Əgər oyun haqqında müzakirəyə başlamaq üzrəsinizsə,
+      bütün məlumatları əldə etmək üçün başqa sözlər olmadan YALNIZ video oyunun adını
+      başlıq kimi istifadə edin (məsələn, Call of Duty müasir müharibəsi).
+    gamesPage: Yeni və Gələcək Oyunlar
+    genres: janrlar
+    genresPage: janrlar
+    metacriticScore: MetaCritic Hesabı
+    noConnection: 'Səhv! '
+    offwebsite: Rəsmi sayt
+    pageText: 'Bu il hansı oyunların çıxacağı ilə maraqlanırsınızsa, biz onların hamısını
+      bir səhifədə topladıq. '
+    pageTitle: Yeni və Gələcək Oyunlar
+    pagetitle: Yeni və Gələcək Oyunlar
+    publisher: Nəşriyyatçı
+    relDate: Nəşr tarixi
+    relDatePage: Nəşr tarixi
+    seeOnMetaCritic: MetaCritic'te Gör

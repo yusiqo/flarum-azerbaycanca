@@ -1,0 +1,36 @@
+nearata-cloudflare:
+  admin:
+    development_mode_widget:
+      title: Cloudflare Developer Rejimi aktiv edildi
+    settings:
+      api_key: API Açarı
+      api_key_help: API Tokeni yaratmaq üçün <strong><url>API Tokeninin yaradılması</url></strong>
+        bələdçisinə əməl edin.
+      confirm_text: əminsən?
+      minify_setting:
+        css: CSS-ni kiçikləşdirin
+        css_help: Veb saytınız üçün bütün CSS fayllarını avtomatik olaraq kiçildir.
+        html: HTML-ni kiçikləşdirin
+        html_help: Veb saytınız üçün bütün HTML fayllarını avtomatik olaraq kiçikləşdirin.
+        js: JavaScript-i kiçikləşdirin
+        js_help: Veb saytınız üçün bütün JavaScript fayllarını avtomatik olaraq kiçikləşdirin.
+        section_title: Parametri azaldın
+      r2:
+        access_key_id: Açar ID-yə daxil olun
+        access_key_secret: Gizli açara daxil olun
+        bucket_name: Kova Adı
+        public_domain: İctimai Domen Adı
+        s3_api: S3 API
+        section_title: R2
+      refer_to: Ətraflı məlumat üçün <strong><url>bu səhifəyə</url></strong> baxın.
+      refresh_zone_button_label: Zona ID Yeniləmə
+      refresh_zone_help: Domen adı dəyişibsə, <strong>yalnız</strong> yuxarıdakı düyməyə
+        klikləyin.
+      security_level_label: Təhlükəsizlik Səviyyəsi
+      security_level_options:
+        essentially_off: Əsasən Bağlıdır
+        high: Yüksək
+        low: Aşağı
+        medium: Orta
+        'off': bağlıdır
+        under_attack: Hücum altında

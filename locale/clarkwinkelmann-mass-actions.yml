@@ -1,0 +1,29 @@
+clarkwinkelmann-mass-actions:
+  admin:
+    permissions:
+      controls: Toplu seçim nəzarətlərinə baxın
+  forum:
+    actions:
+      delete: Seçilənləri həmişəlik silin
+      deleteConfirmation: '{count, plural, one {Seçilmiş müzakirəni həmişəlik silmək
+        istədiyinizə əminsiniz?} digər {Seçilmiş # müzakirəni həmişəlik silmək istədiyinizə
+        əminsiniz?}}'
+      hide: Seçilmişləri silin
+      lock: Kilid seçildi
+      markAsRead: Seçilmişləri oxunmuş kimi qeyd edin
+      restore: Seçilmişi bərpa edin
+      sticky: Yapışqan seçildi
+      tags: Teqlər
+      tags-add: <em>{tag}</em> əlavə edin
+      tags-edit: Teqləri redaktə edin
+      unlock: Seçilmiş kilidi açın
+      unsticky: Qeyri-yapışqan seçildi
+    select:
+      all: Hamısı
+      hidden: Müvəqqəti olaraq silindi
+      locked: kilidli
+      none: Heç biri
+      read: Bu
+      unlocked: kilidi açıldı
+      unread: Oxumur
+      visible: Silinməyib

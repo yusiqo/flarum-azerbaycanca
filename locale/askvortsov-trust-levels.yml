@@ -1,0 +1,34 @@
+askvortsov-trust-levels:
+  admin:
+    group_selector:
+      placeholder: Qrup seçin
+    metric_drivers:
+      best_answers: Ən Yaxşı Cavablar
+      discussions_entered: Müzakirələrə daxil oldu
+      discussions_participated: İştirak Edilən Müzakirələr
+      discussions_started: Müzakirələr Başladı
+      likes_given: Bəyənmələr Verilir
+      likes_received: Bəyənmələr Alındı
+      posts_made: Yaradılmış Yazılar
+    trust_level_modal:
+      delete_button: Güvən Səviyyəsini təmizləyin
+      delete_confirmation: 'Bu güvən səviyyəsini silmək istədiyinizə əminsiniz? '
+      group_label: Qrup
+      name_label: Elan
+      name_placeholder: Güvən Səviyyəsi Adı
+      submit_button: => core.ref.save_changes
+      title: Güvən Səviyyəsi Yaradın
+    trust_level_page:
+      create_trust_level_button: Yeni Güvən Səviyyəsi Yaradın
+      instructions_header: Təlimatlar
+      instructions_text: '<li>Güvən səviyyələri istifadəçi fəaliyyətinə əsasən qrup
+        üzvlüyünü avtomatik idarə etməyə imkan verir.</li>
+
+        '
+      list_heading: Güvən Səviyyələri
+  forum:
+    edit_user:
+      trust_level_item: '<badge></badge> {level} (Qrupu idarə edir: {groupName})'
+      trust_levels_heading: Güvən Səviyyələri
+      trust_levels_not_editable: Etibar səviyyələri ilə idarə olunan qruplar uyğunsuzluqların
+        qarşısını almaq üçün əl ilə redaktə edilə bilməz.

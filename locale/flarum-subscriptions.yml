@@ -1,0 +1,41 @@
+flarum-subscriptions:
+  email:
+    new_post:
+      body: 'Salam {recipient_display_name}!
+
+
+        '
+      subject: '[Yeni Yazı] {title}'
+  forum:
+    badge:
+      following_tooltip: => flarum-subscriptions.ref.following
+      ignoring_tooltip: => flarum-subscriptions.ref.ignoring
+    discussion_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      unfollow_button: təqibdən çıx
+      unignore_button: İqnordan çıxarın
+    following:
+      meta_title_text: => flarum-subscriptions.ref.following
+    index:
+      following_link: => flarum-subscriptions.ref.following
+    notifications:
+      new_post_text: '{username} göndərildi'
+    settings:
+      follow_after_reply_label: Cavab verdiyim müzakirələri avtomatik izləyin
+      notify_for_all_posts_label: Müzakirədəki hər yeni yazı haqqında sonuncu deyil,
+        xəbərdar edin
+      notify_new_post_label: Kimsə müzakirədə yazı yazanda izləyirəm
+    sub_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      following_button: => flarum-subscriptions.ref.following
+      following_text: Bütün cavablardan xəbərdar olun.
+      ignoring_button: => flarum-subscriptions.ref.ignoring
+      ignoring_text: 'Xəbərdar olma. '
+      not_following_button: İzlənilmir
+      not_following_text: Yalnız @qeyd edilən zaman bildiriş alın.
+      notify_alert_tooltip: Forumda yeni yazı olduqda bildiriş alın
+      notify_email_tooltip: Yeni yazılar olduqda e-məktub alın
+  ref:
+    follow: İzləyin
+    following: İzləyir
+    ignoring: İzlənilmir

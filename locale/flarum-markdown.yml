@@ -1,0 +1,27 @@
+flarum-markdown:
+  forum:
+    composer:
+      bold_tooltip: Qalın mətn əlavə edin
+      code_tooltip: kod əlavə edin
+      header_tooltip: Başlıq mətni əlavə edin
+      image_tooltip: Şəkil əlavə edin
+      italic_tooltip: Kursiv mətn əlavə edin
+      link_tooltip: Link əlavə edin
+      ordered_list_tooltip: nömrələnmiş siyahı
+      quote_tooltip: Sitat əlavə edin
+      spoiler_tooltip: Taser əlavə edin
+      strikethrough_tooltip: Üzəri çəkilmiş mətn əlavə edin
+      unordered_list_tooltip: maddə siyahısı
+  lib:
+    composer:
+      bold_tooltip: Qalın mətn əlavə edin
+      code_tooltip: Kodu daxil edin
+      header_tooltip: Başlıq mətni əlavə edin
+      image_tooltip: Şəkil əlavə edin
+      italic_tooltip: Kursiv mətn əlavə edin
+      link_tooltip: Link əlavə edin
+      ordered_list_tooltip: Nömrələnmiş siyahı əlavə edin
+      quote_tooltip: Sitat əlavə edin
+      spoiler_tooltip: Taser əlavə edin
+      strikethrough_tooltip: Üzəri çəkilmiş mətn əlavə edin
+      unordered_list_tooltip: Markerli siyahı əlavə edin

@@ -1,0 +1,27 @@
+askvortsov-discussion-templates:
+  admin:
+    permissions:
+      manage_all_reply_templates: Bütün müzakirələr üçün cavab şablonlarını idarə
+        edin
+      manage_own_discussion_reply_templates: Müzakirələr üçün cavab şablonlarını idarə
+        edin
+    settings:
+      append_template_on_tag_change: Etiket dəyişdikdə şablon dəyişməlidirmi?
+      append_template_on_tag_change_help: 'Etiketlər dəyişdirildikdə, istifadəçi yazmağa
+        başlasa belə, yeni etiketin şablonu əlavə edilsin? '
+      no_tag_template: 'Defolt şablon (müzakirə heç bir teq seçilmədən başlayanda
+        istifadə olunur):'
+    tag_template_modal:
+      customize_text: Bu teq üçün yeni müzakirə şablonunu idarə edin.
+      submit_button: Şablonu saxla
+      title: Müzakirə Şablonu
+    tags:
+      tag_template_button: Şablonu redaktə edin
+      tag_template_heading: Müzakirə Şablonu
+      tag_template_text: Bu teq üçün yeni müzakirə şablonunu idarə edin.
+  forum:
+    discussion_controls:
+      reply_template_button: Cavab Şablonunu Redaktə edin
+    reply_template:
+      submit_button: Cavab Şablonunu Saxla
+      title: Cavab Şablonunu Redaktə edin

@@ -1,0 +1,44 @@
+the-turk-miserable-users:
+  admin:
+    permissions:
+      miserable_user_label: => the-turk-miserable-users.ref.miserable_user
+    settings:
+      broken_page_chance_label: Səhifənin pis şansı
+      broken_page_chance_text: 'Zaman-zaman çaşmış istifadəçilərə sınmış səhifə təqdim
+        edə bilərsiniz. '
+      flood_time_multiplier_label: Narahat vaxt multiplikatoru
+      flood_time_multiplier_text: Mesajlar arasındakı standart minimum vaxt (bu, 10
+        saniyədir) pozulmuş istifadəçilərin yazılar arasında daha uzun müddət gözləməsinə
+        səbəb ola bilər.
+      loading_delay_label: Yükləmə gecikməsi
+      loading_delay_text: Bədbəxt istifadəçilər burada göstərilən iki dəyər arasında
+        təsadüfi miqdarda səhifə yükləmə gecikməsinə məruz qalırlar.
+      log_out_chance_label: çıxış şansı
+      log_out_chance_text: 'Pərişan istifadəçinin sistemdən çıxması və yenidən ana
+        səhifəyə yönləndirilməsi ehtimalını daxil edin. '
+      range_seconds_text: İkinci
+      range_separator_text: ila
+      redirection_chance_label: İstinad şansı
+      redirection_chance_text: Pərişan istifadəçinin yönləndirmə səhifəsi linkinə
+        yönləndiriləcəyi ehtimalının faizini daxil edin.
+      redirection_page_url_label: İstinad linki
+      redirection_page_url_text: 'Diqqətsiz istifadəçiləri təsadüfi olaraq başqa səhifəyə
+        yönləndirə bilərsiniz. '
+      shuffle_post_chance_label: Təsadüfi poçt şansı
+      shuffle_post_chance_text: 'Siz pərişan istifadəçinin yazısını təsadüfi qarışdıra
+        bilərsiniz. '
+  forum:
+    miserable_user:
+      indefinitely_label: sonsuz bədbəxt
+      limited_time_days_text: gün
+      limited_time_label: Sınırlı bir müddət üçün, yazıq...
+      not_miserable_label: köhnəlmiş deyil
+      status_heading: Səfalət vəziyyəti
+      submit_button: => core.ref.save_changes
+      title: Perishan {istifadəçi adı}
+    user_badge:
+      miserable_user_tooltip: => the-turk-miserable-users.ref.miserable_user
+    user_controls:
+      miserable_user_button: => the-turk-miserable-users.ref.miserable_user
+  ref:
+    miserable_user: Yazıq İstifadəçi

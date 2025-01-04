@@ -1,0 +1,10 @@
+flamarkt-matomo:
+  admin:
+    settings:
+      siteId: Sayt ID
+      trackAccounts: Fərdi istifadəçi hesablarını izləyin
+      trackAccountsOptions:
+        email: E-poçt vasitəsilə izləyin
+        none: təqib etmə
+        username: İstifadəçi adı ilə izləyin
+      url: Matomo server domeni və ya URL

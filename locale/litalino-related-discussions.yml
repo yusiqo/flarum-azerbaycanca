@@ -1,0 +1,22 @@
+litalino-related-discussions:
+  admin:
+    DiscussionPageLayout: Müzakirə səhifələrinin aşağı hissəsində Əlaqədar Müzakirələri
+      göstərin
+    relatedLimit: Göstəriləcək Əlaqədar Müzakirələr (defolt 4)
+    relatedLimit-help: Burada görmək istədiyiniz müzakirələrin sayını yazın (məsələn,
+      "4")
+    relatedTitle: '"Əlaqədar müzakirələr" üçün başlıq'
+    relatedTitle-help: Müvafiq müzakirənin standart başlığını öz başlığınızla əvəz
+      edin
+    showExcerpt: Xülasə Sitatını göstərin
+    showTooltip: Sitatla alət ipucunu göstərin
+  forum:
+    avatarTooltip: post yaradıb
+    deleted: Silindi
+    hasBestAnswer: həll olundu
+    hasBestAnswer-title: Bu müzakirə həll olunmuş kimi qeyd edildi
+    participants: İştirakçılar
+    postedOn: of
+    postnumber: Yazıların sayı
+    reldiscussion: Təklif olunan müzakirələr
+    repliedOn: cavab verdi

@@ -1,0 +1,11 @@
+fof-profile-image-crop:
+  forum:
+    modal:
+      error:
+        failed_to_load_cropper: Şəkil kəsicisini yükləmək alınmadı.
+        generic_resize: Şəkli kəsərkən və ölçüsünü dəyişərkən xəta baş verdi.
+        get_image_data: 'Onu kəsmək mümkün deyildi. '
+      help_text: 'Brauzerinizin məxfilik parametrləri çox ciddidirsə, şəkil yükləmək
+        uğursuz ola bilər. '
+      submit_button: Quraşdırın
+      submit_crop_button: Kəsmə və Quraşdırma

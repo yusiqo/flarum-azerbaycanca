@@ -1,0 +1,33 @@
+michaelbelgium-mybb-to-flarum:
+  admin:
+    content:
+      convert_button: İçə Aktar
+      description_text: 'MyBB forumunu bu Flarum instansiyasına köçürün. '
+      form:
+        general:
+          migrate_avatars_label: Avatarları köçürün
+          migrate_categories_label: Kateqoriyaları köçürün
+          migrate_soft_posts_label: Geri qaytarıla bilən silinmiş yazıları idxal edin
+          migrate_soft_threads_label: Lazımsız silinmiş mövzuları idxal edin
+          migrate_threadsPosts_label: Söhbətləri və yazıları köçürün
+          migrate_userGroups_label: İstifadəçi qruplarını köçürün
+          migrate_users_label: İstifadəçiləri köçürün
+          title: Ümumi seçimlər
+        mybb:
+          db_label: Verilənlər bazasının adı
+          host_label: Verilənlər bazası sahibi
+          password_label: verilənlər bazası istifadəçisi
+          path_label: MyBB kataloqu
+          prefix_label: Cədvəl prefiksi
+          title: MyBB parametrləri
+          user_label: verilənlər bazası istifadəçisi
+        options:
+          migrate_attachments_label: Qoşmaları köçürün
+          migrate_avatars_label: Avatarları köçürün
+          migrate_categories_label: İdxal kateqoriyaları
+          migrate_soft_posts_label: Yumşaq silinmiş yazıları köçürün
+          migrate_soft_threads_label: Yumşaq silinmiş mövzuları köçürün
+          migrate_threadsPosts_label: Söhbətləri və yazıları idxal edin
+          migrate_userGroups_label: İstifadəçi qruplarını idxal edin
+          migrate_users_label: İstifadəçiləri idxal edin
+          title: Digər seçimlər

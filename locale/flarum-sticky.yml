@@ -1,0 +1,15 @@
+flarum-sticky:
+  admin:
+    permissions:
+      sticky_discussions_label: Sabitlənmiş müzakirələr
+  forum:
+    badge:
+      sticky_tooltip: => flarum-yapışqan.ref.yapışqan
+    discussion_controls:
+      sticky_button: => flarum-yapışqan.ref.yapışqan
+      unsticky_button: Sabitdən çıxarın
+    post_stream:
+      discussion_stickied_text: '{username} bu müzakirəni {time} üçün bağladı.'
+      discussion_unstickied_text: '{username}, {time} bu müzakirəni ləğv etdi.'
+  ref:
+    sticky: Pin edin

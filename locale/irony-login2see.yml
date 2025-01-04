@@ -1,0 +1,4 @@
+flarum-ext-login2see:
+  forum:
+    hidden_content: GİZLİ MƏZMUN
+    login_to_see: '{login} və məzmunu görmək üçün səhifəni yeniləyin'

@@ -1,0 +1,50 @@
+fof-webhooks:
+  actions:
+    extension:
+      installed: Artırma `{1}` yükləndi
+      updated: Artırma `{1}` yeniləndi
+    ip:
+      banned: IP qadağan edilib `{1}`
+      unbanned: '`{1}` IP qadağası ləğv edildi'
+    poll:
+      created: '`{1}` sorğusu yaradıldı'
+      voted: '`{1}` sorğusunda səs verildi'
+    post:
+      downvoted: Post bəyənilmədi
+      reacted: '`{1}` postuna reaksiya verdi'
+      unreacted: O, reaksiyasını paylaşımdan silib
+      upvoted: Post bəyənildi
+    user:
+      enabled2fa: 2FA Aktivdir
+  admin:
+    settings:
+      actions:
+        extiverse:
+          bazaar:
+            extensionwasinstalled: Artırma Quraşdırıldı
+            extensionwasupdated: Artırma Yeniləndi
+            title: Xarici bazar
+        fof:
+          banips:
+            ipwasbanned: Asma
+            ipwasunbanned: Dayandırılmayıb
+            title: FriendsOfFlarum IP-ləri qadağan edir
+          byobu:
+            discussionmadepublic: Müzakirə Hamıya Açıldı
+            title: DostlarOfFlarum Byobu
+          gamification:
+            postwasvoted: Post bəyənildi/bəyənmədi
+            title: FriendsOfFlarum Oyunlaşdırma
+          polls:
+            pollwascreated: yaradılmışdır
+            pollwasvoted: Səs verdi
+            title: FriendsOfFlarum Sorğuları
+          reactions:
+            postwasreacted: Yazıya Reaksiya Alındı
+            postwasunreacted: Postdan Reaksiya Alındı
+            title: FriendsOfFlarum Reaksiyaları
+          twofactor:
+            title: FriendsOfFlarum İki Faktor
+            userenabledtwofactor: İstifadəçi 2FA-nı aktivləşdirdi
+      services:
+        custom: Xüsusi

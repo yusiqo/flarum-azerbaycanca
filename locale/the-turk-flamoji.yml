@@ -1,0 +1,87 @@
+the-turk-flamoji:
+  admin:
+    custom_emojis_section:
+      edit_emoji:
+        delete_emoji_button: ifadəni silin
+        delete_emoji_confirmation: Bu bəyanatı silmək istədiyinizə əminsiniz?
+        emoji_title_label: İfadə Başlığı
+        modal_title: Emoticon əlavə edin
+        path_or_url_label: Kataloq və ya Link
+        saved_message: => core.admin.settings.saved_message
+        submit_button: => core.ref.save_changes
+        text_to_replace_label: Əvəz ediləcək mətn
+      emoji_list:
+        load_more_button: => core.forum.post_stream.load_more_button
+      export_json_button: JSON kimi ixrac edin
+      heading_title: Xüsusi ifadələr
+      import_emojis_message: 'Bu, yalnız ifadə konfiqurasiyalarını idxal edəcək. '
+      import_json_button: JSON-dan idxal edin
+    settings:
+      auto_hide_label: Avtomatik gizlət
+      auto_hide_text: İfadə seçildikdə seçiciyi gizlədin.
+      category_settings_heading: Kateqoriya Parametrləri
+      emoji_categories:
+        activities: => the-turk-flamoji.ref.emoji_categories.activities
+        animals: => the-turk-flamoji.ref.emoji_categories.heyvanlar
+        flags: => the-turk-flamoji.ref.emoji_categories.flags
+        food: => the-turk-flamoji.ref.emoji_categories.food
+        objects: => the-turk-flamoji.ref.emoji_categories.objects
+        people: => the-turk-flamoji.ref.emoji_categories.people
+        smileys: => the-turk-flamoji.ref.emoji_categories.smileys
+        symbols: => the-turk-flamoji.ref.emoji_categories.symbols
+        travel: => the-turk-flamoji.ref.emoji_categories.travel
+      emoji_data_label: ifadə məlumatları
+      emoji_data_text: Bu, tez-tez tərcümə edilmiş ifadə adlarını təmin etmək üçün
+        istifadə olunur.
+      emoji_settings_heading: İfadə Parametrləri
+      emoji_style_label: İfadə növü
+      emoji_style_native_option: yerli
+      emoji_version_label: ifadə versiyası
+      emoji_version_text: İstifadə ediləcək ifadənin müəyyən edilmiş versiyası.
+      general_ui_settings_heading: Ümumi İstifadəçi İnterfeysi Parametrləri
+      initial_category_label: birinci kateqoriya
+      initial_category_text: Defolt olaraq seçici Smayllar və Emosiya kateqoriyasını
+        göstərməyə başlayır.
+      recents_count_label: Son istifadə olunan ifadələrin sayı
+      recents_count_text: Saxlamaq üçün son istifadə olunan ifadələrin sayı.
+      show_category_buttons_label: Kateqoriyaları göstər düyməsi
+      show_preview_label: Önizləmə bölməsini göstərin
+      show_recents_label: Bu yaxınlarda istifadə edilmiş ifadələri göstərin (və yadda
+        saxlayın).
+      show_search_label: Axtarış girişini göstərin
+      show_variants_label: Dəyişənləri göstərin
+      show_variants_text: 'Bəzi ifadələrdə dəri tonu variasiyaları var. '
+      specify_categories_label: Kateqoriyaları müəyyənləşdirin
+      specify_categories_text: Siz burada kateqoriyaların siyahısını təyin edə bilərsiniz
+        və seçici yalnız həmin kateqoriyaları göstərəcək.
+  forum:
+    composer:
+      emoji_tooltip: İfadə əlavə edin
+    emoji-button:
+      categories:
+        activities: => the-turk-flamoji.ref.emoji_categories.activities
+        animals: => the-turk-flamoji.ref.emoji_categories.heyvanlar
+        custom: => the-turk-flamoji.ref.emoji_categories.custom
+        flags: => the-turk-flamoji.ref.emoji_categories.flags
+        food: => the-turk-flamoji.ref.emoji_categories.food
+        objects: => the-turk-flamoji.ref.emoji_categories.objects
+        people: => the-turk-flamoji.ref.emoji_categories.people
+        recents: => the-turk-flamoji.ref.emoji_categories.sonlar
+        smileys: => the-turk-flamoji.ref.emoji_categories.smileys
+        symbols: => the-turk-flamoji.ref.emoji_categories.symbols
+        travel: => the-turk-flamoji.ref.emoji_categories.travel
+      no_emojis_found_message: İfadə tapılmadı
+      search_placeholder: İfadələrdə axtarın
+  ref:
+    emoji_categories:
+      activities: Fəaliyyətlər
+      animals: Heyvanlar və Təbiət
+      custom: Xüsusi
+      flags: bayraqlar
+      food: Qida və İçki
+      objects: obyektlər
+      people: İnsan və Bədən
+      recents: Son bəyanatlar
+      smileys: Smayllar və Emosiya
+      symbols: nişanlar
+      travel: Səyahət və Yerlər

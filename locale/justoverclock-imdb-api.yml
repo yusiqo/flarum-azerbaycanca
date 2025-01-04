@@ -1,0 +1,8 @@
+justoverclock-imdb-api:
+  admin:
+    apiKeyTitle: API Açarı (URL)
+    apiKeyTitle-help: 'Pulsuz API açarınızı <a>https://www.omdbapi.com/apikey.aspx2</a>
+      saytından əldə edin və buraya yapışdırın. '
+  forum:
+    fullinfoAt: IMDb-də bütün məlumatlar
+    rateonimdb: IMDb reytinqi

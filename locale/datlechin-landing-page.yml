@@ -1,0 +1,7 @@
+datlechin-landing-page:
+  admin:
+    settings:
+      body_html_help: Bədəndə göstərmək üçün HTML
+      body_html_label: Bədən HTML
+      header_html_help: Başlıqda göstərmək üçün HTML
+      header_html_label: Başlıq HTML

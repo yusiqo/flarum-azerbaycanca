@@ -1,0 +1,26 @@
+fof-sentry:
+  admin:
+    settings:
+      dsn_backend_help: 'Bu DSN yalnız backend xətaları üçün istifadə olunacaq. '
+      dsn_backend_label: Sentry DSN (yalnız Backend)
+      dsn_help: Əgər siz əsas DSN kimi Relay DSN istifadə edirsinizsə, "İstifadəçi
+        Əlaqəsi"ni yoxlamayın, çünki o işləməyəcək.
+      dsn_label: Sentry DSN
+      environment_label: Keşikçi dairəsi
+      javascript_console_label: JavaScript Konsolunu izləyin
+      javascript_label: JavaScript səhvlərini bildirin
+      javascript_replays_error_sample_rate: Front End Xətası Təkrar Oynatma Rate (0
+        - 100)
+      javascript_replays_error_sample_rate_help: 'Səhv baş verəndə təkrarlar üçün
+        nümunə dərəcəsi yadda saxlanılır. '
+      javascript_replays_session_sample_rate: Front End Sessiyasının Təkrar Oynatma
+        dərəcəsi (0 - 100)
+      javascript_replays_session_sample_rate_help: 'Dərhal qeyd etməyə başlayan və
+        bütün istifadəçi sessiyası üçün davam edən təkrarlar üçün nümunə dərəcəsi. '
+      javascript_trace_sample_rate: Frontend Performans Monitorinqi Reytinq (0 - 100)
+      javascript_trace_sample_rate_help: 'Bütün əməliyyatlar üçün seçmə dərəcəsi. '
+      monitor_performance_label: Backend Performans Monitorinqi Reytinq (0 - 100)
+      profile_rate_help: 'Bu, performans monitorinq sürətindən asılıdır. '
+      profile_rate_label: Backend Profiling Rate (0 - 100)
+      send_user_emails_label: İstifadəçi e-poçt ünvanları Sentry hesabatları ilə göndərilsin?
+      user_feedback_label: İstifadəçi rəyi

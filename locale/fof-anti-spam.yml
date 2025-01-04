@@ -1,0 +1,96 @@
+fof-anti-spam:
+  admin:
+    blocked_registrations:
+      attempted-at: tutuldu
+      button: Bloklanmış qeydlər
+      delete_entry: Girişi silin
+      email: E-poçt ünvanı
+      help: 'Bu səhifə StopForumSpam xidməti tərəfindən bloklanmış bütün qeydiyyatları
+        göstərir. '
+      ip: IP ünvanı
+      login-provider: Giriş Provayderi
+      login-provider-data: Giriş Provayder Məlumatı
+      no-records: Heç bir bloklanmış qeyd tapılmadı.
+      sfs-data: StopForumSpam Data
+      title: Bloklanmış qeydlər
+      username: İstifadəçi adı
+    permissions:
+      spamblock_users_label: Bu istifadəçini spam kimi qeyd edin
+    settings:
+      button: Parametrlər
+      default-actions:
+        delete_discussions_help: 'Bu, istifadəçinin başlatdığı bütün müzakirələri
+          həmişəlik siləcək. '
+        delete_discussions_label: Müzakirələri silin
+        delete_posts_help: 'Bu əməliyyat bu istifadəçi tərəfindən edilən bütün yazıları
+          həmişəlik siləcək. '
+        delete_posts_label: Yazıları silin
+        delete_user_help: 'Bu istifadəçini həmişəlik siləcək. '
+        delete_user_label: istifadəçini silin
+        heading: Defolt moderator hərəkətləri
+        introduction: 'İstifadəçi spamer kimi qeyd edildikdə, moderatorlar xüsusi
+          istifadə halını necə idarə etmək üçün müxtəlif tədbirlərdən birini seçə
+          bilərlər. '
+        move_discussions_to_tags_help: 'Bu, bu istifadəçinin başlatdığı bütün müzakirələri
+          qeyd etdiyiniz teqlərə daşıyacaq. '
+        move_discussions_to_tags_label: Müzakirələri etiket(lər)ə köçürün
+      stopforumspam:
+        api_key_instructions_text: '<register>StopForumSpam-da qeydiyyatdan keçin</register>. '
+        api_key_label: API Açarı
+        api_key_text: Daha geniş forum icmasını spamdan azad etmək üçün sizin StopForumSpam-a
+          spam göndərənləri bildirmək seçiminiz var.
+        confidence_help: 'Etibarlılıq balı sınaqdan keçirilmiş sahənin arzuolunmaz
+          fəaliyyətə gətirib çıxaracağının kifayət qədər yaxşı göstəricisidir. '
+        confidence_label: Güvən
+        email_hash_help: 'E-poçt ünvanının özünü ötürmək istəmirsinizsə, e-poçt ünvanının
+          MD5 hashını ötürün. '
+        email_hash_label: Karma (hashed) e-poçt ünvanı kullan
+        email_label: E-poçt spama nəzarət
+        frequency_help: 'Spam filtrini işə salacaq bütün aktiv nəzarətlər arasında
+          spam hesabatlarının sayı.
+
+          '
+        frequency_label: Həddi
+        heading: StopForumSpam
+        introduction: 'Yeni istifadəçi qeydiyyatlarını <a>StopForumSpam</a> verilənlər
+          bazası ilə yoxlayır. '
+        ip_label: IP ünvanı spam yoxlanışı
+        region_closest_label: Ən yaxın
+        region_europe_label: Avropa
+        region_us_label: ABD
+        regional_endpoint_help: 'Varsayılan olaraq, ən sürətli cavabı təmin etmək
+          üçün zəngi ən yaxın regional serverə yönləndirəcəyik. '
+        regional_endpoint_label: Coğrafi Giriş
+        report_blocked_registrations_help: 'Qeydiyyat bloklandıqda, spamerin fəaliyyətini
+          daha yaxşı yoxlamaq üçün cəhd barədə StopForumSpam-a məlumat verəcəyik. '
+        report_blocked_registrations_label: Bloklanmış qeydləri bildirin
+        sfs_lookup_help: 'Əgər aktivdirsə, forumunuzda yeni istifadəçi qeydiyyatdan
+          keçəndə StopForumSpam verilənlər bazasını yoxlayacağıq. '
+        sfs_lookup_label: Qeydləri nəzərdən keçirin
+        username_label: İstifadəçi adı Spam yoxlanışı
+  forum:
+    message:
+      stopforumspam:
+        blocked: Qeydiyyat məlumatınız spam avtomatlaşdırma verilənlər bazasında olduğu
+          üçün qeydiyyatınız bloklanıb.
+    spammer_modal:
+      hard_delete_discussions_help: 'Bu, istifadəçinin başlatdığı bütün müzakirələri
+        həmişəlik siləcək. '
+      hard_delete_discussions_label: müzakirəni silin
+      hard_delete_posts_help: 'Bu, bu istifadəçi tərəfindən edilən bütün yazıları
+        (şərhlər, cavablar və s.) həmişəlik siləcək. '
+      hard_delete_posts_label: Yazıları silin
+      hard_delete_user_help: 'Bu istifadəçini həmişəlik siləcək. '
+      hard_delete_user_label: istifadəçini silin
+      intro: Bir istifadəçini spamer kimi qeyd etdiyiniz zaman forumunuzda mövcud
+        olan plaginlərdən asılı olaraq müxtəlif tədbirlər görüləcək.
+      move_discussions_tag_help: 'Bu, bu istifadəçinin başlatdığı bütün müzakirələri
+        forum parametrlərində qeyd etdiyiniz etiketə daşıyacaq. '
+      move_discussions_tag_label: Müzakirələri karantində olan etiketə köçürün
+      process_button: Proses
+      report_to_sfs_help: 'Bu, istifadəçinin əsas təfərrüatlarını (istifadəçi adı,
+        e-poçt, IP ünvanı) StopForumSpam-a bildirəcək. '
+      report_to_sfs_label: StopForumSpam'a bildirin
+      title: '{istifadəçi adı} spamer kimi qeyd edin'
+    user_controls:
+      spammer_button: spam göndərən

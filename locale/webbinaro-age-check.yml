@@ -1,0 +1,16 @@
+webbinaro-age-check:
+  admin:
+    labels:
+      buttons:
+        'no': Exit Button Label daxil edin
+        no_help: Adətən "Çıx" və ya "Xeyr"
+        'yes': Login Button Label daxil edin
+        yes_default: Bəli
+        yes_help: Adətən "Daxil edin" və ya "Bəli"
+      messages:
+        consent_prompt: Tez razılaşmadan istifadə edilsin?
+        consent_prompt_help: Bəli/yox düymələrinizin üstündəki blurb.
+        left_blurb: Forumun məqsədi/istifadəsi təsviri
+        left_blurb_background: Fon şəkli keçid
+        left_blurb_background_help: http(lər):// daxil
+        left_blurb_help: İstifadəçilərə bu saytın NİYƏ məhdudlaşdırıldığını deyin.

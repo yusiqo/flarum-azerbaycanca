@@ -1,0 +1,7 @@
+justoverclock-best-answer-badge:
+  admin:
+    minimumBa: 'Min. '
+    minimumBa-help: Buraya istifadəçinin nişanı qazanması üçün lazım olan minimum
+      ən yaxşı cavabı daxil edin
+  forum:
+    bestAnswer: Ən Yaxşı Cavablar Alındı

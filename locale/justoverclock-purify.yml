@@ -1,0 +1,12 @@
+flarum-ext-purify:
+  admin:
+    additem: Siyahıya Pis Söz əlavə edin
+    additemdesc: hər sözü vergüllə ayırın (məsələn, söz1, söz2, söz3,)
+    badWords: Qara siyahıya söz əlavə edin
+    customreg: Fərdi Normal İfadədən istifadə edin
+    customregexp: Xüsusi Regexp istifadə edin
+    customregexpdesc: Ehtiyaclarınıza uyğun normal ifadənizi bura qoyun (məsələn,
+      bu 3 sözü gizlətmək üçün (flarum|yaxşı|uzantı))
+    hidemail: E-poçt ünvanlarını avtomatik gizlədin
+  forum:
+    obscure: '[Təmizləndi]'

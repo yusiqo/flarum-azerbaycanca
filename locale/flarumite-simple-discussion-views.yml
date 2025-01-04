@@ -1,0 +1,18 @@
+core:
+  forum:
+    index_sort:
+      popular_button: göstərilir
+      unpopular_button: göstərilmir
+flarumite-simple-discussion-views:
+  admin:
+    permissions:
+      reset_views_label: Baxış sayını təyin edin
+    settings:
+      ignore_crawlers: Brauzer ziyarətlərinə məhəl qoymayın
+  forum:
+    discussion_controls:
+      resetviews_button: Baxış sayını təyin edin
+    modal_resetviews:
+      label: Baxış sayını təyin edin
+      submit: Təsdiq edin
+      title: Müzakirələrə baxış sayını sıfırlayın

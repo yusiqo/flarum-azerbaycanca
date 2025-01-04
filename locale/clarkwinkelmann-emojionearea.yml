@@ -1,0 +1,12 @@
+clarkwinkelmann-emojionearea:
+  admin:
+    settings:
+      enableRecent: Ən son aktivləşdirin
+      enableSearch: Axtarışı aktivləşdirin
+      enableTones: Tonları aktivləşdirin
+      filtersPosition: Kateqoriyaları aşağıya köçürün
+      hideFlarumButton: Flarum-un ifadə düyməsini gizlədin
+      searchPosition: Axtarış və tonları aşağıya köçürün
+  forum:
+    picker_button: İfadə Seçici
+    search_placeholder: Alırıq...

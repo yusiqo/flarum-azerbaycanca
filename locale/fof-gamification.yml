@@ -1,0 +1,115 @@
+core:
+  forum:
+    index_sort:
+      hot_button: Aranjiman
+      votes_button: Yuxarı səslər
+fof-gamification:
+  admin:
+    page:
+      alt_votes:
+        icon_name: Alternativ düzən nişanı adı
+      convert:
+        button: Bəyənmələri müsbət səslərə çevirin
+        converted: '{number} bəyənmə uğurla çevrildi'
+        converting: 'Bəyənmələriniz çevrilir. '
+        help: flarum-ext-likes plaginində bəyənmələrinizi müsbət səslərə çevirin və
+          bütün cari mövzularınız üçün onun fəaliyyətini hesablayın.
+      groups:
+        add: Yeni qayda əlavə edin
+        column:
+          group: Qrup
+          maxPoints: Maksimum ballar (daxildir)
+          minPoints: Minimum xallar (ödəniləcək)
+        delete: qaydanı silin
+        help: 'İstifadəçinin xallarının sayı dəyişdikdə, seçilmiş qruplar lazım olduqda
+          avtomatik olaraq əlavə olunacaq və ya silinəcək. '
+        title: Avtomatik olaraq təyin edilmiş qruplar
+      rankings:
+        blocked:
+          help: 'Bu istifadəçilər reytinq səhifəsində görünməyəcək. '
+          placeholder: admin, user1, user2
+          title: İcazəsiz istifadəçilər
+        custom_image_1: 1-ci sıra şəkil
+        custom_image_2: 2-ci sıra şəkil
+        custom_image_3: 3-cü sıra şəkil
+        enable: Fərdi şəkilləri aktivləşdirin
+        title: Reytinq Səhifəsi
+      ranks:
+        help:
+          color: '#ffffff'
+          help: Tələb olunan müsbət səsləri, dərəcə adını və dərəcə rəngini daxil
+            edin
+          name: ad
+          points: Xanım
+        number_title: Neçə dərəcə görünməlidir?
+        ranks: xüsusi rütbələr
+        title: Rütbələr
+      save_settings: Parametrləri yadda saxlayın
+      votes:
+        allow_self_votes: İstifadəçilər öz yazılarına səs verə bilərlər
+        alternate_layout: Müzakirə siyahısında alternativ səsvermə modelindən istifadə
+          edin
+        alternate_post_layout: Müzakirə siyahısında alternativ səsvermə modelindən
+          istifadə edin
+        auto_upvote: Paylaşılan zaman avtomatik müsbət səsvermə
+        color_holder: '#ffffff'
+        discussion_page: Müzakirə siyahısında orijinal yazılar üçün ümumi səsləri
+          göstərin
+        first_post_only: Müzakirə zamanı yalnız birinci postun yuxarı/aşağı səsverməsinə
+          icazə verin
+        icon_help: 'FontAwesome ikonasını istədiyiniz -yuxarı və aşağı əks-fikslə
+          əlavə edin. '
+        icon_name: Bəyənmə/mənfi səs ikonu
+        points_placeholder: 'Xallar:'
+        points_title: Xallar
+        rate_limit: Səsvermə limiti tətbiq edin (10 saniyə)
+        title: aylar
+        upvotes_only: Yalnız müsbət səs verməyə icazə verin
+        vote_color: Səsvermə zamanı rəng
+    permissions:
+      downvote_notifications: Mənfi səslər haqqında bildirişlər alın
+      see_ranking_page: Reytinq səhifəsinə baxın
+      see_voters_label: Kimin səs verdiyini göstərin
+      see_votes_label: Bəyənmə/mənfi səslərin sayını göstərin
+      upvote_notifications: Müsbət səs bildirişləri alın
+      vote_label: Yuxarı/Aşağı səs verilmiş yazılar
+  email:
+    body:
+      postVoted: 'Salam {recipient_display_name},
+
+
+        '
+    subject:
+      postVoted: Postunuz {display_name} tərəfindən səs verildi
+  forum:
+    mod_item: Seçiciləri göstərin
+    modal:
+      downvotes_label: 'Mənfi seçicilər:'
+      title: Seçicilər
+      upvotes_label: 'Bərpa edənlər:'
+    nav:
+      name: Reytinqlər
+    notification:
+      downvote: '{username} postuna mənfi səs verdi'
+      prefrences:
+        vote: Yazılarımdan birinə yuxarı/aşağı səs verildikdə
+      upvote: '{username} postuna müsbət səs verdi'
+    post:
+      downvote_button: aşağı səs verin
+      upvote_button: Səs verin
+    ranking:
+      amount: Xanım
+      name: İstifadəçi
+      rank: Sıra
+    user:
+      card:
+        points: '{count, cəm, bir { {count} puan} digər {{count} puan}}'
+      points: 'Xanım: {bal}'
+      rank: '{rütbə}'
+      votes_link: aylar
+    vote_title: Seçiciləri göstərin
+    voters:
+      label: Ay işığı
+      label_none: Səs yoxdur
+      none: Hələ səs yoxdur
+    votes: aylar

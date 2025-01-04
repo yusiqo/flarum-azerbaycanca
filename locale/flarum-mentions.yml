@@ -1,0 +1,60 @@
+flarum-mentions:
+  admin:
+    permissions:
+      mention_groups_label: Qrupları qeyd etməyin
+    settings:
+      allow_username_format_label: İstifadəçi adı ilə qeydlərə icazə verin (@User)
+      allow_username_format_text: 'İstifadəçini qeyd etmək üçün cari format @"Display
+        Name"#ID-dir.
+
+        '
+  email:
+    group_mentioned:
+      body: 'Salam {recipient_display_name}!
+
+
+        '
+      subject: '{mentioner_display_name} {title} qrupunda üzv olduğunuz qrupdan bəhs
+        etdi'
+    post_mentioned:
+      body: 'Salam {recipient_display_name}!
+
+
+        '
+      subject: '{replier_display_name} {title} müzakirəsində yazınıza cavab verdi'
+    user_mentioned:
+      body: 'Salam {recipient_display_name}!
+
+
+        '
+      subject: '{mentioner_display_name} {title} müzakirəsində sizi qeyd etdi'
+  forum:
+    composer:
+      mention_tooltip: İstifadəçi, qrup və ya postu qeyd edin
+      reply_to_post_text: '#{number} postuna cavab verin'
+    group_mention:
+      deleted_text: '[naməlum qrup]'
+    mentioned_by:
+      load_more_button: => core.ref.load_more
+      title: Bu yazıya cavablar
+    notifications:
+      group_mentioned_text: '{username} üzv olduğunuz qrupdan bəhs etdi'
+      others_text: => core.ref.bəzi_digərləri
+      post_mentioned_text: '{username} yazınıza cavab verdi'
+      user_mentioned_text: '{username} sizi qeyd etdi'
+    post:
+      mentioned_by_more_text: daha {count} cavab.
+      mentioned_by_self_text: '{users} buna cavab verdiniz.'
+      mentioned_by_text: '{users} buna cavab verdi.'
+      others_text: => core.ref.bəzi_digərləri
+      quote_button: Sitat
+      reply_link: => core.ref.reply
+      you_text: => core.ref.siz
+    post_mention:
+      deleted_text: '[naməlum]'
+    settings:
+      notify_group_mentioned_label: Bir yazıda kimsə üzvü olduğum qrupu qeyd edəndə
+      notify_post_mentioned_label: Kimsə mənim yazıma cavab verəndə
+      notify_user_mentioned_label: Bir postda kimsə məni qeyd edəndə
+    user:
+      mentions_link: Qeydlər

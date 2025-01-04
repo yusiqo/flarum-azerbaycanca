@@ -1,0 +1,17 @@
+askvortsov-article-series:
+  admin:
+    edit_tags:
+      is_article_series: Məqalə seriyası?
+  forum:
+    article_item:
+      next_article: Növbəti məqalə
+      prev_article: Əvvəlki məqalə
+    article_list:
+      title: '{seriya} Məqalələr seriyası'
+    article_series_modal:
+      order_label: Sıralama indeksi (artan sıralama)
+      submit_button: Göndər
+      tag_id_label: Məqalə Seriyası Tag
+      title: Məqalə Seriyası Parametrləri
+    discussion_controls:
+      article_series_button: Məqalə Seriyası Parametrləri

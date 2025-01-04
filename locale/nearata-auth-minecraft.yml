@@ -1,0 +1,34 @@
+nearata-auth-minecraft:
+  admin:
+    settings:
+      api_secret:
+        help: <strong>Plugins/OAuth/config.json</strong>'da bulunabilir
+        label: API Şəxsi Açarı
+      api_url:
+        help: 'Məsələn: http://localhost:4567/verify'
+        label: API Bağlantısı
+      minecraft_server:
+        help: 'Misal: alanadi.com'
+        label: Minecraft server IP
+  api:
+    error_403: Yanlış və ya vaxtı keçmiş açar.
+    invalid_token_format: Açar rəqəmlərdən ibarət olmalıdır.
+  forum:
+    change_email_modal:
+      confirmation_message: 'Doğrulama üçün {email} ünvanına e-məktub göndərdik. '
+      dismiss_button: Tamam
+      submit_button: E-poçtu dəyişdirin
+      title: E-poçtu dəyişdirin
+      token_placeholder: Açar
+    error_403: Yanlış və ya vaxtı keçmiş açar.
+    log_in_button_title: Minecraft ilə daxil olun
+    log_in_modal:
+      submit_button: Doğrulama
+      title: Minecraft ilə daxil olun
+    login_error: Sessiya başlamamış və ya bitməmişdir.
+    modal_help: <strong>{server}</strong>-ə qoşulun və aşağıdakı düyməyə klikləyin.
+    settings:
+      change_email_button: Poçtu dəyişdirin
+    token_help: Açar girişini əldə etmək üçün <strong>srv.mc-oauth.net:255652</strong>
+      serverinə qoşulun.
+    token_placeholder: Açar

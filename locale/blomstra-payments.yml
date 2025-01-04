@@ -1,0 +1,103 @@
+blomstra-payments:
+  admin:
+    edit-group:
+      select-pta-product: (PTA) Tələb olunan məhsul
+      select-pta-product-description: 'Bu seçimlə ödənişdən sonra qrupa daxil olmağa
+        icazə verilir. '
+    edit-tag:
+      bump-others: (PTB) Başqalarına müzakirələri canlandırmaq imkanı verin
+      bump-others-description: Aktiv edilərsə, ödənişlə təkcə müzakirə müəllifi müzakirələri
+        canlandıra bilməz.
+      select-bounty-description: 'Mükafat təyin etmək üçün məhsul seçin. '
+      select-bounty-product: (Mükafat) Tələb olunan element
+      select-bounty-product-description: 'Mükafatlar üçün təyin ediləcək məhsulu seçin. '
+      select-ptb-product: (PTB) Tələb olunan məhsul
+      select-ptb-product-description: Məhsul seçmək müzakirəyə girməzdən əvvəl həmin
+        məhsulun pulunu ödəməyi tələb edir.
+      select-ptp-product: (PTP) Tələb olunan məhsul
+      select-ptp-product-description: 'Bu seçimlə həmin etiketdə hər müzakirə həmin
+        məhsulun alınmasını tələb edir. '
+      select-ptv-product: (PTV) Tələb olunan məhsul
+      select-ptv-product-description: 'Bu seçim ilə o, gizli məzmun üçün bütün yazılara
+        daimi girişi təmin edir. '
+      visible-from: Qalan məzmunu gizlədin
+      visible-from-description: 'Burada göstərdiyiniz rəqəm dəyəri yazılara görə ödəniş
+        etməyən istifadəçilərdən məzmunun hansı anda gizlədiləcəyini müəyyən edir. '
+    permission:
+      enable-bounties: Mükafatları aktivləşdirin
+    settings:
+      assign-bounty-tag-id: Təqdim edilən ilk mükafatdan sonra müzakirəyə təyin ediləcək
+        etiket
+      link-access-portal: İstifadəçi açılan menyusunda giriş portalı üçün keçid
+      link-to-terms: Ödəniş Şərtləri URL
+      pk: Nəşr edilə bilən (api) açar
+      recount-total-discussion-bounties: Ümumi müzakirə mükafatlarını təkrarlayın
+      sk: Gizli (api) açarı
+      webhook-secret: webhook imzalama sirri
+  forum:
+    accept-terms-modal:
+      accept_label: Mən <link>Ödəniş şərtləri</link> oxudum və qəbul etdim.
+      continue_button: Ödənişi davam etdirin
+      title: Şərtləri qəbul edin
+    access-portal:
+      options: parametrlər
+      purchase: almaq
+      subscribed: Abone olundu
+    backers-widget:
+      backers: tərəfdarları
+      label: '{currency} {sum} ödənildi'
+      none: Hələ ki, tərəfdar yoxdur.
+      pledged: Girov
+    bounties:
+      enable-control: Mükafatları aktivləşdirin
+      purchase-control: Mükafat əlavə edin
+    choose-bounty-amount-modal:
+      checkout-control: Ödəniş
+      description: Məbləğinizi seçin və ya "{subject}" mövzusunu dəstəkləmək üçün
+        fərdi məbləğ seçin.
+      title: Mükafat məbləğini seçin
+    exceptions:
+      out-of-bounds-amount:
+        max: '{amount} məbləğində ödənişə icazə verilmir, {max} maksimum məbləğdir.'
+        min: '{amount} məbləğində ödənişə icazə verilmir, {min} minimum məbləğdir.'
+    nav:
+      access_portal: Portala daxil olun
+      user_subscriptions: Abunəliklər
+    pay-to-bump:
+      description: '{count, cəm, bir {Bu müzakirə havada qaldı} digər {{count} nəfər
+        müzakirəni blokladı}}.'
+      purchase-control: Dirilmək üçün ödəyin
+      purchase-log-in: Daxil olun və Dirilmək üçün Ödəyin
+    pay-to-post:
+      purchase: Dərc etmək üçün satın alın
+      purchase-control: Dərc etmək üçün ödəyin
+      purchase_required: 'Ödəniş provayderimiz Stripe vasitəsilə ödənişi tamamladıqdan
+        sonra bu müzakirə dərc olunacaq. '
+    pay-to-view:
+      description: Bu nöqtədən sonra ödəniş etməyənlər üçün yazılar kilidlənir, ödəniş
+        provayderi Stripe ilə ödəniş etməklə məzmunun kilidi açılır.
+      purchase-completed: kilidli deyil
+      purchase-control: Baxmaq üçün ödəyin
+      purchase-log-in: Daxil olun və Baxmaq üçün ödəyin
+    payment-options-modal:
+      description: 'Qrupa girişinizi başlamaq üçün aşağıdakı seçimlərdən hər hansı
+        birini seçin. '
+      title: '{qrup} daxil olmaq üçün ödəniş seçimləri'
+    post_stream:
+      bounty_added_text: '{username} {amount} mükafat əlavə etdi.'
+    stripe:
+      interval_once: bir dəfə
+    subscription-card:
+      bounty: Mükafat
+      cancel-control: Ləğv et
+      none: Ödəniş və ya aktiv abunə yoxdur
+      pta: daxil olmaq üçün ödənilir
+      ptb: təkmilləşdirmək üçün ödənilir
+      ptp: nəşr etmək üçün pul ödəmişdir
+      ptv: baxmaq üçün ödənilir
+    tag:
+      require-payment-label: Ödəniş Tələb olunur
+core:
+  forum:
+    index_sort:
+      mostBacked_button: Ən çox dəstəklənir

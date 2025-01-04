@@ -1,0 +1,29 @@
+nearata-tags-color-generator:
+  admin:
+    color_hue_label: Rəng Tonu
+    color_hue_options:
+      blue: Mavi
+      green: Yaşıl
+      monochrome: Monoxromatik
+      orange: Narıncı
+      pink: Buynuzlar
+      purple: Mor
+      random: təsadüfi
+      red: Qırmızı
+      yellow: Sarı
+    color_luminosity_label: Rəng Parlaqlığı
+    color_luminosity_options:
+      bright: Parlaq
+      dark: Qaranlıq
+      light: Açıq
+      random: təsadüfi
+    generate_color_button: Təsadüfi Rəng yaradın
+    text_color:
+      custom_helptext: Hex kodu ("#" daxil olmaqla) rgb(a) və ya hls(a) olmalıdır.
+      custom_label: Xüsusi Mətn Rəngi
+      label: Mətn Rəngi
+      options:
+        custom: Fərdi Rəng
+        default: Defolt
+        theme_primary_color: Mövzu Əsas Rəngi
+        theme_secondary_color: Mövzu İkinci Rəngi

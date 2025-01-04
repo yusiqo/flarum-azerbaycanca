@@ -1,0 +1,10 @@
+fof-html-errors:
+  admin:
+    settings:
+      error:
+        403: 403 qadağandır
+        404: 404 Tapılmadı
+        500: 500 Daxili Server Xətası
+        503: 503 Xidmət İstifadəsizdir (və ya Təmirdədir)
+      placeholder:
+        empty_for_default: Defolt Flarum səhv səhifəsi üçün boş buraxın

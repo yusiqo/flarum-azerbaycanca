@@ -1,0 +1,13 @@
+blomstra-s3-assets:
+  admin:
+    settings:
+      aws-section: Bu parametrlər həm AWS S3, həm də S3 uyğun paketləri üçün tələb
+        olunur
+      configured_by_environment: Paket parametrləriniz əvvəlcədən konfiqurasiya olunub,
+        burada görmək üçün heç nə yoxdur.
+      s3-compatible-section: Bu parametrlər yalnız S3 uyğun kovalar üçün tələb olunur
+      s3-compatible-section-help: AWS S3 istifadə edirsinizsə, bu parametrləri boş
+        buraxın
+      s3key:
+        help: kömək
+        label: Açar

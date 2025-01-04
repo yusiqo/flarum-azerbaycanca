@@ -1,0 +1,6 @@
+justoverclock-feautured-discussions-widget:
+  admin:
+    limit: Göstəriləcək Seçilmiş Müzakirələrin Sayı
+    limit-help: Göstərmək istədiyiniz müzakirələrin sayı (məsələn, 5 (defolt))
+  forum:
+    widget-title: Seçilmiş Müzakirələr

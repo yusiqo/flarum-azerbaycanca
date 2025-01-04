@@ -1,0 +1,78 @@
+askvortsov-auto-moderator:
+  admin:
+    action_drivers:
+      activate_email: E-poçtu aktivləşdirin
+      add_to_group: Qrupa əlavə edin
+      remove_from_group: Qrupdan çıxarın
+      suspend: Dayandırmaq
+      unsuspend: Süspansiyon
+    automoderator_instructions:
+      header: Genişləndirmə Təlimatları
+      text: '<li>Tl; '
+    automoderator_page:
+      create_criterion_button: Yeni meyarlar yaradın
+      criterion_invalid: 'Kriteriyalar hazırda etibarsızdır. '
+      list_heading: Meyarlar
+    criterion_page:
+      actions_help: 'Qazancla bağlı fəaliyyətlər istifadəçi yeni meyar üçün uyğun
+        olduqda həyata keçirilir. '
+      actions_label: Fəaliyyətlər
+      actions_on_gain_heading: Qazancla əlaqəli fəaliyyətlər
+      actions_on_loss_heading: İtirilmiş hərəkətlər
+      add_action: Fəaliyyət əlavə edin
+      add_metric: Metrik əlavə edin
+      back: Kriteriyalar siyahısına qayıt
+      delete_button: => core.ref.loading
+      description_label: İzahat
+      driver_missing_ext: Bu sürücü aktivləşdirilməmiş genişləndirmələrdən asılıdır.
+      icon_label: Simvol
+      loading: => core.ref.loading
+      metrics_and_requirements_help: 'Bunlar istifadəçilərin bu meyara uyğun olub-olmadığını
+        müəyyənləşdirir. '
+      metrics_and_requirements_label: Metriklər və Tələblər
+      metrics_heading: Metriklər
+      name_label: ad
+      negated: Rədd edildi?
+      new_criterion: Kriteriyalar yaradın
+      requirements_heading: Tələblər
+    criterion_status:
+      action_validation_errors: 'Aşağıdakı hərəkət sürücüsünün doğrulama xətalarına
+        rast gəlindi:'
+      heading: Status yoxlanışı
+      invalid: 'Kriteriyalar hazırda etibarsızdır. '
+      no_actions: 'Bu meyar üçün heç bir hərəkət müəyyən edilməyib. '
+      no_metrics_or_reqs: 'Bu meyar üçün heç bir ölçü və ya tələb müəyyən edilməyib. '
+      requirement_validation_errors: 'Aşağıdakı tələb sürücüsünün doğrulanması xətalarına
+        rast gəlindi:'
+      valid: Bu meyar etibarlıdır!
+    group_selector:
+      placeholder: Qrup seçin
+    in_group_settings:
+      regex: Etibarlı E-poçtlar üçün Daimi İfadə (çizgisiz)
+    metric_drivers:
+      best_answers: Ən Yaxşı Cavablar
+      discussions_entered: Müzakirələrə daxil oldu
+      discussions_participated: İştirak etdiyimiz müzakirələr
+      discussions_started: Müzakirələr Başladı
+      likes_given: Bəyənmələr Verilir
+      likes_received: Bəyənmələr Alındı
+      moderator_strikes: Moderator Xəbərdarlıqları
+      posts_made: Yaradılmış Yazılar
+    requirement_drivers:
+      email_confirmed: Təsdiqlənmiş E-poçt
+      email_matches_regex: Regex ilə e-poçt uyğunluğu
+      in_group: qrupda
+      suspended: Asma
+    suspend_selector:
+      days: Dayanma günləri
+      indefinitely: Qeyri-müəyyən dayandırma?
+    undefined_driver_item:
+      text: 'SƏHV! '
+  lib:
+    group_id: Qrup ID
+    managed_groups:
+      group_item: <nişan></nişan> {groupName}
+      groups_not_editable: Avtomatik moderator meyarları ilə idarə olunan qruplar
+        uyğunsuzluqların qarşısını almaq üçün istifadəçilərdən əl ilə əlavə edilə/çıxarıla
+        bilməz.
+      header: 'İdarə olunan Qruplar:'

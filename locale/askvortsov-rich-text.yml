@@ -1,0 +1,40 @@
+askvortsov-rich-text:
+  admin:
+    settings:
+      toggle_on_editor: Zəngin mətn rejiminə keçid redaktorda göstərilsin?
+  forum:
+    settings:
+      composer_heading: Tənzimləyici
+      rich_text_compact_paragraphs_label: Paraqrafları yeni sətirlə ayırın.
+      use_rich_text_editor_label: Zəngin mətn redaktoru istifadə olunur?
+  lib:
+    composer:
+      additional_items_tooltip: Ek Nəzarətçi
+      bold_tooltip: Qalın mətn <{modifierKey}-b>
+      code_block_tooltip: Kod bloku əlavə edin
+      code_tooltip: Mətndaxili kod <{modifierKey}-`>
+      header_tooltip: Başlığı {level} <shift-{modifierKey}-{level}> olaraq dəyişdirin
+      horizontal_rule_tooltip: Üfüqi xətt əlavə edin
+      image_tooltip: Şəkil əlavə edin
+      insert_button: əlavə et
+      insert_image:
+        src_placeholder: Əlaqə
+        title_placeholder: Başlıq
+      insert_link:
+        href_placeholder: Əlaqə
+        remove_button: Sil
+        text_placeholder: Mətn
+        title_placeholder: Başlıq (hoverdə görünür)
+      italic_tooltip: Kursiv mətn <{modifierKey}-i>
+      link_tooltip: Link əlavə edin
+      ordered_list_tooltip: Nömrələnmiş siyahı <shift-{modifierKey}-9>
+      paragraph_tooltip: <shift-{modifierKey}-0> paraqrafını dəyişdirin
+      quote_tooltip: <{modifierKey}-q> sitat əlavə edin
+      spoiler_block_tooltip: Mübarizə/ Popup mətni bloklayın
+      spoiler_inline_tooltip: Tatkaçıran <{modifierKey}-;>
+      strike_tooltip: Üstün üstü <alt-shift-5>
+      sub_tooltip: Alt simge <{modifierKey}-,>
+      sup_tooltip: Üst yazı <{modifierKey}-.>
+      text_type_tooltip: Mətn Tipini seçin
+      toggle_button: Zəngin mətn rejiminə keçin
+      unordered_list_tooltip: Nokta siyahısı <shift-{modifierKey}-8>

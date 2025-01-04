@@ -1,0 +1,47 @@
+nearata-dsts:
+  admin:
+    permissions:
+      can_bypass_like: Bəyənmədən baxa bilərsiniz
+      can_bypass_login: Siz daxil olmadan keçə bilərsiniz
+      can_bypass_reply: Cavab vermədən görmək olar
+      can_use_bbcode: BB kodundan istifadə edə bilər
+    settings:
+      enabled: aktivləşdirilib
+      fof_upload:
+        enabled: aktivləşdirilib
+        require_like: Bəyənmə tələb edir
+        require_like_help: <strong>flarum/likes</strong> genişləndirilməsi tələb olunur.
+        require_reply: Cavab tələb edir
+        section_title: FoF Yüklə
+      hide_only_files: Yalnız faylları gizlədin
+      hide_only_files_help: <strong>fof/upload</strong> genişləndirilməsi tələb olunur.
+      hide_only_first_post: Yalnız ilk postu gizlədin
+      hide_only_first_post_help: Bu seçim BBCode tərəfindən ləğv edilir.
+      require_like: Bəyənməlidir
+      require_like_help: 'Qeyd: <strong>flarum/likes</strong> genişləndirilməsi tələb
+        olunur.'
+      require_reply: Cavab verməlidir
+  forum:
+    button: DSTS
+    composer:
+      dsts_tooltip: DSTS
+    fof_upload:
+      like: Faylı görmək üçün bəyənmə qoymalısınız.
+      login: Fayla baxmaq üçün daxil olmalısınız.
+      reply: Faylı görmək üçün cavab yazmalısınız.
+    like: Məzmunu görmək üçün postu bəyənməlisiniz.
+    login: Məzmunu görmək üçün daxil olmalısınız.
+    post:
+      bbcode:
+        hidden_content: Gizli Məzmun
+        like_text: Bu məzmunu görmək üçün postu bəyənməlisiniz
+        login_text: Bu məzmuna baxmaq üçün daxil olmalısınız
+        reply_text: Bu məzmunu görmək üçün müzakirəyə cavab verməlisiniz
+      fof_upload:
+        like_text: Faylı görmək üçün postu bəyənməlisiniz
+        login_text: Fayla baxmaq üçün daxil olmalısınız
+        reply_text: Faylı görmək üçün müzakirəyə cavab verməlisiniz
+      like_tooltip: Məzmunu görmək üçün postu bəyənməlisiniz
+      login_tooltip: Məzmunu görmək üçün daxil olmalısınız
+      reply_tooltip: Məzmunu görmək üçün müzakirəyə cavab verməlisiniz
+    reply: Məzmunu görmək üçün müzakirəyə cavab verməlisiniz.

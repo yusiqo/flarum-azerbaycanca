@@ -1,0 +1,7 @@
+clarkwinkelmann-likes-received:
+  admin:
+    permission:
+      view: Alınan bəyənmələrə baxın
+  forum:
+    user-card:
+      likes: '{bəyənmə, cəm, bir {# bəyənmə} digər {# bəyənmə}}'

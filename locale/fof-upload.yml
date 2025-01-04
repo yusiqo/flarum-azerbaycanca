@@ -1,0 +1,248 @@
+blomstra-gdpr:
+  lib:
+    data:
+      uploads:
+        anonymize_description: 'Yüklənmiş fayllardan istifadəçi istinadını silir. '
+        delete_description: İstifadəçi tərəfindən yüklənmiş bütün faylları silir.
+        export_description: İstifadəçi tərəfindən yüklənmiş bütün fayllar.
+flarum-gdpr:
+  lib:
+    data:
+      uploads:
+        anonymize_description: 'Yüklənmiş fayllardan istifadəçi istinadını silir. '
+        delete_description: İstifadəçi tərəfindən yüklənmiş bütün faylları silir.
+        export_description: İstifadəçi tərəfindən yüklənmiş bütün fayllar.
+fof-upload:
+  admin:
+    buttons:
+      save: Parametrləri yadda saxlayın
+    help_texts:
+      client_extension: 'Varsayılan olaraq, Quraşdırma MIME növünə əsasən təhlükəsiz
+        fayl uzantısını seçəcək.
+
+        '
+      composer_buttons: 'Varsayılan olaraq, həm media meneceri düyməsi, həm də yükləmə
+        düyməsi görünür. '
+      custom_s3_url: 'Xüsusi URL formatı (məsələn, Backblaze B2) tələb edən S3 uyğun
+        xidmətdən istifadə edirsinizsə və ya defolt URL formatı ilə bağlı probleminiz
+        varsa, bu ayardan istifadə edin. '
+      disable-download-logging: 'Forum istifadəçiləri tərəfindən edilən hər endirmənin
+        qeydiyyatını deaktiv edin. '
+      disable-hotlink-protection: 'Hotlink qorunması digər saytlardan yükləmələrin
+        qarşısını alır. '
+      download_templates: 'Yükləmə şablonları faylların forumunuzda necə görünəcəyini
+        təyin etməyə imkan verir, məsələn, önizləmə və ya düymə. '
+      mime_types: 'Xəritəçəkmənizi burada konfiqurasiya edin. '
+      resize: 'Yükləməzdən əvvəl şəkillərin ölçüsünün dəyişdirilib-ölçülmədiyini seçin. '
+      s3_acl: 'Yüklənmiş obyektə tətbiq edilməli olan ACL (defolt: özəl). '
+      s3_compatible_storage: 'Aşağıdakı parametrlər yalnız S3 uyğun yaddaşdan istifadə
+        edərkən tələb olunur. '
+      s3_instance_profile: Nümunə profilində etimadnamələrdən istifadə etmək üçün
+        açar və sirri boş buraxın.
+      watermark: 'Yükləmə zamanı şəkillərə su işarəsi qoyulub-qoyulmayacağını seçin. '
+    inspect-mime:
+      description: "FoF Upload ümumi MIME növləri üçün <a>PHP Mime Detector</a> kitabxanasından\
+        \ və ehtiyat kimi PHP Fileinfo-dan istifadə edir. \n"
+      guessed-extension: Defolt fayl uzantısı (əgər orijinal ağ siyahıda deyilsə)
+      laravel-validation: Laravel Fayl Təsdiqləmə
+      mime-detector: Mime Detector (əsas)
+      mime-fileinfo: PHP Fayl Məlumatı (yedek)
+      no-file-selected: fayl yoxdur
+      not-available: nəticə yoxdur
+      select: 'İstifadə ediləcək dəyərləri nəzərdən keçirmək üçün aşağıdakı faylı
+        seçin. '
+      title: MIME-i yoxlayın
+      validation-failed: 'Uğursuz: {xəta}'
+      validation-passed: keçdi
+    labels:
+      aws-s3:
+        acl: Girişə Nəzarət Siyahısı (ACL)
+        advanced_title: Qabaqcıl S3 yaddaş parametrləri
+        bucket: vedrə
+        custom_url: Şəxsi S3 Bağlantısı
+        endpoint: Son nöqtə
+        key: Açar
+        region: Region
+        secret: Gizli
+        title: AWS S3 yaddaş parametrləri
+        use_path_style_endpoint: Kataloq stilinin son nöqtəsindən istifadə edin
+      client_extension:
+        title: İstifadəçi tərəfindən təmin edilən fayl uzantıları
+      composer_buttons:
+        options:
+          both: Hər ikisi
+          media-btn: Yalnız media meneceri düyməsi
+          upload-btn: Yalnız quraşdırma düyməsi
+        title: Redaktor düymələri
+      disable-download-logging:
+        title: Yükləmə qeydlərini deaktiv edin
+        toggle: aradan buraxın
+      disable-hotlink-protection:
+        title: Qaynar link qorunmasını söndürün
+        toggle: aradan buraxın
+      imgur:
+        client_id: Imgur müştəri ID
+        title: Imgur şəkil saxlama parametrləri
+        tos: Forum istifadəçilərinizin Imgurun <a>Xidmət Şərtlərinə</a> əməl etməsini
+          təmin etmək sizin məsuliyyətinizdir.
+      inspect-mime: Test faylı MIME növü
+      local:
+        cdn_url: Məzmun çatdırılması linki (faylların prefiksləri)
+        title: Yerli yaddaş parametrləri
+      preferences:
+        max_file_size: Maksimum fayl ölçüsü (kilobaytla)
+        mime_types: Mim tipinizi konfiqurasiya edin, adapter xəritələşdirilməsini
+          quraşdırın
+        php_ini_values: 'Sizin <code>php.ini</code> dəyərləriniz <code>post_max_size={post}</code>
+          və <code>upload_max_filesize={upload}</code>-dir. '
+        title: Ümumi üstünlüklər
+      qiniu:
+        bucket: vedrə
+        key: Açar
+        secret: Gizli
+        title: Qiniu yaddaş parametrləri
+      resize:
+        max_width: Maksimum şəkil eni/hündürlüyü
+        title: Şəkillərin ölçüsünü dəyişdirin
+        toggle: Şəkillərin ölçüsünü dəyişdirin
+      watermark:
+        file: Su nişanını quraşdırın
+        position: su nişanı yeri
+        title: su nişanı şəkli
+        toggle: su nişanı şəkli
+    nav:
+      shared-uploads-button: Paylaşılan yükləmələr
+    pane:
+      description: Quraşdırma xidmətləri və üstünlükləri təyin edin.
+      title: Yükle
+    permissions:
+      access_shared_label: Media Menecerində paylaşılan fayllara daxil olun
+      delete_uploads_of_others_label: İstifadəçi yükləmələrini silin
+      download_label: fayl endir
+      upload_label: Fayl yükləmə
+      upload_shared_label: Paylaşılan faylları yükləyin
+      view_user_uploads_label: İstifadəçi yükləmələrini göstərin
+    shared-uploads:
+      description: Forumunuzun bütün istifadəçiləri üçün mövcud olan faylları yükləyin.
+      introduction: 'Paylaşılan yükləmələr forumunuzun bütün istifadəçiləri üçün əlçatan
+        olan fayllardır. '
+      no-files: Paylaşılan fayl hələ yüklənməyib.
+      title: Paylaşılan yükləmələr
+      upload-new-button: Yeni fayl yükləyin
+    templates:
+      bbcode-image: BBCode vizual şablonu
+      bbcode-image_description: 'BBCode istifadə edərək bütün təsviri satır içi göstərir. '
+      file: Defolt fayl yükləmə şablonu
+      file_description: 'O, fayl adını və bəzi ümumi məlumatları göstərir. '
+      image: Defolt şəkil yükləmə şablonu
+      image-preview: Tam vizual baxış şablonu
+      image-preview_description: O, tam şəkli inline göstərir, yükləmə funksiyası
+        yoxdur, statistika toplamır və qaynar keçiddən qorunmur.
+      image_description: 'O, şəklin kiçik versiyasını göstərir və proksilər php vasitəsilə
+        yüklənir. '
+      just-url: Yalnız Link
+      just-url_description: 'Sadəcə URL əlavə edir. '
+      markdown-image: Markdown vizual şablonu
+      markdown-image_description: 'Markdown istifadə edərək tam təsviri satır içi
+        göstərir. '
+      text-preview: Mətn önizləmə
+      text-preview_description: Faylın bütün məzmununu açmaq üçün onu genişləndirmək
+        seçimi ilə mətn faylının önizləməsini (ilk 5 sətir) əlavə edir.
+    upload_methods:
+      aws-s3: S3 artıq uyğundur
+      awss3: AWS S3
+      imgur: Imgur
+      local: yerli
+      ovh-svfs: OVH SVFS
+      qiniu: QUR
+  api:
+    upload_errors:
+      cannot_write_to_disk: Diskə yazmaq olmur.
+      could_not_detect_mime: Bu faylın növü aşkarlana bilmədi, yenidən cəhd edin.
+      forbidden_type: Bu tip faylların yüklənməsinə icazə verilmir.
+      max_upload_file_size_form: Formadan yükləmək üçün maksimum fayl ölçüsü limitinə
+        çatıldı.
+      max_upload_file_size_ini: Php.ini-dən yükləmək üçün maksimum fayl ölçüsü limitinə
+        çatıldı.
+      no_file_uploaded: Heç bir fayl yüklənmədi.
+      no_files_made_it_to_upload: '{max} kb-dən çox olmayan faylları yükləyin.'
+      no_upload_tmp_folder: Faylları yükləmək üçün tmp qovluğu yoxdur.
+      partial_upload: Qismən yükləmə.
+      unsupported_type: 'Quraşdırıcı bu növ fayl tipini dəstəkləmir: {mime}.'
+      upload_blocked_by_php_extension: Bir php uzantısı quraşdırmanın qarşısını aldı.
+  forum:
+    buttons:
+      attach: Fayl əlavə et
+      cancel: Ləğv et
+      media: Mənim media
+      shared_media: paylaşılan media
+      upload: Yükle
+      upload_shared: paylaşdı
+      user_uploads: İstifadəçi yükləmələri
+    file_list:
+      confirm_selection_btn: '{fileCount, plural, =0 {Seçilməyib} bir {Fayl seçin}
+        digər {Faylları seçin}}'
+      empty: Göstəriləcək fayl yoxdur.
+      hide_file:
+        btn_a11y_label: '"{fileName}" faylını media menecerindən gizlədin'
+        hide_confirmation: '"{fileName}" faylını gizlətmək istədiyinizə əminsiniz? '
+        hide_fail: '"{fileName}" faylını gizlətmək alınmadı'
+        hide_success: Fayl gizlədilib
+        loading: Fayl gizlidir...
+      load_more_files_btn: Daha çox fayl yükləyin
+      loading: Fayllar yüklənir...
+      modal_empty_desktop: 'Fayl siyahınız boşdur. '
+      modal_empty_phone: 'Fayl siyahınız boşdur. '
+      release_to_upload: Quraşdırmaq üçün buraxın
+      select_file_a11y_label: '"{fileName}" faylını seçin'
+    media_manager: media meneceri
+    states:
+      error: Hətta
+      loading: Yüklənir
+      unauthorized: Faylları endirməyə icazəniz yoxdur
+    text_preview:
+      collapse: Önizləməni yığcamlaşdırın
+      error: 'Fayla ön baxış zamanı xəta baş verdi. '
+      expand: Önizləməni genişləndirin
+      no_snippet: <Önizləmə fraqmenti yoxdur>
+      no_snippet_preview: <Ön baxış dərc edildikdən sonra burada görünəcək>
+    validation:
+      max_size: '{max} KB-dən çox yükləmələr qəbul edilmir.'
+  lib:
+    file_list:
+      confirm_selection_btn: '{fileCount, cəm, =0 {Heç biri seçilməyib} bir {Fayl
+        seçin} digər {Fayl seçin}}'
+      delete_confirmation: '"{fileName}" faylını silmək istədiyinizə əminsiniz?'
+      delete_file_a11y_label: '"{fileName}" faylını silin'
+      empty: Göndərmək üçün heç bir fayl yoxdur.
+      hide_file:
+        btn_a11y_label_hide: '"{fileName}" faylını media menecerindən gizlədin'
+        btn_a11y_label_show: Media menecerində "{fileName}" faylına daxil olun
+        hide_confirmation: '"{fileName}" faylını gizlətmək istədiyinizə əminsiniz? '
+        hide_fail: '"{fileName}" faylını gizlətmək alınmadı'
+        hide_success: Fayl gizlədilib
+        loading: Fayl gizlidir...
+        show_confirmation: '"{fileName}" faylını göstərmək istədiyinizə əminsiniz? '
+        show_fail: '"{fileName}" faylını göstərmək mümkün olmadı'
+        show_success: Fayl göstərilir
+      hide_shared_file:
+        btn_a11y_label_hide: '"{fileName}" faylını şəxsi edin (ictimai keçid yoxdur)'
+        btn_a11y_label_show: '"{fileName}" faylını ictimai edin (ictimai link ilə)'
+        hide_confirmation: '"{fileName}" faylını şəxsi etmək istədiyinizə əminsiniz? '
+        hide_fail: '"{fileName}" faylını şəxsi etmək mümkün olmadı'
+        hide_success: Fayl gizli saxlanılıb
+        loading: Fayl şəxsi edilir...
+        show_confirmation: '"{fileName}" faylını ictimai etmək istədiyinizə əminsiniz? '
+        show_fail: '"{fileName}" faylını ictimailəşdirmək mümkün olmadı'
+        show_success: Fayl açıqlanıb
+      load_more_files_btn: daha çox fayl
+      loading: Fayllar yüklənir...
+      modal_empty_desktop: 'Fayl siyahınız boşdur. '
+      modal_empty_phone: 'Fayl siyahınız boşdur. '
+      release_to_upload: Quraşdırmağa hazırlaşın
+      select_file_a11y_label: '"{fileName}" faylını seçin'
+    upload-shared-file-modal:
+      dropzone: Faylları bura sürükləyib buraxın və ya gözdən keçirmək üçün klikləyin
+      hide-from-media-gallery: İstifadəçinin media qalereyasından gizlədin
+      title: Yeni paylaşılan fayl
+      upload: Yükle

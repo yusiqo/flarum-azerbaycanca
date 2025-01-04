@@ -1,0 +1,7 @@
+webbinaro-affiliator:
+  admin:
+    labels:
+      affilate:
+        host: Affiliate URL Modelləri (siyahı olaraq)
+        host_help: 'Əlavə etmək üçün domen və sorğu sətri ilə URL-lərin vergüllə ayrılmış
+          siyahısını təmin edin. '

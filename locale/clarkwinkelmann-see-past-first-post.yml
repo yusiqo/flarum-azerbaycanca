@@ -1,0 +1,11 @@
+clarkwinkelmann-see-past-first-post:
+  admin:
+    permissions:
+      see-past-first-post: Əvvəlcə ilk yazıya baxın
+    settings:
+      hide-comment-count: Müzakirədəki cavabların sayını gizlədin
+      hide-first-post: Həmçinin ilk postu gizlədin
+      hide-last-post: Müzakirə edilən son yazı istifadəçisini və tarixi gizlədin
+  forum:
+    cant-see: Cavablara baxmaq səlahiyyətiniz yoxdur
+    login-to-see: Cavabları görmək üçün daxil olun

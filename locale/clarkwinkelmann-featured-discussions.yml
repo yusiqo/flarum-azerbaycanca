@@ -1,0 +1,40 @@
+clarkwinkelmann-featured-discussions:
+  admin:
+    permissions:
+      feature: Xüsusi müzakirələri idarə edin
+    settings:
+      duration: Defolt vaxt (saniyə)
+      eventPost: Cədvəl dəyişdirildikdə hadisə postu yaradın
+      schedule: Zamanla (CRON)
+  forum:
+    badge: nümayiş etdirilmişdir
+    controls:
+      feature: Müzakirəni vurğulayın
+    modal:
+      action:
+        cancel: Ləğv et
+        submit: Göndər
+      fields:
+        from: From
+        until: Zamana qədər
+      from:
+        manual: Əllə tarix
+        next: Növbəti sahə
+        not: nümayiş etdirilməyib
+      title: Seçilmiş müzakirə
+      until:
+        auto: Avtomatik
+        manual: Əllə tarix
+    nav:
+      schedule: Seçilmiş vaxtlama
+    post:
+      auto: (avtomatik)
+      scheduled: '{from}-dan {until}-ə qədər nümayiş olunması planlaşdırılıb'
+      unscheduled: Artıq nümayiş etdirilməsi planlaşdırılmır
+    schedule:
+      custom: Xüsusi
+      drop-error: Etibarsız müzakirə linki
+      drop-here: Planlaşdırmaq üçün bura çəkin
+      empty: arqument yoxdur
+      help: 'Cədvəli dəyişmək üçün müzakirələri səhifədə və ya başqa pəncərədə sürüşdürüb
+        buraxın. '

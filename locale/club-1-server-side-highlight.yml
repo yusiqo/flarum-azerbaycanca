@@ -1,0 +1,8 @@
+club-1-server-side-highlight:
+  admin:
+    dark_theme_bg_color: Tünd mövzu fon rəngi
+    dark_theme_highlight_theme: Qaranlıq mövzu vurğulanan mövzu
+    dark_theme_text_color: Tünd mövzu mətn rəngi
+    light_theme_bg_color: Yüngül mövzu fon rəngi
+    light_theme_highlight_theme: Yüngül mövzu vurğulanan mövzu
+    light_theme_text_color: Açıq mövzu mətn rəngi

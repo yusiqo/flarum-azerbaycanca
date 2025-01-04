@@ -1,0 +1,32 @@
+flarum-nicknames:
+  admin:
+    permissions:
+      edit_own_nickname_label: İstifadəçi adını redaktə edin
+    settings:
+      max_label: Maksimum istifadəçi adı uzunluğu
+      min_label: Minimum istifadəçi adı uzunluğu
+      random_username_help: 'Bu, qeydiyyat zamanı "istifadəçi adı" girişini gizlədir
+        və əvəzinə təsadüfi bir nömrə istifadə edir. '
+      random_username_label: Təsadüfi İstifadəçi adları
+      regex_label: Doğrulama üçün müntəzəm ifadə
+      set_on_registration_label: Qeydiyyat zamanı istifadəçi adlarının təyin edilməsinə
+        icazə verin
+      unique_label: Unikal istifadəçi adları tələb edin
+    wrong_driver: Bu genişləndirmənin işləməsi üçün <a><strong>Əsaslar</strong></a>
+      səhifəsində displey adı sürücüsünü "istifadəçi adı" kimi seçməlisiniz.
+  api:
+    invalid_nickname_message: 'Bu istifadəçi adı etibarlı deyil. '
+  forum:
+    change_nickname:
+      submit_button: => core.ref.save_changes
+      title: => flarum-nicknames.ref.change_nickname
+    edit_user:
+      nicknames_heading: => flarum-nicknames.ref.change_nickname
+      nicknames_text: => flarum-nicknames.ref.nickname
+    settings:
+      change_nickname_button: => flarum-nicknames.ref.change_nickname
+    sign_up:
+      nickname_placeholder: => flarum-nicknames.ref.nickname
+  ref:
+    change_nickname: Görünən adını dəyişdirin
+    nickname: Ləqəb

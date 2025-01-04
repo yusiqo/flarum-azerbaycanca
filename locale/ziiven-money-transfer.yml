@@ -1,0 +1,47 @@
+ziven-transfer-money:
+  admin:
+    permission:
+      allow_use_transfer_money: Pul köçürməsinə icazə verin
+    transfer-money-client-customization: Müştəri Fərdiləşdirmə
+    transfer-money-client-customization-help: 'Müştəri üçün hazırlanmış xüsusiyyətlər. '
+    transfer-money-timezone: vaxt dövrü
+    transfer-money-timezone-default: Asiya/Şanxay
+    transfer-money-timezone-help: 'Transfer vaxtı üçün vaxt zonasını təyin edin. '
+  forum:
+    cancel: Ləğv et
+    current-money-amount: 'Cari pul:'
+    need-money-amount: 'Ümumi transfer pulu:'
+    notifications:
+      user-transfer-money-details: '{cost} aldınız. '
+      user-transfer-money-to-you: '{username} sizə pul köçürdü'
+    ok: Tamam
+    receive-transfer-from-user: Başqa istifadəçidən alınan pul köçürməsi
+    search_user_header: İstifadəçi
+    transfer-error: Transfer xətası
+    transfer-error-insufficient-fund: Yetərsiz vəsait
+    transfer-error-no-permission: İcazəniz yoxdur
+    transfer-error-no-target-user-selected: Köçürmək üçün hədəf istifadəçi seçin
+    transfer-list-assign-at: Köçürmə tarixi
+    transfer-list-empty: Transfer tarixçəsi boşdur
+    transfer-list-from-user: İstifadəçidən
+    transfer-list-id: ID
+    transfer-list-load-more: Daha çox yükləyin
+    transfer-list-target-user: Hədəf İstifadəçi
+    transfer-list-transfer-amount: Məbləğ
+    transfer-list-transfer-notes: Qeydlər
+    transfer-list-transfer-notes-none: Heç biri
+    transfer-list-type: İpucu
+    transfer-money: pul köçürməsi
+    transfer-money-history: Transfer Tarixçəsi
+    transfer-money-in: İçəriyə köçürün
+    transfer-money-input-placeholder: Köçürmə məbləğini daxil edin
+    transfer-money-no-user-selected: Heç bir istifadəçi seçilmədi
+    transfer-money-notes: Qeyd (isteğe bağlı)
+    transfer-money-out: Xaricə köçürmə
+    transfer-money-search-user: İstifadəçi əlavə edin
+    transfer-money-search-user-empty: İstifadəçi tapılmadı
+    transfer-money-search-user-placeholder: İstifadəçinin ilk üç simvolunu yazın
+    transfer-money-success: Köçürmə Uğurlu
+    transfer-money-to: '{username} hesabına pul köçürün'
+    transfer-money-to-user: İstifadəçiyə pul köçürün (silmək üçün klikləyin)
+    transfered-money-to: '{pul} köçürüldü'

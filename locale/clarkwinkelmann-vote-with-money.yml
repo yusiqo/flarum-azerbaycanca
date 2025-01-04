@@ -1,0 +1,26 @@
+clarkwinkelmann-vote-with-money:
+  admin:
+    settings:
+      max: maksimum dəyər
+      min: Minimum
+      preselection: Əvvəlcədən seçilmiş məbləğlər (vergüllə ayrılmış, isteğe bağlı)
+  api:
+    error:
+      cannotCancel: Səsvermə ləğv edilə bilməz.
+      cannotChange: Səs dəyişdirilə bilməz.
+      cannotChangePollType: Artıq səs aldıqdan sonra sorğunun növü dəyişdirilə bilməz.
+      notEnoughFunds: Kifayət qədər vəsait yoxdur.
+  forum:
+    poll:
+      max: Maksimum töhfə (isteğe bağlı)
+      min: Minimum töhfə (isteğe bağlı)
+      voteWithMoney: pulla səs verin
+    vote:
+      balance: 'Balansınız: {amount}'
+      label:
+        custom: xüsusi balans
+      optionCustom: Xüsusi
+      submit: Göndər
+      success: Səs verildi!
+      target: '"{answer}" səsvermə seçimi üçün töhfənizi təsdiq edin. '
+      title: Səs verməyi təsdiqləyin

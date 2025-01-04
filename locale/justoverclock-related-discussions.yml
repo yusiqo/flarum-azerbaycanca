@@ -1,0 +1,23 @@
+justoverclock-related-discussions:
+  admin:
+    DiscussionPageLayout: Müzakirə səhifələrinin aşağı hissəsində oxşar müzakirələri
+      göstərin
+    relatedLimit: Göstəriləcək əlaqəli müzakirələr (defolt 4)
+    relatedLimit-help: Bu sahədə göstərmək istədiyiniz müzakirələrin sayını yazın
+      (məsələn, 14)
+    relatedTitle: '"Əlaqədar müzakirələr" başlığı'
+    relatedTitle-help: Müvafiq müzakirələr üçün standart başlığı öz başlığınızla əvəz
+      edin
+    showExcerpt: Xülasə Sitatını göstərin
+    showTooltip: Sitatla alət ipucunu göstərin
+  forum:
+    avatarTooltip: postun yaradılması tarixi
+    deleted: Silindi
+    hasBestAnswer: həll olundu
+    hasBestAnswer-title: Bu müzakirə həll olunmuş kimi qeyd edildi
+    noRelatedFound: Heç bir əlaqəli müzakirə tapılmadı...
+    participants: İştirakçılar
+    postedOn: 'Şurada:'
+    postnumber: cavabların sayı
+    reldiscussion: 'Tövsiyə olunan müzakirələr:'
+    repliedOn: son cavab

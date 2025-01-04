@@ -1,0 +1,23 @@
+core:
+  lib:
+    username:
+      deleted_text: Qonaq
+guest-posting:
+  admin:
+    settings:
+      enableImport: Qeydiyyat zamanı mövcud postların idxalını aktivləşdirin
+      sessionLifetime: Qonaq seansının ömrü saatlarla
+      title: Qonaq yazısı parametrləri
+      usernames: Qonaqlar üçün istifadə edilən təsadüfi istifadəçi adları
+  forum:
+    alert:
+      create-account: İndi hesab yaradın və yazılarınızın {count}-ni idxal edin!
+      create-account-posts-and-votes: İndi hesab yaradın və {postCount} yazılarınızı
+        və {voteCount} səsinizi idxal edin!
+      create-account-votes-only: İndi hesab yaradın və {count} səsinizi idxal edin!
+      signup: Qeydiyyatdan keçin
+    badge:
+      guest: Qonaq
+    modal:
+      import: qonaq postlarımın {count} ədədini idxal edin
+      import-votes: '{postCount} qonaq postlarımı və {voteCount} səsimi idxal edin'

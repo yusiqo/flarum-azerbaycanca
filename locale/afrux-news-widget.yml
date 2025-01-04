@@ -1,0 +1,6 @@
+afrux-news-widget:
+  admin:
+    settings:
+      add_line: Elan Xətti əlavə edin
+      html_warning: Ehtiyatlı olun, bu sahədə heç bir HTML istifadə edilmir.
+      lines: Elan xətləri

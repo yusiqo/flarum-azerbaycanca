@@ -1,0 +1,9 @@
+justoverclock-last-registered-users:
+  admin:
+    showUsers: Göstərmək üçün Son Qeydiyyatdan Keçmiş İstifadəçilər
+    showUsers-help: Nömrələr etibarlıdır, burada göstəriləcək istifadəçilərin sayını
+      daxil edin (məsələn, "2")
+  forum:
+    welcomeText: Ən yeni üzvlərimizə gözəl xoş gəlmisiniz
+    welcomeTexts: 'Yeni üzvlərimizə xoş gəlmisiniz:'
+    widget-title: Son Qeydiyyatdan Keçmiş İstifadəçilər

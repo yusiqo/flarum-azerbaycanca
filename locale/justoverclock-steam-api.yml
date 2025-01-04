@@ -1,0 +1,30 @@
+justoverclock-steam-api:
+  admin:
+    steamApiKey: Steam API Açarı
+    steamApiKey-help: PULSUZ API açarınızı https://steamcommunity.com/dev/apikey saytından
+      əldə edin
+  forum:
+    LatestGamesPlayed: Son Oynanan Oyunlar
+    accountCreated: 'Üzvlük tarixi:'
+    country: 'Ölkə:'
+    gamesOwned: 'Sahib olunan oyunlar:'
+    lastLogOff: 'Son çıxış:'
+    lastLogin: 'Son giriş:'
+    lastLogoff: 'Son çıxış:'
+    noCountry: dolu deyil
+    noGamesAvailable: Son iki həftə ərzində heç bir oyun keçirilməyib.
+    privateProfile: şəxsi profil
+    profile: 'Profil:'
+    publicProfile: İctimai profil
+    realName: 'Əsl adı:'
+    status: 'Durum:'
+    statusAway: Uzaqda
+    statusBusy: Məşğul
+    statusOffline: oflayn
+    statusOnline: onlayn
+    statusPlay: Oyun Axtarıram
+    statusSnooze: yatmaq
+    statusTrade: barter axtarıram
+    steamId: Steam Profil ID və ya unikal ad
+    steamIdSaved: Steam ID uğurla qeydiyyatdan keçdi
+    visitProfile: Profilə daxil olun

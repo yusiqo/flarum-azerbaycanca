@@ -1,0 +1,35 @@
+header-slideshow:
+  admin:
+    BtnSlide1: Birinci Slayd üçün Düymə Mətni
+    BtnSlide1-help: İlk slayd düyməsi üçün mətn təyin edin
+    BtnSlide2: İkinci Slayd üçün Düymə Mətni
+    BtnSlide2-help: İkinci slayd düyməsi üçün mətn təyin edin
+    BtnSlide3: Üçüncü Slayd üçün Düymə Mətni
+    BtnSlide3-help: Üçüncü slayd düyməsi üçün mətn təyin edin
+    ImageOne: İlk Slayd Şəkli
+    ImageOne-help: İlk slayd şəkli üçün etibarlı şəkil linki daxil edin
+    ImageThree: Üçüncü slayd şəkli
+    ImageThree-help: Üçüncü slayd şəkli üçün etibarlı şəkil linki daxil edin
+    ImageTwo: İkinci Slayd Şəkli
+    ImageTwo-help: İkinci slayd şəkli üçün etibarlı şəkil linki daxil edin
+    LinkOne: Birinci Slayd üçün Düymə Bağlantısı
+    LinkOne-help: İlk slayd düyməsi bağlantısı üçün etibarlı link daxil edin
+    LinkThree: Üçüncü Slayd üçün Düymə Bağlantısı
+    LinkThree-help: Üçüncü slayd düyməsi bağlantısı üçün etibarlı link daxil edin
+    LinkTwo: İkinci Slayd üçün Düymə Linki
+    LinkTwo-help: İkinci slayd düyməsi bağlantısı üçün etibarlı link daxil edin
+    TextSlide1: Birinci Slayd Mətni
+    TextSlide1-help: Birinci slayd üçün mətn təyin edin
+    TextSlide2: İkinci Slayd Mətni
+    TextSlide2-help: İkinci slayd üçün mətn təyin edin
+    TextSlide3: Üçüncü Slayd Mətni
+    TextSlide3-help: Üçüncü slayd üçün mətn təyin edin
+    TitleSlide1: Birinci Slayd Başlığı
+    TitleSlide1-help: İlk slayd üçün başlıq seçin
+    TitleSlide2: İkinci Slayd Başlığı
+    TitleSlide2-help: İkinci slayd üçün başlıq seçin
+    TitleSlide3: Üçüncü Slayd Başlığı
+    TitleSlide3-help: Üçüncü slayd üçün başlıq seçin
+    TransitionTime: Slaydlar arasında keçid sürəti (standart 5 saniyə)
+    TransitionTime-help: Hər slayd arasında keçid vaxtını (saniyələrlə) göstərən nömrə
+      əlavə edin

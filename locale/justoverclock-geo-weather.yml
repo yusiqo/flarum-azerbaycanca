@@ -1,0 +1,12 @@
+geo-weather:
+  admin:
+    apiKey: API Açarı
+    apiKey-help: https://openweathermap.org/api saytından yaradacağınız API Açarınızı
+      yapışdırın
+    lang: Dil seçin (yalnız 1)
+    lang-help: Bu sahə dil prefiksinizə (məsələn, tr, fr, en) gedir, <strong>https://openweathermap.org/api/one-call-api#multi</strong>
+      ünvanında özünüzü yoxlayın.
+  forum:
+    not-supported: İstifadə etdiyiniz brauzerlə yerinizi aşkar edə bilmirik.
+    temp: 0°
+    unknown: naməlum

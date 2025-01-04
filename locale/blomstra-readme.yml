@@ -1,0 +1,6 @@
+blomstra-readme:
+  admin:
+    modal:
+      no_readme: Bu genişləndirmənin README sənədləri yoxdur
+      title: '{displayName} BENİ OKU'
+    readme_button_label: MƏNİ OXUYUN

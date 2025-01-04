@@ -1,0 +1,9 @@
+justoverclock-hashtag:
+  admin:
+    settings:
+      oldregexdesc: 'Budur köhnə regex hashtagınız: <code>{regex}</code>'
+      regexdesc: 'Nümunə aşağıda yer tutucu kimi göstərilmişdir. '
+      regexlabel: Normal ifadəni etiketləyin
+  forum:
+    post:
+      hashtag_link_tooltip: Bu teqlə əlaqəli yazıları tapın

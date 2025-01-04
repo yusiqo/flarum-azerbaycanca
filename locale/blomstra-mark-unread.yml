@@ -1,0 +1,7 @@
+blomstra-mark-unread:
+  admin:
+    permissions:
+      mark-unread: Müzakirəni oxunmamış kimi qeyd edin
+  forum:
+    controls:
+      mark-unread: Oxunmamış kimi qeyd edin

@@ -1,0 +1,8 @@
+ziven-view-history:
+  forum:
+    view-history: Tarixçəyə baxın
+    view-history-delete-all: Bütün baxış tarixçəsini silin
+    view-history-delete-all-confirmation: Bütün baxış tarixçəsini silmək istədiyinizə
+      əminsiniz?
+    view-history-empty: Baxış tarixçəsi boşdur
+    view-history-enable: Baxış tarixçəsini aktivləşdirin

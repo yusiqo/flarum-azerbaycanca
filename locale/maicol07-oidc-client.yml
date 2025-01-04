@@ -1,0 +1,43 @@
+maicol07-oidc-client:
+  admin:
+    settings:
+      callback_logout_note: Yalnız provayderdən çıxış seçimi aktiv olduqda tələb olunur
+        (səhifənin aşağısına baxın)
+      callback_subtitle: Bunlar müştəri icazə kodunu əldə etmək üçün provayderinizdə
+        qeydiyyatdan keçməli və müvafiq seçim aktiv olduqda provayderdən çıxmalı olduğunuz
+        geri zəng URI-ləridir.
+      callback_title: Geri arama URI'leri (Geri arama URI'leri)
+      client:
+        title: Müştəri parametrləri
+      client_id: Müştəri ID
+      client_secret: Müştəri sirri
+      client_settings_subtitle: 'OpenID Connect provayderiniz tərəfindən təmin edilmiş
+        müştəri məlumatlarınızı buraya əlavə edin. '
+      client_settings_title: Müştəri parametrləri
+      endpoints:
+        authorize: Avtorizasiya son nöqtəsi URL
+        logout: Son sessiya (çıxış) son nöqtəsi URL
+        token: Token son nöqtəsi URL
+        userinfo: İstifadəçi məlumatının son nöqtəsi URL
+      endpoints_subtitle: 'Provayderinizin son nöqtələrini bura əlavə edin. '
+      endpoints_title: Provayderin son nöqtələri
+      issuer: Emitent URL (Emitent URL)
+      linker_claim: Bağlayıcı iddiası
+      logout_from_provider: Provayderdən çıxın (TOA rejimi aktiv olduqda)
+      manage_account_btn_open_in_new_tab: Hesabın idarə edilməsi səhifəsini yeni tabda
+        açın
+      manage_account_url: Hesabın idarə edilməsi URL
+      nonce: Birdəfəlik doğrulamanı söndürün
+      other_settings_title: Digər parametrlər
+      provider_name: OpenID Connect provayder adı
+      provider_settings_title: Provayder parametrləri
+      provider_url: Provayder URL
+      remove_signup_btn: Qeyd düyməsini çıxarın
+      sso_mode: SSO rejimi
+      sync_avatars: İstifadəçi avatarını sinxronlaşdırın
+  forum:
+    buttons:
+      connect_account: '{name} ilə əlaqə'
+      disconnect_account: '{name} ilə əlaqəni kəsin'
+      login: '{name} hesabına daxil olun'
+      manage_account: Hesabı idarə et

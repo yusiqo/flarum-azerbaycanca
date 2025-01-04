@@ -1,0 +1,6 @@
+cccyun-clogin-oauth:
+  admin:
+    appid_label: APPID
+    appkey_label: APPKEY
+    appurl_help: http:// və ya https:// ilə başlamalı və / ilə bitməlidir
+    appurl_label: API URL

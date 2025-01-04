@@ -1,0 +1,50 @@
+clarkwinkelmann-carving-contest:
+  admin:
+    colors:
+      all: istənilən rəng
+      custom: fərdi rəng siyahısı
+      custom-help: '#Hex və ya rgb() dəyərlərini vergüllə ayırın'
+      simple: Sadə rəng dəsti
+    permissions:
+      like: Tətbiqlər kimi
+      moderate: İdarə et
+      participate: Qatil
+      view: İstinadları göstərin
+    settings:
+      colorMode: Bölmə rejimi əvəzinə rəng rejimindən istifadə edin
+      maxEntriesPerUser: İstifadəçilərdən gələn tətbiqlərin maksimum sayı
+  forum:
+    likes_modal:
+      title: Bu proqramı bəyənən istifadəçilər
+    modal:
+      name: Strukturunuzu adlandırın
+      submit: Göndər
+      title: Qatil
+      tools:
+        circle: Dairə
+        square: Qorun
+    nav:
+      contest: Oyma müsabiqəsi
+    page:
+      already-liked: xoşuma gəlir
+      already-participated: Artıq qoşulmusunuz
+      delete-confirmation: Həqiqətən {username} tərəfindən "{name}" məzmununu silmək
+        istəyirsiniz?
+      like: kimi
+      likes:
+        liked_by_self_text: '{users} bunu bəyəndi.'
+        liked_by_text: '{count, plural, one {{users} bunu bəyəndi.} digər {{users}
+          bunu bəyəndi.}}'
+        others_link: => core.ref.bəzi_digərləri
+        you_text: => core.ref.siz
+      load-more: Daha çox giriş yükləyin
+      loading: Yazılar yüklənir...
+      participate: Qatil
+      refresh: Yeniləyin
+      sort:
+        fewerLikes: Daha az bəyənildi
+        leastRecent: var
+        mostLikes: Ən çox bəyənildi
+        mostRecent: Son yazılar
+      title: Balqabaq Oyma Müsabiqəsi
+      unlike: fərqli olaraq

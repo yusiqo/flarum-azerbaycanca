@@ -1,0 +1,21 @@
+club-1-cross-references:
+  admin:
+    enable_short_references:
+      help: 'Mesajlardakı #<ID> mətnini (məsələn, #42) müvafiq müzakirəyə keçidlərə
+        çevirin.'
+      label: Qısa istinadları aktivləşdirin
+    retrofit_links_in_frontend:
+      help: '<p><strong>Köhnəlmişdir</strong> (<code>v1.2.0</code>-da silinəcək) <code>Club-1-dən
+        <code>chore:reparse</code> istifadə etməyi düşünün/flarum -ext-chore-commands</code>
+        uzantısı əvəzinə. '
+      label: UI-də bağlantıları gücləndirin
+    show_discussion_id:
+      help: Müzakirə görünən yerdə müzakirə ID nömrələrini əlavə edin.
+      label: Müzakirə ID-sini göstərin
+  forum:
+    comment: şərh
+    post_stream:
+      discussion_referenced_multiple_text: '{username} bu müzakirəyə çoxsaylı mənbələrdən
+        istinad etdi: {sources}'
+      discussion_referenced_text: '{username} bu müzakirəyə {mənbədən} istinad etdi'
+    unknown_discussion: <naməlum müzakirə>

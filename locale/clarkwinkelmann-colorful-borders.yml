@@ -1,0 +1,30 @@
+clarkwinkelmann-colorful-borders:
+  admin:
+    permissions:
+      editAnyPost: Hər kəsin yazı tərzini redaktə edin
+      editOwnPost: Öz yazı tərzinizi redaktə edin
+      heading: Rəngli Kenarlar
+    settings:
+      colors:
+        all: istənilən rəng
+        custom: fərdi rəng siyahısı
+        custom-help: '#hex və ya rgb() rəng dəyərlərini vergüllə ayırın'
+        simple: Sadə rəng dəsti
+      enableBackgroundColor: Fərdiləşdirilə bilən fon rəngi
+      enableBorderColor: Fərdiləşdirilə bilən çərçivə rəngi
+      enableBorderRadius: Fərdiləşdirilə bilən çərçivə kənarı
+      enableBorderWidth: İstənilən çərçivə qalınlığı
+      enableTextColor: Fərdiləşdirilə bilən mətn rəngi
+      max: Maks
+      min: Min
+      title: Rəngli Kenarlar Parametrləri
+  forum:
+    apply: Müraciət edin
+    backgroundColor: fon rəngi
+    borderColor: Çərçivə rəngi
+    borderRadius: çərçivə kənarı
+    borderWidth: Çərçivə qalınlığı
+    default: Defolt
+    edit: Üslubu redaktə edin
+    reset: Fərdi üslubu təmizləyin
+    textColor: mətn rəngi

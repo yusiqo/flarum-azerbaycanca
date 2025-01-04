@@ -1,0 +1,100 @@
+flarum-tags:
+  admin:
+    basics:
+      tags_label: => flarum-tags.ref.tags
+    edit_tag:
+      color_label: => core.ref.color
+      delete_tag_button: Etiketi silin
+      delete_tag_confirmation: 'Bu teqi silmək istədiyinizə əminsiniz? '
+      description_label: İzahat
+      hide_label: Bütün Müzakirələrdən Gizlət
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: Ünvan Qısa Ad
+      submit_button: => core.ref.save_changes
+      title: Etiket yaradın
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: Müzakirələri təşkil etmək üçün mövcud teqlərin siyahısını idarə edin.
+    permissions:
+      allow_edit_tags_label: Etiketin redaktəsinə icazə verin
+      bypass_tag_counts_label: Tag bypass tələbləri
+      restrict_by_tag_heading: Tag ilə məhdudlaşdırın
+      tag_discussions_label: Etiket müzakirələri
+    settings:
+      button_text: => flarum-tags.ref.choose_tags
+    tag_settings:
+      range_separator_text: üçün
+      required_primary_heading: Tələb olunan Əsas Teqlərin Sayı
+      required_primary_text: Müzakirə zamanı istifadə oluna biləcək əsas teqlərin
+        minimum və maksimum sayını daxil edin.
+      required_secondary_heading: Tələb olunan İkincil Teqlərin Sayı
+      required_secondary_text: Müzakirə zamanı istifadə oluna biləcək ikinci dərəcəli
+        teqlərin minimum və maksimum sayını daxil edin.
+      title: Etiket Parametrləri
+    tags:
+      about_tags_text: 'Teqlər müzakirələri təsnif etmək üçün istifadə olunur. '
+      create_primary_tag_button: Əsas etiket yaradın
+      create_secondary_tag_button: İkinci dərəcəli etiket yaradın
+      edit_tag_label: '{tag} etiketini redaktə edin'
+      primary_heading: Əsas Teqlər
+      secondary_heading: İkinci dərəcəli Teqlər
+      settings_heading: Parametrlər
+  forum:
+    all_tags:
+      meta_description_text: Bütün Teqlər
+      meta_title_text: => flarum-tags.ref.tags
+    choose_tags:
+      bypass_requirements: Etiket tələblərini atlayın
+      choose_primary_placeholder: '{hesab, cəm, bir {Bir əsas teq seçin} digər {#
+        əsas teq seçin}}'
+      choose_secondary_placeholder: '{count, cəm, bir {daha 1 teq seçin} digər {daha
+        # teq seçin}}'
+      edit_title: '{title} üçün Teqləri redaktə edin'
+      submit_button: => core.ref.okay
+      title: Müzakirəniz üçün etiket seçin
+    composer_discussion:
+      choose_tags_link: => flarum-tags.ref.choose_tags
+    discussion_controls:
+      edit_tags_button: Teqləri redaktə edin
+    header:
+      back_to_tags_tooltip: Etiket siyahısına qayıt
+    index:
+      more_link: Ətraflı...
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: Etiketsiz
+    post_stream:
+      added_and_removed_tags_text: '{username} {time} {tagsAdded} əlavə etdi və {tagsRemoved}
+        sildi.'
+      added_tags_text: '{username} {tagsAdded} {zaman} əlavə etdi.'
+      removed_tags_text: '{username}, {tagsRemoved} {time} silindi.'
+      tags_text: '{count, cəm, bir {{tags} tag} digər {{tags} teq}}'
+    tag:
+      meta_description_text: '{tag} daxilindəki bütün müzakirələr'
+  lib:
+    deleted_tag_text: Silindi
+    tag_selection_modal:
+      bypass_requirements: Etiket tələblərini keçin
+      choose_primary_placeholder: '{hesab, cəm, bir {Əsas teq seçin} digər {# əsas
+        teq seçin}}'
+      choose_secondary_placeholder: => flarum-tags.ref.choose_tags_placeholder
+      choose_tags_placeholder: => flarum-tags.ref.choose_tags_placeholder
+      submit_button: => core.ref.okay
+      title: => flarum-tags.ref.choose_tags
+  ref:
+    choose_tags: Teqlər seçin
+    choose_tags_placeholder: '{count, cəm, bir {daha 1 teq seçin} digər {daha # teq
+      seçin}}'
+    name: ad
+    tags: Teqlər
+  validation:
+    attributes:
+      color: rəng
+      description: izahat
+      is_hidden: gizli
+      name: ad
+      slug: ünvanın qısa adı
+      tag_count_primary: => validation.attributes.tag_count_primary
+      tag_count_secondary: => validation.attributes.tag_count_secondary

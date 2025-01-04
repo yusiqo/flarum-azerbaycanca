@@ -1,0 +1,12 @@
+tohsakarat-save-and-load-draft-automatically:
+  buttons:
+    load: Yerli redaktə qeydlərini yükləyin
+  forum:
+    buttons:
+      load: Yerli redaktə qeydlərini yükləyin
+    states:
+      ask-for-load: 'Yerli redaktə qeydləri tapıldı! '
+      ask-for-save: Qaralamaları onlayn saxlamaq istəyirsiniz?
+  states:
+    ask-for-load: 'Yerli redaktə qeydlərini tapın! '
+    ask-for-save: Qaralamaları onlayn saxlamaq istəyirsiniz?

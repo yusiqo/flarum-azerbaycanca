@@ -1,0 +1,13 @@
+imdong-visible-to-op-only:
+  admin:
+    permissions:
+      view-hide-post: Gizli məzmunu göstərin
+      view-post: Yazıya Baxın
+    settings:
+      allow-view-sticky: Sabit Görünüşə icazə verin
+      allow-view-sticky-text: Cavabın göstərilməsini qadağan edən etiketin altında
+        Super Sticky & Sticky uzantısı ilə istifadə edilməli olan yuxarıda yerləşdirilən
+        cavab məzmununa da baxa bilərsiniz (zibil)
+  forum:
+    button_tooltip_only_op_see: Yalnız Müzakirə Sahibinə Göstərin
+    hidden_content_only_op_see: Bu məzmuna yalnız müzakirəyə başlayan şəxs baxa bilər

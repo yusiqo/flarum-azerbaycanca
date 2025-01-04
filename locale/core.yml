@@ -1,0 +1,708 @@
+core:
+  admin:
+    appearance:
+      colored_header_label: Rəngli Başlıq
+      colors_heading: Rənglər
+      colors_primary_label: Əsas Rəng
+      colors_secondary_label: İkinci Rəng
+      colors_text: 'Forumunuzun mövzusu üçün iki rəng seçin. '
+      custom_footer_heading: Fərdi Altbilgi
+      custom_footer_text: => core.ref.custom_footer_text
+      custom_header_heading: Fərdi Başlıq
+      custom_header_text: => core.ref.custom_header_text
+      custom_styles_cannot_use_less_features: Şəxsi LESS-də @import və data-uri atributlarına
+        icazə verilmir.
+      custom_styles_heading: Xüsusi Üslublar
+      custom_styles_text: Flarum-un defolt üslubları üzərində tətbiq olunacaq öz Less/CSS
+        kodunuzu əlavə etməklə forumunuzun görünüşünü fərdiləşdirin.
+      dark_mode_label: Qaranlıq rejim
+      description: Forumunuzun rənglərini, loqosu və digər dəyişənlərini fərdiləşdirin.
+      edit_css_button: Xüsusi CSS-i redaktə edin
+      edit_footer_button: => core.ref.custom_footer_title
+      edit_header_button: => core.ref.custom_header_title
+      enter_hex_message: Zəhmət olmasa onaltılıq rəng kodu daxil edin.
+      favicon_heading: Qısayol Nişanı
+      favicon_text: Forumun qısayol simvolu kimi göstərmək üçün şəkil yükləyin.
+      logo_heading: Logo
+      logo_text: Forum başlığının yerinə göstərmək üçün şəkil yükləyin.
+      title: Görünüş
+    basics:
+      all_discussions_label: => core.ref.all_discussions
+      default_language_heading: Defolt Dil
+      description: Forumunuzun başlığını, dilini və digər əsas parametrləri konfiqurasiya
+        edin.
+      display_name_heading: İstifadəçi adını göstərin
+      display_name_text: 'İstifadəçilərin ekran adları üçün istifadə edilməli olan
+        üstünlükləri seçin. '
+      forum_description_heading: Forum Təsviri
+      forum_description_text: 'İcmanızı təsvir edən qısa və ya iki cümlə daxil edin. '
+      forum_title_heading: Forumun adı
+      home_page_heading: Əsas Səhifə
+      home_page_text: İstifadəçilərin forumunuzu ziyarət etdikdə gördükləri ilk səhifəni
+        seçin.
+      show_language_selector_label: Dil seçicisini göstərin
+      slug_driver_heading: 'Ünvan Qısa Ad Sürücü: {model}'
+      slug_driver_text: Ünvan qısa adı üçün sürücü modelini seçin.
+      title: Əsas elementlər
+      welcome_banner_heading: Xoş Mesaj
+      welcome_banner_text: 'Salamlama mətnini Bütün Müzakirələr səhifəsində görünəcək
+        şəkildə təyin edin. '
+    create_user:
+      email_confirmed_label: İstifadəçidən bu e-poçtu təsdiqləməsini tələb edin
+      email_placeholder: => core.ref.email
+      password_placeholder: => core.ref.password
+      submit_and_create_another_button: Yaradın və başqasını əlavə edin
+      submit_button: İstifadəçi yaradın
+      title: Yeni istifadəçi yaradın
+      use_random_password: Təsadüfi parol yaradın
+      username_placeholder: => core.ref.username
+    dashboard:
+      clear_cache_button: Keşi təmizləyin
+      description: Bir baxışda forumunuz.
+      io_error_message: 'Fayl sisteminə yazmaq mümkün olmadı. '
+      status:
+        headers:
+          queue-driver: Tail Drive
+          scheduler-status: taymer
+          session-driver: Sessiya sürücüsü
+        scheduler:
+          active: Aktiv
+          inactive: qeyri-aktiv
+          never-run: heç getmə
+      title: İdarə paneli
+      tools_button: alətlər
+    debug-warning:
+      detail: '<code>debug</code> rejimi aktiv olduqda, Flarum hər sorğuda <code>JavaScript</code>
+        və <code>CSS</code> aktivlərini bərpa edir və həmçinin verilənlər bazası (gizli,
+        mühit dəyişənləri) kimi digər məlumatları toplayır. , və s.).
+
+
+        '
+      label: Sazlama rejimi aktivdir
+    edit_css:
+      customize_text: Flarumun <a> defolt üslublarına </a> tətbiq olunacaq öz Less/CSS
+        kodunuzu əlavə etməklə forumunuzun görünüşünü fərdiləşdirin.
+      submit_button: => core.ref.save_changes
+      title: Xüsusi CSS-i redaktə edin
+    edit_footer:
+      customize_text: => core.ref.custom_footer_text
+      submit_button: => core.ref.save_changes
+      title: => core.ref.custom_footer_title
+    edit_group:
+      color_label: => core.ref.color
+      delete_button: Qrupu Sil
+      delete_confirmation: 'Bu qrupu silmək istədiyinizə əminsiniz? '
+      hide_label: Forumda gizlət
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
+      name_label: ad
+      plural_placeholder: 'Cəm (Məs: Moderatorlar)'
+      singular_placeholder: 'Tək (Məs: Moderator)'
+      submit_button: => core.ref.save_changes
+      title: Qrup yaradın
+    edit_header:
+      customize_text: => core.ref.custom_header_text
+      submit_button: => core.ref.save_changes
+      title: => core.ref.custom_header_title
+    email:
+      addresses_heading: Ünvanlar
+      description: Forumunuzun e-poçt göndərmək üçün istifadə edəcəyi sürücünü, parametrləri
+        və ünvanları konfiqurasiya edin.
+      driver_heading: Sürücü seçin
+      driver_label: Sürücü
+      from_label: Göndərən
+      mail_encryption_label: şifrələmə
+      mail_host_label: Aparıcı
+      mail_mailgun_domain_label: domen adı
+      mail_mailgun_region_label: Ərazi
+      mail_mailgun_secret_label: gizli açar
+      mail_password_label: => core.ref.password
+      mail_port_label: Liman
+      mail_username_label: => core.ref.username
+      mailgun_heading: Mailgun Parametrləri
+      not_sending_message: 'Flarum hazırda e-poçt göndərə bilməz. '
+      send_test_mail_button: Göndər
+      send_test_mail_heading: Test məktubu göndərin
+      send_test_mail_success: Test məktubu uğurla göndərildi!
+      send_test_mail_text: Bu, yuxarıdakı konfiqurasiya parametrləri ilə {email} ünvanına
+        göndəriləcək.
+      smtp_heading: SMTP Parametrləri
+      title: => core.ref.email
+    extension:
+      configure_scopes: Əhatə dairələrini konfiqurasiya edin
+      confirm_purge: 'Təmizləmə bütün verilənlər bazası qeydlərini və genişləndirmə
+        ilə əlaqəli aktivləri siləcək. '
+      confirm_uninstall: 'Silinmə genişləndirmə ilə əlaqəli bütün verilənlər bazası
+        qeydlərini siləcək. '
+      disabled: zərərsizləşdirilib
+      enable_to_see: Parametrlərə baxmaq və dəyişmək üçün artırmanı aktiv edin.
+      enabled: Effektiv
+      info_links:
+        discuss: Arqument
+        documentation: Sənədlər
+        donate: İanə
+        source: Mənbə
+        support: Dəstək
+        website: Sayt
+      no_permissions: Bu genişləndirmənin icazəsi yoxdur.
+      no_settings: Bu uzantıda heç bir parametr yoxdur.
+      open_modal: Parametrləri açın
+      permissions_title: İcazələr
+      purge_button: aydın
+      readme:
+        button_label: MƏNİ OXUYUN
+        no_readme: Bu genişlənmədə README faylı yoxdur
+        title: '{extName} sənədləri'
+      uninstall_button: Sil
+    header:
+      get_help: Yardım alın
+      log_out_button: => core.ref.log_out
+    loading:
+      title: Zəhmət olmasa gözləyin...
+    nav:
+      appearance_button: => əsas.admin.görünüş.başlıq
+      appearance_title: => core.admin.appearance.description
+      basics_button: => core.admin.basics.title
+      basics_title: => core.admin.basics.təsvir
+      categories:
+        authentication: Doğrulama
+        core: Kernel Konfiqurasiyası
+        discussion: Arqument
+        feature: Xüsusiyyətlər
+        formatting: formalaşdıran
+        language: Diller
+        moderation: Moderasiya
+        other: Digər Genişləndirmələr
+        theme: Mövzular
+      dashboard_button: => core.admin.dashboard.title
+      dashboard_title: => core.admin.dashboard.description
+      email_button: => core.ref.email
+      email_title: => core.admin.email.description
+      permissions_button: => core.admin.permissions.title
+      permissions_title: => core.admin.permissions.description
+      search_placeholder: Genişləndirmələri axtarın
+      userlist_button: => core.admin.users.title
+      userlist_title: => core.admin.users.description
+    permissions:
+      allow_hide_own_posts_label: Öz yazılarının silinməsinə icazə verin
+      allow_post_editing_label: Postun redaktəsinə icazə verin
+      allow_renaming_label: Adının dəyişdirilməsinə icazə verin
+      create_access_token_label: Giriş nişanı yaradın
+      create_heading: Yaradın
+      delete_discussions_forever_label: Müzakirələri həmişəlik silin
+      delete_discussions_label: Müzakirələri silin
+      delete_posts_forever_label: Yazıları həmişəlik silin
+      delete_posts_label: Yazıları silin
+      description: Kimin görə biləcəyini və nə edə biləcəyini konfiqurasiya edin.
+      edit_posts_label: Yazıları redaktə edin
+      edit_users_credentials_label: İstifadəçi etimadnaməsini redaktə edin
+      edit_users_groups_label: İstifadəçi qruplarını redaktə edin
+      edit_users_label: İstifadəçiləri redaktə edin
+      global_heading: General
+      moderate_access_tokens_label: Orta Giriş Tokeni
+      moderate_heading: İdarəetmə
+      new_group_button: Yeni Qrup
+      participate_heading: İştirak
+      post_without_throttle_label: Gözləmədən dəfələrlə cavab verin
+      read_heading: Oxumaq
+      rename_discussions_label: Müzakirələrin adını dəyişdirin
+      reply_to_discussions_label: Müzakirələrə cavab verin
+      search_users_label: => core.ref.search_users
+      sign_up_label: Qeydiyyatdan keçin
+      start_discussions_label: Müzakirələrə başlayın
+      title: İcazələr
+      view_forum_label: Foruma baxın (müzakirələr və istifadəçilər)
+      view_hidden_groups_label: Gizli istifadəçi qrupu nişanlarını göstərin
+      view_last_seen_at_label: Son görünmə vaxtına baxın
+      view_post_ips_label: Yazılarda IP ünvanına baxın
+    permissions_controls:
+      allow_indefinitely_button: Əbədi
+      allow_never_button: => core.ref.never
+      allow_some_minutes_button: '{count, cəm, biri {# dəqiqədə} digər {# dəqiqədə}}'
+      allow_ten_minutes_button: 10 dəqiqə
+      allow_until_reply_button: Növbəti cavaba qədər
+      everyone_button: Hər kəs
+      members_button: => əsas.qrup.üzvlər
+      signup_closed_button: bağlıdır
+      signup_open_button: Açıq
+    settings:
+      saved_message: Dəyişiklikləriniz yadda saxlanıldı.
+      submit_button: => core.ref.save_changes
+    upload_image:
+      remove_button: => core.ref.remove
+      upload_button: Şəkil seçin...
+    users:
+      create_user_button: Yeni İstifadəçi
+      description: Forumunuzdakı bütün istifadəçilərin səhifələnmiş siyahısı.
+      grid:
+        columns:
+          display_name:
+            title: ekran adı
+          edit_user:
+            button: => core.ref.edit
+            title: => core.ref.edit_user
+            tooltip: '{username} redaktə edin'
+          email:
+            title: => core.ref.email
+            visibility_hide: E-poçt ünvanını gizlədin
+            visibility_show: E-poçt ünvanını göstərin
+          group_badges:
+            no_badges: Heç biri
+            title: Qruplar
+          join_time:
+            title: iştirak edib
+          user_actions:
+            title: Fəaliyyətlər
+          user_id:
+            title: ID
+          username:
+            profile_link_tooltip: '{username} adlı istifadəçinin profilinə daxil olun'
+            title: => core.ref.username
+        invalid_column_content: Etibarsızdır
+      pagination:
+        back_button: Əvvəlki səhifə
+        first_button: Birinci səhifəyə keçin
+        go_to_page_textbox_a11y_label: Birbaşa səhifə nömrəsinə keçin
+        last_button: Son səhifəyə keçin
+        next_button: Növbəti səhifə
+        page_counter: '{total} səhifədən {cari}'
+      search_placeholder: => core.ref.search_users
+      title: => core.ref.users
+      total_users: 'Ümumi istifadəçilər: {count}'
+  api:
+    invalid_filter_type:
+      must_be_numeric_message: '{filtr} filtri rəqəmsal olmalıdır.'
+      must_not_be_array_message: Filtr {filtr} massiv olmamalıdır.
+      must_not_be_multidimensional_array_message: Filtr {filtr} çoxölçülü massiv olmamalıdır.
+    invalid_username_message: İstifadəçi adında yalnız hərflər, rəqəmlər və defislər
+      ola bilər.
+  email:
+    activate_account:
+      body: 'Salam {username}!
+
+
+        '
+      subject: Yeni Hesabınızı Aktivləşdirin
+    confirm_email:
+      body: 'Salam {username}!
+
+
+        '
+      subject: Yeni E-poçt Ünvanını Doğrulayın
+    reset_password:
+      body: 'Salam {username}!
+
+
+        '
+      subject: => core.ref.password_your_password
+    send_test:
+      body: 'Salam {username}!
+
+
+        '
+      subject: Flarum Test Mail
+  forum:
+    change_email:
+      confirm_password_placeholder: => core.ref.confirm_password
+      confirmation_message: => core.ref.confirmation_email_sent
+      dismiss_button: => core.ref.okay
+      incorrect_password_message: Daxil etdiyiniz parol səhvdir.
+      submit_button: => core.ref.save_changes
+      title: => core.ref.change_email
+    change_password:
+      send_button: Parol sıfırlama e-poçtunu göndərin
+      text: Parolunuzu dəyişdirmək üçün aşağıdakı düyməni basın və e-poçtunuzu yoxlayın.
+      title: => core.ref.change_password
+    composer:
+      close_tooltip: Kvartal
+      exit_full_screen_tooltip: Tam Ekrandan çıxın
+      full_screen_tooltip: Tam Ekran
+      minimize_tooltip: azaltmaq
+      preview_tooltip: Önizləmə
+    composer_discussion:
+      body_placeholder: Post yazın...
+      discard_confirmation: 'Siz müzakirəni dərc etmədiniz. '
+      submit_button: Müzakirə başlayın
+      title: => core.ref.start_a_discussion
+      title_placeholder: Müzakirə Başlığı
+    composer_edit:
+      discard_confirmation: 'Dəyişikliklərinizi yadda saxlamadınız. '
+      edited_message: Redaktəniz edildi.
+      post_link: '{discussion} bölməsində #{number} post'
+      submit_button: => core.ref.save_changes
+      view_button: => core.ref.view
+    composer_reply:
+      body_placeholder: => core.ref.write_a_reply
+      discard_confirmation: 'Cavabınızı hələ göndərməmisiniz. '
+      posted_message: Cavabınız göndərildi.
+      submit_button: Cavab Göndər
+      view_button: => core.ref.view
+    discussion_controls:
+      cannot_reply_button: cavab verə bilməzsən
+      cannot_reply_text: Sizin bu müzakirəyə cavab vermək səlahiyyətiniz yoxdur.
+      delete_button: => core.ref.delete
+      delete_confirmation: Bu müzakirəni silmək istədiyinizə əminsiniz?
+      delete_forever_button: => core.ref.delete_forever
+      log_in_to_reply_button: Cavab vermək üçün daxil olun
+      rename_button: => core.ref.rename
+      reply_button: => core.ref.reply
+      restore_button: => core.ref.restore
+      toggle_dropdown_accessible_label: Müzakirə əməliyyatları açılan menyusunu dəyişin
+    discussion_list:
+      empty_text: Görünür, burada heç bir mübahisə yoxdur.
+      load_more_button: => core.ref.load_more
+      mark_as_read_tooltip: Oxunmuş kimi qeyd edin
+      replied_text: '{username}, {ago} cavab verdi'
+      started_text: '{username} {əvvəl} başladı'
+      total_replies_a11y_label: '{hesab, cəm, bir {# cavab} digər {# cavab}}'
+      unread_replies_a11y_label: '{say, cəm, bir {# oxunmamış cavab} digər {# oxunmamış
+        cavab}}. '
+    forgot_password:
+      dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
+      email_sent_message: 'Daxil etdiyiniz e-poçt bu saytda qeydiyyatdan keçibsə,
+        parolunuzu sıfırlamaq üçün sizə linki olan e-poçt göndərəcəyik. '
+      not_found_message: Bu e-poçt ünvanında qeydiyyatdan keçmiş istifadəçi yoxdur.
+      submit_button: Parolumu Sıfırlayın
+      text: E-poçt ünvanınızı daxil edin və biz sizə parol sıfırlama linki göndərəcəyik.
+      title: Parolumu Unutdum
+    header:
+      admin_button: İdarəetmə
+      back_to_index_tooltip: Müzakirə Siyahısına qayıt
+      locale_dropdown_accessible_label: Forum kataloqunu dəyişdirin
+      log_in_link: => core.ref.log_in
+      log_out_button: => core.ref.log_out
+      profile_button: Profil
+      search_clear_button_accessible_label: Axtarış terminini təmizləyin
+      search_placeholder: Forumda Ara
+      search_role_label: Forumda Ara
+      session_dropdown_accessible_label: Sessiya seçimləri açılan menyunu dəyişdirin
+      settings_button: => core.ref.settings
+      sign_up_link: => core.ref.sign_up
+    index:
+      all_discussions_link: => core.ref.all_discussions
+      cannot_start_discussion_button: Mübahisəyə Başlaya bilməzsiniz
+      mark_all_as_read_confirmation: Bütün müzakirələri oxunmuş kimi qeyd etmək istədiyinizə
+        əminsiniz?
+      mark_all_as_read_tooltip: => core.ref.hamını_oxuduğu kimi işarələyin
+      meta_title_text: => core.ref.all_discussions
+      refresh_tooltip: Yeniləyin
+      start_discussion_button: => core.ref.start_a_discussion
+      toggle_sidenav_dropdown_accessible_label: Naviqasiya açılan menyusunu dəyişdirin
+    index_sort:
+      latest_button: Oğulda
+      newest_button: yeni
+      oldest_button: Qədimlər
+      relevance_button: Müvafiq
+      toggle_dropdown_accessible_label: Müzakirə siyahısının sırasını dəyişdirin
+      top_button: Populyar
+    log_in:
+      forgot_password_link: Parolunuzu unutmusunuz?
+      invalid_login_message: Giriş məlumatınız yanlış idi.
+      password_placeholder: => core.ref.password
+      remember_me_label: Məni xatırla
+      sign_up_text: 'Hesabınız yoxdur? '
+      submit_button: => core.ref.log_in
+      title: => core.ref.log_in
+      username_or_email_placeholder: İstifadəçi adı və ya E-poçt
+    notifications:
+      delete_all_confirm: 'Bütün bildirişləri silmək istədiyinizə əminsiniz? '
+      delete_all_tooltip: Bütün bildirişləri silin
+      discussion_renamed_text: '{username} başlığı dəyişdi'
+      empty_text: Bildiriş yoxdur
+      mark_all_as_read_tooltip: => core.ref.hamını_oxuduğu kimi işarələyin
+      mark_as_read_tooltip: Oxunmuş kimi qeyd edin
+      title: => core.ref.notifications
+      toggle_dropdown_accessible_label: Bildirişlərə baxın
+      tooltip: => core.ref.notifications
+    post:
+      edited_text: Redaktə edilib
+      edited_tooltip: '{username} {ago} tərəfindən redaktə edilib'
+      number_tooltip: 'Post #{number}'
+    post_controls:
+      delete_button: => core.ref.delete
+      delete_confirmation: 'Bu postu həmişəlik silmək istədiyinizə əminsiniz? '
+      delete_forever_button: => core.ref.delete_forever
+      edit_button: => core.ref.edit
+      hide_confirmation: Bu postu silmək istədiyinizə əminsiniz?
+      restore_button: => core.ref.restore
+      toggle_dropdown_accessible_label: Yayım nəzarətləri açılan menyusunu dəyişdirin
+    post_scrubber:
+      now_link: İndi
+      original_post_link: İlk Yazı
+      unread_text: '{count} oxunmamış'
+      viewing_text: '{count, cəm, bir {{index} < {formattedCount} yazı} digər {{index}
+        < {formattedCount} yazı}}'
+    post_stream:
+      discussion_renamed_old_tooltip: 'Köhnə başlıq belə idi: "{old}"'
+      discussion_renamed_text: '{username} başlığı {yeni} {zaman} olaraq dəyişdi.'
+      load_more_button: => core.ref.load_more
+      reply_placeholder: => core.ref.write_a_reply
+      time_lapsed_text: '{dövr} sonra'
+    rename_discussion:
+      submit_button: => core.ref.rename
+      title: Müzakirənin adını dəyişdirin
+    search:
+      all_discussions_button: '"{query}" üçün bütün müzakirələri axtarın'
+      discussions_heading: => core.ref.discussions
+      users_heading: => core.ref.users
+    security:
+      browser_on_operating_system: '{os} üzərində {brauzer}'
+      cannot_terminate_current_session: 'Cari aktiv sessiya dayandırıla bilməz. '
+      created: yaradılmışdır
+      current_active_session: Cari Aktiv Sessiya
+      developer_tokens_heading: Developer Tokens
+      empty_text: Deyəsən burada görüləcək heç nə yoxdur.
+      global_logout:
+        heading: Ümumi çıxış
+        help_text: Cari kuki sessiyasını təmizləyir, bütün seansları dayandırır, tərtibatçı
+          nişanlarını ləğv edir və istənilən e-poçt təsdiqini və ya parol sıfırlama
+          e-poçtlarını etibarsız edir.
+        log_out_button: => core.ref.log_out
+      hide_access_token: Tokeni gizlədin
+      last_activity: Onun fəaliyyəti
+      never: => core.ref.never
+      new_access_token_button: => core.ref.new_token
+      new_access_token_modal:
+        submit_button: Token yaradın
+        title: => core.ref.new_token
+        title_placeholder: Başlıq
+      revoke_access_token: geri çəkilmək
+      revoke_access_token_confirmation: => core.ref.generic_confirmation_message
+      session_terminated: '{count, cəm, bir {Sessiya dayandırıldı} digər {# Sessiya
+        dayandırıldı}}.'
+      session_termination_failed: Sessiyalarınızı dayandırarkən xəta baş verdi.
+      sessions_heading: Aktiv Sessiyalar
+      show_access_token: Tokenə baxın
+      terminate_all_other_sessions: Bütün digər seansları bitirin
+      terminate_all_other_sessions_confirmation: => core.ref.generic_confirmation_message
+      terminate_session: dayandırmaq
+      title: => core.ref.security
+      token_item_title: '{title} - {token}'
+      token_revoked: Token ləğv edildi.
+      token_title_placeholder: /
+    settings:
+      account_heading: Bill
+      change_email_button: => core.ref.change_email
+      change_password_button: => core.ref.change_password
+      notification_checkbox_a11y_label_template: '{metod} vasitəsilə "{təsvir}" bildirişləri
+        alın'
+      notifications_heading: => core.ref.notifications
+      notify_by_email_heading: => core.ref.email
+      notify_by_web_heading: Veb
+      notify_discussion_renamed_label: Kimsə müzakirənin adını dəyişəndə ​​mən başladım
+      privacy_disclose_online_label: Onlayn olduğum zaman başqalarına baxsın
+      privacy_heading: Təhlükəsizlik
+      title: => core.ref.settings
+    sign_up:
+      dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
+      log_in_text: 'Artıq hesabınız var? '
+      password_placeholder: => core.ref.password
+      submit_button: => core.ref.sign_up
+      title: => core.ref.sign_up
+      username_placeholder: => core.ref.username
+      welcome_text: Xoş gəldiniz, {username}!
+    user:
+      avatar_remove_button: => core.ref.remove
+      avatar_upload_button: Yüklə
+      avatar_upload_tooltip: Yeni profil şəkli yükləyin
+      discussions_link: => core.ref.discussions
+      in_discussion_text: '{müzakirə} müzakirədə'
+      joined_date_text: '{ago} tarixində qoşulub'
+      online_text: onlayn
+      posts_empty_text: Deyəsən burada heç bir yazı yoxdur.
+      posts_link: => core.ref.posts
+      posts_load_more_button: => core.ref.load_more
+      security_link: => core.ref.security
+      settings_link: => core.ref.settings
+    user_controls:
+      button: Seçimlər
+      delete_button: => core.ref.delete
+      delete_confirmation: 'Bu istifadəçini silmək istədiyinizə əminsiniz? '
+      delete_error_message: <i>{username} ({email})</i> silmək alınmadı
+      delete_success_message: <i>{username} ({email})</i> silindi
+      edit_button: => core.ref.edit
+      toggle_dropdown_accessible_label: İstifadəçi nəzarətləri açılan menyunu dəyişdirin
+    user_email_confirmation:
+      alert_message: => core.ref.confirmation_email_sent
+      resend_button: Təsdiq e-poçtunu yenidən göndərin
+      sent_message: göndərildi
+    welcome_hero:
+      hide: Xoş gəlmisiniz mesajını gizlədin
+  group:
+    admin: İcraçı
+    admins: Administratorlar
+    guest: Ziyarətçi
+    guests: ziyarətçilər
+    member: Üzv
+    members: Üzvlər
+    mod: moderator
+    mods: Moderatorlar
+  lib:
+    alert:
+      dismiss_a11y_label: Xəbərdarlığı bağlayın
+    badge:
+      hidden_tooltip: Gizli
+    data_segment:
+      label: '{etiket}:'
+    datetime_formats:
+      humanTimeLong: ll
+      humanTimeShort: D MMM
+      scrubber: MMMM YYYY
+    debug_button: Sazlama
+    dropdown:
+      toggle_dropdown_accessible_label: Açılan menyunu dəyişdirin
+    edit_user:
+      activate_button: İstifadəçini aktivləşdirin
+      email_heading: => core.ref.email
+      email_label: => core.ref.email
+      groups_heading: Qruplar
+      nothing_available: Bu istifadəçini redaktə etmək icazəniz yoxdur.
+      password_heading: => core.ref.password
+      password_label: => core.ref.password
+      set_password_label: Yeni parol təyin edin
+      submit_button: => core.ref.save_changes
+      title: => core.ref.edit_user
+      username_heading: => core.ref.username
+      username_label: => core.ref.username
+    error:
+      circular_dependencies_message: 'Dairəvi asılılıqlar aşkar edildi: {uzatmalar}. '
+      dependent_extensions_message: '{extension} genişləndirilməsi aşağıdakı genişləndirmə
+        deaktiv edilməmişdən əvvəl deaktiv edilə bilməz: {uzatmalar}'
+      extension_initialiation_failed_message: '{Extension} işə salınmadı, əlavə məlumat
+        üçün brauzer konsolunu yoxlayın.'
+      generic_cross_origin_message: 'Vay! '
+      generic_message: 'Vay! '
+      missing_dependencies_message: '{extension} aşağıdakı genişləndirmə aktivləşdirilməmişdən
+        əvvəl aktivləşdirilə bilməz: {uzatmalar}'
+      not_found_message: Tələb olunan resurs tapılmadı.
+      payload_too_large_message: Tələblərin yükü böyükdür.
+      permission_denied_message: Bunu etmək səlahiyyətiniz yoxdur.
+      rate_limit_exceeded_message: 'Bir az çox sürətlə gedirsən. '
+      render_failed_message: 'Üzr istəyirik, bu məzmuna baxarkən xəta ilə qarşılaşdıq. '
+    loading_indicator:
+      accessible_label: => core.ref.loading
+    meta_titles:
+      with_page_title: '{pageNumber, cəm, =1 {{pageTitle} - {forumName}} digər {{pageTitle}:
+        Səhifə # - {forumName}}}'
+      without_page_title: '{pageNumber, cəm, =1 {{forumName}} digər {Səhifə # - {forumName}}}'
+    modal:
+      close: Kvartal
+    nav:
+      drawer_button: Naviqasiya Çekmecesini açın
+    number_suffix:
+      kilo_text: K
+      mega_text: M
+    series:
+      glue_text: ','
+      three_text: '{birinci}, {ikinci} və {üçüncü}'
+      two_text: '{birinci} və {ikinci}'
+    username:
+      deleted_text: '[silindi]'
+  ref:
+    all_discussions: Bütün Müzakirələr
+    change_email: E-poçtu dəyişdirin
+    change_password: Parolu dəyişdirin
+    color: Rəng
+    confirm_email: E-poçt ünvanını yoxlayın
+    confirm_password: Şifrəni təsdiqləyin
+    confirmation_email_sent: '{email} ünvanına təsdiq e-məktubu göndərdik. '
+    custom_footer_text: Səhifənin altında görünəcək HTML kodunu əlavə edin.
+    custom_footer_title: Fərdi Altbilgini redaktə edin
+    custom_header_text: Səhifənin yuxarısında, Flarum-un öz başlığının üstündə göstərmək
+      üçün HTML kodu əlavə edin.
+    custom_header_title: Fərdi Başlığı Redaktə edin
+    delete: Sil
+    delete_forever: Həmişə Sil
+    discussions: Müzakirələr
+    edit: Redaktə et
+    edit_user: İstifadəçini redaktə et
+    email: E-poçt
+    extensions: Genişləndiricilər
+    generic_confirmation_message: 'Davam etmək istədiyinizə əminsiniz? '
+    icon: Simvol
+    icon_text: İstənilən <a>FontAwesome</a> ikona adını <code>fas fa-</code> <em>prefiks
+      daxil olmaqla</em> kimi daxil edin.
+    load_more: Daha çox yüklə
+    loading: Yüklənir...
+    log_in: Daxil ol
+    log_out: Çıxış
+    mark_all_as_read: Hamısını Oxunmuş kimi qeyd edin
+    never: Heç vaxt
+    new_token: Yeni yaşayır
+    next_page: Növbəti Səhifə
+    notifications: Bildirişlər
+    okay: Tamam
+    password: parol
+    posts: Yazılar
+    previous_page: Əvvəlki Səhifə
+    remove: Sil
+    rename: Adını dəyişdirin
+    reply: Cavab verin
+    reset_your_password: Parolunuzu Sıfırlayın
+    restore: Bərpa et
+    save_changes: Dəyişiklikləri Saxla
+    search_users: İstifadəçiləri axtarın
+    security: Təhlükəsizlik
+    settings: Parametrlər
+    sign_up: Qeydiyyatdan keçin
+    some_others: '{say, cəm, bir {# digər} digər {# başqa}}'
+    start_a_discussion: Müzakirə başlayın
+    username: İstifadəçi adı
+    users: İstifadəçilər
+    view: Baxın
+    write_a_reply: Cavab yazın...
+    you: Sen
+  views:
+    admin:
+      extensions:
+        caption: => core.ref.extensions
+        disable: aradan buraxın
+        empty: Əlavələr quraşdırılmayıb
+        enable: aktivləşdirin
+        name: Genişləndirmə adı
+        package_name: Paket Adı
+        version: Versiya
+      info:
+        caption: Tətbiq Məlumatı
+      title: İdarəetmə
+    confirm_email:
+      submit_button: => core.ref.confirm_email
+      text: Hesab e-poçtunuzu təsdiqləmək üçün aşağıdakı düyməyə klikləyin.
+      title: => core.ref.confirm_email
+    content:
+      javascript_disabled_message: Bu sayt ən yaxşı JavaScript aktivləşdirilmiş müasir
+        brauzerdə baxıla bilər.
+      load_error_message: 'Bu saytın tam versiyasını yükləməyə çalışarkən xəta baş
+        verdi. '
+      loading_text: => core.ref.loading
+    discussion:
+      next_page_button: => core.ref.next_page
+      previous_page_button: => core.ref.previous_page
+    error:
+      csrf_token_mismatch: Çox uzun müddət ticarət etməmisiniz.
+      csrf_token_mismatch_return_link: Geri qayıdın, yenidən cəhd edin
+      invalid_confirmation_token: Bu doğrulama linki artıq istifadə olunub və ya etibarsızdır.
+      not_authenticated: 'Bu səhifəyə daxil olmaq üçün icazəniz yoxdur. '
+      not_found: Axtardığınız səhifə tapılmadı.
+      not_found_return_link: '{forum} səhifəsinə qayıdın'
+      permission_denied: Sizin bu səhifəyə daxil olmaq icazəniz yoxdur.
+      unknown: Səhifəni yükləməyə çalışarkən xəta baş verdi.
+    index:
+      all_discussions_heading: => core.ref.all_discussions
+      next_page_button: => core.ref.next_page
+      previous_page_button: => core.ref.previous_page
+    log_out:
+      log_out_button: => core.ref.log_out
+      log_out_confirmation: '{forum} saytından çıxmaq istədiyinizə əminsiniz?'
+      title: => core.ref.log_out
+    meta_titles:
+      with_page_title: '{pageNumber, cəm, =1 {{pageTitle} - {forumName}} digər {{pageTitle}:
+        Səhifə # - {forumName}}}'
+      without_page_title: '{pageNumber, cəm, =1 {{forumName}} digər {Səhifə # - {forumName}}}'
+    reset_password:
+      confirm_password_label: Yeni Şifrəni Təsdiqləyin
+      new_password_label: Yeni Parol
+      submit_button: => core.ref.save_changes
+      title: => core.ref.password_your_password

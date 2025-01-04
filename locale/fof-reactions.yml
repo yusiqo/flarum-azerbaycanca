@@ -1,0 +1,65 @@
+fof-reactions:
+  admin:
+    page:
+      cdn:
+        default-url: 'Defolt: {url}'
+        help: 'Defolt olaraq biz Cloudflare-nin CDN-dən reaksiya aktivlərinə xidmət
+          göstəririk. '
+        label: Əlaqə
+        title: CDN
+      convert:
+        button: Köhnə ifadələri çevirin
+        converted: Bütün {number} bəyənmə uğurla çevrildi
+        converting: 'İfadələriniz dəyişdirilir. '
+        help: 'Genişlənməni yeniləmisinizsə, ifadələr çevrilməlidir. '
+      reactions:
+        Helptext: Font Awesome üçün ifadə və ya müvafiq kodu daxil edin və istədiyiniz
+          növü seçin.
+        delete_confirmation: 'Bu reaksiyanı silmək istədiyinizə əminsiniz? '
+        help:
+          display: Görünüş
+          identifier: İfadə
+        reactions: Mövcud ifadələr
+        title: Xüsusi ifadələr
+      settings:
+        allow-anonymous: Anonim (qonaq) reaksiyalarına icazə verin
+        allow-anonymous-help: 'Aktiv edilərsə, qonaqlar və anonim istifadəçilər yazılara
+          cavab verə bilər. '
+        integrations:
+          gamification:
+            downvoteHelptext: Avtomatik olaraq aşağı səsə çevrilmək istədiyiniz ifadəni
+              daxil edin
+            downvoteLabel: İfadələri aşağı səslərə çevirin
+            legend: oyunlaşdırmaq
+            upvoteHelptext: Avtomatik olaraq müsbət səsə çevrilmək istədiyiniz ifadəni
+              daxil edin
+            upvoteLabel: İfadələri müsbət səslərə çevirin
+          legend: İnteqrasiyalar
+          likes:
+            Helptext: Avtomatik olaraq bəyənməyə çevrilmək istədiyiniz ifadəni daxil
+              edin
+            Label: İfadələri bəyənmələrə çevirin
+            legend: bəyənir
+          warning: Eyni ifadə bəyənmə və ya müsbət səsə çevrilə bilməz.
+        react_own_posts_help: 'Aktivləşdirildikdə, icazə əsasında istifadəçilər forumda
+          öz yazılarına reaksiya verə bilərlər. '
+        react_own_posts_label: İstifadəçilər öz yazılarına reaksiya verə bilər,
+        save_settings: Parametrləri yadda saxlayın
+    permissions:
+      delete_post_reactions_label: Postdan reaksiyaları silin
+      react_posts_label: Yazıya şərh yazın
+      see_reactions_label: Şərh yazanları göstərin
+  forum:
+    disabled-reaction: Siz hazırda bu ifadədən istifadə edə bilməzsiniz, lütfən, səhifəni
+      yeniləyin
+    mod_item: İfadələri göstərin
+    modal:
+      anonymous_count: '{count, cəm, bir {# naməlum istifadəçi} digər {# naməlum istifadəçi}}'
+      no_reactions: Hələ reaksiya yoxdur
+      title: ifadələr
+    notification: '{username} postunuzda {reaction} buraxdı'
+    react_button_label: Reaksiya
+    reacting-own-post: Öz postunuza şərh yaza bilməzsiniz.
+    settings:
+      notify_post_reacted_label: Kimsə mənim postuma şərh yazanda
+    warning: İfadəniz çevrildi

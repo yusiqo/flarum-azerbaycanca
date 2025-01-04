@@ -1,0 +1,13 @@
+tituspijean-auth-ssowat:
+  admin:
+    buttons:
+      save: Saxla
+    description: SSOwat domen adını təyin edin
+    settings:
+      domain: SSOwat domen adı ("https://" və ya "/" olmadan)
+      onlyUse: Flarum girişini söndürün və yalnız SSOwat girişini aktivləşdirin
+      title: SSOwat parametrləri
+  forum:
+    log_in: => core.ref.log_in
+    log_in_with: SSOwat ilə daxil olun
+    log_out: => core.ref.log_out

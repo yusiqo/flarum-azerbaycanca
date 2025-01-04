@@ -1,0 +1,55 @@
+fof-doorman:
+  admin:
+    doorkey_required: Siz dəvət kodu yaratmalısınız
+    invalid_doorkey: Daxil etdiyiniz dəvət kodu etibarsızdır.
+    modal:
+      group: '{group} qrupu üçün dəvət göndərilir'
+      help: 'Vergül, boşluq və ya vergüllə ayrılmış siyahını qəbul edir. '
+      invalid_emails: 'Bu e-poçtlar etibarsızdır: {emails}'
+      max_use_conflict: E-poçtların sayı bu kod üçün maksimum istifadə sayını keçir.
+      placeholder: E-poçtları daxil edin
+      send: E-poçt göndərin
+      success: E-poçtlar uğurla göndərildi
+      title: Dəvət Kodu Göndər
+    nav:
+      desc: İstifadəçilərin qeydiyyatdan keçməsi və qrupa təyin olunması üçün dəvət
+        kodları yaradın
+    page:
+      doorkey:
+        allow-public:
+          switch-label: Qeydiyyatdan keçərkən dəvət kodunun daxil edilməsini isteğe
+            bağlı saxlayın
+          title: Hər kəsin qeydiyyatdan keçməsinə icazə verin
+        heading:
+          activate: İstifadəçini aktivləşdirin
+          group: Qrup
+          key: Açar
+          max_uses: Maksimum İstifadə
+        help:
+          activates: 'İstifadəçini Aktivləşdir: Qeydiyyatdan keçmiş istifadəçini avtomatik
+            olaraq aktivləşdirir.'
+          group: 'Qrup: Qeydiyyatdan keçərkən istifadəçinin əlavə ediləcəyi qrup.'
+          key: 'Açar: İstifadəçinin qeydiyyat zamanı daxil etməli olduğu kod.'
+          max: 'Maksimum İstifadə: Kodun neçə dəfə istifadə oluna biləcəyini müəyyənləşdirir,
+            0 dəyəri limitsiz istifadəni təmin edir.'
+        key: Açar
+        max_uses: Maksimum İstifadə
+        title: Dəvət kodları
+        total_uses: '{totalUses, cəm, bir {{totalUses} dəfə istifadə edildi} digər
+          {{totalUses} dəfə istifadə edildi}}'
+        used_times: '{qalan, cəm, bir {{qalan} istifadə qaldı} digər {{qalan} istifadə
+          qaldı}}'
+        warning: Bu dəvət kodu maksimum dəfə istifadə olunub.
+      title: Qapıçı
+  forum:
+    email:
+      body: 'salam,
+
+
+        '
+      subject: Qoşulmağa Dəvət Edin
+    sign_up:
+      doorkey_required: Zəhmət olmasa dəvət kodunu daxil edin.
+      doorman_placeholder: Dəvət kodu
+      doorman_placeholder_optional: Dəvət Kodu (istəyə görə)
+      invalid_doorkey: Daxil edilmiş dəvət kodu etibarsızdır.

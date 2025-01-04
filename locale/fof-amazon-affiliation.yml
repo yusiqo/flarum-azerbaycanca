@@ -1,0 +1,22 @@
+fof-amazon-affiliation:
+  admin:
+    settings:
+      field:
+        help-mediaembed: FoF/Formatting ilə istifadə edildikdə, daxiletmə həmişə mövcud
+          teqləri silir
+        keep-existing-tag: Amazon Affiliate Teqlərini əvəz etmək əvəzinə orijinal
+          linklərdən saxlayın
+        keep-existing-tag-help: Defolt olaraq, faktiki linkdəki hər hansı teq aşağıda
+          müəyyən etdiyiniz teq ilə əvəz olunur.
+        remove-tag-if-unhandled: Amazon Affiliate Teqlərini aşkar edilməmiş Amazon
+          bağlantılarından çıxarın
+        remove-tag-if-unhandled-help: Varsayılan olaraq, əgər varsa, teqləri də daxil
+          olmaqla, açıq keçidlər qalır.
+        tag: '{name} (amazon.{domain})'
+        tag-placeholder: Bağlanmamaq üçün bu linkləri boş buraxın
+      title:
+        modal: Amazon Affiliate Parametrləri
+        tags: Affiliate Tags
+        tags-mediaembed: 'Aşağıdakı Amazon saytları hazırda MediaEmbed üçün dəstəklənmir,
+          ona görə də onlar həmişə düz keçidlər kimi göstəriləcək (yuxarıdakı parametrlərə
+          görə): CN, BR, MX, AU'

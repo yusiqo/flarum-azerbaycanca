@@ -1,0 +1,166 @@
+flarum-gdpr:
+  admin:
+    gdpr_page:
+      data_types:
+        anonymize_description: Fəaliyyəti Anonimləşdirin
+        delete_description: Fəaliyyəti silin
+        export_description: İxrac Fəaliyyəti
+        extension: Uzatma
+        help_text: 'Bunlar hazırda qeydə alınmış məlumat növləridir. '
+        title: Məlumat növləri
+        type: Növ
+      description: Müxtəlif GDPR hərəkətlərinin və inteqrasiyalarının vəziyyəti
+      heading: GDPR Məlumatlarına Baxış
+      settings:
+        extension_settings_button: GDPR Parametrləri
+        heading: GDPR Parametrləri
+        help_text: 'GDPR parametrlərini axtarırsınız? '
+      user_table_data:
+        help_text: 'Çox vaxt <code>user</code> cədvəlinə əlavə edilən hər hansı sütunlar
+          həm məlumatların ixracı, həm də silinməsi üçün avtomatik olaraq işlənir.
+
+          '
+        title: İstifadəçi Cədvəli Məlumatı
+    nav:
+      gdpr_button: GDPR İnteqrasiyaları
+    permissions:
+      process_erasure: Silinmə sorğularını emal edin
+      process_export_for_others: Digər istifadəçilər üçün məlumat köçürmələrini tələb
+        edin və qəbul edin
+      see_anonymized_user_badges: Anonimləşdirilmiş istifadəçi nişanlarına baxın
+    settings:
+      allow_anonymization: Silinmə sorğuları üçün anonimləşdirməyə icazə verin
+      allow_anonymization_help: 'Bu, standart seçimdir və əksər icmalar üçün tövsiyə
+        olunur. '
+      allow_deletion: Silinmə sorğuları üçün silinməyə icazə verin
+      allow_deletion_help: 'Çox daha sərt seçim. '
+      default_anonymous_username: Anonim istifadəçilər üçün defolt istifadəçi adı
+      default_anonymous_username_help: İstifadəçi anonimləşdirildikdə, istifadəçi
+        adı bu dəyər və anonimləşdirmə sorğusunun ID-si ilə əvəz olunur, məsələn,
+        <code>Anonymous123</code>.
+      default_erasure: Silinmə sorğuları üçün defolt əməliyyat
+      default_erasure_help: Silinmə sorğuları üçün standart hərəkət nə olmalıdır?
+      default_erasure_options:
+        anonymization: Anonimləşdirmə
+        deletion: Gözlər
+      gdpr_page:
+        help_text: 'Forumunuzda hansı hərəkətlərdən istifadə edəcəyinə qərar verməzdən
+          əvvəl, hansı məlumatların inteqrasiya olunduğunu və onların həm anonimləşdirmə,
+          həm də silinmə üçün necə işləndiyini anlamaq vacibdir. '
+        title: Məlumatların inteqrasiyası və tədbirlər
+    userlist:
+      columns:
+        gdpr_actions:
+          export: '{username} üçün data ixrac edin'
+  email:
+    confirm_erasure:
+      body: 'Salam {display_name}!
+
+
+        '
+      subject: Hesabın silinməsi sorğunuzu təsdiqləyin
+    erasure_cancelled:
+      body: 'Salam {display_name}!
+
+
+        '
+      subject: Hesabın silinməsi sorğusu ləğv edildi
+    erasure_completed:
+      anonymization:
+        body: 'Salam {display_name}!
+
+
+          '
+        subject: Hesabın anonimləşdirilməsi tamamlandı
+      deletion:
+        body: 'Salam {display_name}!
+
+
+          '
+        subject: Hesabın silinməsi tamamlandı
+    export_available:
+      body: 'Salam {display_name}!
+
+
+        '
+      subject: Məlumat ötürülməsi mövcuddur
+  forum:
+    badges:
+      anonymized_user: Anonim İstifadəçi
+    delete_user:
+      delete_button: Sil
+      modal_delete_button: Defolt əməliyyatdan istifadə edərək silin
+      text: '{username} adlı istifadəçinin hesabını silmək istədiyinizə əminsiniz?
+
+
+        '
+      title: '{username} hesabını silin'
+    erasure_request_confirmed: 'Hesabın silinməsi sorğunuzu təsdiqlədiniz. '
+    erasure_requests:
+      empty_text: Gözlənilən hesab silmə sorğusu yoxdur
+      item_text: '{name} hesabın silinməsini tələb etdi'
+      title: Hesabın Silinməsi Sorğuları
+      tooltip: Hesabın Silinməsi Sorğuları
+    export_file: '{date} tarixində {forumTitle} ({url}) saytından {username} ({email})
+      üçün istifadəçi məlumatlarının ixracı'
+    notification:
+      export-ready: '{username} üçün data transferiniz indi endirməyə hazırdır.'
+    process_erasure:
+      anonymization_button: İstifadəçini anonimləşdirin
+      comments_label: Şərhlər (isteğe bağlı)
+      confirm: '{name} adlı şəxsin hesabını {mode} rejimində silmək istədiyinizə əminsiniz?'
+      deletion_button: istifadəçini silin
+      text: '{name} hesabının silinməsini tələb etdi.'
+      title: Silinmə sorğusunu emal edin
+    request_erasure:
+      cancel_button: Sorğunu ləğv edin
+      password_label: Şifrənizi Doğrulayın
+      reason: 'Aşağıdakı səbəbi qeyd etdiniz: {səbəb}'
+      reason_label: Səbəb (isteğe bağlı)
+      request_button: Silinmə sorğusu
+      status:
+        awaiting_user_confirmation: Hesabınızı silmək üçün sorğunuzu təsdiqləyən e-poçt
+          məktubu almalısınız.
+        user_confirmed: 'Hesabın silinməsi sorğunuzu təsdiqlədiniz. '
+      text: Sorğunuz qəbul edildikdən və təsdiq edildikdən sonra o, GDPR tələb etdiyi
+        kimi 30 gün ərzində idarəçi tərəfindən nəzərdən keçiriləcək.
+      title: Hesabın silinməsi tələbi
+    settings:
+      data:
+        heading: şəxsi məlumatlar
+      export_data_button: Məlumatlarınızı Eksport edin
+      export_data_help: 'Məlumatların ixracını tələb etmək hesabınızla əlaqəli bütün
+        məlumatların endirilə bilən surətini təmin edəcək. '
+      request_erasure_button: Hesabı Sil
+      request_erasure_help: 'Silinmə tələbi hesabınızı və bütün əlaqəli datanı həmişəlik
+        siləcək. '
+  lib:
+    data:
+      avatar:
+        delete_description: İstifadəçinin avatarını fayl sistemindən silir.
+        export_description: İstifadəçinin avatarını fayl sistemindən alır və onu ixraca
+          daxil edir.
+      discussions:
+        export_description: 'İstifadəçinin başlatdığı bütün müzakirələri ixrac edir. '
+      forum:
+        export_description: Forumun başlığını, keçidini, istifadəçi adını, e-poçtunu
+          və cari tarixi ixrac edir.
+      no_action: Heç bir tədbir görülmədi.
+      posts:
+        anonymize_description: İstifadəçi tərəfindən edilən bütün yazılardan IP ünvanını
+          silir.
+        delete_description: İstifadəçi tərəfindən edilən bütün yazıları silir.
+        export_description: 'İstifadəçi tərəfindən edilən bütün yazıları ixrac edir. '
+      tokens:
+        delete_description: İstifadəçi tərəfindən yaradılmış bütün tokenləri silir.
+        export_description: 'İstifadəçi tərəfindən yaradılmış bütün tokenləri ixrac
+          edir. '
+      user:
+        anonymize_description: 'İstifadəçi cədvəlindəki bütün sütunları null olaraq
+          təyin edir. '
+        delete_description: İstifadəçini verilənlər bazasından silir.
+        export_description: 'İstifadəçi cədvəlindən məlumatları ixrac edir. '
+    request_data:
+      request_button: arxiv sorğusu
+      text: 'Sizin üçün zip arxivi hazırlanacaq. '
+      title: '{username} üçün data sorğusu'

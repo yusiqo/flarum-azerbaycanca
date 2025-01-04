@@ -1,0 +1,19 @@
+fof-user-bio:
+  admin:
+    permission:
+      editAny: İstənilən bio-nu redaktə edin
+      editOwn: Öz bio-nu redaktə edin
+      view: Bioya baxın
+    setting:
+      allowFormatting: Bio sahəsində formatlamağa icazə verin
+      allowFormatting_help: 'Dizaynına görə, bu formatlama yazı formatından ayrıdır. '
+      bioLimit: Bioqrafiya xarakter məhdudiyyəti
+      maxLines: Bir anda göstəriləcək maksimum sıra sayı
+  forum:
+    profile:
+      cancel_button: Ləğv et
+      cancel_confirm: 'Bio-nu redaktə etməyi ləğv etmək istədiyinizə əminsiniz? '
+      edit_bio_label: Bio-nu redaktə edin
+      save_button: Saxla
+    userbioPlaceholder: Özünüz haqqında bir şey yazın
+    userbioPlaceholderOtherUser: '{username} üçün bio yazın'

@@ -1,0 +1,37 @@
+fof-discussion-language:
+  admin:
+    permissions:
+      allow_change_language_label: Dil redaktəsinə icazə verin
+    settings:
+      composer_default_label: Redaktorda cari dili əvvəlcədən seçin
+      config:
+        country_label: Ölkə (bayraq göstərmək üçün)
+        language_label: Dil
+      errors:
+        loading_data: 'Dil və ölkə datası alınarkən xəta baş verdi. '
+        missing_assets: 'Bu genişləndirmə üçün tələb olunan tələbləri quraşdıra bilmədik. '
+      locale_sort_label: Defolt müzakirə filtri üçün aşkar edilmiş dildən istifadə
+        edin
+      native_label: Ana dil adlarından istifadə edin
+      show_any_lang_opt_label: '"İstənilən dil" seçilə bilər'
+      show_flag_label: Dil adları olan ölkə bayraqlarını göstərin
+      tags_page_discussion_locale_label: Teqlər səhifəsində yalnız istifadəçinin cari
+        dil parametrində müzakirələri göstərin
+  api:
+    discussion:
+      validation_error: Arqumentin dilini seçməlisiniz.
+  forum:
+    change_language:
+      edit_title: '{title} üçün dili redaktə edin'
+      submit_button: => core.ref.save_changes
+      title: Dili redaktə edin
+    composer_discussion:
+      choose_language_link: Dil
+    discussion_controls:
+      change_language_button: Dili təyin edin
+    index_language:
+      any: İstənilən Dil
+    sub_controls:
+      subscription_language_help: Burada dil seçdiyiniz zaman sizə yalnız həmin dildə
+        yeni hadisələr haqqında məlumat veriləcək.
+      subscription_language_label: müzakirə dili

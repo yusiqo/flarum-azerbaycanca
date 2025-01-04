@@ -1,0 +1,26 @@
+fof-moderator-notes:
+  admin:
+    permissions:
+      createnotes: Moderator qeydləri yaradın
+      deletenotes: Moderator qeydlərini silin
+      viewnotes: Moderator qeydlərinə baxın
+  api:
+    auto_note: '_Mən bu istifadəçiyə keçdim: _{səbəb}'
+    auto_note_actor: '@{username} _ olaraq dəyişdirildi: {səbəb}'
+    no_reason_provided: Səbəb göstərilməyib
+  forum:
+    moderatorNotes:
+      add_button: yeni qeyd
+      confirm: Bu qeydi silmək istədiyinizə əminsiniz?
+      create-heading: Yeni moderator qeydi yaradın
+      created_text: '{username} bu qeydi {date} tarixində yaratdı'
+      delete: Sil
+      dismiss_button: Bitdi
+      filter_by_me: Sadəcə yaratdığım qeydlər
+      input_heading: <strong>{username}</strong> üçün qeydlərinizi daxil edin (markdown
+        dəstəklənir)
+      noNotes: Deyəsən burada heç bir qeyd yoxdur.
+      submit_button: qeydi yadda saxla
+    no_content_given: Boş qeydə icazə verilmir.
+    user:
+      notes: Moderator qeydləri

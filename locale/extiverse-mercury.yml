@@ -1,0 +1,22 @@
+extiverse-mercury:
+  admin:
+    extension-updates-page:
+      extension-is-up-to-date: Cari
+      extension-name: Uzatma
+      highest-version: son versiya
+      installed-version: Quraşdırılmış versiya
+    header-secondary:
+      no-token: Token Tələb olunur
+      updates: '{say, cəm, =0 {Yeniləmələr} bir {Bir yeniləmə} digər {# yeniləmə}}'
+    settings:
+      token: Extiverse token (<a>sorğu</a>)
+      token-description: <a>Extiverse</a>-dən API tokeni əldə edin ki, Merkuri Flarum
+        icmanızla təhlükəsiz əlaqə saxlaya bilsin.
+  email:
+    new-extension-update:
+      body: 'Salam {recipient_display_name}!
+
+
+        '
+      subject: '{count, plural, one {Cəmiyyətiniz üçün yeniləmə mövcuddur} digər {#
+        yenilik icmanız üçün əlçatandır}}'

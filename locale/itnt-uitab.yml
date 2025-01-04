@@ -1,0 +1,12 @@
+itnt-uitab:
+  admin:
+    settings:
+      composer_icon_label: Redaktor nişanı
+      discussions_icon_label: Müzakirələr İkonu
+      help_text: 'Əgər Flarum saytınız alt qovluqda quraşdırılıbsa, lütfən, aşağıda
+        alt kataloqu göstərin (slash ilə bitin), əks halda defolt dəyəri tərk edin. '
+      home_page_label: ana səhifə
+      icon_help: Standartdan istifadə etmək üçün boş buraxın.
+      notifications_icon_label: Bildirişlər İkonu
+      settings_icon_label: Parametrlər Nişanı
+      tags_icon_label: Teqlər İkonası

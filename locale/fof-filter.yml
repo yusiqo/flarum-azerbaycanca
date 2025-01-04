@@ -1,0 +1,34 @@
+fof-filter:
+  admin:
+    auto_merge_title: avtomatik kombin
+    bad_words_help: 'Filtr etmək üçün mətn və ya sözlər daxil edin, hər sətirə bir. '
+    cooldownLabel: Ardıcıl birləşmə vaxtı
+    countLabel: Senzura Tolerantlığı
+    email:
+      default_subject: Son Mesajınız Haqqında
+      default_text: 'Postunuz üçün təşəkkür edirik! '
+    email_help: 'İşarələnmiş e-poçt məzmunu. '
+    filter_label: Filtr üçün sözlər
+    help: Daxil edilmiş şərtlər vergül və boşluqla ayrılmalıdır.
+    help2: Ardıcıl yazıların birləşdirilməsi dəqiqələrlə müəyyən edilməlidir.
+    input:
+      email_body: Mətn
+      email_label: E-poçt Parametrləri
+      email_subject: Mövzu
+      filter_title: Söz filtri
+      placeholder: Filtr üçün sözlər
+      switch:
+        delete: Filtrdən keçmiş yazıları avtomatik silin
+        email: Filtrdə tutulan yazılar barədə istifadəçini e-poçt vasitəsilə xəbərdar
+          edin
+        merge: Dublikat yazıları avtomatik birləşdirin
+    nav:
+      desc: Yazıları sözlərə görə süzün
+      text: Filtrlənmiş
+    permission:
+      bypass_filter_label: Söz filtrlərini keçin
+    title: Filtrlənmiş
+  forum:
+    flag_message: Bloklanmış sətirləri ehtiva edir
+    flaged_text: Bloklanmış sözlər
+    flagger_name: Avtomatik Moderator

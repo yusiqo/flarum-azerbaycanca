@@ -1,0 +1,10 @@
+fof-transliterator:
+  admin:
+    settings:
+      package_behat_label: Behat (defolt)
+      package_label: Transliterator paketləri
+      package_php2_label: 'PHP #2 (ext-intl tələb edir)'
+      package_php_label: PHP (ext-intl tələb edir)
+      parse_button: Mövcud müzakirələrdən istifadə edin
+      result: 1 müzakirə emal edildi|{count} müzakirə emal edildi
+      title: FriendsOfFlarum Transliterator Parametrləri
